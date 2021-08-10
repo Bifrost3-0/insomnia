@@ -1,0 +1,10 @@
+_id: ut_71afc5ce1cfd4e8a83ee345b3535d412
+type: UnitTest
+parentId: uts_efbd6c70a9164ee0a758923bac4958af
+modified: 1628565585788
+created: 1628565580533
+requestId: req_74c98f11baae45edb1c1d911c9a3c177
+name: Idirect List Terminal
+code: |-
+  const response1 = await insomnia.send();
+  expect(response1.status).to.equal(200);

@@ -1,0 +1,29 @@
+_id: req_a0a4814cc83e49a5a08a973926d42b76
+type: Request
+parentId: fld_08f67bda6c264043af9b2386d8399760
+modified: 1628565862033
+created: 1628565809516
+url: https://apiaws.bifrost.pe/api/AdministrationApp/login
+name: Login
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: >
+    {
+    	"username": "ronald.tamayol@telefonica.com", "password": "movistar", "tipo": "user"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_d40a26eab9ce45fe9e7c669ca2697b1e
+authentication: {}
+metaSortKey: -1628565809558
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

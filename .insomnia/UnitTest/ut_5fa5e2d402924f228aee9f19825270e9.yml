@@ -1,0 +1,10 @@
+_id: ut_5fa5e2d402924f228aee9f19825270e9
+type: UnitTest
+parentId: uts_efbd6c70a9164ee0a758923bac4958af
+modified: 1628565736752
+created: 1628565730209
+requestId: req_52a4eed0a4cf4b7b969a4dc9217471d4
+name: Test List Terminal Hughes
+code: |-
+  const response1 = await insomnia.send();
+  expect(response1.status).to.equal(200);

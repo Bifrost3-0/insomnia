@@ -1,0 +1,10 @@
+_id: ut_11125119e8114c9f8841472cdc4a91fe
+type: UnitTest
+parentId: uts_a469ac95899543028efc37d9aee19d71
+modified: 1628565872401
+created: 1628565780448
+requestId: req_a0a4814cc83e49a5a08a973926d42b76
+name: Login Bifrost
+code: |-
+  const response1 = await insomnia.send();
+  expect(response1.status).to.equal(200);

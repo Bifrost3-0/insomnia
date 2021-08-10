@@ -1,0 +1,21 @@
+_id: req_52a4eed0a4cf4b7b969a4dc9217471d4
+type: Request
+parentId: fld_787f4ba317dd404590b78ae650ef39c1
+modified: 1628565712504
+created: 1628565702872
+url: "{{ _.base_url }}:{{ _.hughes_platform }}/NMSAPI/vsats/0000001"
+name: List Status 1 terminal
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1628565702912
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
