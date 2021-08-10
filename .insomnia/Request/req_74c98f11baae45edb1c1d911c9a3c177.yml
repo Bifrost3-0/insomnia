@@ -1,0 +1,26 @@
+_id: req_74c98f11baae45edb1c1d911c9a3c177
+type: Request
+parentId: fld_97dbf942020f44deadb60f489ddf2dfe
+modified: 1628565418368
+created: 1628565293470
+url: "{{ _.base_url }}:{{ _.idirectarg_platform }}/api/v1/evo/config/obj/remote"
+name: ListarTerminales
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: basic
+  useISO88591: false
+  disabled: false
+  username: systemapi
+  password: tiws2019
+metaSortKey: -1628565293510
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

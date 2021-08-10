@@ -1,0 +1,20 @@
+_id: env_df90a7fa52934f96b0365eaa229ac38b
+type: Environment
+parentId: env_467191896fbc186b33676805d502008f55dc9848
+modified: 1628565377707
+created: 1628562870178
+name: Production Proxy Bifrost
+data:
+  base_url: 192.168.36.50
+  hughes_platform: 80
+  newtect_platform: 8081
+  idirectarg_platform: 81
+dataPropertyOrder:
+  "&":
+    - base_url
+    - hughes_platform
+    - newtect_platform
+    - idirectarg_platform
+color: "#50fb56"
+isPrivate: false
+metaSortKey: 1628562870178

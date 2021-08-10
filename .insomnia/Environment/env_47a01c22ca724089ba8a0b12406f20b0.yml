@@ -1,0 +1,20 @@
+_id: env_47a01c22ca724089ba8a0b12406f20b0
+type: Environment
+parentId: env_467191896fbc186b33676805d502008f55dc9848
+modified: 1628565106505
+created: 1628564666674
+name: Plataforma
+data:
+  base_url: 3.23.181.222
+  base_url_hughes: no se tiene acceso
+  hughes_platform: 80
+  newtect_platform: 80
+dataPropertyOrder:
+  "&":
+    - base_url
+    - base_url_hughes
+    - hughes_platform
+    - newtect_platform
+color: "#7d69cb"
+isPrivate: false
+metaSortKey: 1628564666674
