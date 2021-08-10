@@ -1,9 +1,9 @@
 _id: req_a0a4814cc83e49a5a08a973926d42b76
 type: Request
 parentId: fld_08f67bda6c264043af9b2386d8399760
-modified: 1628565862033
+modified: 1628604111355
 created: 1628565809516
-url: https://apiaws.bifrost.pe/api/AdministrationApp/login
+url: "{{ _.general_api }}/AdministrationApp/login"
 name: Login
 description: ""
 method: POST
@@ -11,7 +11,9 @@ body:
   mimeType: application/json
   text: >
     {
-    	"username": "ronald.tamayol@telefonica.com", "password": "movistar", "tipo": "user"
+
+    "username": "ronald.tamayol@telefonica.com", "password": "movistar",   "tipo": "user"
+
     }
 parameters: []
 headers:

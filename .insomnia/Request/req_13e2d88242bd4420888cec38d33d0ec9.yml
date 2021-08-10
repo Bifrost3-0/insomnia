@@ -1,0 +1,24 @@
+_id: req_13e2d88242bd4420888cec38d33d0ec9
+type: Request
+parentId: fld_e282d2c3e29a4facae9ef2a75686be2f
+modified: 1628605460769
+created: 1628605379090
+url: "{{ _.base_url }}:{{ _.newtect_platform
+  }}/orbith-api/public/v1/api-isp/parameters/products"
+name: Lista de Productos
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJsdW1lbi1qd3QiLCJzdWIiOjQzMCwiaWF0IjoxNjI4NjA1MDM4LCJleHAiOjE2Mjg2OTE0Mzh9.leYIQ8gk_IjD7UlabIsm2DOyYEkPtCvH6xPvrpAKaRo
+metaSortKey: -1628605379091
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

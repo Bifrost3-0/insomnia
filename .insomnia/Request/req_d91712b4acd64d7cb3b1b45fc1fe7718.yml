@@ -1,7 +1,7 @@
 _id: req_d91712b4acd64d7cb3b1b45fc1fe7718
 type: Request
 parentId: fld_e282d2c3e29a4facae9ef2a75686be2f
-modified: 1628565115447
+modified: 1628605457891
 created: 1628561513424
 url: "{{ _.base_url }}:{{ _.newtect_platform }}/orbith-api/public/v1/api-isp/auth"
 name: Login
@@ -11,8 +11,8 @@ body:
   mimeType: application/json
   text: |-
     {
-        "email":"integracion-tiws@orbith.com",
-        "password":"hhXmcnkd5tR3myR6D3Nw"
+        "email": "{{ _.newtect_user }}",
+        "password":"{{ _.newtect_password }}"
     }
 parameters: []
 headers:

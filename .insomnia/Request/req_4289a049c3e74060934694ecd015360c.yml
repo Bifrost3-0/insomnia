@@ -1,0 +1,88 @@
+_id: req_4289a049c3e74060934694ecd015360c
+type: Request
+parentId: fld_e282d2c3e29a4facae9ef2a75686be2f
+modified: 1628606170729
+created: 1628604800364
+url: "{{ _.base_url }}:{{ _.newtect_platform
+  }}/orbith-api/public/v1/api-isp/subscribers"
+name: Crear Suscriptor
+description: ""
+method: POST
+body:
+  mimeType: application/x-www-form-urlencoded
+  params:
+    - id: pair_3e940efa624a484d9db11a4905895151
+      name: first_name
+      value: Demo
+      description: ""
+    - id: pair_65447548b3dc4b99a7f06110695bc2b8
+      name: last_name
+      value: TIW
+      description: ""
+    - id: pair_60f9b0b2d7234a5daf1b945406286e2f
+      name: document_type
+      value: dni
+      description: ""
+    - id: pair_13221e260d9a42a89028fb27eb4a1dd4
+      name: document_number
+      value: "46021308"
+      description: ""
+    - id: pair_0fa671dc386b401cab8bb35aca956627
+      name: phones
+      value: '[{"number":"+5491130223344","type":"movil"},{"number":"+933092532","type":"movil"}]'
+      description: ""
+      disabled: false
+    - id: pair_322232d44b9e4c598021a579fb1f4dc3
+      name: addresses
+      value: |-
+        [{"key": "0",
+                  "type": "instalacion-facturacion",
+                  "street_number": "jr manco capacNumber",
+                  "street": "jr manco capac",
+                  "administrative_area": "calingasta",
+                  "city": "jr manco capac",
+                  "province": "san-juan",
+                  "country": "argentina",
+                  "postal_code": "22",
+                  "latitude": "-45.3434",
+                  "longitude": "-56.4545",
+                  "product": "Pyme80_Tiws"}]
+      description: ""
+      type: text
+      multiline: application/json
+    - id: pair_71b05ca6c8b34569a6f1a1c9467b4bb8
+      name: email
+      value: jackt72_@hotmail.com
+      description: ""
+    - id: pair_deee5298f50e4292bb4c1b7c720cca3b
+      name: external_reference
+      value: "590"
+      description: ""
+    - id: pair_a11c724be51e4c4aa8fca9075aabb8f5
+      name: type
+      value: Residencial
+      description: ""
+    - id: pair_cde613a5de854657a95a08e9aa98f5f8
+      name: gender
+      value: Masculino
+      description: ""
+    - id: pair_09bc4e873b664dcdbfa10e934a238d00
+      name: birthdate
+      value: 1989-04-04
+      description: ""
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/x-www-form-urlencoded
+    id: pair_7541821a6d3c474a9f73ee097490b6d6
+authentication:
+  type: bearer
+  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJsdW1lbi1qd3QiLCJzdWIiOjQzMCwiaWF0IjoxNjI4NjA1MDM4LCJleHAiOjE2Mjg2OTE0Mzh9.leYIQ8gk_IjD7UlabIsm2DOyYEkPtCvH6xPvrpAKaRo
+metaSortKey: -1628604800364
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

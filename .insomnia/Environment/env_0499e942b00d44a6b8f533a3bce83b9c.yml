@@ -1,0 +1,20 @@
+_id: env_0499e942b00d44a6b8f533a3bce83b9c
+type: Environment
+parentId: env_467191896fbc186b33676805d502008f55dc9848
+modified: 1628604634096
+created: 1628604349329
+name: OrbithDev
+data:
+  base_url: 3.23.181.222
+  newtect_platform: 80
+  newtect_user: integracion-tiws@orbith.com
+  newtect_password: hhXmcnkd5tR3myR6D3Nw
+dataPropertyOrder:
+  "&":
+    - base_url
+    - newtect_platform
+    - newtect_user
+    - newtect_password
+color: "#5b4343"
+isPrivate: false
+metaSortKey: 1628604349329
