@@ -1,0 +1,56 @@
+_id: req_e0a179a13ef24432b64ee6daf00ec07e
+type: Request
+parentId: fld_7c4a08fcb9a24b27bd0a0df89ce1cdb1
+modified: 1628795491032
+created: 1628608358807
+url: "{{ _.base_url }}:{{ _.gilat_ku_balcarce }}/ws/cpeService"
+name: ResetCPE
+description: ""
+method: POST
+body:
+  mimeType: ""
+  text: "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\r
+
+    <soapenv:Envelope
+    xmlns:soapenv=\"http://schemas.xmlsoap.org/soap/envelope/\"
+    xmlns:com=\"com.gilat.ngnms.server.services.ws.cfg.face\">   \r
+
+    \ <soapenv:Header/>    \r
+
+    \ <soapenv:Body>       \r
+
+    \    <com:resetCPE>          \r
+
+    \        <id>             \r
+
+    \            <managedGroupId>2</managedGroupId>             \r
+
+    \            <subscriberId>11221122</subscriberId>          \r
+
+    \        </id>       \r
+
+    \    </com:resetCPE> \r
+
+    </com:getCPEbyID>    \r
+
+    </soapenv:Body> \r
+
+    </soapenv:Envelope>\r\n"
+parameters: []
+headers:
+  - name: Content-Type
+    value: text/xml
+    id: pair_bb2c51347fae482b8583e15473c4bd62
+authentication:
+  type: basic
+  disabled: false
+  username: apis
+  password: apis2020
+metaSortKey: -1628608358807
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

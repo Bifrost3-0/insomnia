@@ -1,0 +1,43 @@
+_id: req_e7f90a813f934e27a7d7bdcae43aa86e
+type: Request
+parentId: fld_7c4a08fcb9a24b27bd0a0df89ce1cdb1
+modified: 1628608823533
+created: 1628608358834
+url: "{{ _.base_url }}:{{ _.gilat_ku_balcarce }}/ws/nsService"
+name: GetIPSec por Vlan
+description: ""
+method: POST
+body:
+  mimeType: ""
+  text: "<Envelope xmlns=\"http://schemas.xmlsoap.org/soap/envelope/\">\r
+
+    \    <Body>\r
+
+    \        <getNetworkSegment
+    xmlns=\"com.gilat.ngnms.server.services.ws.cfg.face\">\r
+
+    \            <nsId xmlns=\"\">1</nsId>\r
+
+    \        </getNetworkSegment>\r
+
+    \    </Body>\r
+
+    </Envelope>"
+parameters: []
+headers:
+  - name: Content-Type
+    value: text/xml
+    id: pair_1eb41920e1de406498aa993dc60147a8
+authentication:
+  type: basic
+  disabled: false
+  username: apis
+  password: apis2020
+metaSortKey: -1628608358834
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
