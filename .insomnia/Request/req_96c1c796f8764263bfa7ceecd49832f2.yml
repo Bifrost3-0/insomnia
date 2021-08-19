@@ -1,0 +1,21 @@
+_id: req_96c1c796f8764263bfa7ceecd49832f2
+type: Request
+parentId: fld_f21c417bea1f414e859214b49ee351ce
+modified: 1629384618015
+created: 1629384618015
+url: http://192.168.36.50:80/NMSAPI/vsats/stateCodes
+name: Codigos de Estado
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1629384618015
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

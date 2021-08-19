@@ -1,0 +1,47 @@
+_id: req_bf363b640bd543209d1cb6d9ba677741
+type: Request
+parentId: fld_d3f156c5f5474a978976e57992662795
+modified: 1629384670496
+created: 1629384670496
+url: https://192.168.70.130/NMSAPI/vsats/
+name: Crear Terminal Plan Empresarial
+description: ""
+method: POST
+body:
+  mimeType: ""
+  text: "{\r
+
+    \    \"id\":\"SITEID\",\r
+
+    \    \"servicePlanId\": \"NOMBREPLAN\",\r
+
+    \    \"mode\": 4,\r
+
+    \    \"vlanAddressing\": \r
+
+    \    [ { \"vlanCfName\": \"VLAN_ID\",\r
+
+    \    \"intfCfMappedIPv4Subnet\":\"IPV4\",  \r
+
+    \    \"intfCfMappedIPv6Prefix\":\"IPV6\" \r
+
+    \    } ]\r
+
+    }"
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication:
+  type: bearer
+  disabled: false
+  token: 71e16572-b0bc-11aa-5e3d-457c6a769cdc
+  prefix: ""
+metaSortKey: -1629384670496
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

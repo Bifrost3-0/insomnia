@@ -1,0 +1,23 @@
+_id: req_aed7254c286d4ed1b1d8d0df3165fffc
+type: Request
+parentId: fld_f21c417bea1f414e859214b49ee351ce
+modified: 1629384618060
+created: 1629384618060
+url: http://192.168.36.50:80/NMSAPI/vsats/SITEID/swap?oldEsn=ESNACTUAL
+name: Habilitar SWAP
+description: ""
+method: PUT
+body: {}
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1629384618060
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,21 @@
+_id: req_ec7bfe4f7cb4406088dbbf8e39a53800
+type: Request
+parentId: fld_f21c417bea1f414e859214b49ee351ce
+modified: 1629384618031
+created: 1629384618031
+url: http://192.168.36.50:80/NMSAPI/servicePlans/PLAN/features
+name: Planes de servicio - Features
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1629384618031
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

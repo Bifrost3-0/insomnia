@@ -1,0 +1,21 @@
+_id: req_33ba433ce7eb4268bf0671c48a97c06c
+type: Request
+parentId: fld_f21c417bea1f414e859214b49ee351ce
+modified: 1629384618065
+created: 1629384618065
+url: http://192.168.36.50:80/NMSAPI/servicePlans/NOMBREPLAN
+name: Plan de servicio
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1629384618065
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

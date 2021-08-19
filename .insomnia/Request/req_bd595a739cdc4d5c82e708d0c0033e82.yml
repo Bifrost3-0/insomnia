@@ -1,0 +1,33 @@
+_id: req_bd595a739cdc4d5c82e708d0c0033e82
+type: Request
+parentId: fld_f21c417bea1f414e859214b49ee351ce
+modified: 1629384618401
+created: 1629384618401
+url: http://192.168.36.39/NMSAPI/vsats/
+name: Crear Terminal Plan Estático
+description: ""
+method: POST
+body:
+  mimeType: ""
+  text: "{\r
+
+    \    \"id\":\"SITEID\",\r
+
+    \    \"servicePlanId\": \"NOMBREPLAN\",\r
+
+    \    \"staticIpSubnetSize\": \"NROIPS\"\r
+
+    }"
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1629384618401
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

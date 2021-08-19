@@ -1,0 +1,23 @@
+_id: req_c51efe041d93439e9cb42443d07e1f04
+type: Request
+parentId: fld_f21c417bea1f414e859214b49ee351ce
+modified: 1629384618043
+created: 1629384618043
+url: http://192.168.36.50:80/NMSAPI/vsats/SITEID/move/disallow
+name: Deshabilitar MOVE
+description: ""
+method: PUT
+body: {}
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1629384618043
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

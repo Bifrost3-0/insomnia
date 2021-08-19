@@ -1,0 +1,31 @@
+_id: req_94e537bbbf5249ab9bfcd4fd5e8d3317
+type: Request
+parentId: fld_f21c417bea1f414e859214b49ee351ce
+modified: 1629384618096
+created: 1629384618096
+url: http://192.168.36.50:80/NMSAPI/vsats/SITEID
+name: Cambio Plan Residencial
+description: ""
+method: PUT
+body:
+  mimeType: ""
+  text: "{\r
+
+    \    \"servicePlanId\": \"NOMBRE_PLAN\",\r
+
+    \    \"mode\": 1\r
+
+    }"
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1629384618096
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,21 @@
+_id: req_fd44a17e06234be4aa0348e86d32195f
+type: Request
+parentId: fld_f21c417bea1f414e859214b49ee351ce
+modified: 1629384618323
+created: 1629384618323
+url: http://192.168.36.50:80/NMSAPI/vsats/SITEID/
+name: Datos de terminal
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1629384618323
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

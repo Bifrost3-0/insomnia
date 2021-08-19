@@ -1,0 +1,43 @@
+_id: req_4b93828e3b134f46aa8febc5d66227b8
+type: Request
+parentId: fld_f21c417bea1f414e859214b49ee351ce
+modified: 1629384618037
+created: 1629384618037
+url: http://192.168.36.50:80/NMSAPI/vsats/
+name: Crear Terminal Plan Empresarial_Prueba
+description: ""
+method: POST
+body:
+  mimeType: ""
+  text: "{\r
+
+    \    \"id\":\"SITEIDPRUEBA\",\r
+
+    \    \"servicePlanId\": \"INTERNET_EMPRE_B3_5M_1M\",\r
+
+    \    \"mode\": 4,\r
+
+    \    \"vlanAddressing\": \r
+
+    \    [ { \"vlanCfName\": \"VLAN_541\",\r
+
+    \    \"intfCfMappedIPv4Subnet\":\"10.10.63.249\",  \r
+
+    \    \"intfCfMappedIPv6Prefix\":\"2806:200:7:8000::1\" \r
+
+    \    } ]\r
+
+    }"
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1629384618037
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

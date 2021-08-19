@@ -1,0 +1,23 @@
+_id: req_72b0db96ef0c45c192e343b99328040d
+type: Request
+parentId: fld_f21c417bea1f414e859214b49ee351ce
+modified: 1629384618078
+created: 1629384618078
+url: http://192.168.36.50:80/NMSAPI/vsats/SITEID/stats/ovt/control/reset
+name: Reiniciar terminal
+description: ""
+method: POST
+body: {}
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1629384618078
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

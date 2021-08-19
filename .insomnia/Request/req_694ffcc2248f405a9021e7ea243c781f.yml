@@ -1,0 +1,23 @@
+_id: req_694ffcc2248f405a9021e7ea243c781f
+type: Request
+parentId: fld_f21c417bea1f414e859214b49ee351ce
+modified: 1629384618114
+created: 1629384618114
+url: http://192.168.36.50:80/NMSAPI/vsats/SITEID/addTokens?capacity=MBTOKEN
+name: Add Token
+description: ""
+method: PUT
+body: {}
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1629384618114
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,35 @@
+_id: req_8bc0b2f222f84c529ab495905715fd4d
+type: Request
+parentId: fld_d3f156c5f5474a978976e57992662795
+modified: 1629384670503
+created: 1629384670503
+url: https://192.168.70.130/NMSAPI/vsats/
+name: Crear Terminal Plan Residencial
+description: ""
+method: POST
+body:
+  mimeType: ""
+  text: "{\r
+
+    \    \"id\":\"SITEID\",\r
+
+    \    \"servicePlanId\": \"NOMBREPLAN\"\r
+
+    }"
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication:
+  type: bearer
+  disabled: false
+  token: 71e16572-b0bc-11aa-5e3d-457c6a769cdc
+  prefix: ""
+metaSortKey: -1629384670503
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,23 @@
+_id: req_2fe4041d7ff44503943c9d98800549be
+type: Request
+parentId: fld_f21c417bea1f414e859214b49ee351ce
+modified: 1629384618055
+created: 1629384618055
+url: http://192.168.36.50:80/NMSAPI/vsats/SITEID/swap/disallow
+name: Deshabilitar SWAP
+description: ""
+method: PUT
+body: {}
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1629384618055
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

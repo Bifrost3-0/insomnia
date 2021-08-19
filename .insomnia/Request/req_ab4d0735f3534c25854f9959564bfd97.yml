@@ -1,0 +1,27 @@
+_id: req_ab4d0735f3534c25854f9959564bfd97
+type: Request
+parentId: fld_d3f156c5f5474a978976e57992662795
+modified: 1629384670527
+created: 1629384670527
+url: https://192.168.70.130/NMSAPI/vsats/SITEID/deactivate
+name: Desinstalar una terminal
+description: ""
+method: PUT
+body: {}
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication:
+  type: bearer
+  disabled: false
+  token: 71e16572-b0bc-11aa-5e3d-457c6a769cdc
+  prefix: ""
+metaSortKey: -1629384670527
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
