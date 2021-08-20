@@ -1,9 +1,9 @@
 _id: req_dadac4abb35f4dbea66d41ad737573af
 type: Request
 parentId: fld_f21c417bea1f414e859214b49ee351ce
-modified: 1629384618071
+modified: 1629437431553
 created: 1629384618071
-url: http://192.168.36.50:80/NMSAPI/vsats/SITEID/deactivate
+url: :{{ _.hughes_platform }}/NMSAPI/vsats/SITEID/deactivate
 name: Desinstalar una terminal
 description: ""
 method: PUT
@@ -12,6 +12,7 @@ parameters: []
 headers:
   - name: Content-Type
     value: application/json
+    id: pair_76c8d1a1814c4211843baa0209388fcc
 authentication: {}
 metaSortKey: -1629384618071
 isPrivate: false

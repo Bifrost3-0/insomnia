@@ -1,9 +1,9 @@
 _id: req_50d70bbf13d2472a9bbb0544a83e3e44
 type: Request
 parentId: fld_d3f156c5f5474a978976e57992662795
-modified: 1629384670510
+modified: 1629437634511
 created: 1629384670510
-url: https://192.168.70.130/NMSAPI/vsats/SITEID/move
+url: :{{ _.hughes_platform }}/NMSAPI/vsats/SITEID/move
 name: Habilitar MOVE
 description: ""
 method: PUT
@@ -12,6 +12,7 @@ parameters: []
 headers:
   - name: Content-Type
     value: application/json
+    id: pair_3d7d139b560a49be8046f88f47eefa8a
 authentication:
   type: bearer
   disabled: false

@@ -1,9 +1,9 @@
 _id: req_c51efe041d93439e9cb42443d07e1f04
 type: Request
 parentId: fld_f21c417bea1f414e859214b49ee351ce
-modified: 1629384618043
+modified: 1629437462573
 created: 1629384618043
-url: http://192.168.36.50:80/NMSAPI/vsats/SITEID/move/disallow
+url: :{{ _.hughes_platform }}/NMSAPI/vsats/SITEID/move/disallow
 name: Deshabilitar MOVE
 description: ""
 method: PUT
@@ -12,6 +12,7 @@ parameters: []
 headers:
   - name: Content-Type
     value: application/json
+    id: pair_9d624dbcd3eb4e1583e343d7d3e0c6d6
 authentication: {}
 metaSortKey: -1629384618043
 isPrivate: false

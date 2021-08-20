@@ -1,9 +1,9 @@
 _id: req_163bf4ef922548a191b542899b7b0803
 type: Request
 parentId: fld_d3f156c5f5474a978976e57992662795
-modified: 1629384670522
+modified: 1629437617848
 created: 1629384670522
-url: https://192.168.70.130/NMSAPI/servicePlans/NOMBREPLAN
+url: :{{ _.hughes_platform }}/NMSAPI/servicePlans/NOMBREPLAN
 name: Plan de servicio
 description: ""
 method: GET

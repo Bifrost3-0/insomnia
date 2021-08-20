@@ -1,9 +1,9 @@
 _id: req_4b6344707c9740f9909699ebb24d9c41
 type: Request
 parentId: fld_f21c417bea1f414e859214b49ee351ce
-modified: 1629384618175
+modified: 1629437374570
 created: 1629384618175
-url: http://192.168.36.50:80/NMSAPI/vsats/SITEID/unsuspend
+url: :{{ _.hughes_platform }}/NMSAPI/vsats/SITEID/unsuspend
 name: Habilitar nuevamente una terminal
 description: ""
 method: PUT
@@ -12,6 +12,7 @@ parameters: []
 headers:
   - name: Content-Type
     value: application/json
+    id: pair_6e338edafdd946d8bcff14e447ec9709
 authentication: {}
 metaSortKey: -1629384618175
 isPrivate: false

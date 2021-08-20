@@ -1,9 +1,9 @@
 _id: req_0deca84a44844c078f266a444037c2d1
 type: Request
 parentId: fld_d3f156c5f5474a978976e57992662795
-modified: 1629384670539
+modified: 1629437591638
 created: 1629384670539
-url: https://192.168.70.130/NMSAPI/vsats/SITEID
+url: :{{ _.hughes_platform }}/NMSAPI/vsats/SITEID
 name: Cambio Plan Estático
 description: ""
 method: PUT
@@ -22,6 +22,7 @@ parameters: []
 headers:
   - name: Content-Type
     value: application/json
+    id: pair_d50af65357e04b00aa08e938dd4daf67
 authentication:
   type: bearer
   disabled: false

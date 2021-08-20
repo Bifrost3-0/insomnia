@@ -1,9 +1,9 @@
 _id: req_72b0db96ef0c45c192e343b99328040d
 type: Request
 parentId: fld_f21c417bea1f414e859214b49ee351ce
-modified: 1629384618078
+modified: 1629437425792
 created: 1629384618078
-url: http://192.168.36.50:80/NMSAPI/vsats/SITEID/stats/ovt/control/reset
+url: :{{ _.hughes_platform }}/NMSAPI/vsats/SITEID/stats/ovt/control/reset
 name: Reiniciar terminal
 description: ""
 method: POST
@@ -12,6 +12,7 @@ parameters: []
 headers:
   - name: Content-Type
     value: application/json
+    id: pair_15efeaed6a604b12b64f4c67993d6654
 authentication: {}
 metaSortKey: -1629384618078
 isPrivate: false

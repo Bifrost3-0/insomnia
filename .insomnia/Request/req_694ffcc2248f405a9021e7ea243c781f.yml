@@ -1,9 +1,9 @@
 _id: req_694ffcc2248f405a9021e7ea243c781f
 type: Request
 parentId: fld_f21c417bea1f414e859214b49ee351ce
-modified: 1629384618114
+modified: 1629437380519
 created: 1629384618114
-url: http://192.168.36.50:80/NMSAPI/vsats/SITEID/addTokens?capacity=MBTOKEN
+url: :{{ _.hughes_platform }}/NMSAPI/vsats/SITEID/addTokens?capacity=MBTOKEN
 name: Add Token
 description: ""
 method: PUT
@@ -12,6 +12,7 @@ parameters: []
 headers:
   - name: Content-Type
     value: application/json
+    id: pair_cdc665ffe5224df2b7d00de06e84c8ee
 authentication: {}
 metaSortKey: -1629384618114
 isPrivate: false

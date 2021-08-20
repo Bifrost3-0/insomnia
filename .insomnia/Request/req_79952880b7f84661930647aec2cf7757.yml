@@ -1,9 +1,9 @@
 _id: req_79952880b7f84661930647aec2cf7757
 type: Request
 parentId: fld_d3f156c5f5474a978976e57992662795
-modified: 1629384670564
+modified: 1629437536007
 created: 1629384670564
-url: https://192.168.70.130/NMSAPI/vsats/SITEID/stats/ovt
+url: :{{ _.hughes_platform }}/NMSAPI/vsats/SITEID/stats/ovt
 name: OVT de Terminal
 description: ""
 method: GET

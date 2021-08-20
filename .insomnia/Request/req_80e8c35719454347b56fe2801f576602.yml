@@ -1,9 +1,9 @@
 _id: req_80e8c35719454347b56fe2801f576602
 type: Request
 parentId: fld_d3f156c5f5474a978976e57992662795
-modified: 1629384670576
+modified: 1629437527202
 created: 1629384670576
-url: https://192.168.70.130/NMSAPI/vsats/SITEID/status
+url: :{{ _.hughes_platform }}/NMSAPI/vsats/SITEID/status
 name: Status de Terminal
 description: ""
 method: GET

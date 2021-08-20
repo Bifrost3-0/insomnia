@@ -1,9 +1,9 @@
 _id: req_4b93828e3b134f46aa8febc5d66227b8
 type: Request
 parentId: fld_f21c417bea1f414e859214b49ee351ce
-modified: 1629384618037
+modified: 1629437468958
 created: 1629384618037
-url: http://192.168.36.50:80/NMSAPI/vsats/
+url: :{{ _.hughes_platform }}/NMSAPI/vsats/
 name: Crear Terminal Plan Empresarial_Prueba
 description: ""
 method: POST
@@ -32,6 +32,7 @@ parameters: []
 headers:
   - name: Content-Type
     value: application/json
+    id: pair_c8fad5cc1ece4ee484ad1e0fe760a001
 authentication: {}
 metaSortKey: -1629384618037
 isPrivate: false

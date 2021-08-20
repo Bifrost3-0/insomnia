@@ -1,9 +1,9 @@
 _id: req_518f24720ac24037a24e7aec3f99c23a
 type: Request
 parentId: fld_f21c417bea1f414e859214b49ee351ce
-modified: 1629384618083
+modified: 1629437420672
 created: 1629384618083
-url: http://192.168.36.50:80/NMSAPI/vsats/SITEID
+url: :{{ _.hughes_platform }}/NMSAPI/vsats/SITEID
 name: Cambio Plan Empresarial
 description: ""
 method: PUT
@@ -30,6 +30,7 @@ parameters: []
 headers:
   - name: Content-Type
     value: application/json
+    id: pair_d474cc22dc57446e823ecf2529770bcb
 authentication: {}
 metaSortKey: -1629384618083
 isPrivate: false

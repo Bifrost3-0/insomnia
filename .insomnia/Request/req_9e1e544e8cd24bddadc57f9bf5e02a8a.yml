@@ -1,9 +1,9 @@
 _id: req_9e1e544e8cd24bddadc57f9bf5e02a8a
 type: Request
 parentId: fld_d3f156c5f5474a978976e57992662795
-modified: 1629384670560
+modified: 1629437541900
 created: 1629384670560
-url: https://192.168.70.130/NMSAPI/vsats/SITEID/suspend
+url: :{{ _.hughes_platform }}/NMSAPI/vsats/SITEID/suspend
 name: Suspender Terminal
 description: ""
 method: PUT

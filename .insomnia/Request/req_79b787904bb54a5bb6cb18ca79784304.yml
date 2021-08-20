@@ -1,9 +1,9 @@
 _id: req_79b787904bb54a5bb6cb18ca79784304
 type: Request
 parentId: fld_f21c417bea1f414e859214b49ee351ce
-modified: 1629384618208
+modified: 1629437366505
 created: 1629384618208
-url: http://192.168.36.50:80/NMSAPI/vsats/SITEID/suspend
+url: :{{ _.hughes_platform }}/NMSAPI/vsats/SITEID/suspend
 name: Suspender una terminal
 description: ""
 method: PUT
@@ -12,6 +12,7 @@ parameters: []
 headers:
   - name: Content-Type
     value: application/json
+    id: pair_39989976fede4f0dabbacca6c1dd9289
 authentication: {}
 metaSortKey: -1629384618208
 isPrivate: false

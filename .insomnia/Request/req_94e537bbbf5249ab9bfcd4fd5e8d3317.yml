@@ -1,9 +1,9 @@
 _id: req_94e537bbbf5249ab9bfcd4fd5e8d3317
 type: Request
 parentId: fld_f21c417bea1f414e859214b49ee351ce
-modified: 1629384618096
+modified: 1629437399524
 created: 1629384618096
-url: http://192.168.36.50:80/NMSAPI/vsats/SITEID
+url: :{{ _.hughes_platform }}/NMSAPI/vsats/SITEID
 name: Cambio Plan Residencial
 description: ""
 method: PUT
@@ -20,6 +20,7 @@ parameters: []
 headers:
   - name: Content-Type
     value: application/json
+    id: pair_31d7dca9539e440da1da57821bbb2523
 authentication: {}
 metaSortKey: -1629384618096
 isPrivate: false

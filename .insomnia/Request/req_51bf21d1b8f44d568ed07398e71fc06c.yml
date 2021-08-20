@@ -1,9 +1,9 @@
 _id: req_51bf21d1b8f44d568ed07398e71fc06c
 type: Request
 parentId: fld_d3f156c5f5474a978976e57992662795
-modified: 1629384670514
+modified: 1629437629507
 created: 1629384670514
-url: https://192.168.70.130/NMSAPI/vsats/SITEID/swap/disallow
+url: :{{ _.hughes_platform }}/NMSAPI/vsats/SITEID/swap/disallow
 name: Deshabilitar SWAP
 description: ""
 method: PUT
@@ -12,6 +12,7 @@ parameters: []
 headers:
   - name: Content-Type
     value: application/json
+    id: pair_df0996fb36ab4874a5ad38da5d5624e7
 authentication:
   type: bearer
   disabled: false

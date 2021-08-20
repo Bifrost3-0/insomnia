@@ -1,9 +1,9 @@
 _id: req_aed7254c286d4ed1b1d8d0df3165fffc
 type: Request
 parentId: fld_f21c417bea1f414e859214b49ee351ce
-modified: 1629384618060
+modified: 1629437444297
 created: 1629384618060
-url: http://192.168.36.50:80/NMSAPI/vsats/SITEID/swap?oldEsn=ESNACTUAL
+url: :{{ _.hughes_platform }}/NMSAPI/vsats/SITEID/swap?oldEsn=ESNACTUAL
 name: Habilitar SWAP
 description: ""
 method: PUT
@@ -12,6 +12,7 @@ parameters: []
 headers:
   - name: Content-Type
     value: application/json
+    id: pair_d71fc428e79241fdaca6f892457920df
 authentication: {}
 metaSortKey: -1629384618060
 isPrivate: false

@@ -1,9 +1,9 @@
 _id: req_7d2f1b372a0b4935b1b28fad374f5afa
 type: Request
 parentId: fld_d3f156c5f5474a978976e57992662795
-modified: 1629384670499
+modified: 1629437656021
 created: 1629384670499
-url: https://192.168.70.130/NMSAPI/vsats/
+url: :{{ _.hughes_platform }}/NMSAPI/vsats/
 name: Crear Terminal Plan Estático
 description: ""
 method: POST
@@ -22,6 +22,7 @@ parameters: []
 headers:
   - name: Content-Type
     value: application/json
+    id: pair_7db5861440b3423e817d62c499d446b9
 authentication:
   type: bearer
   disabled: false

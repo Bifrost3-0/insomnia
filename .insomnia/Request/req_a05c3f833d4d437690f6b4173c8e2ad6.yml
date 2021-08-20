@@ -1,9 +1,9 @@
 _id: req_a05c3f833d4d437690f6b4173c8e2ad6
 type: Request
 parentId: fld_d3f156c5f5474a978976e57992662795
-modified: 1629384670485
+modified: 1629437684469
 created: 1629384670485
-url: https://192.168.70.130/NMSAPI/vnos/700/
+url: :{{ _.hughes_platform }}/NMSAPI/vnos/700/
 name: Planes de Servicio - More Details
 description: ""
 method: GET

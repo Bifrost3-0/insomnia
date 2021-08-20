@@ -1,9 +1,9 @@
 _id: req_0e8e4747a938455d9c08390d1a68f9f4
 type: Request
 parentId: fld_f21c417bea1f414e859214b49ee351ce
-modified: 1629384618104
+modified: 1629437385956
 created: 1629384618104
-url: http://192.168.36.50:80/NMSAPI/vsats/SITEID
+url: :{{ _.hughes_platform }}/NMSAPI/vsats/SITEID
 name: Eliminar Terminal
 description: ""
 method: DELETE
@@ -12,6 +12,7 @@ parameters: []
 headers:
   - name: Content-Type
     value: application/json
+    id: pair_0896f897728845d0a076b83f1c31c8ff
 authentication: {}
 metaSortKey: -1629384618104
 isPrivate: false

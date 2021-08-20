@@ -1,9 +1,9 @@
 _id: req_e01748ffc84d4394b47fcb051491442b
 type: Request
 parentId: fld_d3f156c5f5474a978976e57992662795
-modified: 1629384670547
+modified: 1629437579868
 created: 1629384670547
-url: https://192.168.70.130/NMSAPI/vsats/SITEID
+url: :{{ _.hughes_platform }}/NMSAPI/vsats/SITEID
 name: Eliminar Terminal
 description: Dar de baja a la terminal
 method: DELETE

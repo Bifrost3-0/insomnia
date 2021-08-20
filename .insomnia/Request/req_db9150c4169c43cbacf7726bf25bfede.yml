@@ -1,9 +1,9 @@
 _id: req_db9150c4169c43cbacf7726bf25bfede
 type: Request
 parentId: fld_f21c417bea1f414e859214b49ee351ce
-modified: 1629384618020
+modified: 1629437485971
 created: 1629384618020
-url: http://192.168.36.50:80/spis/uploadThroughput/2085
+url: :{{ _.hughes_platform }}/spis/uploadThroughput/2085
 name: Plan_throughtput
 description: ""
 method: GET

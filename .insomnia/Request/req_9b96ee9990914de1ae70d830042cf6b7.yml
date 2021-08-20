@@ -1,9 +1,9 @@
 _id: req_9b96ee9990914de1ae70d830042cf6b7
 type: Request
 parentId: fld_d3f156c5f5474a978976e57992662795
-modified: 1629384670556
+modified: 1629437568590
 created: 1629384670556
-url: https://192.168.70.130/NMSAPI/vsats/SITEID/unsuspend
+url: :{{ _.hughes_platform }}/NMSAPI/vsats/SITEID/unsuspend
 name: Habilitar Terminal
 description: Reactivar una terminal luego de una suspensión
 method: PUT
