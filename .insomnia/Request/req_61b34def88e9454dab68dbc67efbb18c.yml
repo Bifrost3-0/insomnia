@@ -1,0 +1,21 @@
+_id: req_61b34def88e9454dab68dbc67efbb18c
+type: Request
+parentId: fld_1fd8113c47dd41dea7d20f93e69462af
+modified: 1629478323586
+created: 1629478323586
+url: 3.23.181.222/orbith-api/public/v1/api-isp/work-orders/c0pncUV5amx0R1dhVDRRNzREMVlydz09
+name: Obtener una OT
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1629478323586
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

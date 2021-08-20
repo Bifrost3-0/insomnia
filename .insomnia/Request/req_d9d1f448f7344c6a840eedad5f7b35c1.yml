@@ -1,0 +1,66 @@
+_id: req_d9d1f448f7344c6a840eedad5f7b35c1
+type: Request
+parentId: fld_9820ea0a8fc7456ba4927e3fc5ce2bbd
+modified: 1629478325025
+created: 1629478325025
+url: 3.23.181.222/orbith-api/public/v1/api-isp/subscribers
+name: Crear un suscriptor.
+description: ""
+method: POST
+body:
+  params:
+    - value: Prueba0109
+      name: first_name
+      disabled: false
+    - value: Tiws
+      name: last_name
+      disabled: false
+    - value: id
+      name: document_type
+      disabled: false
+    - value: "101012"
+      name: document_number
+      disabled: false
+    - value: '[{"number":"+5491130223344","type":"movil"},{"number":"+933092532","type":"movil"}]'
+      name: phones
+      disabled: false
+    - value: '[{"key": "0", "type": "instalacion-facturacion", "street": "5",
+        "street_number": "923", "administrative_area": "La Plata", "city": "La
+        Plata", "province": "Buenos Aires", "country": "Argentina",
+        "postal_code": "B1904"
+        ,"latitude":"23.45","longitude":"-45.45","product":"SAI100DL10UL"}]'
+      name: addresses
+      disabled: false
+    - value: prueba@prueba.com
+      name: email
+      disabled: false
+    - value: "590"
+      name: external_reference
+      disabled: false
+    - value: Corporativo
+      name: type
+      disabled: false
+    - value: Prueba
+      name: business_brand_name
+      disabled: false
+    - value: Pruebas Tiws
+      name: business_legal_name
+      disabled: false
+    - value: Femenino
+      name: gender
+      disabled: false
+    - value: 2020-09-01
+      name: birthdate
+      disabled: false
+  mimeType: application/x-www-form-urlencoded
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1629478325025
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

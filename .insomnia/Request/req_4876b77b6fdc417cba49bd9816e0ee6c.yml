@@ -1,0 +1,21 @@
+_id: req_4876b77b6fdc417cba49bd9816e0ee6c
+type: Request
+parentId: fld_8929589db0d6485ca94707c9d3cc854c
+modified: 1629478324344
+created: 1629478324344
+url: 3.23.181.222/orbith-api/public/v1/api-isp/subscribers/Z0piZG1TZmxDRGdZSEFERlhIbGcrUT09/phones/eXRkUFdab1lScDBhcTh5Mjl5S290Zz09
+name: Obtener un telefono.
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1629478324344
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

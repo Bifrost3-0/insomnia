@@ -1,0 +1,21 @@
+_id: req_30e1cd276f5b4d3aa8044454707154b5
+type: Request
+parentId: fld_22ca08d37b8440cf8dbccddf834d3f04
+modified: 1629478324171
+created: 1629478324171
+url: 3.23.181.222/orbith-api/public/v1/api-isp/parameters/address-types
+name: Listado de Tipos de Direccion
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1629478324171
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

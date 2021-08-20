@@ -1,0 +1,21 @@
+_id: req_25bbbd0857aa4cdbbf35791ef5c30d73
+type: Request
+parentId: fld_19963933e93643cda1661c2d4ffcf44e
+modified: 1629478325230
+created: 1629478325230
+url: 3.23.181.222/orbith-api/public/v1/api-isp/netstatus?limit=1000
+name: Listado de estados de red
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1629478325230
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

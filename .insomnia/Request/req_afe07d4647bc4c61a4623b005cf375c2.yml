@@ -1,0 +1,31 @@
+_id: req_afe07d4647bc4c61a4623b005cf375c2
+type: Request
+parentId: fld_1fd8113c47dd41dea7d20f93e69462af
+modified: 1629478324097
+created: 1629478324097
+url: 3.23.181.222/orbith-api/public/v1/api-isp/auth
+name: Orbith Login
+description: ""
+method: POST
+body:
+  mimeType: ""
+  text: "{\r
+
+    \    \"email\":\"integracion-tiws@orbith.com\",\r
+
+    \    \"password\":\"hhXmcnkd5tR3myR6D3Nw\"\r
+
+    }"
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1629478324097
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

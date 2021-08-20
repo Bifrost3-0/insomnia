@@ -1,0 +1,21 @@
+_id: req_1066f4ca9748481794f8302b3224d036
+type: Request
+parentId: fld_1fd8113c47dd41dea7d20f93e69462af
+modified: 1629478323864
+created: 1629478323864
+url: 3.23.181.222/orbith-api/public/v1/api-isp/subscribers/Z0piZG1TZmxDRGdZSEFERlhIbGcrUT09/work-orders
+name: Obtener OTs de un suscriptor
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1629478323864
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

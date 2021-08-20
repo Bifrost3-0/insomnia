@@ -1,0 +1,21 @@
+_id: req_02e828e935044d8ca6078dcdb7917fea
+type: Request
+parentId: fld_d1de8bcbc183407f95f8cd82384354a9
+modified: 1629478325142
+created: 1629478325142
+url: 3.23.181.222/orbith-api/public/v1/api-isp/reports/settlement
+name: Listado de liquidaciones disponibles.
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1629478325142
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

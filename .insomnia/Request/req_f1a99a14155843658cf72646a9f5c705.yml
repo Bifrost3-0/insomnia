@@ -1,0 +1,21 @@
+_id: req_f1a99a14155843658cf72646a9f5c705
+type: Request
+parentId: fld_19963933e93643cda1661c2d4ffcf44e
+modified: 1629478325196
+created: 1629478325196
+url: 3.23.181.222/orbith-api/public/v1/api-isp/netstatus/NVVHb2VsNFBhckVkS1RlbWhkVU5FQT09
+name: Obtener un detalle
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1629478325196
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

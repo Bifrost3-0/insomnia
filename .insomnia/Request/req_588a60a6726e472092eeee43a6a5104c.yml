@@ -1,0 +1,27 @@
+_id: req_588a60a6726e472092eeee43a6a5104c
+type: Request
+parentId: fld_dd74ed1b112d44c3bf0f86e594bf5212
+modified: 1629478324667
+created: 1629478324667
+url: 3.23.181.222/orbith-api/public/v1/api-isp/services/NVVHb2VsNFBhckVkS1RlbWhkVU5FQT09/add-token
+name: Agregado de token a un servicio.
+description: ""
+method: POST
+body:
+  params:
+    - type: text
+      name: product
+      disabled: false
+      value: Token_1GB
+  mimeType: multipart/form-data
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1629478324667
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

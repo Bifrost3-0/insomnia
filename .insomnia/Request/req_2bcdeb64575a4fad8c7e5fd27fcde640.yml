@@ -1,0 +1,38 @@
+_id: req_2bcdeb64575a4fad8c7e5fd27fcde640
+type: Request
+parentId: fld_9820ea0a8fc7456ba4927e3fc5ce2bbd
+modified: 1629478325030
+created: 1629478325030
+url: 3.23.181.222/orbith-api/public/v1/api-isp/subscribers/eVJlKzJXaVVoNGxqRktlYWMxTVFHZz09
+name: Actualizar un suscriptor
+description: ""
+method: PUT
+body:
+  params:
+    - value: Corporativo
+      name: type
+      disabled: false
+    - value: Suspendido
+      name: status
+      disabled: false
+    - value: prueba@prueba.com
+      name: email
+      disabled: false
+    - value: Prueba0209
+      name: business_brand_name
+      disabled: false
+    - value: Pruebas Tiws0209
+      name: business_legal_name
+      disabled: false
+  mimeType: application/x-www-form-urlencoded
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1629478325030
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

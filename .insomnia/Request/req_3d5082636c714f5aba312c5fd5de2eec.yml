@@ -1,0 +1,21 @@
+_id: req_3d5082636c714f5aba312c5fd5de2eec
+type: Request
+parentId: fld_22ca08d37b8440cf8dbccddf834d3f04
+modified: 1629478324138
+created: 1629478324138
+url: 3.23.181.222/orbith-api/public/v1/api-isp/parameters/products?limit=1000
+name: Listado de Productos
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1629478324138
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

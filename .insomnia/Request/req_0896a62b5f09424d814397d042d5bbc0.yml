@@ -1,0 +1,21 @@
+_id: req_0896a62b5f09424d814397d042d5bbc0
+type: Request
+parentId: fld_22ca08d37b8440cf8dbccddf834d3f04
+modified: 1629478324212
+created: 1629478324212
+url: 3.23.181.222/orbith-api/public/v1/api-isp/parameters/countries
+name: Lista de Paises
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1629478324212
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

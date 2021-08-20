@@ -1,0 +1,21 @@
+_id: req_3971086948564dceb057e3d202094327
+type: Request
+parentId: fld_22ca08d37b8440cf8dbccddf834d3f04
+modified: 1629478324149
+created: 1629478324149
+url: 3.23.181.222/orbith-api/public/v1/api-isp/parameters/document-types
+name: Listado de Tipos de Documento
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1629478324149
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

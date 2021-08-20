@@ -1,0 +1,59 @@
+_id: req_c78e17a7b7fd4f12b65b9d5671d431cf
+type: Request
+parentId: fld_0bdc5d1ce4ea4c4fb3ccf93ff4b9ae6c
+modified: 1629478324509
+created: 1629478324509
+url: 3.23.181.222/orbith-api/public/v1/api-isp/subscribers/WWJVY2U5RGpSci9YN3YvcVZuTGplQT09/addresses
+name: Crear una direccion.
+description: ""
+method: POST
+body:
+  params:
+    - value: "148"
+      name: street
+      disabled: false
+    - value: "1467"
+      name: street_number
+      disabled: false
+    - value: Argentina
+      name: country
+      disabled: false
+    - value: Buenos Aires
+      name: province
+      disabled: false
+    - value: Ayacucho
+      name: administrative_area
+      disabled: false
+    - value: Ayacuchito
+      name: city
+      disabled: false
+    - value: "10"
+      name: floor
+      disabled: false
+    - value: "859"
+      name: apartment
+      disabled: false
+    - value: instalacion-facturacion
+      name: type
+      disabled: false
+    - value: "-12.497723"
+      name: latitude
+      disabled: false
+    - value: "23.499733"
+      name: longitude
+      disabled: false
+    - value: Pyme80_Tiws
+      name: product
+      disabled: false
+  mimeType: application/x-www-form-urlencoded
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1629478324509
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

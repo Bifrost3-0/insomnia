@@ -1,0 +1,21 @@
+_id: req_c88fafb095954a94828b02828de4e6bd
+type: Request
+parentId: fld_0bdc5d1ce4ea4c4fb3ccf93ff4b9ae6c
+modified: 1629478324429
+created: 1629478324429
+url: 3.23.181.222/orbith-api/public/v1/api-isp/subscribers/Z0piZG1TZmxDRGdZSEFERlhIbGcrUT09/addresses/RWNCdmZYamx2N0Y1V3E1WEZ6UU1jZz09/relocation
+name: Generar una orden de mudanza sobre una direccion.
+description: ""
+method: POST
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1629478324429
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

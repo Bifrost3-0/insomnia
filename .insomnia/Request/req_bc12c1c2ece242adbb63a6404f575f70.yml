@@ -1,0 +1,21 @@
+_id: req_bc12c1c2ece242adbb63a6404f575f70
+type: Request
+parentId: fld_22ca08d37b8440cf8dbccddf834d3f04
+modified: 1629478324198
+created: 1629478324198
+url: 3.23.181.222/orbith-api/public/v1/api-isp/parameters/provinces/{handle-country}
+name: Listado de Provincias
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1629478324198
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

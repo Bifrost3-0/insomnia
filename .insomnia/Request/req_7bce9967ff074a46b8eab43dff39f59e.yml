@@ -1,0 +1,21 @@
+_id: req_7bce9967ff074a46b8eab43dff39f59e
+type: Request
+parentId: fld_d1de8bcbc183407f95f8cd82384354a9
+modified: 1629478325094
+created: 1629478325094
+url: 3.23.181.222/orbith-api/public/v1/api-isp/reports/settlement/z5nVwewav_5SQteZJaSYfgG5eF0-
+name: Obtener una liquidación.
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1629478325094
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

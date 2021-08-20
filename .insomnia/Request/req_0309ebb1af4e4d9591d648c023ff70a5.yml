@@ -1,0 +1,29 @@
+_id: req_0309ebb1af4e4d9591d648c023ff70a5
+type: Request
+parentId: fld_8929589db0d6485ca94707c9d3cc854c
+modified: 1629478324296
+created: 1629478324296
+url: 3.23.181.222/orbith-api/public/v1/api-isp/subscribers/Z0piZG1TZmxDRGdZSEFERlhIbGcrUT09/phones
+name: Crear un telefono.
+description: ""
+method: POST
+body:
+  params:
+    - value: "987654321"
+      name: number
+      disabled: false
+    - value: Movil
+      name: type
+      disabled: false
+  mimeType: application/x-www-form-urlencoded
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1629478324296
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

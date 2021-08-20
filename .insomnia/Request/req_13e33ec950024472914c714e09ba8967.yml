@@ -1,0 +1,21 @@
+_id: req_13e33ec950024472914c714e09ba8967
+type: Request
+parentId: fld_1fd8113c47dd41dea7d20f93e69462af
+modified: 1629478323944
+created: 1629478323944
+url: 3.23.181.222/orbith-api/public/v1/api-isp/work-orders
+name: Listado de OTs
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1629478323944
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

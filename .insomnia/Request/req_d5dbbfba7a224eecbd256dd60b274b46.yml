@@ -1,0 +1,21 @@
+_id: req_d5dbbfba7a224eecbd256dd60b274b46
+type: Request
+parentId: fld_dd74ed1b112d44c3bf0f86e594bf5212
+modified: 1629478324784
+created: 1629478324784
+url: 3.23.181.222/orbith-api/public/v1/api-isp/services/NVVHb2VsNFBhckVkS1RlbWhkVU5FQT09
+name: Obtener un servicio de un suscriptor.
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1629478324784
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

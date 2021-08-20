@@ -1,0 +1,21 @@
+_id: req_de11085c48b942d18beb5fec34ced4cd
+type: Request
+parentId: fld_22ca08d37b8440cf8dbccddf834d3f04
+modified: 1629478324141
+created: 1629478324141
+url: 3.23.181.222/orbith-api/public/v1/api-isp/parameters/gender-types
+name: Listado de Generos
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1629478324141
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

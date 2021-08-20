@@ -1,0 +1,25 @@
+_id: req_ce7f00db40ff45fb9a854e689eec6c93
+type: Request
+parentId: fld_68998cd3cf994e0183766d91c731374d
+modified: 1629478165816
+created: 1629478165816
+url: https://172.16.8.3:443/api/v1/evo/config/obj/buc
+name: https://172.16.8.3:443/api/v1/evo/config/obj/lnb Copy
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: basic
+  disabled: false
+  username: systemapi
+  password: tiws2019
+metaSortKey: -1629478165816
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,21 @@
+_id: req_92876aa4c1944ced9350cf74f7ceb72b
+type: Request
+parentId: fld_0bdc5d1ce4ea4c4fb3ccf93ff4b9ae6c
+modified: 1629478324579
+created: 1629478324579
+url: 3.23.181.222/orbith-api/public/v1/api-isp/subscribers/Z0piZG1TZmxDRGdZSEFERlhIbGcrUT09/addresses
+name: Listado de direcciones de un suscriptor.
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1629478324579
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

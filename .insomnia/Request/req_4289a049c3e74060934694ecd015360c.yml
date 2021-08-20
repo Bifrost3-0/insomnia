@@ -1,7 +1,7 @@
 _id: req_4289a049c3e74060934694ecd015360c
 type: Request
 parentId: fld_e282d2c3e29a4facae9ef2a75686be2f
-modified: 1628606170729
+modified: 1628713554472
 created: 1628604800364
 url: "{{ _.base_url }}:{{ _.newtect_platform
   }}/orbith-api/public/v1/api-isp/subscribers"
@@ -32,6 +32,8 @@ body:
       value: '[{"number":"+5491130223344","type":"movil"},{"number":"+933092532","type":"movil"}]'
       description: ""
       disabled: false
+      type: text
+      multiline: false
     - id: pair_322232d44b9e4c598021a579fb1f4dc3
       name: addresses
       value: |-
