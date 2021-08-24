@@ -1,9 +1,10 @@
 _id: req_ca677284a742408fbb82499321947e93
 type: Request
 parentId: fld_c7360f7efe1e4775b80047d5e7b37eb5
-modified: 1629839189575
+modified: 1629843590817
 created: 1629837640856
-url: http://192.168.36.50:82/api/v1/evo/config/obj/remote/NMSID
+url: "{{ _.base_url }}:{{ _.idirectarg_platform
+  }}/api/v1/evo/config/obj/remote/NMSID"
 name: DELETE TERMINAL IDIRECT ARG
 description: ""
 method: DELETE

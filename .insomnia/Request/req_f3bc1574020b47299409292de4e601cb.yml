@@ -1,9 +1,10 @@
 _id: req_f3bc1574020b47299409292de4e601cb
 type: Request
 parentId: fld_c7360f7efe1e4775b80047d5e7b37eb5
-modified: 1629843166617
+modified: 1629843586553
 created: 1629837634865
-url: http://192.168.36.50:82/api/v1/evo/config/obj/remote/NMSID
+url: "{{ _.base_url }}:{{ _.idirectarg_platform
+  }}/api/v1/evo/config/obj/remote/NMSID"
 name: CAMBIO DE PLAN _ IDIRECT ARG
 description: ""
 method: POST

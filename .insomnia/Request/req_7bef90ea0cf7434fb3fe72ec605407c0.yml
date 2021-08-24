@@ -1,9 +1,10 @@
 _id: req_7bef90ea0cf7434fb3fe72ec605407c0
 type: Request
 parentId: fld_c7360f7efe1e4775b80047d5e7b37eb5
-modified: 1629837229440
+modified: 1629843549060
 created: 1629836940332
-url: http://192.168.36.50:82/api/v1/evo/config/obj/remote/NMSID/apply_changes
+url: "{{ _.base_url }}:{{ _.idirectarg_platform
+  }}/api/v1/evo/config/obj/remote/NMSID/apply_changes"
 name: APPLY CHANGES IDIRECT ARGENTINA TEST DESCRIPTION
 description: ""
 method: PATCH

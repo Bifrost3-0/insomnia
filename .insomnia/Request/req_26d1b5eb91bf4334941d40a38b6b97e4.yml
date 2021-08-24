@@ -1,9 +1,9 @@
 _id: req_26d1b5eb91bf4334941d40a38b6b97e4
 type: Request
 parentId: fld_c7360f7efe1e4775b80047d5e7b37eb5
-modified: 1629837375551
+modified: 1629843534525
 created: 1629817359909
-url: http://192.168.36.50:82/api/v1/evo/config/obj/remote
+url: "{{ _.base_url }}:{{ _.idirectarg_platform }}/api/v1/evo/config/obj/remote"
 name: CREAR TERMINAL
 description: ""
 method: POST

@@ -1,9 +1,10 @@
 _id: req_df127ba066f44827a51578ca30d02526
 type: Request
 parentId: fld_c7360f7efe1e4775b80047d5e7b37eb5
-modified: 1629837896906
+modified: 1629843565090
 created: 1629837486682
-url: http://192.168.36.50:82/api/v1/evo/config/obj/remote/NMSID
+url: "{{ _.base_url }}:{{ _.idirectarg_platform
+  }}/api/v1/evo/config/obj/remote/NMSID"
 name: SWAP_ IDIRECT ARG
 description: ""
 method: PATCH

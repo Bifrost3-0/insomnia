@@ -1,9 +1,10 @@
 _id: req_25b39bc67ffc42a1a06f4484b3fe71dc
 type: Request
 parentId: fld_c7360f7efe1e4775b80047d5e7b37eb5
-modified: 1629838511316
+modified: 1629843569892
 created: 1629837497785
-url: http://192.168.36.50:82/api/v1/evo/config/obj/remote/NMSID
+url: "{{ _.base_url }}:{{ _.idirectarg_platform
+  }}/api/v1/evo/config/obj/remote/NMSID"
 name: CHANGE OUTDOOR_IDIRECT ARG
 description: ""
 method: PATCH
