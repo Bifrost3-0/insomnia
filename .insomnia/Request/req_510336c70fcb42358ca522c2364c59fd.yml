@@ -1,0 +1,21 @@
+_id: req_510336c70fcb42358ca522c2364c59fd
+type: Request
+parentId: fld_d7199f03fbb64bc881ab8044417fb5f0
+modified: 1629840532479
+created: 1629840532479
+url: "{{baseUrl}}/graphdata/terminalkpi?terminalid=85040814"
+name: get Terminal consumo
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1629840532479
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,21 @@
+_id: req_e768e3d2eb264c8e839220bbb378afad
+type: Request
+parentId: fld_d7199f03fbb64bc881ab8044417fb5f0
+modified: 1629840532482
+created: 1629840532482
+url: "{{baseUrl}}/graphdata/terminalkpi?terminalid=85040814"
+name: get Terminal Kpi Values
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1629840532482
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

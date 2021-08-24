@@ -1,0 +1,62 @@
+_id: req_267ba60013584beca47966a3ef4d88c8
+type: Request
+parentId: fld_4fb2b5b7eceb437aa0c7ac76015db876
+modified: 1629841990933
+created: 1629840532435
+url: https://api-nms.hispasat.es/v1/broadband/backend/terminals/freeidentifier
+name: Alta Terminal
+description: ""
+method: POST
+body:
+  mimeType: ""
+  text: "{\r
+
+    \"name\":\"nombre de terminal\",  \r
+
+    \"identifier\":\"123456\", \r
+
+    \"macAddress\":\"123456789ABC\", \r
+
+    \"client\": {\"id\":1}, \r
+
+    \"terminalsType\":{\"id\":1}, \r
+
+    \"provisioning\":\"true\",\r
+
+    \"description\":\"descripción del terminal\", \r
+
+    \"dayResetQuote\":\"1\",\r
+
+    \"slotDto\":{\"id\":1},\r
+
+    \"subslotDto\":{\"id\":1},\r
+
+    \"assignmentProfile\":{\"id\":1},\r
+
+    \"latitude\":\"30\",\r
+
+    \"longitude\":\"-4\",\r
+
+    \"vrList\":[{\"portNumber\":\"1\",\"portMode\":{\"id\":1},\"slotVlan\":{\
+    \"id\":1},\"prefix\":30,\"subscriberPublicIpAddress\":\"192.168.10.23\",\"i\
+    pv4Dhcp\":true,\"ipConnectivity\":{\"id\":1}}]\r
+
+    } \r\n"
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_b74faeac24ad4f8ca6f23fdd92efca08
+authentication:
+  type: bearer
+  disabled: false
+  token: eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJkZW1vdGl3c21pbmVkdUB0ZWxlZm9uaWNhLmNvbSIsImlhdCI6MTYxNzAzNjcxMywiZXhwIjoxNjE3MDQ3NTEzfQ.KMywakLsIh5uHCrObiqARMn9oygQScubRVETN3V16ZVpfp0ZA53NIXWqVuamC_3rRFqElsy3bwubyG301-CwsQ
+  prefix: ""
+metaSortKey: -1629840532451.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

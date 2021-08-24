@@ -1,9 +1,9 @@
 _id: req_8c953dcf89e64a1297fd95865a96b26b
 type: Request
 parentId: fld_2f3ab373b62d4940a7624abd9ab55752
-modified: 1629834535733
+modified: 1629840718221
 created: 1629833827701
-url: https://{{ _.base_url }}:/ws/cpeService
+url: https://{{ _.base_url }}:{{ _.gilat_ku_balcarce }}/ws/cpeService
 name: Lista Terminales - Pulleo
 description: ""
 method: POST

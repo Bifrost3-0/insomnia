@@ -1,0 +1,35 @@
+_id: req_8975a038911448e9bf3747f262ecc201
+type: Request
+parentId: fld_4fb2b5b7eceb437aa0c7ac76015db876
+modified: 1629840532470
+created: 1629840532470
+url: https://api-nms.hispasat.es/v1/broadband/backend/login/signin
+name: Crear Tocken Slot Minedu
+description: ""
+method: POST
+body:
+  mimeType: ""
+  text: "{\r
+
+    \    \"email\":  \"orderingmn.pe@telefonica.com\",\r
+
+    \    \"password\": \"9I2n4HKJIG.8pi#\"\r
+
+    }\r\n"
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication:
+  type: basic
+  disabled: false
+  username: orderingmn.pe@telefonica.com
+  password: Hf69Tnt7ZJ
+metaSortKey: -1629840532470
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

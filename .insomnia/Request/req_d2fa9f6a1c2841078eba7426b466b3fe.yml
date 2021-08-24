@@ -1,0 +1,21 @@
+_id: req_d2fa9f6a1c2841078eba7426b466b3fe
+type: Request
+parentId: fld_4fb2b5b7eceb437aa0c7ac76015db876
+modified: 1629841859046
+created: 1629840532443
+url: "{{baseUrl}}/profile/assignmentbyslot?slotid=85040814"
+name: Listar Planes de Servicio
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1629840532443
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

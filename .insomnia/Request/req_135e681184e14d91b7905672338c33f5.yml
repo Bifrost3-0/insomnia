@@ -1,9 +1,9 @@
 _id: req_135e681184e14d91b7905672338c33f5
 type: Request
 parentId: fld_2f3ab373b62d4940a7624abd9ab55752
-modified: 1629834073176
+modified: 1629841385300
 created: 1629833827722
-url: https://192.168.188.8/ws/cpeService
+url: https://{{ _.base_url }}:{{ _.gilat_ku_balcarce }}/ws/cpeService
 name: Add VR Vlan
 description: ""
 method: POST

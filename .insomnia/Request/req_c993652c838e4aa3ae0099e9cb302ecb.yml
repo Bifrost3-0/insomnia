@@ -1,9 +1,9 @@
 _id: req_c993652c838e4aa3ae0099e9cb302ecb
 type: Request
 parentId: fld_2f3ab373b62d4940a7624abd9ab55752
-modified: 1629833953175
+modified: 1629841043138
 created: 1629833827690
-url: https://192.168.188.8/ws/cpeService
+url: https://{{ _.base_url }}:{{ _.gilat_ku_balcarce }}/ws/cpeService
 name: Delete Terminal
 description: ""
 method: POST
@@ -35,6 +35,7 @@ parameters: []
 headers:
   - name: Content-Type
     value: text/xml
+    id: pair_e3e2739388684f839308aec45fcfdb5e
 authentication:
   type: basic
   disabled: false

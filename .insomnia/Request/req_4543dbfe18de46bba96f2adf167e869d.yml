@@ -1,0 +1,25 @@
+_id: req_4543dbfe18de46bba96f2adf167e869d
+type: Request
+parentId: fld_4fb2b5b7eceb437aa0c7ac76015db876
+modified: 1629841769151
+created: 1629840532454
+url: https://api-nms.hispasat.es/v1/broadband/backend/subslot/byslot?slotid=52
+name: Get Vlan by Slot
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  disabled: false
+  token: eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJkZW1vdGl3c21pbmVkdUB0ZWxlZm9uaWNhLmNvbSIsImlhdCI6MTYxOTczNjUxNiwiZXhwIjoxNjE5NzQ3MzE2fQ.dPrWGKZvAFDt6KISFsEhMqwqaqBZ493eqsgNLqQU0HQ7nYJe1t_F4-YP7BlHUsXckpUsdyWQTH-nhJ4P7yHt-w
+  prefix: ""
+metaSortKey: -1629840532454
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

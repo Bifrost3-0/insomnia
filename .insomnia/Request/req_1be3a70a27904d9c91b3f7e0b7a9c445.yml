@@ -1,9 +1,9 @@
 _id: req_1be3a70a27904d9c91b3f7e0b7a9c445
 type: Request
 parentId: fld_2f3ab373b62d4940a7624abd9ab55752
-modified: 1629834099562
+modified: 1629841126931
 created: 1629833827725
-url: https://192.168.188.8/ws/cpeService
+url: https://{{ _.base_url }}:{{ _.gilat_ku_balcarce }}/ws/cpeService
 name: Del Static Route
 description: ""
 method: POST
@@ -58,6 +58,7 @@ parameters: []
 headers:
   - name: Content-Type
     value: text/xml
+    id: pair_3f41455c37604d5d8dd837103619f73f
 authentication:
   type: basic
   disabled: false
