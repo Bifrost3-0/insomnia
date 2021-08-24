@@ -1,9 +1,9 @@
-_id: req_07b9ccff603b4279851a2359d3d08a4f
+_id: req_a982ef07c0e4442fad973a0878b1ce6c
 type: Request
-parentId: fld_7c4a08fcb9a24b27bd0a0df89ce1cdb1
-modified: 1628793414729
-created: 1628608358829
-url: "{{ _.base_url }}:{{ _.gilat_ku_balcarce }}/ws/cpeService"
+parentId: fld_2f3ab373b62d4940a7624abd9ab55752
+modified: 1629833827723
+created: 1629833827723
+url: https://192.168.188.8/ws/cpeService
 name: Add Static Route
 description: ""
 method: POST
@@ -56,13 +56,12 @@ parameters: []
 headers:
   - name: Content-Type
     value: text/xml
-    id: pair_30b715ecd65449a6be5463b622437e81
 authentication:
   type: basic
   disabled: false
   username: apis
   password: apis2020
-metaSortKey: -1628608358829
+metaSortKey: -1629833827723
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

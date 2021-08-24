@@ -1,10 +1,10 @@
-_id: req_18ebe81fe23349f8ab7586837b686caa
+_id: req_c993652c838e4aa3ae0099e9cb302ecb
 type: Request
-parentId: fld_7c4a08fcb9a24b27bd0a0df89ce1cdb1
-modified: 1628608358812
-created: 1628608358812
+parentId: fld_2f3ab373b62d4940a7624abd9ab55752
+modified: 1629833953175
+created: 1629833827690
 url: https://192.168.188.8/ws/cpeService
-name: GetCPESelfTestResults
+name: Delete Terminal
 description: ""
 method: POST
 body:
@@ -13,7 +13,7 @@ body:
 
     \    <Body>\r
 
-    \        <getCPESelfTestResults
+    \        <deleteCPE
     xmlns=\"com.gilat.ngnms.server.services.ws.cfg.face\">\r
 
     \            <!-- Optional -->\r
@@ -22,15 +22,15 @@ body:
 
     \                <managedGroupId>2</managedGroupId>\r
 
-    \                <subscriberId>88154</subscriberId>\r
+    \                <subscriberId>1022273</subscriberId>\r
 
     \            </id>\r
 
-    \        </getCPESelfTestResults>\r
+    \        </deleteCPE>\r
 
     \    </Body>\r
 
-    </Envelope>"
+    </Envelope>\r\n"
 parameters: []
 headers:
   - name: Content-Type
@@ -40,7 +40,7 @@ authentication:
   disabled: false
   username: apis
   password: apis2020
-metaSortKey: -1628608358812
+metaSortKey: -1629833827726.5625
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

@@ -1,15 +1,17 @@
-_id: req_c7378e9cb6c342d7a19c4bce4a92657e
+_id: req_5890a93384d64e588532d1d1364977cc
 type: Request
-parentId: fld_7c4a08fcb9a24b27bd0a0df89ce1cdb1
-modified: 1628795513315
-created: 1628608358804
-url: "{{ _.base_url }}:{{ _.gilat_ku_balcarce }}/reports/reportsWebService12"
-name: GetReports FWD Throughput
+parentId: fld_1291d5697ccc443a9b83926fc167bacb
+modified: 1629833827739
+created: 1629833827739
+url: https://192.168.188.8/reports/reportsWebService12
+name: GetReports RTN Tx Capability ES/N0
 description: ""
 method: POST
 body:
   mimeType: ""
-  text: "<soap:Envelope xmlns:soap=\"http://www.w3.org/2003/05/soap-envelope\"
+  text: "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\r
+
+    <soap:Envelope xmlns:soap=\"http://www.w3.org/2003/05/soap-envelope\"
     xmlns:com=\"com.gilat.ngnms.reports.ws.face\">\r
 
     \   <soap:Header/>\r
@@ -24,11 +26,12 @@ body:
 
     \            <mgId xmlns=\"\">2</mgId>\r
 
-    \            <reportName xmlns=\"\">FWD Throughput</reportName>\r
+    \            <reportName xmlns=\"\">RTN Tx Capability
+    Es/N0</reportName>\r
 
-    \            <startDate xmlns=\"\">1610312502000</startDate>\r
+    \            <startDate xmlns=\"\">1597245239000</startDate>\r
 
-    \            <endDate xmlns=\"\">1611867702000</endDate>\r
+    \            <endDate xmlns=\"\">1597331639000</endDate>\r
 
     \            <resolution xmlns=\"\">FM</resolution>\r
 
@@ -45,13 +48,12 @@ parameters: []
 headers:
   - name: Content-Type
     value: text/xml
-    id: pair_60364166adc04c76b076794bb9ec7b98
 authentication:
   type: basic
   disabled: false
   username: apis
   password: apis2020
-metaSortKey: -1628608358804
+metaSortKey: -1629833827739
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true
