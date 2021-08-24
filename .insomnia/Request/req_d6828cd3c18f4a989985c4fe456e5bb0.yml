@@ -1,10 +1,10 @@
-_id: req_e1406737d7a54f29a9423df436ff53a8
+_id: req_d6828cd3c18f4a989985c4fe456e5bb0
 type: Request
-parentId: fld_7c4a08fcb9a24b27bd0a0df89ce1cdb1
-modified: 1628795599566
-created: 1628608358800
-url: "{{ _.base_url }}:{{ _.gilat_ku_balcarce }}/reports/reportsWebService12"
-name: GetReports RTN Tx Capability ES/N0
+parentId: fld_1291d5697ccc443a9b83926fc167bacb
+modified: 1629833827738
+created: 1629833827738
+url: https://192.168.188.8/reports/reportsWebService12
+name: GetReports FWD Rx Level
 description: ""
 method: POST
 body:
@@ -22,12 +22,11 @@ body:
 
     \            <elementType xmlns=\"\">CPE</elementType>\r
 
-    \            <elementIds xmlns=\"\">117584</elementIds>\r
+    \            <elementIds xmlns=\"\">88154</elementIds>\r
 
     \            <mgId xmlns=\"\">2</mgId>\r
 
-    \            <reportName xmlns=\"\">RTN Tx Capability
-    Es/N0</reportName>\r
+    \            <reportName xmlns=\"\">FWD Rx Level</reportName>\r
 
     \            <startDate xmlns=\"\">1597245239000</startDate>\r
 
@@ -48,13 +47,12 @@ parameters: []
 headers:
   - name: Content-Type
     value: text/xml
-    id: pair_d96852f244984a06bdeb015f5d3b5380
 authentication:
   type: basic
   disabled: false
   username: apis
   password: apis2020
-metaSortKey: -1628608358800
+metaSortKey: -1629833827738
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

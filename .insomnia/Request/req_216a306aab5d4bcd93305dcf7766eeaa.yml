@@ -1,10 +1,10 @@
-_id: req_dd9ff4619ef34fbead50b79123c36576
+_id: req_216a306aab5d4bcd93305dcf7766eeaa
 type: Request
-parentId: fld_7c4a08fcb9a24b27bd0a0df89ce1cdb1
-modified: 1628795709408
-created: 1628608358795
-url: "{{ _.base_url }}:{{ _.gilat_ku_balcarce }}/ws/cpeService"
-name: Suspend Terminal
+parentId: fld_2f3ab373b62d4940a7624abd9ab55752
+modified: 1629834093466
+created: 1629833827692
+url: https://192.168.188.8/ws/cpeService
+name: Suspender Terminal
 description: ""
 method: POST
 body:
@@ -47,13 +47,12 @@ parameters: []
 headers:
   - name: Content-Type
     value: text/xml
-    id: pair_b9789804f11e43b088a46daae721e7cf
 authentication:
   type: basic
   disabled: false
   username: apis
   password: apis2020
-metaSortKey: -1628608358795
+metaSortKey: -1629833827725.7812
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

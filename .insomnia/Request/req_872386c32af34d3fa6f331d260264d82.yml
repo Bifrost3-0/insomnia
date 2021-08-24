@@ -1,10 +1,10 @@
-_id: req_55b1cd204d304e14a1458bc098359ee0
+_id: req_872386c32af34d3fa6f331d260264d82
 type: Request
-parentId: fld_7c4a08fcb9a24b27bd0a0df89ce1cdb1
-modified: 1628795786932
-created: 1628608358789
-url: "{{ _.base_url }}:{{ _.gilat_ku_balcarce }}/ws/cpeService"
-name: modifyCPE Vlan
+parentId: fld_2f3ab373b62d4940a7624abd9ab55752
+modified: 1629833827688
+created: 1629833827688
+url: https://192.168.188.8/ws/cpeService
+name: Cambiar Vlan
 description: ""
 method: POST
 body:
@@ -84,13 +84,12 @@ parameters: []
 headers:
   - name: Content-Type
     value: text/xml
-    id: pair_294e74e6ce684729aa47c6ebc5884b08
 authentication:
   type: basic
   disabled: false
   username: apis
   password: apis2020
-metaSortKey: -1628608358789
+metaSortKey: -1629833827688
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

@@ -1,9 +1,9 @@
-_id: req_08d54d1a4ad346c2aa4da0ae40c26506
+_id: req_1be3a70a27904d9c91b3f7e0b7a9c445
 type: Request
-parentId: fld_7c4a08fcb9a24b27bd0a0df89ce1cdb1
-modified: 1628793392493
-created: 1628608358831
-url: "{{ _.base_url }}:{{ _.gilat_ku_balcarce }}/ws/cpeService"
+parentId: fld_2f3ab373b62d4940a7624abd9ab55752
+modified: 1629834099562
+created: 1629833827725
+url: https://192.168.188.8/ws/cpeService
 name: Del Static Route
 description: ""
 method: POST
@@ -58,13 +58,12 @@ parameters: []
 headers:
   - name: Content-Type
     value: text/xml
-    id: pair_db601141b76b425da26c89585542f746
 authentication:
   type: basic
   disabled: false
   username: apis
   password: apis2020
-metaSortKey: -1628608358831
+metaSortKey: -1629833827716.5
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true
