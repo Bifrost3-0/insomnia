@@ -1,0 +1,26 @@
+_id: req_ca677284a742408fbb82499321947e93
+type: Request
+parentId: fld_c7360f7efe1e4775b80047d5e7b37eb5
+modified: 1629839189575
+created: 1629837640856
+url: http://192.168.36.50:82/api/v1/evo/config/obj/remote/NMSID
+name: DELETE TERMINAL IDIRECT ARG
+description: ""
+method: DELETE
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: basic
+  useISO88591: false
+  disabled: false
+  username: systemapi
+  password: tiws2019
+metaSortKey: -1629837640856
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

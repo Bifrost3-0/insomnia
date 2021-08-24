@@ -1,26 +1,18 @@
 _id: req_26d1b5eb91bf4334941d40a38b6b97e4
 type: Request
 parentId: fld_c7360f7efe1e4775b80047d5e7b37eb5
-modified: 1629817567495
+modified: 1629837375551
 created: 1629817359909
-url: api,com/crearservicio/bifrost
-name: crearServicio
+url: http://192.168.36.50:82/api/v1/evo/config/obj/remote
+name: CREAR TERMINAL
 description: ""
 method: POST
 body:
   mimeType: application/json
-  text: |-
-    {
-    	"test":"test"
-    }
+  text: '"\"\\\"1\\\"\""'
 parameters: []
 headers: []
-authentication:
-  type: basic
-  useISO88591: false
-  disabled: false
-  username: test
-  password: test
+authentication: {}
 metaSortKey: -1628603550272
 isPrivate: false
 settingStoreCookies: true

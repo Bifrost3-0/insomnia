@@ -1,0 +1,30 @@
+_id: req_2e61fa8dc2544d8f8a651dfecf3dd593
+type: Request
+parentId: fld_c7360f7efe1e4775b80047d5e7b37eb5
+modified: 1629836521061
+created: 1629836402474
+url: http://192.168.36.50:82/api/v1/evo/config/obj/remote/idnms/raw_optionsfile
+name: DESCARGA OPT TERMINAL
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - id: pair_168b353201af4d01a81adc5bc41c9230
+    name: type
+    value: RmtSide
+    description: ""
+authentication:
+  type: basic
+  useISO88591: false
+  disabled: false
+  username: systemapi
+  password: tiws2019
+metaSortKey: -1629836402474
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

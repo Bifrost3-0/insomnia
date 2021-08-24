@@ -1,0 +1,31 @@
+_id: req_d948f613ce964ea3aa823edf87b30a98
+type: Request
+parentId: fld_c7360f7efe1e4775b80047d5e7b37eb5
+modified: 1629839379708
+created: 1629837677195
+url: http://192.168.36.50:82/api/v1/evo/config/obj/remote
+name: ACTIVATE TERMINAL_A
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: '{"Active":"true"}'
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_a0e537ffe5a14b1a993b8bd76b76871b
+authentication:
+  type: basic
+  useISO88591: false
+  disabled: false
+  username: systemapi
+  password: tiws2019
+metaSortKey: -1629837677195
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
