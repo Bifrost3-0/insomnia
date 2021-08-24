@@ -1,7 +1,7 @@
 _id: req_26d1b5eb91bf4334941d40a38b6b97e4
 type: Request
 parentId: fld_c7360f7efe1e4775b80047d5e7b37eb5
-modified: 1629843534525
+modified: 1629843703114
 created: 1629817359909
 url: "{{ _.base_url }}:{{ _.idirectarg_platform }}/api/v1/evo/config/obj/remote"
 name: CREAR TERMINAL
@@ -9,7 +9,206 @@ description: ""
 method: POST
 body:
   mimeType: application/json
-  text: '"\"\\\"1\\\"\""'
+  text: |-
+    {
+      "Name": "LURIDI01COPOL16-CD=839824",
+      "SN": "839824",
+      "ModelType": "X1",
+      "InrouteGroupID": "10",
+      "NetworkID": "8",
+      "Active": true,
+      "UpCIR": "32",
+      "UpMIR": "64",
+      "UpMIN": "0",
+      "DownCIR": "32",
+      "DownMIR": "64",
+      "IsMobile": "0",
+      "TXPower": "-18",
+      "Lat": "12",
+      "Lon": "10",
+      "SymbolRate": "550",
+      "MODCOD": "QPSK2/3",
+      "InitialPower": "-18",
+      "MaxPower": "-17",
+      "IsRoaming": "0",
+      "MgmtIPAddress": "10.201.1.9",
+      "MgmtSubnetMask": "255.255.255.252",
+      "MgmtGateway": "",
+      "LanIPAddress": "100.77.1.9",
+      "LanSubnetMask": "255.255.255.252",
+      "LanGateway": "",
+      "ID": "",
+      "DID": "",
+      "RXCarrierID": "",
+      "TXCarrierID": "-1",
+      "TCPCompression": "",
+      "UDPHdrCompression": "",
+      "UDPCompression": "",
+      "LinkEncryption": "",
+      "CRTP": "",
+      "AntennaID": "",
+      "AntennaTxHandshake": "",
+      "IsSCPC": "",
+      "SCPCPeerID": "",
+      "SpreadingFactor": "",
+      "PayloadSize": "170",
+      "1DB": "-21",
+      "TxFreq": "",
+      "RxFreq": "",
+      "DSAllocRelToCIR": "0",
+      "NominalMODCOD": "QPSK-4/5",
+      "MaxMODCOD": "16APSK-8/9",
+      "USAllocRelToCIR": "0",
+      "AdminPassword": "P@55w0rd!",
+      "UserPassword": "iDirect",
+      "L2oS": {
+        "SDT": 1,
+        "Ethertype1": "0x8100",
+        "Ethertype2": "",
+        "BFD": false,
+        "Compression": 0,
+        "HeaderCompression": {
+          "CompressionType": "Disable",
+          "Profiles": []
+        },
+        "MTU": 1540
+      },
+      "Customer": {
+        "Name": "",
+        "Phone": "",
+        "CommissionDate": "",
+        "ContractNumber": "",
+        "SiteNotes": ""
+      },
+      "CustomKeys": {
+        "HubSide": "",
+        "RemoteSide": ""
+      },
+      "VLans": [
+        {
+          "VLanID": 1,
+          "ETH0IPAddress": "100.77.1.9",
+          "ETH0SubnetMask": "255.255.255.252",
+          "SAT0IPAddress": "10.201.1.9",
+          "SAT0SubnetMask": "255.255.255.252",
+          "ETH0RIPv2": "0",
+          "SAT0RIPv2": "0",
+          "NAT": "0",
+          "DHCP": "",
+          "DNS": "",
+          "StaticRoutes": [
+            {
+              "ID": "1",
+              "IPAddress": "0.0.0.0",
+              "SubnetMask": "0.0.0.0",
+              "Gateway": "0.0.0.0",
+              "Interface": "sat0",
+              "Cost": 1
+            }
+          ]
+        },
+        {
+          "VLanID": 597,
+          "ETH0IPAddress": "100.77.1.9",
+          "ETH0SubnetMask": "255.255.255.252",
+          "SAT0IPAddress": "10.201.1.9",
+          "SAT0SubnetMask": "255.255.255.252",
+          "ETH0RIPv2": 0,
+          "SAT0RIPv2": "0",
+          "NAT": "0",
+          "DHCP": {
+            "DhcpID": "",
+            "DhcpMode": "1",
+            "LeaseSeconds": "43200",
+            "PrimaryDnsAddr": "8.8.8.8",
+            "SecondaryDnsAddr": "0.0.0.0",
+            "DefaultGwAddr": "100.77.1.9",
+            "RelayServer": "0.0.0.0",
+            "ClientAddrRanges": [
+              {
+                "StartAddr": "100.77.1.10",
+                "EndAddr": "100.77.1.65"
+              }
+            ]
+          },
+          "DNS": "",
+          "StaticRoutes": [
+            {
+              "Cost": 1,
+              "Gateway": "0.0.0.0",
+              "IPAddress": "0.0.0.0",
+              "Interface": "sat0",
+              "SubnetMask": "0.0.0.0"
+            }
+          ]
+        }
+      ],
+      "RemoteQOS": {
+        "DSQOS": {
+          "QOSGroupType": "RemoteServiceGroup",
+          "FilterProfileID": 4,
+          "ServiceGroupID": 10,
+          "ServiceProfileID": 295,
+          "MCServiceProfileID": "0"
+        },
+        "DSRateShaping": {
+          "EnableMaxIR": "1",
+          "MaxIR": 256,
+          "EnableCIR": "1",
+          "CIR": 179.2,
+          "Priority": "Cost Based",
+          "Cost": "1",
+          "EnableEIR": "0",
+          "MinMODCOD": "QPSK-2/3"
+        },
+        "DSDistributor": {
+          "Enabled": "1",
+          "SegmentSize": 70
+        },
+        "USAdaptive": {
+          "EnableMaxImpairment": "0",
+          "MaxImpairment": "0",
+          "MinSymrate": "0",
+          "MaxCN": 25
+        },
+        "USQOS": {
+          "QOSGroupType": "RemoteServiceGroup",
+          "FilterProfileID": 3,
+          "ServiceGroupID": 1859,
+          "ServiceProfileID": 296,
+          "MCServiceProfileID": "0"
+        },
+        "USRateShaping": {
+          "EnableMaxIR": "1",
+          "MaxIR": 256,
+          "EnableCIR": "1",
+          "CIR": 179.2,
+          "Priority": "Cost Based",
+          "Cost": "1",
+          "EnableMinIR": "0",
+          "MinIR": "0",
+          "EnableEIR": "0",
+          "NinMODCOD": "N/A"
+        },
+        "USDistributor": {
+          "Enabled": "1",
+          "SegmentSize": "70"
+        },
+        "IdleDormant": {
+          "Enabled": 0,
+          "IdleSlotsEvery": 16,
+          "DormantSlotsEvery": 32,
+          "IdleSTimeout": 120,
+          "DormantTimeout": 180
+        }
+      },
+      "AntennaComponents": {
+        "BUCID": 12,
+        "LNBIDs": [
+          3
+        ]
+      }
+    }
 parameters: []
 headers: []
 authentication: {}
