@@ -1,26 +1,27 @@
-_id: req_1803e3e4d4df47f5aad5d802bebeea0f
+_id: req_367e22ab28cb4ee482779aba939064f6
 type: Request
-parentId: fld_7c4a08fcb9a24b27bd0a0df89ce1cdb1
-modified: 1628795739566
-created: 1628608358791
-url: "{{ _.base_url }}:{{ _.gilat_ku_balcarce }}/ws/cpeService"
-name: CreateCPE Bifrost
+parentId: fld_2f3ab373b62d4940a7624abd9ab55752
+modified: 1629833906267
+created: 1629833827717
+url: https://192.168.188.8/ws/cpeService
+name: Alta Terminal L3
 description: ""
 method: POST
 body:
   mimeType: ""
   text: "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\r
 
-    \    <SOAP-ENV:Envelope
-    xmlns:SOAP-ENV=\"http://schemas.xmlsoap.org/soap/envelope/\"
-    xmlns:com=\"com.gilat.ngnms.server.services.ws.cfg.face\"
+    <SOAP-ENV:Envelope
+    xmlns:SOAP-ENV=\"http://schemas.xmlsoap.org/soap/envelope/\"\r
+
+    \txmlns:com=\"com.gilat.ngnms.server.services.ws.cfg.face\"
     xmlns:urn=\"urn:com.gilat.ngnms.server.ws.dto.cfg\">\r
 
-    \    <SOAP-ENV:Header />\r
+    \t<SOAP-ENV:Header />\r
 
-    \        <SOAP-ENV:Body>\r
+    \t<SOAP-ENV:Body>\r
 
-    \            <com:createCPE>\r
+    \t\t<com:createCPE>\r
 
     \                <cpe>\r
 
@@ -28,7 +29,7 @@ body:
 
     \                        <managedGroupId>2</managedGroupId>\r
 
-    \                        <subscriberId>1013878</subscriberId>\r
+    \                        <subscriberId>9988</subscriberId>\r
 
     \                    </cpeId>\r
 
@@ -40,13 +41,13 @@ body:
 
     \                    <ipStack>IPV4_ONLY</ipStack>\r
 
-    \                   \r
+    \                 \r
 
-    \                    <slaName>SLA109 128/128 CIR 12/12</slaName>\r
+    \                    <slaName>SLA114 64/64 CIR 16/16</slaName>\r
 
     \                    <rtnClassifierName>RTN_TIWS</rtnClassifierName>\r
 
-    \                    <description>1013878</description>\r
+    \                    <description>PRUEBA9988</description>\r
 
     \                    <authorization>FULL_ACCESS</authorization>\r
 
@@ -62,14 +63,14 @@ body:
 
     \                        <urn:VR>\r
 
-    \                            <vlanId>329</vlanId>\r
+    \                            <vlanId>1539</vlanId>\r
 
     \                            <ipv4>\r
 
-    \                                <subscriberPublicIpAddress>209.13.134.\
-    2</subscriberPublicIpAddress>\r
+    \                                <subscriberPublicIpAddress>99.92.85.10\
+    </subscriberPublicIpAddress>\r
 
-    \                                <ipv4Prefix>30</ipv4Prefix>\r
+    \                                <ipv4Prefix>29</ipv4Prefix>\r
 
     \                                <ipv4Dhcp>ENABLE</ipv4Dhcp>\r
 
@@ -113,7 +114,7 @@ body:
 
     \                            <supportedVRs>\r
 
-    \                                <vlanID>329</vlanID>\r
+    \                                <vlanID>1539</vlanID>\r
 
     \                            </supportedVRs>\r
 
@@ -131,7 +132,7 @@ body:
 
     \                            <supportedVRs>\r
 
-    \                                <vlanID>329</vlanID>\r
+    \                                <vlanID>1539</vlanID>\r
 
     \                            </supportedVRs>\r
 
@@ -149,7 +150,7 @@ body:
 
     \                            <supportedVRs>\r
 
-    \                                <vlanID>329</vlanID>\r
+    \                                <vlanID>1539</vlanID>\r
 
     \                            </supportedVRs>\r
 
@@ -167,7 +168,7 @@ body:
 
     \                            <supportedVRs>\r
 
-    \                                <vlanID>329</vlanID>\r
+    \                                <vlanID>1539</vlanID>\r
 
     \                            </supportedVRs>\r
 
@@ -186,13 +187,12 @@ parameters: []
 headers:
   - name: Content-Type
     value: text/xml
-    id: pair_99ee654d3a204f1e85d9a6804f010bc6
 authentication:
   type: basic
   disabled: false
   username: apis
   password: apis2020
-metaSortKey: -1628608358791
+metaSortKey: -1629833827737.5
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

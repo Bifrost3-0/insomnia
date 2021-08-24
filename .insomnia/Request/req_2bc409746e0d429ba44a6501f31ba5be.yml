@@ -1,10 +1,10 @@
-_id: req_c4b794440fbe4558a2a9787a7ef60bb1
+_id: req_2bc409746e0d429ba44a6501f31ba5be
 type: Request
-parentId: fld_7c4a08fcb9a24b27bd0a0df89ce1cdb1
-modified: 1628795618813
-created: 1628608358798
-url: "{{ _.base_url }}:{{ _.gilat_ku_balcarce }}/reports/reportsWebService12"
-name: GetReports FWD Rx Level
+parentId: fld_1291d5697ccc443a9b83926fc167bacb
+modified: 1629833827736
+created: 1629833827736
+url: https://192.168.188.8/reports/reportsWebService12
+name: GetReports RTN and FWD BB Retrans
 description: ""
 method: POST
 body:
@@ -22,11 +22,12 @@ body:
 
     \            <elementType xmlns=\"\">CPE</elementType>\r
 
-    \            <elementIds xmlns=\"\">88154</elementIds>\r
+    \            <elementIds xmlns=\"\">117584</elementIds>\r
 
     \            <mgId xmlns=\"\">2</mgId>\r
 
-    \            <reportName xmlns=\"\">FWD Rx Level</reportName>\r
+    \            <reportName xmlns=\"\">RTN and FWD BB
+    Retransmissions</reportName>\r
 
     \            <startDate xmlns=\"\">1597245239000</startDate>\r
 
@@ -47,13 +48,12 @@ parameters: []
 headers:
   - name: Content-Type
     value: text/xml
-    id: pair_76da0559dfec429abdb5ce781d0f2237
 authentication:
   type: basic
   disabled: false
   username: apis
   password: apis2020
-metaSortKey: -1628608358798
+metaSortKey: -1629833827736
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

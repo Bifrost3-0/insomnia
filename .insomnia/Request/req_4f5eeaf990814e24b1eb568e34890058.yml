@@ -1,10 +1,10 @@
-_id: req_b4f9eb592b514cca955c5069401a6340
+_id: req_4f5eeaf990814e24b1eb568e34890058
 type: Request
-parentId: fld_7c4a08fcb9a24b27bd0a0df89ce1cdb1
-modified: 1628608621408
-created: 1628608358826
-url: "{{ _.base_url }}:{{ _.gilat_ku_balcarce }}/ws/cpeService"
-name: Get Terminal
+parentId: fld_2f3ab373b62d4940a7624abd9ab55752
+modified: 1629834436945
+created: 1629833827703
+url: https://192.168.188.8/ws/cpeService
+name: Resert Terminal
 description: ""
 method: POST
 body:
@@ -19,15 +19,17 @@ body:
 
     \ <soapenv:Body>       \r
 
-    \ <com:getCPEbyID>          \r
+    \    <com:resetCPE>          \r
 
-    \    <id>             \r
+    \        <id>             \r
 
-    \        <managedGroupId>2</managedGroupId>             \r
+    \            <managedGroupId>2</managedGroupId>             \r
 
-    \        <subscriberId>5460</subscriberId>          \r
+    \            <subscriberId>11221122</subscriberId>          \r
 
-    \    </id>       \r
+    \        </id>       \r
+
+    \    </com:resetCPE> \r
 
     </com:getCPEbyID>    \r
 
@@ -38,13 +40,12 @@ parameters: []
 headers:
   - name: Content-Type
     value: text/xml
-    id: pair_8bde280e8de54d16b4b5b7bfc0c10d36
 authentication:
   type: basic
   disabled: false
   username: apis
   password: apis2020
-metaSortKey: -1628608358826
+metaSortKey: -1629833827724.3906
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

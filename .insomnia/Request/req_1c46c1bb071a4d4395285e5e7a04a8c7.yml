@@ -1,9 +1,9 @@
-_id: req_87619e81912b4540be8cb1e38e80e749
+_id: req_1c46c1bb071a4d4395285e5e7a04a8c7
 type: Request
-parentId: fld_7c4a08fcb9a24b27bd0a0df89ce1cdb1
-modified: 1628795572276
-created: 1628608358802
-url: "{{ _.base_url }}:{{ _.gilat_ku_balcarce }}/reports/reportsWebService12"
+parentId: fld_1291d5697ccc443a9b83926fc167bacb
+modified: 1629833827740
+created: 1629833827740
+url: https://192.168.188.8/reports/reportsWebService12
 name: GetReports RTN Throughput
 description: ""
 method: POST
@@ -47,13 +47,12 @@ parameters: []
 headers:
   - name: Content-Type
     value: text/xml
-    id: pair_b4420edd57c74d269757e1d5204efb0b
 authentication:
   type: basic
   disabled: false
   username: apis
   password: apis2020
-metaSortKey: -1628608358802
+metaSortKey: -1629833827740
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

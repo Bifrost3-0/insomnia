@@ -1,10 +1,10 @@
-_id: req_e68bd3c909a547d88e7dce3b7b20b782
+_id: req_045c4961689f4f578a2b0e93e8c279d5
 type: Request
-parentId: fld_7c4a08fcb9a24b27bd0a0df89ce1cdb1
-modified: 1628795802424
-created: 1628608358785
-url: "{{ _.base_url }}:{{ _.gilat_ku_balcarce }}/ws/cpeService"
-name: modifyCPE IP
+parentId: fld_2f3ab373b62d4940a7624abd9ab55752
+modified: 1629833827686
+created: 1629833827686
+url: https://192.168.188.8/ws/cpeService
+name: Cambiar IP Wan
 description: ""
 method: POST
 body:
@@ -46,13 +46,12 @@ parameters: []
 headers:
   - name: Content-Type
     value: text/xml
-    id: pair_ae864adb79574e258b8c17b62b07ffa2
 authentication:
   type: basic
   disabled: false
   username: apis
   password: apis2020
-metaSortKey: -1628608358785
+metaSortKey: -1629833827686
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

@@ -1,0 +1,80 @@
+_id: req_135e681184e14d91b7905672338c33f5
+type: Request
+parentId: fld_2f3ab373b62d4940a7624abd9ab55752
+modified: 1629834073176
+created: 1629833827722
+url: https://192.168.188.8/ws/cpeService
+name: Add VR Vlan
+description: ""
+method: POST
+body:
+  mimeType: ""
+  text: "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\r
+
+    <soapenv:Envelope \r
+
+    xmlns:soapenv=\"http://schemas.xmlsoap.org/soap/envelope/\" \r
+
+    xmlns:com=\"com.gilat.ngnms.server.services.ws.cfg.face\">    \r
+
+    <soapenv:Header/>    \r
+
+    <soapenv:Body>      \r
+
+    <com:cpeAddVR>          \r
+
+    \    <cpeId>             \r
+
+    \        <managedGroupId>2</managedGroupId>             \r
+
+    \        <subscriberId>5</subscriberId>          \r
+
+    \    </cpeId>          \r
+
+    \    <vr>             \r
+
+    \        <vlanId>4000</vlanId>             \r
+
+    \        <ipv4>             \r
+
+    \            <subscriberPublicIpAddress>10.10.0.0</subscriberPublicIpAd\
+    dress>                \r
+
+    \            <ipv4Prefix>24</ipv4Prefix>                \r
+
+    \            <ipv4Dhcp>DISABLE</ipv4Dhcp>             \r
+
+    \        </ipv4>         \r
+
+    \        <ipv6> \r
+
+    \            <subscriberPublicIPv6Address></subscriberPublicIPv6Address\
+    >             \r
+
+    \        </ipv6>          \r
+
+    \    </vr>       \r
+
+    </com:cpeAddVR>    \r
+
+    </soapenv:Body> \r
+
+    </soapenv:Envelope>"
+parameters: []
+headers:
+  - name: Content-Type
+    value: text/xml
+    id: pair_58aba8681e1948e2801cb32786518193
+authentication:
+  type: basic
+  disabled: false
+  username: apis
+  password: apis2020
+metaSortKey: -1629833827685
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
