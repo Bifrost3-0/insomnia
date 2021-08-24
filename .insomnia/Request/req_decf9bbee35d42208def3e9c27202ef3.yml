@@ -1,0 +1,425 @@
+_id: req_decf9bbee35d42208def3e9c27202ef3
+type: Request
+parentId: fld_97dbf942020f44deadb60f489ddf2dfe
+modified: 1629847725024
+created: 1629847656428
+url: http://192.168.36.50:81/api/v1/evo/config/obj/remote
+name: CREAR TERMINAL LIMA
+description: ""
+method: POST
+body:
+  mimeType: ""
+  text: "{\r
+
+    \      \"Name\": \"LURIDI01NET15-CD=prueba2408\",\r
+
+    \      \"SN\": \"24081\",\r
+
+    \      \"ModelType\": \"X1\",\r
+
+    \      \"InrouteGroupID\": \"10\",\r
+
+    \      \"NetworkID\": \"8\",\r
+
+    \      \"Active\": true,\r
+
+    \      \"UpCIR\": \"32\",\r
+
+    \      \"UpMIR\": \"64\",\r
+
+    \      \"UpMIN\": \"0\",\r
+
+    \      \"DownCIR\": \"32\",\r
+
+    \      \"DownMIR\": \"64\",\r
+
+    \      \"IsMobile\": \"0\",\r
+
+    \      \"TXPower\": \"-18\",\r
+
+    \      \"Lat\": \"-34.2323\",\r
+
+    \      \"Lon\": \"-45.656544\",\r
+
+    \      \"SymbolRate\": \"550\",\r
+
+    \      \"MODCOD\": \"QPSK2/3\",\r
+
+    \      \"InitialPower\": \"-18\",\r
+
+    \      \"MaxPower\": \"-17\",\r
+
+    \      \"IsRoaming\": \"0\",\r
+
+    \      \"MgmtIPAddress\": \"10.202.128.193\",\r
+
+    \      \"MgmtSubnetMask\": \"255.255.255.248\",\r
+
+    \      \"MgmtGateway\": \"\",\r
+
+    \      \"LanIPAddress\": \"100.75.30.65\",\r
+
+    \      \"LanSubnetMask\": \"255.255.255.224\",\r
+
+    \      \"LanGateway\": \"\",\r
+
+    \      \"ID\": \"\",\r
+
+    \      \"DID\": \"\",\r
+
+    \      \"RXCarrierID\": \"\",\r
+
+    \      \"TXCarrierID\": \"-1\",\r
+
+    \      \"TCPCompression\": \"\",\r
+
+    \      \"UDPHdrCompression\": \"\",\r
+
+    \      \"UDPCompression\": \"\",\r
+
+    \      \"LinkEncryption\": \"\",\r
+
+    \      \"CRTP\": \"\",\r
+
+    \      \"AntennaID\": \"\",\r
+
+    \      \"AntennaTxHandshake\": \"\",\r
+
+    \      \"IsSCPC\": \"\",\r
+
+    \      \"SCPCPeerID\": \"\",\r
+
+    \      \"SpreadingFactor\": \"\",\r
+
+    \      \"PayloadSize\": \"170\",\r
+
+    \      \"1DB\": \"-21\",\r
+
+    \      \"TxFreq\": \"\",\r
+
+    \      \"RxFreq\": \"\",\r
+
+    \      \"DSAllocRelToCIR\": \"0\",\r
+
+    \      \"NominalMODCOD\": \"QPSK-4/5\",\r
+
+    \      \"MaxMODCOD\": \"16APSK-8/9\",\r
+
+    \      \"USAllocRelToCIR\": \"0\",\r
+
+    \      \"AdminPassword\": \"P@55w0rd!\",\r
+
+    \      \"UserPassword\": \"iDirect\",\r
+
+    \      \"L2oS\": {\r
+
+    \        \"SDT\": 1,\r
+
+    \        \"Ethertype1\": \"0x8100\",\r
+
+    \        \"Ethertype2\": \"\",\r
+
+    \        \"BFD\": false,\r
+
+    \        \"Compression\": 0,\r
+
+    \        \"HeaderCompression\": {\r
+
+    \          \"CompressionType\": \"Disable\",\r
+
+    \          \"Profiles\": []\r
+
+    \        },\r
+
+    \        \"MTU\": 1540\r
+
+    \      },\r
+
+    \      \"Customer\": {\r
+
+    \        \"Name\": \"\",\r
+
+    \        \"Phone\": \"\",\r
+
+    \        \"CommissionDate\": \"\",\r
+
+    \        \"ContractNumber\": \"\",\r
+
+    \        \"SiteNotes\": \"\"\r
+
+    \      },\r
+
+    \      \"CustomKeys\": {\r
+
+    \        \"HubSide\": \"\",\r
+
+    \        \"RemoteSide\": \"\"\r
+
+    \      },\r
+
+    \      \"VLans\": [\r
+
+    \        {\r
+
+    \          \"VLanID\": 1,\r
+
+    \          \"ETH0IPAddress\": \"100.75.30.65\",\r
+
+    \          \"ETH0SubnetMask\": \"255.255.255.224\",\r
+
+    \          \"SAT0IPAddress\": \"10.202.128.193\",\r
+
+    \          \"SAT0SubnetMask\": \"255.255.255.248\",\r
+
+    \          \"ETH0RIPv2\": \"0\",\r
+
+    \          \"SAT0RIPv2\": \"0\",\r
+
+    \          \"NAT\": \"0\",\r
+
+    \          \"DHCP\": \"\",\r
+
+    \          \"DNS\": \"\",\r
+
+    \          \"StaticRoutes\": [\r
+
+    \            {\r
+
+    \              \"ID\": \"1\",\r
+
+    \              \"IPAddress\": \"0.0.0.0\",\r
+
+    \              \"SubnetMask\": \"0.0.0.0\",\r
+
+    \              \"Gateway\": \"0.0.0.0\",\r
+
+    \              \"Interface\": \"sat0\",\r
+
+    \              \"Cost\": 1\r
+
+    \            }\r
+
+    \          ]\r
+
+    \        },\r
+
+    \        {\r
+
+    \          \"VLanID\": 110,\r
+
+    \          \"ETH0IPAddress\": \"100.75.30.65\",\r
+
+    \          \"ETH0SubnetMask\": \"255.255.255.224\",\r
+
+    \          \"SAT0IPAddress\": \"10.202.128.193\",\r
+
+    \          \"SAT0SubnetMask\": \"255.255.255.248\",\r
+
+    \          \"ETH0RIPv2\": 0,\r
+
+    \          \"SAT0RIPv2\": \"0\",\r
+
+    \          \"NAT\": \"0\",\r
+
+    \          \"DHCP\": {\r
+
+    \            \"DhcpID\": \"\",\r
+
+    \            \"DhcpMode\": \"1\",\r
+
+    \            \"LeaseSeconds\": \"43200\",\r
+
+    \            \"PrimaryDnsAddr\": \"8.8.8.8\",\r
+
+    \            \"SecondaryDnsAddr\": \"0.0.0.0\",\r
+
+    \            \"DefaultGwAddr\": \"100.75.30.65\",\r
+
+    \            \"RelayServer\": \"0.0.0.0\",\r
+
+    \            \"ClientAddrRanges\": [\r
+
+    \              {\r
+
+    \                \"StartAddr\": \"100.75.30.66\",\r
+
+    \                \"EndAddr\": \"100.75.30.121\"\r
+
+    \              }\r
+
+    \            ]\r
+
+    \          },\r
+
+    \          \"DNS\": \"\",\r
+
+    \          \"StaticRoutes\": [\r
+
+    \            {\r
+
+    \              \"Cost\": 1,\r
+
+    \              \"Gateway\": \"0.0.0.0\",\r
+
+    \              \"IPAddress\": \"0.0.0.0\",\r
+
+    \              \"Interface\": \"sat0\",\r
+
+    \              \"SubnetMask\": \"0.0.0.0\"\r
+
+    \            }\r
+
+    \          ]\r
+
+    \        }\r
+
+    \      ],\r
+
+    \      \"RemoteQOS\": {\r
+
+    \        \"DSQOS\": {\r
+
+    \          \"QOSGroupType\": \"RemoteServiceGroup\",\r
+
+    \          \"FilterProfileID\": 4,\r
+
+    \          \"ServiceGroupID\": 1319,\r
+
+    \          \"ServiceProfileID\": 10,\r
+
+    \          \"MCServiceProfileID\": \"0\"\r
+
+    \        },\r
+
+    \        \"DSRateShaping\": {\r
+
+    \          \"EnableMaxIR\": \"1\",\r
+
+    \          \"MaxIR\": 1024,\r
+
+    \          \"EnableCIR\": \"1\",\r
+
+    \          \"CIR\": 102.4,\r
+
+    \          \"Priority\": \"Cost Based\",\r
+
+    \          \"Cost\": \"1\",\r
+
+    \          \"EnableEIR\": \"0\",\r
+
+    \          \"MinMODCOD\": \"QPSK-2/3\"\r
+
+    \        },\r
+
+    \        \"DSDistributor\": {\r
+
+    \          \"Enabled\": \"1\",\r
+
+    \          \"SegmentSize\": 70\r
+
+    \        },\r
+
+    \        \"USAdaptive\": {\r
+
+    \          \"EnableMaxImpairment\": \"0\",\r
+
+    \          \"MaxImpairment\": \"0\",\r
+
+    \          \"MinSymrate\": \"0\",\r
+
+    \          \"MaxCN\": 25\r
+
+    \        },\r
+
+    \        \"USQOS\": {\r
+
+    \          \"QOSGroupType\": \"RemoteServiceGroup\",\r
+
+    \          \"FilterProfileID\": 3,\r
+
+    \          \"ServiceGroupID\": 1346,\r
+
+    \          \"ServiceProfileID\": 3,\r
+
+    \          \"MCServiceProfileID\": \"0\"\r
+
+    \        },\r
+
+    \        \"USRateShaping\": {\r
+
+    \          \"EnableMaxIR\": \"1\",\r
+
+    \          \"MaxIR\": 512,\r
+
+    \          \"EnableCIR\": \"1\",\r
+
+    \          \"CIR\": 51.2,\r
+
+    \          \"Priority\": \"Cost Based\",\r
+
+    \          \"Cost\": \"1\",\r
+
+    \          \"EnableMinIR\": \"0\",\r
+
+    \          \"MinIR\": \"0\",\r
+
+    \          \"EnableEIR\": \"0\",\r
+
+    \          \"NinMODCOD\": \"N/A\"\r
+
+    \        },\r
+
+    \        \"USDistributor\": {\r
+
+    \          \"Enabled\": \"1\",\r
+
+    \          \"SegmentSize\": \"70\"\r
+
+    \        },\r
+
+    \        \"IdleDormant\": {\r
+
+    \          \"Enabled\": 0,\r
+
+    \          \"IdleSlotsEvery\": 16,\r
+
+    \          \"DormantSlotsEvery\": 32,\r
+
+    \          \"IdleSTimeout\": 120,\r
+
+    \          \"DormantTimeout\": 180\r
+
+    \        }\r
+
+    \      },\r
+
+    \      \"AntennaComponents\": {\r
+
+    \        \"BUCID\": 12,\r
+
+    \        \"LNBIDs\": [\r
+
+    \          3\r
+
+    \        ]\r
+
+    \      }\r
+
+    \    }"
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication:
+  type: basic
+  disabled: false
+  username: systemapi
+  password: tiws2019
+metaSortKey: -1629847656428
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
