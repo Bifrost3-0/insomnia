@@ -1,0 +1,54 @@
+_id: req_7f83e02640af43abb9a4e8352b7a8f1d
+type: Request
+parentId: fld_7c4a08fcb9a24b27bd0a0df89ce1cdb1
+modified: 1628793626145
+created: 1628608358824
+url: "{{ _.base_url }}:{{ _.gilat_ku_balcarce }}/ws/cpeService"
+name: Get Static Route
+description: ""
+method: POST
+body:
+  mimeType: ""
+  text: "<soapenv:Envelope
+    xmlns:soapenv=\"http://schemas.xmlsoap.org/soap/envelope/\"
+    xmlns:com=\"com.gilat.ngnms.server.services.ws.cfg.face\">    \r
+
+    <soapenv:Header/>    \r
+
+    \ <soapenv:Body>       \r
+
+    \    <com:getCPEStaticRouteIPv4>          \r
+
+    \        <cpeId>             \r
+
+    \            <managedGroupId>2</managedGroupId>             \r
+
+    \            <subscriberId>88154</subscriberId>          \r
+
+    \        </cpeId>          \r
+
+    \        <vlanId>1550</vlanId>       \r
+
+    \    </com:getCPEStaticRouteIPv4>    \r
+
+    </soapenv:Body> \r
+
+    </soapenv:Envelope> "
+parameters: []
+headers:
+  - name: Content-Type
+    value: text/xml
+    id: pair_6e1846bedca245528cf9a467c72cdce5
+authentication:
+  type: basic
+  disabled: false
+  username: apis
+  password: apis2020
+metaSortKey: -1628608358827.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
