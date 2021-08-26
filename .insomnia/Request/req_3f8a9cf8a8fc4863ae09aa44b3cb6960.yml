@@ -1,0 +1,124 @@
+_id: req_3f8a9cf8a8fc4863ae09aa44b3cb6960
+type: Request
+parentId: fld_7c4a08fcb9a24b27bd0a0df89ce1cdb1
+modified: 1628793493141
+created: 1628608358823
+url: "{{ _.base_url }}:{{ _.gilat_ku_balcarce }}/ws/cpeService"
+name: Alta de Terminal
+description: ""
+method: POST
+body:
+  mimeType: ""
+  text: "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\r
+
+    \    <SOAP-ENV:Envelope
+    xmlns:SOAP-ENV=\"http://schemas.xmlsoap.org/soap/envelope/\"
+    xmlns:com=\"com.gilat.ngnms.server.services.ws.cfg.face\"
+    xmlns:urn=\"urn:com.gilat.ngnms.server.ws.dto.cfg\">\r
+
+    \    <SOAP-ENV:Header />\r
+
+    \        <SOAP-ENV:Body>\r
+
+    \            <com:createCPE>\r
+
+    \                <cpe>\r
+
+    \                    <cpeId>\r
+
+    \                        <managedGroupId>2</managedGroupId>\r
+
+    \                        <subscriberId>1007713</subscriberId>\r
+
+    \                    </cpeId>\r
+
+    \                    <getMacFromCPE>ENABLE</getMacFromCPE>\r
+
+    \                    <clusterCode>091A</clusterCode>\r
+
+    \                    <platform>Gemini-4 S2X</platform>\r
+
+    \                    <ipStack>IPV4_ONLY</ipStack>\r
+
+    \                   \r
+
+    \                    <slaName>SLA52 512/512 CIR 179/179</slaName>\r
+
+    \                    <description>Pruebita1007713</description>\r
+
+    \                    <authorization>FULL_ACCESS</authorization>\r
+
+    \                    <dataAuthorization>AUTHORIZED</dataAuthorization>\r
+
+    \                    <ipAddressing>ROUTER</ipAddressing>\r
+
+    \                    <provStatus>FULL_ACCESS</provStatus>\r
+
+    \                    <nicMode>Access</nicMode>\r
+
+    \                    <configuredClusterCode>91</configuredClusterCode>\r
+
+    \                    <vrs>\r
+
+    \                        <urn:VR>\r
+
+    \                            <vlanId>298</vlanId>\r
+
+    \                            <ipv4>\r
+
+    \                                <subscriberPublicIpAddress>180.198.16.\
+    113</subscriberPublicIpAddress>\r
+
+    \                                <ipv4Prefix>30</ipv4Prefix>\r
+
+    \                                <ipv4Dhcp>ENABLE</ipv4Dhcp>\r
+
+    \                                <configureDhcpParameters>false</config\
+    ureDhcpParameters>\r
+
+    \                                <overrideIPv4ConnectivityMode>false</o\
+    verrideIPv4ConnectivityMode>\r
+
+    \                            </ipv4>\r
+
+    \                            <ipv4DynamicRoute>\r
+
+    \                            <satelliteRIPv2>ADVERTISE</satelliteRIPv2>\
+    \r
+
+    \                            <lanRIPv2>DISABLE</lanRIPv2>\r
+
+    \                            <advertiseDGtoLAN>NEVER</advertiseDGtoLAN>\
+    \r
+
+    \                            </ipv4DynamicRoute>\r
+
+    \                        </urn:VR>\r
+
+    \                    </vrs>\r
+
+    \                </cpe>\r
+
+    \            </com:createCPE>\r
+
+    \        </SOAP-ENV:Body>\r
+
+    \    </SOAP-ENV:Envelope>"
+parameters: []
+headers:
+  - name: Content-Type
+    value: text/xml
+    id: pair_7ea26dca34e54641bbd5fd362bd1ebe8
+authentication:
+  type: basic
+  disabled: false
+  username: apis
+  password: apis2020
+metaSortKey: -1628608358823
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

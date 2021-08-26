@@ -1,22 +1,27 @@
-_id: req_74c98f11baae45edb1c1d911c9a3c177
+_id: req_f4f5e28539434ed1a85e197e2ff6d222
 type: Request
 parentId: fld_c7360f7efe1e4775b80047d5e7b37eb5
-modified: 1629842960858
-created: 1628565293470
+modified: 1629843602791
+created: 1629839609492
 url: "{{ _.base_url }}:{{ _.idirectarg_platform }}/api/v1/evo/config/obj/remote"
-name: ListarTerminales
+name: CREAR TERMINAL IDIRECT ARGENTINA MULTIVLAN
 description: ""
-method: GET
-body: {}
+method: POST
+body:
+  mimeType: application/json
+  text: '"1"'
 parameters: []
-headers: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_5772e08718d24b66abd30e3e37f5d48d
 authentication:
   type: basic
   useISO88591: false
   disabled: false
   username: systemapi
   password: tiws2019
-metaSortKey: -1628603550172
+metaSortKey: -1629839609492
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

@@ -1,0 +1,54 @@
+_id: req_b4f9eb592b514cca955c5069401a6340
+type: Request
+parentId: fld_7c4a08fcb9a24b27bd0a0df89ce1cdb1
+modified: 1628608621408
+created: 1628608358826
+url: "{{ _.base_url }}:{{ _.gilat_ku_balcarce }}/ws/cpeService"
+name: Get Terminal
+description: ""
+method: POST
+body:
+  mimeType: ""
+  text: "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\r
+
+    <soapenv:Envelope
+    xmlns:soapenv=\"http://schemas.xmlsoap.org/soap/envelope/\"
+    xmlns:com=\"com.gilat.ngnms.server.services.ws.cfg.face\">   \r
+
+    \ <soapenv:Header/>    \r
+
+    \ <soapenv:Body>       \r
+
+    \ <com:getCPEbyID>          \r
+
+    \    <id>             \r
+
+    \        <managedGroupId>2</managedGroupId>             \r
+
+    \        <subscriberId>5460</subscriberId>          \r
+
+    \    </id>       \r
+
+    </com:getCPEbyID>    \r
+
+    </soapenv:Body> \r
+
+    </soapenv:Envelope>\r\n"
+parameters: []
+headers:
+  - name: Content-Type
+    value: text/xml
+    id: pair_8bde280e8de54d16b4b5b7bfc0c10d36
+authentication:
+  type: basic
+  disabled: false
+  username: apis
+  password: apis2020
+metaSortKey: -1628608358826
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,50 @@
+_id: req_d964e996472443b2b43e617d199f16f0
+type: Request
+parentId: fld_7c4a08fcb9a24b27bd0a0df89ce1cdb1
+modified: 1628795372410
+created: 1628608358805
+url: "{{ _.base_url }}:{{ _.gilat_ku_balcarce }}/ws/cpeService"
+name: GetCPEsByManagedGroup - Pulleo
+description: ""
+method: POST
+body:
+  mimeType: ""
+  text: "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\r
+
+    \    <soapenv:Envelope
+    xmlns:soapenv=\"http://schemas.xmlsoap.org/soap/envelope/\"
+    xmlns:com=\"com.gilat.ngnms.server.services.ws.cfg.face\">   \r
+
+    \    <soapenv:Header/>    \r
+
+    \    <soapenv:Body>       \r
+
+    \    <com:getCPEsByManagedGroup>          \r
+
+    \        <managedGroupId>2</managedGroupId>          \r
+
+    \        <lastIndex>100</lastIndex>       \r
+
+    \    </com:getCPEsByManagedGroup>    \r
+
+    \    </soapenv:Body> \r
+
+    \    </soapenv:Envelope> "
+parameters: []
+headers:
+  - name: Content-Type
+    value: text/xml
+    id: pair_f098c727095344ddae091e7e248d8b5d
+authentication:
+  type: basic
+  disabled: false
+  username: apis
+  password: apis2020
+metaSortKey: -1628608358805
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

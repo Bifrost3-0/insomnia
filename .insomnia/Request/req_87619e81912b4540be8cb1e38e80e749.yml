@@ -1,0 +1,63 @@
+_id: req_87619e81912b4540be8cb1e38e80e749
+type: Request
+parentId: fld_7c4a08fcb9a24b27bd0a0df89ce1cdb1
+modified: 1628795572276
+created: 1628608358802
+url: "{{ _.base_url }}:{{ _.gilat_ku_balcarce }}/reports/reportsWebService12"
+name: GetReports RTN Throughput
+description: ""
+method: POST
+body:
+  mimeType: ""
+  text: "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\r
+
+    <soap:Envelope xmlns:soap=\"http://www.w3.org/2003/05/soap-envelope\"
+    xmlns:com=\"com.gilat.ngnms.reports.ws.face\">\r
+
+    \   <soap:Header/>\r
+
+    \   <soap:Body>\r
+
+    \      <com:getReports>\r
+
+    \            <elementType xmlns=\"\">CPE</elementType>\r
+
+    \            <elementIds xmlns=\"\">117584</elementIds>\r
+
+    \            <mgId xmlns=\"\">2</mgId>\r
+
+    \            <reportName xmlns=\"\">RTN Throughput</reportName>\r
+
+    \            <startDate xmlns=\"\">1610312502</startDate>\r
+
+    \            <endDate xmlns=\"\">1611867702</endDate>\r
+
+    \            <resolution xmlns=\"\">FM</resolution>\r
+
+    \        </com:getReports>\r
+
+    \   </soap:Body>\r
+
+    </soap:Envelope>\r
+
+    \r
+
+    \ "
+parameters: []
+headers:
+  - name: Content-Type
+    value: text/xml
+    id: pair_b4420edd57c74d269757e1d5204efb0b
+authentication:
+  type: basic
+  disabled: false
+  username: apis
+  password: apis2020
+metaSortKey: -1628608358802
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

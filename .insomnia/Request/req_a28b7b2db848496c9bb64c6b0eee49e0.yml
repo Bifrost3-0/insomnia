@@ -1,0 +1,114 @@
+_id: req_a28b7b2db848496c9bb64c6b0eee49e0
+type: Request
+parentId: fld_7c4a08fcb9a24b27bd0a0df89ce1cdb1
+modified: 1628795132756
+created: 1628608358817
+url: "{{ _.base_url }}:{{ _.gilat_ku_balcarce }}/ws/cpeService"
+name: Alta Terminal VPN
+description: ""
+method: POST
+body:
+  mimeType: ""
+  text: >-
+    <?xml version="1.0" encoding="UTF-8"?>
+        <SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:com="com.gilat.ngnms.server.services.ws.cfg.face" xmlns:urn="urn:com.gilat.ngnms.server.ws.dto.cfg">
+        <SOAP-ENV:Header />
+            <SOAP-ENV:Body>
+                <com:createCPE>
+                    <cpe>
+                        <cpeId>
+                            <managedGroupId>2</managedGroupId>
+                            <subscriberId>8</subscriberId>
+                        </cpeId>
+                        <getMacFromCPE>ENABLE</getMacFromCPE>
+                        <clusterCode>091A</clusterCode>
+                        <platform>Gemini-4 S2X</platform>
+                        <ipStack>IPV4_ONLY</ipStack>
+                       
+                        <slaName>SLA63 256/256 CIR 128/128</slaName>
+    									  <rtnClassifierName>RTN_TIWS</rtnClassifierName>  
+    									  <description>Pruebita6</description>
+                        
+                        <authorization>FULL_ACCESS</authorization>
+                        <dataAuthorization>AUTHORIZED</dataAuthorization>
+                        <ipAddressing>ROUTER</ipAddressing>
+                        <provStatus>FULL_ACCESS</provStatus>
+                        
+                        <vrs>
+                            <urn:VR>
+                                <vlanId>52</vlanId>
+                                <ipv4>
+                                    <subscriberPublicIpAddress>10.0.0.7</subscriberPublicIpAddress>
+                                    <ipv4Prefix>30</ipv4Prefix>
+                                    <ipv4Dhcp>ENABLE</ipv4Dhcp>
+                                    <configureDhcpParameters>false</configureDhcpParameters>
+                                    <overrideIPv4ConnectivityMode>false</overrideIPv4ConnectivityMode>
+                                </ipv4>
+                                <ipv4DynamicRoute>
+                                <satelliteRIPv2>ADVERTISE</satelliteRIPv2>
+                                <lanRIPv2>DISABLE</lanRIPv2>
+                                <advertiseDGtoLAN>NEVER</advertiseDGtoLAN>
+                                </ipv4DynamicRoute>
+                            </urn:VR>
+                        </vrs>
+                                     
+                        <physPorts>
+                            <urn:PhysicalPort> 
+                                <id>1</id>
+                                <name>port-1</name>
+                                <portStatus>ENABLE</portStatus>
+                                <nicMode>Access</nicMode>
+                                <supportedVRs>
+                                    <vlanID>52</vlanID>
+                                </supportedVRs>
+                            </urn:PhysicalPort> 
+                            <urn:PhysicalPort>
+                                <id>2</id>
+                                <name>port-2</name>
+                                <portStatus>ENABLE</portStatus>
+                                <nicMode>Trunk</nicMode>
+                                <supportedVRs>
+                                    <vlanID>52</vlanID>
+                                </supportedVRs>
+                            </urn:PhysicalPort> 
+                            <urn:PhysicalPort>
+                                <id>3</id>
+                                <name>port-3</name>
+                                <portStatus>ENABLE</portStatus>
+                                <nicMode>Trunk</nicMode>
+                                <supportedVRs>
+                                    <vlanID>52</vlanID>
+                                </supportedVRs>
+                            </urn:PhysicalPort> 
+                            <urn:PhysicalPort>
+                                <id>4</id>
+                                <name>port-4</name>
+                                <portStatus>ENABLE</portStatus>
+                                <nicMode>Trunk</nicMode>
+                                <supportedVRs>
+                                    <vlanID>52</vlanID>
+                                </supportedVRs>
+                            </urn:PhysicalPort> 
+                        </physPorts>
+                    </cpe>
+                </com:createCPE>
+            </SOAP-ENV:Body>
+        </SOAP-ENV:Envelope>
+parameters: []
+headers:
+  - name: Content-Type
+    value: text/xml
+    id: pair_857f2bc0a86d44e0aac6635aa083c02d
+authentication:
+  type: basic
+  disabled: false
+  username: apis
+  password: apis2020
+metaSortKey: -1628608358822
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

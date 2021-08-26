@@ -1,9 +1,9 @@
 _id: req_0d039e6336514e32842c9f65f3923ddc
 type: Request
-parentId: fld_68998cd3cf994e0183766d91c731374d
-modified: 1629478165822
+parentId: wrk_7c28e35996214fcabe68cfd78f898499
+modified: 1629842837008
 created: 1629478165822
-url: https://172.16.8.3:443/api/v1/evo/config/obj/lnb
+url: "{{ _.base_url }}:{{ _.idirectarg_platform }}/api/v1/evo/config/obj/lnb"
 name: https://172.16.8.3:443/api/v1/evo/config/obj/lnb
 description: ""
 method: GET
@@ -15,7 +15,7 @@ authentication:
   disabled: false
   username: systemapi
   password: tiws2019
-metaSortKey: -1629478165822
+metaSortKey: -1628574166010.25
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true
