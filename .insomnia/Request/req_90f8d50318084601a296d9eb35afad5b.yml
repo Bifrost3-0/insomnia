@@ -1,0 +1,31 @@
+_id: req_90f8d50318084601a296d9eb35afad5b
+type: Request
+parentId: fld_8b0356c714f5411694952d6c54d102ea
+modified: 1630085595038
+created: 1630085281279
+url: https://kongadmin.bifrost.pe/services/openfaas/routes
+name: Create route
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+        "paths":["/"],
+        "methods":["POST"],
+    		"strip_path":false
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_3be00b1667ce468587f4f2665ee5a426
+authentication: {}
+metaSortKey: -1630085281279
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

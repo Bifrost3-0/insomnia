@@ -1,0 +1,21 @@
+_id: req_35b7046b9f354bfc9696da973c3db687
+type: Request
+parentId: fld_8b0356c714f5411694952d6c54d102ea
+modified: 1630085427057
+created: 1630085389518
+url: https://kong.bifrost.pe/fredy2
+name: Use function
+description: ""
+method: POST
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1630085389518
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
