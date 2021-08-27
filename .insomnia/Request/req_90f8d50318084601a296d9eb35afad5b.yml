@@ -1,7 +1,7 @@
 _id: req_90f8d50318084601a296d9eb35afad5b
 type: Request
 parentId: fld_8b0356c714f5411694952d6c54d102ea
-modified: 1630085595038
+modified: 1630086968654
 created: 1630085281279
 url: https://kongadmin.bifrost.pe/services/openfaas/routes
 name: Create route
@@ -12,7 +12,7 @@ body:
   text: |-
     {
         "paths":["/"],
-        "methods":["POST"],
+        "methods":["POST","OPTIONS"],
     		"strip_path":false
     }
 parameters: []
