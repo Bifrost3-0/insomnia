@@ -1,10 +1,11 @@
-_id: req_ecc6b169d21e41e7b5d51d2a6d2afd41
+_id: req_2eef745cf987465c8296852d0fad5f8f
 type: Request
-parentId: fld_c7360f7efe1e4775b80047d5e7b37eb5
-modified: 1630602692427
-created: 1629839686366
-url: :{{ _.idirectarg_platform }}/api/v1/evo/config/obj/remote/NMSID
-name: update multivlan
+parentId: fld_97dbf942020f44deadb60f489ddf2dfe
+modified: 1630603417579
+created: 1630603261337
+url: "{{ _.base_url }}:{{ _.idirectlima_platform
+  }}/api/v1/evo/config/obj/remote/NMSID"
+name: UPDATE TERMINAL_A_LIMA
 description: ""
 method: PATCH
 body:
@@ -15,14 +16,14 @@ parameters: []
 headers:
   - name: Content-Type
     value: application/json
-    id: pair_b35cf807acd64b9eb93fe5e08331201e
+    id: pair_d3cc72c442f04a789ebee17683b17d06
 authentication:
   type: basic
   useISO88591: false
   disabled: false
   username: systemapi
   password: tiws2019
-metaSortKey: -1629839686366
+metaSortKey: -1629847656253
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

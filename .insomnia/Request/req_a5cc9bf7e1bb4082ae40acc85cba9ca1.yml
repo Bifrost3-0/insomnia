@@ -1,0 +1,32 @@
+_id: req_a5cc9bf7e1bb4082ae40acc85cba9ca1
+type: Request
+parentId: fld_97dbf942020f44deadb60f489ddf2dfe
+modified: 1630603450781
+created: 1630603294288
+url: "{{ _.base_url }}:{{ _.idirectlima_platform
+  }}/api/v1/evo/config/obj/remote/NMSID"
+name: SWAP_ IDIRECT LIMA
+description: ""
+method: PATCH
+body:
+  mimeType: application/json
+  text: '{"SN":"requestsn","ModelType":"requestmodel"}'
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_77ba5d4dbcb340b6abbbe0cf2a8c670f
+authentication:
+  type: basic
+  useISO88591: false
+  disabled: false
+  username: systemapi
+  password: tiws2019
+metaSortKey: -1629847656078
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,21 +1,23 @@
-_id: req_0d039e6336514e32842c9f65f3923ddc
+_id: req_4ec808a57cb44889a7ba89366feb6da4
 type: Request
-parentId: fld_68998cd3cf994e0183766d91c731374d
-modified: 1630603643141
-created: 1629478165822
-url: "{{ _.base_url }}:{{ _.idirectarg_platform }}/api/v1/evo/config/obj/lnb"
-name: LISTAR LNB ARG
+parentId: fld_97dbf942020f44deadb60f489ddf2dfe
+modified: 1630603396851
+created: 1630603236346
+url: "{{ _.base_url }}:{{ _.idirectlima_platform
+  }}/api/v1/evo/config/obj/remote/936"
+name: DELETE TERMINAL IDIRECT LIMA
 description: ""
-method: GET
+method: DELETE
 body: {}
 parameters: []
 headers: []
 authentication:
   type: basic
+  useISO88591: false
   disabled: false
   username: systemapi
   password: tiws2019
-metaSortKey: -1628593725374.75
+metaSortKey: -1629847656278
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true
