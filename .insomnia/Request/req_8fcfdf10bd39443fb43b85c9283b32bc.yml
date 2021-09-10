@@ -1,0 +1,31 @@
+_id: req_8fcfdf10bd39443fb43b85c9283b32bc
+type: Request
+parentId: fld_97dbf942020f44deadb60f489ddf2dfe
+modified: 1630603163989
+created: 1630603079678
+url: "{{ _.base_url }}:{{ _.idirectlima_platform }}/api/v1/evo/config/obj/remote"
+name: CREAR TERMINAL IDIRECT LIMA MULTIVLAN
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: '"1"'
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_5772e08718d24b66abd30e3e37f5d48d
+authentication:
+  type: basic
+  useISO88591: false
+  disabled: false
+  username: systemapi
+  password: tiws2019
+metaSortKey: -1629847656328
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

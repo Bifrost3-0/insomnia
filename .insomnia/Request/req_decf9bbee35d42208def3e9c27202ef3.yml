@@ -1,9 +1,9 @@
 _id: req_decf9bbee35d42208def3e9c27202ef3
 type: Request
 parentId: fld_97dbf942020f44deadb60f489ddf2dfe
-modified: 1629847725024
+modified: 1630602861820
 created: 1629847656428
-url: http://192.168.36.50:81/api/v1/evo/config/obj/remote
+url: "{{ _.base_url }}:{{ _.idirectlima_platform }}/api/v1/evo/config/obj/remote"
 name: CREAR TERMINAL LIMA
 description: ""
 method: POST
@@ -410,6 +410,7 @@ parameters: []
 headers:
   - name: Content-Type
     value: application/json
+    id: pair_153c5800ad2d46f7b2297c457b766454
 authentication:
   type: basic
   disabled: false

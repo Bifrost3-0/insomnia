@@ -1,10 +1,10 @@
 _id: req_74c98f11baae45edb1c1d911c9a3c177
 type: Request
 parentId: fld_c7360f7efe1e4775b80047d5e7b37eb5
-modified: 1629842960858
+modified: 1629847883726
 created: 1628565293470
 url: "{{ _.base_url }}:{{ _.idirectarg_platform }}/api/v1/evo/config/obj/remote"
-name: ListarTerminales
+name: ListarTerminales IDIRECT ARG
 description: ""
 method: GET
 body: {}
