@@ -1,17 +1,17 @@
-_id: req_930e7cb99900480e930f92968c1618ea
+_id: req_8bdee251073940e290fbbd322e08eb88
 type: Request
 parentId: fld_555a631248b340bca083a9a3ce70f93f
-modified: 1631311334164
-created: 1631297136248
-url: https://kong.bifrost.pe/presale-listcontracts
-name: Test listAllContracts
+modified: 1631395526981
+created: 1631395512854
+url: https://kong.bifrost.pe/presale-listclients
+name: Test listAllClients
 description: ""
 method: GET
 body: {}
 parameters: []
 headers: []
 authentication: {}
-metaSortKey: -1631297136248
+metaSortKey: -1631395512854
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true
