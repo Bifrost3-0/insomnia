@@ -1,0 +1,33 @@
+_id: req_4ec02bc02871421587881f004e5f60cd
+type: Request
+parentId: fld_22d4ad56946046588d3abf642f6a9c32
+modified: 1631550482792
+created: 1631550482792
+url: "{{ _.base_url }}:{{ _.idirectarg_platform
+  }}/api/v1/evo/config/obj/remote/NMSID"
+name: UPDATE TERMINAL_A
+description: ""
+method: PATCH
+body:
+  mimeType: application/json
+  text: '{"VLanID":"requestvlanid","ETH0IPAddress":"requestethaddress","ETH0SubnetMask":"requestmask","StaticRoutes":{"IPAddress":"requeststaticro","SubnetMask":
+    "requeststaticrosub","Gateway":"requestdefaulgw"}}'
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_d3cc72c442f04a789ebee17683b17d06
+authentication:
+  type: basic
+  useISO88591: false
+  disabled: false
+  username: systemapi
+  password: tiws2019
+metaSortKey: -1629837626807
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,26 @@
+_id: req_92d816e7adf64f078e65aa8f72de3acf
+type: Request
+parentId: fld_22d4ad56946046588d3abf642f6a9c32
+modified: 1631550482805
+created: 1631550482805
+url: "{{ _.base_url }}:{{ _.idirectarg_platform }}/api/v1/evo/config/obj/remote/936"
+name: DELETE TERMINAL IDIRECT ARG
+description: ""
+method: DELETE
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: basic
+  useISO88591: false
+  disabled: false
+  username: systemapi
+  password: tiws2019
+metaSortKey: -1629837640856
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

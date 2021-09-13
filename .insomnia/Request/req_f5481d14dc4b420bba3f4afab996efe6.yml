@@ -1,0 +1,32 @@
+_id: req_f5481d14dc4b420bba3f4afab996efe6
+type: Request
+parentId: fld_22d4ad56946046588d3abf642f6a9c32
+modified: 1631550482771
+created: 1631550482771
+url: "{{ _.base_url }}:{{ _.idirectarg_platform
+  }}/api/v1/evo/config/obj/remote/NMSID"
+name: SWAP_ IDIRECT ARG
+description: ""
+method: PATCH
+body:
+  mimeType: application/json
+  text: '{"SN":"requestsn","ModelType":"requestmodel"}'
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_77ba5d4dbcb340b6abbbe0cf2a8c670f
+authentication:
+  type: basic
+  useISO88591: false
+  disabled: false
+  username: systemapi
+  password: tiws2019
+metaSortKey: -1629837486682
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
