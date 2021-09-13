@@ -1,9 +1,9 @@
 _id: req_9d5baa6e5ca949de8955111ea8f3f2dc
 type: Request
 parentId: fld_184b7be605454b7f81a1c180a6ac18ec
-modified: 1631550726193
+modified: 1631552174625
 created: 1631549627992
-url: https://kong.bifrost.pe/presale-lpu
+url: https://kong.bifrost.pe/presale-lpudetail
 name: UseRoute
 description: ""
 method: POST
