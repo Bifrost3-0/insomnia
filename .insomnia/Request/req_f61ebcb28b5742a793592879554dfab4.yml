@@ -1,0 +1,31 @@
+_id: req_f61ebcb28b5742a793592879554dfab4
+type: Request
+parentId: fld_184b7be605454b7f81a1c180a6ac18ec
+modified: 1631549514291
+created: 1631549257174
+url: https://kongadmin.bifrost.pe/services/ServiceYeltsin/routes
+name: Route
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+        "paths":["/presale-lpu"],
+        "methods":["POST"],
+    		"strip_path":false
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_2317adda073349da9ea4ceb0904ab000
+authentication: {}
+metaSortKey: -1631549257174
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
