@@ -1,7 +1,7 @@
 _id: env_df90a7fa52934f96b0365eaa229ac38b
 type: Environment
 parentId: env_467191896fbc186b33676805d502008f55dc9848
-modified: 1629843328917
+modified: 1631550602830
 created: 1628562870178
 name: Production Proxy Bifrost
 data:
@@ -10,10 +10,9 @@ data:
   newtect_platform: 8081
   gilat_ka_platform: 8888
   gilat_ku_balcarce: 8082
-  hub5_idirect_platform: 85
+  hub5_idirect_platform: 84
   idirectarg_platform: 82
   idirectlima_platform: 81
-  idirecthub5Arg_platform: 85
   general_api: https://apiaws.bifrost.pe/api
   newtect_user: integracion-tiws@orbith.com
   newtect_password: GLRt3RV3sUNWMnN
@@ -27,7 +26,6 @@ dataPropertyOrder:
     - hub5_idirect_platform
     - idirectarg_platform
     - idirectlima_platform
-    - idirecthub5Arg_platform
     - general_api
     - newtect_user
     - newtect_password
