@@ -1,0 +1,32 @@
+_id: req_4b568c29d1964851bd7a273979feea0b
+type: Request
+parentId: fld_555a631248b340bca083a9a3ce70f93f
+modified: 1631629162348
+created: 1631629078687
+url: https://kong.bifrost.pe/presale-newcontract
+name: Test newContract
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"name": "HelloWorld",
+    	"contractFile": "file.txt",
+    	"clientId": 1,
+    	"contractTypeId": 4
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_98652ced154141908415331e76b6a2d0
+authentication: {}
+metaSortKey: -1631629078687
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

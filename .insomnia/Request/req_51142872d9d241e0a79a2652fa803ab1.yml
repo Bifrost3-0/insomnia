@@ -1,0 +1,31 @@
+_id: req_51142872d9d241e0a79a2652fa803ab1
+type: Request
+parentId: fld_555a631248b340bca083a9a3ce70f93f
+modified: 1631629056706
+created: 1631629029532
+url: https://kongadmin.bifrost.pe/services/preVenta/routes
+name: Route newContract
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+        "paths":["/presale-newcontract"],
+        "methods":["POST","OPTIONS"],
+    		"strip_path":false
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_6191eb1b33ed4f8c9c2b5495a750f9c1
+authentication: {}
+metaSortKey: -1631629029533
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
