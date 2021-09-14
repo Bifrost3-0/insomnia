@@ -1,0 +1,31 @@
+_id: req_3653942f7bd342d084f7a85b96ddb928
+type: Request
+parentId: fld_555a631248b340bca083a9a3ce70f93f
+modified: 1631627191122
+created: 1631626950299
+url: https://kongadmin.bifrost.pe/services/preVenta/routes
+name: Route editContract
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+        "paths":["/presale-editcontract"],
+        "methods":["POST","OPTIONS"],
+    		"strip_path":false
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_bc1c931e23b84169b7776eacb76a5e41
+authentication: {}
+metaSortKey: -1631626950299
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
