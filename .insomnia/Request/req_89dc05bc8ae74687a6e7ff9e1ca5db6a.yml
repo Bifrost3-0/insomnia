@@ -1,11 +1,11 @@
 _id: req_89dc05bc8ae74687a6e7ff9e1ca5db6a
 type: Request
 parentId: fld_22d4ad56946046588d3abf642f6a9c32
-modified: 1631550482813
+modified: 1631567724192
 created: 1631550482813
-url: "{{ _.base_url }}:{{ _.idirectarg_platform
+url: "{{ _.base_url }}:{{ _.hub5_idirect_platform
   }}/api/v1/evo/config/obj/remote/NMSID"
-name: DEACTIVATE TERMINAL IDIRECT ARG
+name: DEACTIVATE TERMINAL IDIRECT ARG HUB5
 description: ""
 method: PATCH
 body:

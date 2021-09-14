@@ -1,11 +1,11 @@
 _id: req_13c2cdf15ffb4f7da7b44219521799e6
 type: Request
 parentId: fld_22d4ad56946046588d3abf642f6a9c32
-modified: 1631550482800
+modified: 1631567763997
 created: 1631550482800
-url: "{{ _.base_url }}:{{ _.idirectarg_platform
+url: "{{ _.base_url }}:{{ _.hub5_idirect_platform
   }}/api/v1/evo/config/obj/remote/NMSID"
-name: CAMBIO DE PLAN _ IDIRECT ARG
+name: CAMBIO DE PLAN _ IDIRECT ARG HUB5
 description: ""
 method: POST
 body:

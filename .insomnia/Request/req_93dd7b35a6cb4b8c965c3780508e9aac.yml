@@ -1,10 +1,10 @@
 _id: req_93dd7b35a6cb4b8c965c3780508e9aac
 type: Request
 parentId: fld_22d4ad56946046588d3abf642f6a9c32
-modified: 1631550482820
+modified: 1631567713189
 created: 1631550482820
-url: "{{ _.base_url }}:{{ _.idirectarg_platform }}/api/v1/evo/config/obj/remote"
-name: ACTIVATE TERMINAL_A
+url: "{{ _.base_url }}:{{ _.hub5_idirect_platform }}/api/v1/evo/config/obj/remote"
+name: ACTIVATE TERMINAL_HUB5
 description: ""
 method: POST
 body:
