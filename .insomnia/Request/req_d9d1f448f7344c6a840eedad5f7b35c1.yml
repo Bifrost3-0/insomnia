@@ -1,9 +1,10 @@
 _id: req_d9d1f448f7344c6a840eedad5f7b35c1
 type: Request
 parentId: fld_9820ea0a8fc7456ba4927e3fc5ce2bbd
-modified: 1629478325025
+modified: 1631721229206
 created: 1629478325025
-url: 3.23.181.222/orbith-api/public/v1/api-isp/subscribers
+url: "{{ _.base_url }}:{{ _.newtect_platform
+  }}/orbith-api/public/v1/api-isp/subscribers"
 name: Crear un suscriptor.
 description: ""
 method: POST
@@ -12,18 +13,23 @@ body:
     - value: Prueba0109
       name: first_name
       disabled: false
+      id: pair_26a3145ee4d94c43b417ea75c68e7fc3
     - value: Tiws
       name: last_name
       disabled: false
+      id: pair_9a08ff4a5b36456495020e3dd8331e26
     - value: id
       name: document_type
       disabled: false
+      id: pair_9ea37b23d01542d7a3ddc8cec693ca1c
     - value: "101012"
       name: document_number
       disabled: false
+      id: pair_5af4b07ce2d14db4b44eb8512e39b290
     - value: '[{"number":"+5491130223344","type":"movil"},{"number":"+933092532","type":"movil"}]'
       name: phones
       disabled: false
+      id: pair_ce5206bf0b3645209cb5f236f15f840a
     - value: '[{"key": "0", "type": "instalacion-facturacion", "street": "5",
         "street_number": "923", "administrative_area": "La Plata", "city": "La
         Plata", "province": "Buenos Aires", "country": "Argentina",
@@ -31,27 +37,35 @@ body:
         ,"latitude":"23.45","longitude":"-45.45","product":"SAI100DL10UL"}]'
       name: addresses
       disabled: false
+      id: pair_8f2d8659d291417b920e40ff32ed2615
     - value: prueba@prueba.com
       name: email
       disabled: false
+      id: pair_73eb6ff27e1646519e6b4d5366c8ddf3
     - value: "590"
       name: external_reference
       disabled: false
+      id: pair_b8b4b7cd33a64403b676ff3061ae5773
     - value: Corporativo
       name: type
       disabled: false
+      id: pair_09ed108ab92445e19c757e3fbd04d4c1
     - value: Prueba
       name: business_brand_name
       disabled: false
+      id: pair_941c24731698460c810129a5080484f5
     - value: Pruebas Tiws
       name: business_legal_name
       disabled: false
+      id: pair_3984d911346d4fb7896a3cdb720a5cd0
     - value: Femenino
       name: gender
       disabled: false
+      id: pair_c5e297482246499889afdeaff40d9f6c
     - value: 2020-09-01
       name: birthdate
       disabled: false
+      id: pair_cf5bc4b1e3a1470fa29e78de392e80cd
   mimeType: application/x-www-form-urlencoded
 parameters: []
 headers: []
