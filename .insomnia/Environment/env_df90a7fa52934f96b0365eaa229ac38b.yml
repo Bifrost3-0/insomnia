@@ -1,7 +1,7 @@
 _id: env_df90a7fa52934f96b0365eaa229ac38b
 type: Environment
 parentId: env_467191896fbc186b33676805d502008f55dc9848
-modified: 1628608551021
+modified: 1632788191405
 created: 1628562870178
 name: Production Proxy Bifrost
 data:
@@ -29,4 +29,4 @@ dataPropertyOrder:
     - newtect_password
 color: "#50fb56"
 isPrivate: false
-metaSortKey: 1628562870178
+metaSortKey: 1

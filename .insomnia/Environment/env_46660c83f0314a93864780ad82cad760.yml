@@ -1,0 +1,14 @@
+_id: env_46660c83f0314a93864780ad82cad760
+type: Environment
+parentId: env_467191896fbc186b33676805d502008f55dc9848
+modified: 1632788198791
+created: 1632788080791
+name: Bifrost APIs
+data:
+  aws_prod_php: https://apiaws.bifrost.pe
+dataPropertyOrder:
+  "&":
+    - aws_prod_php
+color: "#7d94e8"
+isPrivate: false
+metaSortKey: 1
