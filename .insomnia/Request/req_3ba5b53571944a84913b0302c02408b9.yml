@@ -1,0 +1,30 @@
+_id: req_3ba5b53571944a84913b0302c02408b9
+type: Request
+parentId: fld_184b7be605454b7f81a1c180a6ac18ec
+modified: 1631549084596
+created: 1631548938734
+url: https://kongadmin.bifrost.pe/services
+name: Service
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {   
+        "name":"ServiceYeltsin",
+        "url":"https://openfaas.bifrost.pe/function"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_485748a002e744d0a25a38629f0f3b28
+authentication: {}
+metaSortKey: -1631548938780
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

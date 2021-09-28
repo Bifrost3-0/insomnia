@@ -1,0 +1,30 @@
+_id: req_940a0370a15240cc8ff975536973a4db
+type: Request
+parentId: fld_555a631248b340bca083a9a3ce70f93f
+modified: 1631296761940
+created: 1631296705516
+url: https://kongadmin.bifrost.pe/services
+name: OpenFaas Service
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {   
+        "name":"preVenta",
+        "url":"https://openfaas.bifrost.pe/function"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_cddaa1ceb82542d6b5e5afc64d93528e
+authentication: {}
+metaSortKey: -1631296705516
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

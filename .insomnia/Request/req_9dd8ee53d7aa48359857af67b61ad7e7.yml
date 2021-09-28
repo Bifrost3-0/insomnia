@@ -1,16 +1,19 @@
 _id: req_9dd8ee53d7aa48359857af67b61ad7e7
 type: Request
 parentId: fld_9820ea0a8fc7456ba4927e3fc5ce2bbd
-modified: 1629478325035
+modified: 1632513042139
 created: 1629478325035
-url: 3.23.181.222/orbith-api/public/v1/api-isp/subscribers/Z0piZG1TZmxDRGdZSEFERlhIbGcrUT09
+url: "{{ _.base_url }}:{{ _.newtect_platform
+  }}/orbith-api/public/v1/api-isp/subscribers/Z0piZG1TZmxDRGdZSEFERlhIbGcrUT09"
 name: Obtener un suscriptor.
 description: ""
 method: GET
 body: {}
 parameters: []
 headers: []
-authentication: {}
+authentication:
+  type: bearer
+  token: LURIDI01OIM169-CD=AMLCO2
 metaSortKey: -1629478325035
 isPrivate: false
 settingStoreCookies: true

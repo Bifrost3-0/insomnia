@@ -1,0 +1,63 @@
+_id: req_c4b794440fbe4558a2a9787a7ef60bb1
+type: Request
+parentId: fld_7c4a08fcb9a24b27bd0a0df89ce1cdb1
+modified: 1628795618813
+created: 1628608358798
+url: "{{ _.base_url }}:{{ _.gilat_ku_balcarce }}/reports/reportsWebService12"
+name: GetReports FWD Rx Level
+description: ""
+method: POST
+body:
+  mimeType: ""
+  text: "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\r
+
+    <soap:Envelope xmlns:soap=\"http://www.w3.org/2003/05/soap-envelope\"
+    xmlns:com=\"com.gilat.ngnms.reports.ws.face\">\r
+
+    \   <soap:Header/>\r
+
+    \   <soap:Body>\r
+
+    \      <com:getReports>\r
+
+    \            <elementType xmlns=\"\">CPE</elementType>\r
+
+    \            <elementIds xmlns=\"\">88154</elementIds>\r
+
+    \            <mgId xmlns=\"\">2</mgId>\r
+
+    \            <reportName xmlns=\"\">FWD Rx Level</reportName>\r
+
+    \            <startDate xmlns=\"\">1597245239000</startDate>\r
+
+    \            <endDate xmlns=\"\">1597331639000</endDate>\r
+
+    \            <resolution xmlns=\"\">FM</resolution>\r
+
+    \        </com:getReports>\r
+
+    \   </soap:Body>\r
+
+    </soap:Envelope>\r
+
+    \r
+
+    \ "
+parameters: []
+headers:
+  - name: Content-Type
+    value: text/xml
+    id: pair_76da0559dfec429abdb5ce781d0f2237
+authentication:
+  type: basic
+  disabled: false
+  username: apis
+  password: apis2020
+metaSortKey: -1628608358798
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

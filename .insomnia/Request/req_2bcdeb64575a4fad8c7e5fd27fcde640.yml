@@ -1,9 +1,10 @@
 _id: req_2bcdeb64575a4fad8c7e5fd27fcde640
 type: Request
 parentId: fld_9820ea0a8fc7456ba4927e3fc5ce2bbd
-modified: 1629478325030
+modified: 1631721224857
 created: 1629478325030
-url: 3.23.181.222/orbith-api/public/v1/api-isp/subscribers/eVJlKzJXaVVoNGxqRktlYWMxTVFHZz09
+url: "{{ _.base_url }}:{{ _.newtect_platform
+  }}/orbith-api/public/v1/api-isp/subscribers/eVJlKzJXaVVoNGxqRktlYWMxTVFHZz09"
 name: Actualizar un suscriptor
 description: ""
 method: PUT
@@ -12,18 +13,23 @@ body:
     - value: Corporativo
       name: type
       disabled: false
+      id: pair_9832713833374c87807e8973007c7d01
     - value: Suspendido
       name: status
       disabled: false
+      id: pair_ddefd4bb71cf462bbb29c2f9781b8a3c
     - value: prueba@prueba.com
       name: email
       disabled: false
+      id: pair_61cfc24956db42998799c5ff012aeea9
     - value: Prueba0209
       name: business_brand_name
       disabled: false
+      id: pair_c57da2e43c3e488a846e454b0b98c32d
     - value: Pruebas Tiws0209
       name: business_legal_name
       disabled: false
+      id: pair_09af237b820d4800bd939d1995894aad
   mimeType: application/x-www-form-urlencoded
 parameters: []
 headers: []

@@ -1,0 +1,21 @@
+_id: req_b71e07492d934d93b51945f409371a5e
+type: Request
+parentId: fld_555a631248b340bca083a9a3ce70f93f
+modified: 1631411096647
+created: 1631411081485
+url: https://kong.bifrost.pe/presale-listcontractstype
+name: Test listAllContractTypes
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1631411081485
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

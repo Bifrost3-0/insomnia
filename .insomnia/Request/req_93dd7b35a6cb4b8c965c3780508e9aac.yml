@@ -1,0 +1,31 @@
+_id: req_93dd7b35a6cb4b8c965c3780508e9aac
+type: Request
+parentId: fld_22d4ad56946046588d3abf642f6a9c32
+modified: 1631567713189
+created: 1631550482820
+url: "{{ _.base_url }}:{{ _.hub5_idirect_platform }}/api/v1/evo/config/obj/remote"
+name: ACTIVATE TERMINAL_HUB5
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: '{"Active":"true"}'
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_a0e537ffe5a14b1a993b8bd76b76871b
+authentication:
+  type: basic
+  useISO88591: false
+  disabled: false
+  username: systemapi
+  password: tiws2019
+metaSortKey: -1629837677195
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

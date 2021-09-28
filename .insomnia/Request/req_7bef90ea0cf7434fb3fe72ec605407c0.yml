@@ -1,0 +1,32 @@
+_id: req_7bef90ea0cf7434fb3fe72ec605407c0
+type: Request
+parentId: fld_c7360f7efe1e4775b80047d5e7b37eb5
+modified: 1629847007273
+created: 1629836940332
+url: "{{ _.base_url }}:{{ _.idirectarg_platform
+  }}/api/v1/evo/config/obj/remote/936/apply_changes"
+name: APPLY CHANGES IDIRECT ARGENTINA TEST DESCRIPTION
+description: ""
+method: PATCH
+body:
+  mimeType: application/json
+  text: '{"Transport":"tcp","HubSide":"true","Reset":"false"}'
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_4a993c4f137c4f04b649dff867c8752b
+authentication:
+  type: basic
+  useISO88591: false
+  disabled: false
+  username: systemapi
+  password: tiws2019
+metaSortKey: -1629836940332
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

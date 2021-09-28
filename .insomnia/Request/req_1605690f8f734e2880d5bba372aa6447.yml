@@ -1,0 +1,63 @@
+_id: req_1605690f8f734e2880d5bba372aa6447
+type: Request
+parentId: fld_7c4a08fcb9a24b27bd0a0df89ce1cdb1
+modified: 1628795693268
+created: 1628608358796
+url: "{{ _.base_url }}:{{ _.gilat_ku_balcarce }}/ws/cpeService"
+name: Change Service Plan
+description: ""
+method: POST
+body:
+  mimeType: ""
+  text: "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\r
+
+    <soapenv:Envelope \r
+
+    xmlns:soapenv=\"http://schemas.xmlsoap.org/soap/envelope/\" \r
+
+    xmlns:com=\"com.gilat.ngnms.server.services.ws.cfg.face\">    \r
+
+    \    <soapenv:Header/>    \r
+
+    \    <soapenv:Body>       \r
+
+    \        <com:modifyCPE>          \r
+
+    \            <cpe>             \r
+
+    \                <cpeId>                \r
+
+    \                    <managedGroupId>2</managedGroupId>                \
+    \r
+
+    \                    <subscriberId>78800</subscriberId>             \r
+
+    \                </cpeId>             \r
+
+    \                <slaName>SLA100 768/768 CIR 154/154</slaName> \r
+
+    \            </cpe>       \r
+
+    \        </com:modifyCPE>    \r
+
+    \    </soapenv:Body> \r
+
+    \    </soapenv:Envelope>\r\n"
+parameters: []
+headers:
+  - name: Content-Type
+    value: text/xml
+    id: pair_84ee3651bd9d46b0858dcaa2441d93c0
+authentication:
+  type: basic
+  disabled: false
+  username: apis
+  password: apis2020
+metaSortKey: -1628608358796
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

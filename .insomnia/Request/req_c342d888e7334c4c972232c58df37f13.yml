@@ -1,0 +1,31 @@
+_id: req_c342d888e7334c4c972232c58df37f13
+type: Request
+parentId: fld_fd71aea7d85247718fbdde76c7282b7d
+modified: 1630107796626
+created: 1630107749302
+url: https://kongadmin.bifrost.pe/services/cesarTestService/routes
+name: Create Route hello-cesar
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+        "paths":["/hello-cesar"],
+        "methods":["GET"],
+    		"strip_path":false
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_ff174a6b6a18410c97a7b0a5e3d085e6
+authentication: {}
+metaSortKey: -1630107749302
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

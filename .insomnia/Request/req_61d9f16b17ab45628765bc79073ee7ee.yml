@@ -1,0 +1,30 @@
+_id: req_61d9f16b17ab45628765bc79073ee7ee
+type: Request
+parentId: fld_fd71aea7d85247718fbdde76c7282b7d
+modified: 1630107705642
+created: 1630107660266
+url: https://kongadmin.bifrost.pe/services
+name: Create OpenFaas Service
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {   
+        "name":"cesarTestService",
+        "url":"https://openfaas.bifrost.pe/function"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_43330fcb85a540169209098aba7ee3cd
+authentication: {}
+metaSortKey: -1630107660266
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

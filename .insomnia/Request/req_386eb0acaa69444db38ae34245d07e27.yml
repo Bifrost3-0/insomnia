@@ -1,0 +1,27 @@
+_id: req_386eb0acaa69444db38ae34245d07e27
+type: Request
+parentId: fld_22d4ad56946046588d3abf642f6a9c32
+modified: 1631554332251
+created: 1631554117159
+url: "{{ _.base_url }}:{{ _.hub5_idirect_platform
+  }}/api/v1/evo/config/obj/remoteservicegroup"
+name: LIST SERVICE GROUP
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: basic
+  useISO88591: false
+  disabled: false
+  username: systemapi
+  password: tiws2019
+metaSortKey: -1631554117159
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

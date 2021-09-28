@@ -1,0 +1,21 @@
+_id: req_799dc174925b4b07accd1d69e05938b1
+type: Request
+parentId: fld_fd71aea7d85247718fbdde76c7282b7d
+modified: 1630107830044
+created: 1630107815357
+url: https://kong.bifrost.pe/hello-cesar
+name: Use hello-cesar
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1630107815357
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

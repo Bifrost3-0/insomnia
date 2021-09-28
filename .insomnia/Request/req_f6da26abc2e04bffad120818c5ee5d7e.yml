@@ -1,0 +1,32 @@
+_id: req_f6da26abc2e04bffad120818c5ee5d7e
+type: Request
+parentId: fld_97dbf942020f44deadb60f489ddf2dfe
+modified: 1630603434939
+created: 1630603276720
+url: "{{ _.base_url }}:{{ _.idirectlima_platform
+  }}/api/v1/evo/config/obj/remote/NMSID"
+name: MOVE IDIRECT LIMA
+description: ""
+method: PATCH
+body:
+  mimeType: application/json
+  text: '{"Lat": "requestLat","Lon": "requestLong"}'
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_3649aa653f2347d0bd19006f2645fa51
+authentication:
+  type: basic
+  useISO88591: false
+  disabled: false
+  username: systemapi
+  password: tiws2019
+metaSortKey: -1629847656178
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

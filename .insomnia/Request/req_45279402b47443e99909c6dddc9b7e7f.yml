@@ -1,0 +1,31 @@
+_id: req_45279402b47443e99909c6dddc9b7e7f
+type: Request
+parentId: fld_97dbf942020f44deadb60f489ddf2dfe
+modified: 1630603464467
+created: 1630603310887
+url: "{{ _.base_url }}:{{ _.idirectlima_platform
+  }}/api/v1/evo/config/obj/remote/idnms/raw_optionsfile"
+name: DESCARGA OPT TERMINAL_LIMA
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - id: pair_168b353201af4d01a81adc5bc41c9230
+    name: type
+    value: RmtSide
+    description: ""
+authentication:
+  type: basic
+  useISO88591: false
+  disabled: false
+  username: systemapi
+  password: tiws2019
+metaSortKey: -1629847655978
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

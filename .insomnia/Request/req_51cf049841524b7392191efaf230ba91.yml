@@ -1,0 +1,26 @@
+_id: req_51cf049841524b7392191efaf230ba91
+type: Request
+parentId: fld_22d4ad56946046588d3abf642f6a9c32
+modified: 1631553241369
+created: 1631550482735
+url: "{{ _.base_url }}:{{ _.hub5_idirect_platform }}/api/v1/evo/config/obj/remote"
+name: ListarTerminales IDIRECT ARG
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: basic
+  useISO88591: false
+  disabled: false
+  username: systemapi
+  password: tiws2019
+metaSortKey: -1628603550172
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
