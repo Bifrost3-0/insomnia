@@ -1,7 +1,7 @@
 _id: req_679bc106bcb4489082bf7de22b13c6c5
 type: Request
 parentId: fld_4fb2b5b7eceb437aa0c7ac76015db876
-modified: 1629841958957
+modified: 1632854535915
 created: 1629840532429
 url: https://api-nms.hispasat.es/v1/broadband/backend/terminals/1951
 name: Get Terminal
@@ -12,10 +12,11 @@ parameters: []
 headers:
   - name: Content-Type
     value: application/json
+    id: pair_84bbc11585504db980a0840eed1074ba
 authentication:
   type: bearer
   disabled: false
-  token: eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJkZW1vdGl3c21pbmVkdUB0ZWxlZm9uaWNhLmNvbSIsImlhdCI6MTYxOTQ1NTA3OSwiZXhwIjoxNjE5NDY1ODc5fQ.DxSaCNCvI2Soa8p7tcTyXBYdTJjZt4Fa8Vuxl21a0O5A2_qEYbF8V46XhlGLx_b8Qt7rYh9xJJw9ODhQr7fMQg
+  token: "{{ _.token_hispasat }}"
   prefix: ""
 metaSortKey: -1629840532451
 isPrivate: false

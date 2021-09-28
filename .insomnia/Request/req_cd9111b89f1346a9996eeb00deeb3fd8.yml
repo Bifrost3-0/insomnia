@@ -1,7 +1,7 @@
 _id: req_cd9111b89f1346a9996eeb00deeb3fd8
 type: Request
 parentId: fld_4fb2b5b7eceb437aa0c7ac76015db876
-modified: 1632853080110
+modified: 1632854474308
 created: 1629840532464
 url: https://api-nms.hispasat.es/v1/broadband/backend/slot/byclient
 name: Get Slots
@@ -13,7 +13,7 @@ headers: []
 authentication:
   type: bearer
   disabled: false
-  token: eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJvcmRlcmluZ21uLnBlQHRlbGVmb25pY2EuY29tIiwiaWF0IjoxNjMyODUwMTQwLCJleHAiOjE2MzI4NjA5NDB9.iFH4uJJQ1YJ7JtuRSvQj_NICOm1YibwKUVkiMmLUm_CxL2tfXkWWooF1uiXlUZFzAUfWYvq_5p382gv0QmP0Xw
+  token: "{{ _.token_hispasat }}"
   prefix: ""
 metaSortKey: -1629840532464
 isPrivate: false
