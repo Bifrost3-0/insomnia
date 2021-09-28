@@ -1,7 +1,7 @@
 _id: req_9286b50e914246b3bcc0ffa6417eb7af
 type: Request
 parentId: fld_9820ea0a8fc7456ba4927e3fc5ce2bbd
-modified: 1631721183406
+modified: 1632513059340
 created: 1629478325039
 url: "{{ _.base_url }}:{{ _.newtect_platform
   }}/orbith-api/public/v1/api-isp/subscribers?limit=1000"
@@ -15,7 +15,7 @@ parameters: []
 headers: []
 authentication:
   type: bearer
-  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJsdW1lbi1qd3QiLCJzdWIiOjQzMCwiaWF0IjoxNjMxNzIxMDQ5LCJleHAiOjE2MzE4MDc0NDl9.FnQVkAREr5xbwr8NguSLXyAPHXrgITY3-n4JNg7FTCw
+  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJsdW1lbi1qd3QiLCJzdWIiOjQzMCwiaWF0IjoxNjMyNTA4OTUyLCJleHAiOjE2MzI1OTUzNTJ9.Q-ubScADHyKEuGjekNM2Z6RUG2QmEWsbXnl_rTZe_SE
 metaSortKey: -1629478325039
 isPrivate: false
 settingStoreCookies: true

@@ -1,7 +1,7 @@
 _id: req_d9d1f448f7344c6a840eedad5f7b35c1
 type: Request
 parentId: fld_9820ea0a8fc7456ba4927e3fc5ce2bbd
-modified: 1631721229206
+modified: 1632513251442
 created: 1629478325025
 url: "{{ _.base_url }}:{{ _.newtect_platform
   }}/orbith-api/public/v1/api-isp/subscribers"
@@ -9,8 +9,9 @@ name: Crear un suscriptor.
 description: ""
 method: POST
 body:
+  mimeType: application/x-www-form-urlencoded
   params:
-    - value: Prueba0109
+    - value: Prueba2409
       name: first_name
       disabled: false
       id: pair_26a3145ee4d94c43b417ea75c68e7fc3
@@ -22,7 +23,7 @@ body:
       name: document_type
       disabled: false
       id: pair_9ea37b23d01542d7a3ddc8cec693ca1c
-    - value: "101012"
+    - value: "123423"
       name: document_number
       disabled: false
       id: pair_5af4b07ce2d14db4b44eb8512e39b290
@@ -30,14 +31,16 @@ body:
       name: phones
       disabled: false
       id: pair_ce5206bf0b3645209cb5f236f15f840a
-    - value: '[{"key": "0", "type": "instalacion-facturacion", "street": "5",
-        "street_number": "923", "administrative_area": "La Plata", "city": "La
-        Plata", "province": "Buenos Aires", "country": "Argentina",
-        "postal_code": "B1904"
+    - value: '[{"key": "0", "type": "corporativo", "street": "5", "street_number":
+        "923", "administrative_area": "La Plata", "city": "La Plata",
+        "province": "Buenos Aires", "country": "Argentina", "postal_code":
+        "B1904"
         ,"latitude":"23.45","longitude":"-45.45","product":"SAI100DL10UL"}]'
       name: addresses
       disabled: false
       id: pair_8f2d8659d291417b920e40ff32ed2615
+      type: text
+      multiline: false
     - value: prueba@prueba.com
       name: email
       disabled: false
@@ -66,10 +69,11 @@ body:
       name: birthdate
       disabled: false
       id: pair_cf5bc4b1e3a1470fa29e78de392e80cd
-  mimeType: application/x-www-form-urlencoded
 parameters: []
 headers: []
-authentication: {}
+authentication:
+  type: bearer
+  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJsdW1lbi1qd3QiLCJzdWIiOjQzMCwiaWF0IjoxNjMyNTA4OTUyLCJleHAiOjE2MzI1OTUzNTJ9.Q-ubScADHyKEuGjekNM2Z6RUG2QmEWsbXnl_rTZe_SE
 metaSortKey: -1629478325025
 isPrivate: false
 settingStoreCookies: true
