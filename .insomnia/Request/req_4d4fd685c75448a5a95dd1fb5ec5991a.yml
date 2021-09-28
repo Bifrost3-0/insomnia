@@ -1,7 +1,7 @@
 _id: req_4d4fd685c75448a5a95dd1fb5ec5991a
 type: Request
 parentId: fld_710c9dc83b564ee7a2647b2a27410642
-modified: 1632788214403
+modified: 1632789720264
 created: 1632787961728
 url: "{{ _.aws_prod_php }}/api/forecastMN/getshospid"
 name: List Service Plan By Vlan
@@ -12,7 +12,7 @@ body:
   params:
     - id: pair_96eee617c66c406b85faf0b2ed04f3fa
       name: id
-      value: "510"
+      value: "1086"
       description: ""
 parameters: []
 headers:
