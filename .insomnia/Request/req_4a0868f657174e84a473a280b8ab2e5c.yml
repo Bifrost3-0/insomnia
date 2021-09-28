@@ -1,9 +1,9 @@
 _id: req_4a0868f657174e84a473a280b8ab2e5c
 type: Request
 parentId: fld_2f3ab373b62d4940a7624abd9ab55752
-modified: 1629840762666
+modified: 1632337252417
 created: 1629833827707
-url: https://{{ _.base_url }}:{{ _.gilat_ku_balcarce }}/ws/cpeService
+url: http://{{ _.base_url }}:{{ _.gilat_ku_balcarce }}/ws/cpeService
 name: Alta Terminal L3 n vlans
 description: ""
 method: POST

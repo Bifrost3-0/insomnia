@@ -1,9 +1,9 @@
 _id: req_216a306aab5d4bcd93305dcf7766eeaa
 type: Request
 parentId: fld_2f3ab373b62d4940a7624abd9ab55752
-modified: 1629841058737
+modified: 1632337266546
 created: 1629833827692
-url: https://{{ _.base_url }}:{{ _.gilat_ku_balcarce }}/ws/cpeService
+url: http://{{ _.base_url }}:{{ _.gilat_ku_balcarce }}/ws/cpeService
 name: Suspender Terminal
 description: ""
 method: POST
