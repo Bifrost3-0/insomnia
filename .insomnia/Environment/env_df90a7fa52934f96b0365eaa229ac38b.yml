@@ -1,7 +1,7 @@
 _id: env_df90a7fa52934f96b0365eaa229ac38b
 type: Environment
 parentId: env_467191896fbc186b33676805d502008f55dc9848
-modified: 1631550602830
+modified: 1632854803537
 created: 1628562870178
 name: Production Proxy Bifrost
 data:
@@ -10,12 +10,13 @@ data:
   newtect_platform: 8081
   gilat_ka_platform: 8888
   gilat_ku_balcarce: 8082
-  hub5_idirect_platform: 84
-  idirectarg_platform: 82
-  idirectlima_platform: 81
+  hub5_idirect_platform: 85
+  idirectarg_platform: 81
+  hispasat_ka: 8094
   general_api: https://apiaws.bifrost.pe/api
   newtect_user: integracion-tiws@orbith.com
   newtect_password: GLRt3RV3sUNWMnN
+  token_hispasat: eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJvcmRlcmluZ21uLnBlQHRlbGVmb25pY2EuY29tIiwiaWF0IjoxNjMyODU0MjA3LCJleHAiOjE2MzI4NjUwMDd9.hgf0TmNSuhTz6sgJRmV3mLG715C2IX8xk5NzuKIe5ThaviYxgikDnZSaX2lPgEzJwhgeS3SBR-Ni9fDVwPUm6w
 dataPropertyOrder:
   "&":
     - base_url
@@ -25,10 +26,11 @@ dataPropertyOrder:
     - gilat_ku_balcarce
     - hub5_idirect_platform
     - idirectarg_platform
-    - idirectlima_platform
+    - hispasat_ka
     - general_api
     - newtect_user
     - newtect_password
+    - token_hispasat
 color: "#50fb56"
 isPrivate: false
-metaSortKey: 1628562870178
+metaSortKey: 1

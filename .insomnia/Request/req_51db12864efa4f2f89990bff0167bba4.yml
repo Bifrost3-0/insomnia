@@ -1,0 +1,22 @@
+_id: req_51db12864efa4f2f89990bff0167bba4
+type: Request
+parentId: fld_d7199f03fbb64bc881ab8044417fb5f0
+modified: 1629840532472
+created: 1629840532472
+url: "{{baseUrl}}/graphdata/graph/terminalquote?id=85040814&from=1965-04-28&to=\
+  1965-04-28"
+name: search Terminal Quotes Copy
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1629840532472
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

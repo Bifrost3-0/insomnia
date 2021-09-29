@@ -1,0 +1,70 @@
+_id: req_e0907ce8409c44e0a61a8868f4a757ef
+type: Request
+parentId: fld_7e0640ca8fe545f4bc524fc7f83cc3ea
+modified: 1630446397549
+created: 1630446397549
+url: https://192.168.225.10/ws/cpeService
+name: Add Static Route
+description: ""
+method: POST
+body:
+  mimeType: ""
+  text: "<Envelope xmlns=\"http://schemas.xmlsoap.org/soap/envelope/\">\r
+
+    \    <Body>\r
+
+    \        <cpeAddStaticRouteIPv4
+    xmlns=\"com.gilat.ngnms.server.services.ws.cfg.face\">\r
+
+    \            <!-- Optional -->\r
+
+    \            <cpeId xmlns=\"\">\r
+
+    \                <managedGroupId>2</managedGroupId>\r
+
+    \                <subscriberId>112233</subscriberId>\r
+
+    \            </cpeId>\r
+
+    \            <vlanId xmlns=\"\">24</vlanId>\r
+
+    \            <!-- Optional -->\r
+
+    \            <IPv4StaticRoute xmlns=\"\">\r
+
+    \                <network>192.168.36.40</network>\r
+
+    \                <subnetMask>255.255.255.252</subnetMask>\r
+
+    \                <nextHop>10.20.30.15</nextHop>\r
+
+    \                <ipV4Interface>LAN</ipV4Interface>\r
+
+    \                <redistribute>RIPv2</redistribute>\r
+
+    \                <distributedMetric>1</distributedMetric>\r
+
+    \            </IPv4StaticRoute>\r
+
+    \        </cpeAddStaticRouteIPv4>\r
+
+    \    </Body>\r
+
+    </Envelope>"
+parameters: []
+headers:
+  - name: Content-Type
+    value: text/xml
+authentication:
+  type: basic
+  disabled: false
+  username: lmejia
+  password: L@mm1812
+metaSortKey: -1630446397549
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

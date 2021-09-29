@@ -1,9 +1,9 @@
 _id: req_216a306aab5d4bcd93305dcf7766eeaa
 type: Request
 parentId: fld_2f3ab373b62d4940a7624abd9ab55752
-modified: 1629834093466
+modified: 1632337266546
 created: 1629833827692
-url: https://192.168.188.8/ws/cpeService
+url: http://{{ _.base_url }}:{{ _.gilat_ku_balcarce }}/ws/cpeService
 name: Suspender Terminal
 description: ""
 method: POST
@@ -47,6 +47,7 @@ parameters: []
 headers:
   - name: Content-Type
     value: text/xml
+    id: pair_162741e59ef64028abd433fd46c1993c
 authentication:
   type: basic
   disabled: false

@@ -1,9 +1,9 @@
 _id: req_50db4d906cf849a283a7c328aaaf02af
 type: Request
 parentId: fld_2f3ab373b62d4940a7624abd9ab55752
-modified: 1629833827674
+modified: 1629841445800
 created: 1629833827674
-url: https://192.168.188.8/ws/cpeService
+url: https://{{ _.base_url }}:{{ _.gilat_ku_balcarce }}/ws/cpeService
 name: Alta de Terminal L2 no QinQ 1 vlan
 description: ""
 method: POST
@@ -210,6 +210,7 @@ parameters: []
 headers:
   - name: Content-Type
     value: text/xml
+    id: pair_b6b449eab04c449ba3d9e861a9a7d9e1
 authentication:
   type: basic
   disabled: false

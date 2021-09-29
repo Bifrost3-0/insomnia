@@ -1,0 +1,23 @@
+_id: req_732500b8ecde4cfabb066bb71c38b7ee
+type: Request
+parentId: fld_d7199f03fbb64bc881ab8044417fb5f0
+modified: 1629842423785
+created: 1629840532490
+url: "{{ _.base_url
+  }}/graphdata/graph/terminal/trafficfwdrtn?from=est&to=est&frecuency=est&id=85\
+  040814"
+name: "Traffic Fwd Rtn "
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1629840532490
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

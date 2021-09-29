@@ -1,9 +1,9 @@
 _id: req_d5360e6f6e4a470f8875ea7e970c7fd5
 type: Request
 parentId: fld_2f3ab373b62d4940a7624abd9ab55752
-modified: 1629833827676
+modified: 1629841424799
 created: 1629833827676
-url: https://192.168.188.8/ws/cpeService
+url: https://{{ _.base_url }}:{{ _.gilat_ku_balcarce }}/ws/cpeService
 name: Alta de Terminal L2 no QinQ Gem4
 description: ""
 method: POST
@@ -296,6 +296,7 @@ parameters: []
 headers:
   - name: Content-Type
     value: text/xml
+    id: pair_52811ec48b1d4d198fd0a736a122e06d
 authentication:
   type: basic
   disabled: false

@@ -1,0 +1,27 @@
+_id: req_702b6d1f6ae0444cbcfd21089f54fdb1
+type: Request
+parentId: fld_4fb2b5b7eceb437aa0c7ac76015db876
+modified: 1629840532419
+created: 1629840532419
+url: https://api-nms.hispasat.es/v1/broadband/backend/terminals/startselftest?terminalid=5125
+name: Test de Velocidad
+description: ""
+method: POST
+body: {}
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication:
+  type: bearer
+  disabled: false
+  token: eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJkZW1vdGl3c21pbmVkdUB0ZWxlZm9uaWNhLmNvbSIsImlhdCI6MTYxNzAzODI5NSwiZXhwIjoxNjE3MDQ5MDk1fQ.UmyxrZV0_5JS3AwRCX2CalZhLGWcDAZ6CcVKterc6DLsz741-ZSaPRkfGLlMcWkAyMydssbiRqW3sIJ5vA95Jg
+  prefix: ""
+metaSortKey: -1629840532419
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,50 @@
+_id: req_b10705ba36064056ad79ff17f7d74bc8
+type: Request
+parentId: fld_7e0640ca8fe545f4bc524fc7f83cc3ea
+modified: 1632262066072
+created: 1632244083343
+url: https://192.168.225.10/ws/cpeService
+name: Lista Terminales - Pulleo
+description: ""
+method: POST
+body:
+  mimeType: ""
+  text: "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\r
+
+    \    <soapenv:Envelope
+    xmlns:soapenv=\"http://schemas.xmlsoap.org/soap/envelope/\"
+    xmlns:com=\"com.gilat.ngnms.server.services.ws.cfg.face\">   \r
+
+    \    <soapenv:Header/>    \r
+
+    \    <soapenv:Body>       \r
+
+    \    <com:getCPEsByManagedGroup>          \r
+
+    \        <managedGroupId>2</managedGroupId>          \r
+
+    \        <lastIndex>0</lastIndex>       \r
+
+    \    </com:getCPEsByManagedGroup>    \r
+
+    \    </soapenv:Body> \r
+
+    \    </soapenv:Envelope> "
+parameters: []
+headers:
+  - name: Content-Type
+    value: text/xml
+    id: pair_b7d4ef6a8e5943a880c2480de7b37e25
+authentication:
+  type: basic
+  disabled: false
+  username: apis
+  password: apis2020
+metaSortKey: -1630446397605
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

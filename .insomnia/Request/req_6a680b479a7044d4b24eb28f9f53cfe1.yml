@@ -1,0 +1,21 @@
+_id: req_6a680b479a7044d4b24eb28f9f53cfe1
+type: Request
+parentId: fld_d7199f03fbb64bc881ab8044417fb5f0
+modified: 1629840621757
+created: 1629840532486
+url: https://api-nms.hispasat.es/terminals/cnouplink?from=est&to=est&frecuency=est&terminalid=85040814
+name: cNO Up Link
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1629840532486
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

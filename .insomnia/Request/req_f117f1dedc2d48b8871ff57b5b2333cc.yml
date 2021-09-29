@@ -1,0 +1,27 @@
+_id: req_f117f1dedc2d48b8871ff57b5b2333cc
+type: Request
+parentId: fld_0d13e82b3d8947c3b350d2c33798e03f
+modified: 1632787496442
+created: 1632344740828
+url: https://kong.bifrost.pe/function/bifrostconfiguration
+name: bifrostApi
+description: ""
+method: GET
+body:
+  mimeType: application/json
+  text: |
+    {"id":9,"params":{"requestBtId":"1964"}}
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_7b8f68c07f5640e492e2b34b1135bc25
+authentication: {}
+metaSortKey: -1632344740828
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

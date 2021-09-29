@@ -1,0 +1,55 @@
+_id: req_8cb3c12cd6e04bf0a158f25944be69a7
+type: Request
+parentId: fld_7e0640ca8fe545f4bc524fc7f83cc3ea
+modified: 1630446397539
+created: 1630446397539
+url: https://192.168.225.10/ws/cpeService
+name: Reset CPE
+description: ""
+method: POST
+body:
+  mimeType: ""
+  text: "<soapenv:Envelope
+    xmlns:soapenv=\"http://schemas.xmlsoap.org/soap/envelope/\"
+    xmlns:com=\"com.gilat.ngnms.server.services.ws.cfg.face\">   \r
+
+    \ <soapenv:Header/>    \r
+
+    \ <soapenv:Body>       \r
+
+    \ <com:resetCPE>          \r
+
+    \    <id>             \r
+
+    \        <managedGroupId>2</managedGroupId>             \r
+
+    \        <subscriberId>667788</subscriberId>          \r
+
+    \    </id>       \r
+
+    </com:resetCPE>\r
+
+    </soapenv:Body> \r
+
+    </soapenv:Envelope>\r
+
+    \r
+
+    \r\n"
+parameters: []
+headers:
+  - name: Content-Type
+    value: text/xml
+authentication:
+  type: basic
+  disabled: false
+  username: APIs
+  password: MediaNetworks123
+metaSortKey: -1630446397539
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

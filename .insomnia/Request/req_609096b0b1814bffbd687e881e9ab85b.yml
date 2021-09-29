@@ -1,0 +1,115 @@
+_id: req_609096b0b1814bffbd687e881e9ab85b
+type: Request
+parentId: fld_7e0640ca8fe545f4bc524fc7f83cc3ea
+modified: 1630446397544
+created: 1630446397544
+url: https://192.168.225.10/ws/cpeService
+name: CreateCPE
+description: ""
+method: POST
+body:
+  mimeType: ""
+  text: "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\r
+
+    \    <SOAP-ENV:Envelope
+    xmlns:SOAP-ENV=\"http://schemas.xmlsoap.org/soap/envelope/\"
+    xmlns:com=\"com.gilat.ngnms.server.services.ws.cfg.face\"
+    xmlns:urn=\"urn:com.gilat.ngnms.server.ws.dto.cfg\">\r
+
+    \    <SOAP-ENV:Header />\r
+
+    \        <SOAP-ENV:Body>\r
+
+    \            <com:createCPE>\r
+
+    \                <cpe>\r
+
+    \                    <cpeId>\r
+
+    \                        <managedGroupId>2</managedGroupId>\r
+
+    \                        <subscriberId>8</subscriberId>\r
+
+    \                    </cpeId>\r
+
+    \                    <getMacFromCPE>ENABLE</getMacFromCPE>\r
+
+    \                    <clusterCode>091A</clusterCode>\r
+
+    \                    <platform>Gemini</platform>\r
+
+    \                    <ipStack>IPV4_ONLY</ipStack>\r
+
+    \r
+
+    \                    <slaName>SLA_1024\\/512_70%</slaName>\r
+
+    \                    <description>Prueba8</description>\r
+
+    \                    <authorization>FULL_ACCESS</authorization>\r
+
+    \                    <dataAuthorization>AUTHORIZED</dataAuthorization>\r
+
+    \                    <ipAddressing>ROUTER</ipAddressing>\r
+
+    \                    <provStatus>FULL_ACCESS</provStatus>\r
+
+    \                    <nicMode>Access</nicMode>\r
+
+    \                    <vrs>\r
+
+    \                        <urn:VR>\r
+
+    \                            <vlanId>24</vlanId>\r
+
+    \                            <ipv4>\r
+
+    \                                <subscriberPublicIpAddress>10.30.8.221\
+    </subscriberPublicIpAddress> \r
+
+    \                                <ipv4Prefix>30</ipv4Prefix>\r
+
+    \                                <ipv4Dhcp>ENABLE</ipv4Dhcp>\r
+
+    \                            </ipv4>\r
+
+    \                            <ipv4DynamicRoute>\r
+
+    \                                <satelliteRIPv2>ADVERTISE</satelliteRI\
+    Pv2>\r
+
+    \                                <lanRIPv2>ADVERTISE</lanRIPv2>\r
+
+    \                                <advertiseDGtoLAN>NEVER</advertiseDGto\
+    LAN>\r
+
+    \                            </ipv4DynamicRoute>\r
+
+    \                        </urn:VR>\r
+
+    \                    </vrs>\r
+
+    \                </cpe>\r
+
+    \            </com:createCPE>\r
+
+    \        </SOAP-ENV:Body>\r
+
+    \    </SOAP-ENV:Envelope>"
+parameters: []
+headers:
+  - name: Content-Type
+    value: text/xml
+authentication:
+  type: basic
+  disabled: false
+  username: APIs
+  password: MediaNetworks123
+metaSortKey: -1630446397544
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

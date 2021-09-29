@@ -1,9 +1,9 @@
 _id: req_e99c9b65c18e497ea3ab264f301532b7
 type: Request
 parentId: fld_2f3ab373b62d4940a7624abd9ab55752
-modified: 1629833827700
+modified: 1629841144926
 created: 1629833827700
-url: https://192.168.188.8/ws/cpeService
+url: https://{{ _.base_url }}:{{ _.gilat_ku_balcarce }}/ws/cpeService
 name: Cambio Service Plan
 description: ""
 method: POST
@@ -47,6 +47,7 @@ parameters: []
 headers:
   - name: Content-Type
     value: text/xml
+    id: pair_c5d68562550f4c3282ff31795710a1c4
 authentication:
   type: basic
   disabled: false

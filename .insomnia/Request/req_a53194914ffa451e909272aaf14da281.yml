@@ -1,0 +1,61 @@
+_id: req_a53194914ffa451e909272aaf14da281
+type: Request
+parentId: fld_7e0640ca8fe545f4bc524fc7f83cc3ea
+modified: 1630446397536
+created: 1630446397536
+url: https://192.168.225.10/ws/cpeService
+name: Edit Terminal KU
+description: ""
+method: POST
+body:
+  mimeType: ""
+  text: "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\r
+
+    \    <SOAP-ENV:Envelope
+    xmlns:SOAP-ENV=\"http://schemas.xmlsoap.org/soap/envelope/\"
+    xmlns:com=\"com.gilat.ngnms.server.services.ws.cfg.face\"
+    xmlns:urn=\"urn:com.gilat.ngnms.server.ws.dto.cfg\">\r
+
+    \    <SOAP-ENV:Header />\r
+
+    \        <SOAP-ENV:Body>\r
+
+    \            <com:modifyCPE>\r
+
+    \                <cpe>\r
+
+    \                    <cpeId>\r
+
+    \                        <managedGroupId>2</managedGroupId>\r
+
+    \                        <subscriberId>66778899</subscriberId>\r
+
+    \                    </cpeId>\r
+
+    \                    <subscriberPublicIpAddress>10.20.30.5</subscriberP\
+    ublicIpAddress> \r
+
+    \                </cpe>\r
+
+    \            </com:modifyCPE>\r
+
+    \        </SOAP-ENV:Body>\r
+
+    \    </SOAP-ENV:Envelope>"
+parameters: []
+headers:
+  - name: Content-Type
+    value: text/xml
+authentication:
+  type: basic
+  disabled: false
+  username: APIs
+  password: MediaNetworks123
+metaSortKey: -1630446397536
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
