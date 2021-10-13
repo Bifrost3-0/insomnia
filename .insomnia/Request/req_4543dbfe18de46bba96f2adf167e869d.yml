@@ -1,9 +1,9 @@
 _id: req_4543dbfe18de46bba96f2adf167e869d
 type: Request
 parentId: fld_4fb2b5b7eceb437aa0c7ac76015db876
-modified: 1632854497756
+modified: 1634154333962
 created: 1629840532454
-url: https://api-nms.hispasat.es/v1/broadband/backend/subslot/byslot?slotid=52
+url: https://api-nms.hispasat.es/v1/broadband/backend/slot/vlans?slotid=265
 name: Get Vlan by Slot
 description: ""
 method: GET

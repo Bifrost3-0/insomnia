@@ -1,9 +1,9 @@
 _id: req_87233db5425249eebe92896f05c13550
 type: Request
 parentId: fld_4fb2b5b7eceb437aa0c7ac76015db876
-modified: 1629842227801
+modified: 1632858423189
 created: 1629840532422
-url: "{{baseUrl}}/terminals/reset?terminalid=85040814"
+url: "{{ _.hispasat_ka }}/reset?terminalid=85040814"
 name: Reset Terminal
 description: ""
 method: PUT

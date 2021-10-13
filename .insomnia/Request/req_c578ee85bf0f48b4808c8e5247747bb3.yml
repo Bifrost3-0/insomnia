@@ -1,7 +1,7 @@
 _id: req_c578ee85bf0f48b4808c8e5247747bb3
 type: Request
 parentId: fld_4fb2b5b7eceb437aa0c7ac76015db876
-modified: 1629840532441
+modified: 1634151737282
 created: 1629840532441
 url: "{{baseUrl}}/slot/:slotid"
 name: Datos IPConnectivities
@@ -10,7 +10,9 @@ method: GET
 body: {}
 parameters: []
 headers: []
-authentication: {}
+authentication:
+  type: bearer
+  token: "{{ _.token_hispasat }}"
 metaSortKey: -1629840532441
 isPrivate: false
 settingStoreCookies: true
