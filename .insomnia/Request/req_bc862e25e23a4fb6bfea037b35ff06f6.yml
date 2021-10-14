@@ -1,0 +1,25 @@
+_id: req_bc862e25e23a4fb6bfea037b35ff06f6
+type: Request
+parentId: fld_72934ecc41df485e90c6ade1ed35c140
+modified: 1631550482726
+created: 1631550482726
+url: "{{ _.base_url }}:{{ _.idirectarg_platform }}/api/v1/evo/config/obj/lnb"
+name: LISTAR LNB ARG
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: basic
+  disabled: false
+  username: systemapi
+  password: tiws2019
+metaSortKey: -1628593725374.75
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

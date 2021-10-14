@@ -1,0 +1,41 @@
+_id: req_c993652c838e4aa3ae0099e9cb302ecb
+type: Request
+parentId: fld_2f3ab373b62d4940a7624abd9ab55752
+modified: 1632337153528
+created: 1629833827690
+url: http://{{ _.base_url }}:{{ _.gilat_ku_balcarce }}/ws/cpeService
+name: Delete Terminal
+description: ""
+method: POST
+body:
+  mimeType: ""
+  text: |
+    <Envelope xmlns="http://schemas.xmlsoap.org/soap/envelope/">
+        <Body>
+            <deleteCPE xmlns="com.gilat.ngnms.server.services.ws.cfg.face">
+                <!-- Optional -->
+                <id xmlns="">
+                    <managedGroupId>2</managedGroupId>
+                    <subscriberId>1008221</subscriberId>
+                </id>
+            </deleteCPE>
+        </Body>
+    </Envelope>
+parameters: []
+headers:
+  - name: Content-Type
+    value: text/xml
+    id: pair_e3e2739388684f839308aec45fcfdb5e
+authentication:
+  type: basic
+  disabled: false
+  username: apis
+  password: apis2020
+metaSortKey: -1629833827726.5625
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

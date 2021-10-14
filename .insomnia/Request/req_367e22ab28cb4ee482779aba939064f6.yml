@@ -1,0 +1,203 @@
+_id: req_367e22ab28cb4ee482779aba939064f6
+type: Request
+parentId: fld_2f3ab373b62d4940a7624abd9ab55752
+modified: 1632337237139
+created: 1629833827717
+url: http://{{ _.base_url }}:{{ _.gilat_ku_balcarce }}/ws/cpeService
+name: Alta Terminal L3
+description: ""
+method: POST
+body:
+  mimeType: ""
+  text: "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\r
+
+    <SOAP-ENV:Envelope
+    xmlns:SOAP-ENV=\"http://schemas.xmlsoap.org/soap/envelope/\"\r
+
+    \txmlns:com=\"com.gilat.ngnms.server.services.ws.cfg.face\"
+    xmlns:urn=\"urn:com.gilat.ngnms.server.ws.dto.cfg\">\r
+
+    \t<SOAP-ENV:Header />\r
+
+    \t<SOAP-ENV:Body>\r
+
+    \t\t<com:createCPE>\r
+
+    \                <cpe>\r
+
+    \                    <cpeId>\r
+
+    \                        <managedGroupId>2</managedGroupId>\r
+
+    \                        <subscriberId>9988</subscriberId>\r
+
+    \                    </cpeId>\r
+
+    \                    <getMacFromCPE>ENABLE</getMacFromCPE>\r
+
+    \                    <clusterCode>091A</clusterCode>\r
+
+    \                    <platform>Gemini-4 S2X</platform>\r
+
+    \                    <ipStack>IPV4_ONLY</ipStack>\r
+
+    \                 \r
+
+    \                    <slaName>SLA114 64/64 CIR 16/16</slaName>\r
+
+    \                    <rtnClassifierName>RTN_TIWS</rtnClassifierName>\r
+
+    \                    <description>PRUEBA9988</description>\r
+
+    \                    <authorization>FULL_ACCESS</authorization>\r
+
+    \                    <dataAuthorization>AUTHORIZED</dataAuthorization>\r
+
+    \                    <ipAddressing>ROUTER</ipAddressing>\r
+
+    \                    <provStatus>FULL_ACCESS</provStatus>\r
+
+    \                    \r
+
+    \                    <vrs>\r
+
+    \                        <urn:VR>\r
+
+    \                            <vlanId>1539</vlanId>\r
+
+    \                            <ipv4>\r
+
+    \                                <subscriberPublicIpAddress>99.92.85.10\
+    </subscriberPublicIpAddress>\r
+
+    \                                <ipv4Prefix>29</ipv4Prefix>\r
+
+    \                                <ipv4Dhcp>ENABLE</ipv4Dhcp>\r
+
+    \                                <configureDhcpParameters>false</config\
+    ureDhcpParameters>\r
+
+    \                                <overrideIPv4ConnectivityMode>false</o\
+    verrideIPv4ConnectivityMode>\r
+
+    \                            </ipv4>\r
+
+    \                            <ipv4DynamicRoute>\r
+
+    \                            <satelliteRIPv2>ADVERTISE</satelliteRIPv2>\
+    \r
+
+    \                            <lanRIPv2>DISABLE</lanRIPv2>\r
+
+    \                            <advertiseDGtoLAN>NEVER</advertiseDGtoLAN>\
+    \r
+
+    \                            </ipv4DynamicRoute>\r
+
+    \                        </urn:VR>\r
+
+    \                    </vrs>\r
+
+    \                                 \r
+
+    \                    <physPorts>\r
+
+    \                        <urn:PhysicalPort> \r
+
+    \                            <id>1</id>\r
+
+    \                            <name>port-1</name>\r
+
+    \                            <portStatus>ENABLE</portStatus>\r
+
+    \                            <nicMode>Access</nicMode>\r
+
+    \                            <supportedVRs>\r
+
+    \                                <vlanID>1539</vlanID>\r
+
+    \                            </supportedVRs>\r
+
+    \                        </urn:PhysicalPort> \r
+
+    \                        <urn:PhysicalPort>\r
+
+    \                            <id>2</id>\r
+
+    \                            <name>port-2</name>\r
+
+    \                            <portStatus>ENABLE</portStatus>\r
+
+    \                            <nicMode>Trunk</nicMode>\r
+
+    \                            <supportedVRs>\r
+
+    \                                <vlanID>1539</vlanID>\r
+
+    \                            </supportedVRs>\r
+
+    \                        </urn:PhysicalPort> \r
+
+    \                        <urn:PhysicalPort>\r
+
+    \                            <id>3</id>\r
+
+    \                            <name>port-3</name>\r
+
+    \                            <portStatus>ENABLE</portStatus>\r
+
+    \                            <nicMode>Trunk</nicMode>\r
+
+    \                            <supportedVRs>\r
+
+    \                                <vlanID>1539</vlanID>\r
+
+    \                            </supportedVRs>\r
+
+    \                        </urn:PhysicalPort> \r
+
+    \                        <urn:PhysicalPort>\r
+
+    \                            <id>4</id>\r
+
+    \                            <name>port-4</name>\r
+
+    \                            <portStatus>ENABLE</portStatus>\r
+
+    \                            <nicMode>Trunk</nicMode>\r
+
+    \                            <supportedVRs>\r
+
+    \                                <vlanID>1539</vlanID>\r
+
+    \                            </supportedVRs>\r
+
+    \                        </urn:PhysicalPort> \r
+
+    \                    </physPorts>\r
+
+    \                </cpe>\r
+
+    \            </com:createCPE>\r
+
+    \        </SOAP-ENV:Body>\r
+
+    \    </SOAP-ENV:Envelope>"
+parameters: []
+headers:
+  - name: Content-Type
+    value: text/xml
+    id: pair_f65e3dba8b314136924412ddd308204e
+authentication:
+  type: basic
+  disabled: false
+  username: apis
+  password: apis2020
+metaSortKey: -1629833827737.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

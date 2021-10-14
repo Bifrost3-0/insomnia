@@ -1,0 +1,32 @@
+_id: req_25b39bc67ffc42a1a06f4484b3fe71dc
+type: Request
+parentId: fld_c7360f7efe1e4775b80047d5e7b37eb5
+modified: 1629843569892
+created: 1629837497785
+url: "{{ _.base_url }}:{{ _.idirectarg_platform
+  }}/api/v1/evo/config/obj/remote/NMSID"
+name: CHANGE OUTDOOR_IDIRECT ARG
+description: ""
+method: PATCH
+body:
+  mimeType: application/json
+  text: '{"AntennaComponents": {"BUCID" : requestBuc , "LNBIDs" : [requestLnb]}}'
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_b14e553e3dc849168e163158044ed7f3
+authentication:
+  type: basic
+  useISO88591: false
+  disabled: false
+  username: systemapi
+  password: tiws2019
+metaSortKey: -1629837497785
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

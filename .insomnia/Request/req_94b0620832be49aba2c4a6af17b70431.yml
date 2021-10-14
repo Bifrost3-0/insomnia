@@ -1,0 +1,32 @@
+_id: req_94b0620832be49aba2c4a6af17b70431
+type: Request
+parentId: fld_22d4ad56946046588d3abf642f6a9c32
+modified: 1631567802461
+created: 1631550482785
+url: "{{ _.base_url }}:{{ _.hub5_idirect_platform
+  }}/api/v1/evo/config/obj/remote/NMSID"
+name: MOVE IDIRECT ARG HUB5
+description: ""
+method: PATCH
+body:
+  mimeType: application/json
+  text: '{"Lat": "requestLat","Lon": "requestLong"}'
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_3649aa653f2347d0bd19006f2645fa51
+authentication:
+  type: basic
+  useISO88591: false
+  disabled: false
+  username: systemapi
+  password: tiws2019
+metaSortKey: -1629837620564
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

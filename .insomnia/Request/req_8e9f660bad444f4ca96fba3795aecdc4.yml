@@ -1,0 +1,49 @@
+_id: req_8e9f660bad444f4ca96fba3795aecdc4
+type: Request
+parentId: fld_7e0640ca8fe545f4bc524fc7f83cc3ea
+modified: 1630446397551
+created: 1630446397551
+url: https://192.168.225.10/ws/cpeService
+name: GetCPEs - Pulleo Gilat KU
+description: ""
+method: POST
+body:
+  mimeType: ""
+  text: "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\r
+
+    \    <soapenv:Envelope
+    xmlns:soapenv=\"http://schemas.xmlsoap.org/soap/envelope/\"
+    xmlns:com=\"com.gilat.ngnms.server.services.ws.cfg.face\">   \r
+
+    \    <soapenv:Header/>    \r
+
+    \    <soapenv:Body>       \r
+
+    \    <com:getCPEsByManagedGroup>          \r
+
+    \        <managedGroupId>2</managedGroupId>          \r
+
+    \        <lastIndex>0</lastIndex>       \r
+
+    \    </com:getCPEsByManagedGroup>    \r
+
+    \    </soapenv:Body> \r
+
+    \    </soapenv:Envelope> "
+parameters: []
+headers:
+  - name: Content-Type
+    value: text/xml
+authentication:
+  type: basic
+  disabled: false
+  username: APIs
+  password: MediaNetworks123
+metaSortKey: -1630446397551
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

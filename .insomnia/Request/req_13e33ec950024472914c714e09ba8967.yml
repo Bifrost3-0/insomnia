@@ -1,16 +1,19 @@
 _id: req_13e33ec950024472914c714e09ba8967
 type: Request
 parentId: fld_1fd8113c47dd41dea7d20f93e69462af
-modified: 1629478323944
+modified: 1631721248541
 created: 1629478323944
-url: 3.23.181.222/orbith-api/public/v1/api-isp/work-orders
+url: "{{ _.base_url }}:{{ _.newtect_platform
+  }}/orbith-api/public/v1/api-isp/work-orders"
 name: Listado de OTs
 description: ""
 method: GET
 body: {}
 parameters: []
 headers: []
-authentication: {}
+authentication:
+  type: bearer
+  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJsdW1lbi1qd3QiLCJzdWIiOjQzMCwiaWF0IjoxNjMxNzIxMDQ5LCJleHAiOjE2MzE4MDc0NDl9.FnQVkAREr5xbwr8NguSLXyAPHXrgITY3-n4JNg7FTCw
 metaSortKey: -1629478323944
 isPrivate: false
 settingStoreCookies: true

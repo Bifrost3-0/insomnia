@@ -1,0 +1,51 @@
+_id: req_ec30ab4b7e41410aacbdbbcf89f06c56
+type: Request
+parentId: fld_7e0640ca8fe545f4bc524fc7f83cc3ea
+modified: 1630446397542
+created: 1630446397542
+url: https://192.168.225.10/ws/cpeService
+name: cpeReleaseMac
+description: ""
+method: POST
+body:
+  mimeType: ""
+  text: "<soapenv:Envelope
+    xmlns:soapenv=\"http://schemas.xmlsoap.org/soap/envelope/\"
+    xmlns:com=\"com.gilat.ngnms.server.services.ws.cfg.face\">    \r
+
+    <soapenv:Header/>    \r
+
+    \ <soapenv:Body>       \r
+
+    \    <com:cpeReleaseMac>          \r
+
+    \        <cpeId>             \r
+
+    \            <managedGroupId>2</managedGroupId>             \r
+
+    \            <subscriberId>requestSuscriberId</subscriberId>          \r
+
+    \        </cpeId>          \r
+
+    \    </com:cpeReleaseMac>    \r
+
+    </soapenv:Body> \r
+
+    </soapenv:Envelope>"
+parameters: []
+headers:
+  - name: Content-Type
+    value: text/xml
+authentication:
+  type: basic
+  disabled: false
+  username: lmejia
+  password: L@mm1812
+metaSortKey: -1630446397542
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

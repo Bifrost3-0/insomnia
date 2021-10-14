@@ -1,0 +1,100 @@
+_id: req_872386c32af34d3fa6f331d260264d82
+type: Request
+parentId: fld_2f3ab373b62d4940a7624abd9ab55752
+modified: 1629841351986
+created: 1629833827688
+url: https://{{ _.base_url }}:{{ _.gilat_ku_balcarce }}/ws/cpeService
+name: Cambiar Vlan
+description: ""
+method: POST
+body:
+  mimeType: ""
+  text: "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\r
+
+    <soapenv:Envelope \r
+
+    xmlns:soapenv=\"http://schemas.xmlsoap.org/soap/envelope/\" \r
+
+    xmlns:com=\"com.gilat.ngnms.server.services.ws.cfg.face\">    \r
+
+    \    <soapenv:Header/>    \r
+
+    \    <soapenv:Body>       \r
+
+    \        <com:modifyCPE>          \r
+
+    \            <cpe>             \r
+
+    \                <cpeId>                \r
+
+    \                    <managedGroupId>2</managedGroupId>                \
+    \r
+
+    \                    <subscriberId>1012075</subscriberId>             \r
+
+    \                </cpeId>             \r
+
+    \                <vrs>\r
+
+    \                        <urn:VR>\r
+
+    \                            <vlanId>711</vlanId>\r
+
+    \                            <ipv4>\r
+
+    \                                <subscriberPublicIpAddress>209.13.133.\
+    1</subscriberPublicIpAddress>\r
+
+    \                                <ipv4Prefix>30</ipv4Prefix>\r
+
+    \                                <ipv4Dhcp>ENABLE</ipv4Dhcp>\r
+
+    \                                <configureDhcpParameters>false</config\
+    ureDhcpParameters>\r
+
+    \                                <overrideIPv4ConnectivityMode>false</o\
+    verrideIPv4ConnectivityMode>\r
+
+    \                            </ipv4>\r
+
+    \                            <ipv4DynamicRoute>\r
+
+    \                            <satelliteRIPv2>ADVERTISE</satelliteRIPv2>\
+    \r
+
+    \                            <lanRIPv2>DISABLE</lanRIPv2>\r
+
+    \                            <advertiseDGtoLAN>NEVER</advertiseDGtoLAN>\
+    \r
+
+    \                            </ipv4DynamicRoute>\r
+
+    \                        </urn:VR>\r
+
+    \                    </vrs>\r
+
+    \            </cpe>       \r
+
+    \        </com:modifyCPE>    \r
+
+    \    </soapenv:Body> \r
+
+    \    </soapenv:Envelope>\r\n"
+parameters: []
+headers:
+  - name: Content-Type
+    value: text/xml
+    id: pair_33ed2298a90f416a830732271e1b08c6
+authentication:
+  type: basic
+  disabled: false
+  username: apis
+  password: apis2020
+metaSortKey: -1629833827688
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

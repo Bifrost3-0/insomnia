@@ -1,0 +1,21 @@
+_id: req_c578ee85bf0f48b4808c8e5247747bb3
+type: Request
+parentId: fld_4fb2b5b7eceb437aa0c7ac76015db876
+modified: 1629840532441
+created: 1629840532441
+url: "{{baseUrl}}/slot/:slotid"
+name: Datos IPConnectivities
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1629840532441
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

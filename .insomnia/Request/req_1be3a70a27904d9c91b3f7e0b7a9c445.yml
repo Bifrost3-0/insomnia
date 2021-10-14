@@ -1,0 +1,74 @@
+_id: req_1be3a70a27904d9c91b3f7e0b7a9c445
+type: Request
+parentId: fld_2f3ab373b62d4940a7624abd9ab55752
+modified: 1629841126931
+created: 1629833827725
+url: https://{{ _.base_url }}:{{ _.gilat_ku_balcarce }}/ws/cpeService
+name: Del Static Route
+description: ""
+method: POST
+body:
+  mimeType: ""
+  text: "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\r
+
+    <soapenv:Envelope \r
+
+    xmlns:soapenv=\"http://schemas.xmlsoap.org/soap/envelope/\" \r
+
+    xmlns:com=\"com.gilat.ngnms.server.services.ws.cfg.face\">    \r
+
+    <soapenv:Header/>    \r
+
+    <soapenv:Body>       \r
+
+    \    <com:cpeDeleteStaticRouteIPv4>         \r
+
+    \    <cpeId>             \r
+
+    \        <managedGroupId>2</managedGroupId>             \r
+
+    \        <subscriberId>1001537</subscriberId>          \r
+
+    \    </cpeId>          \r
+
+    \    <vlanId>155</vlanId>          \r
+
+    \    <IPv4StaticRoute>             \r
+
+    \        <network>192.168.129.200</network>             \r
+
+    \        <subnetMask>255.255.255.255</subnetMask>             \r
+
+    \        <nextHop>200.1.1.1</nextHop>             \r
+
+    \        <ipV4Interface>LAN</ipV4Interface>             \r
+
+    \        <redistribute>RIPv2</redistribute>             \r
+
+    \        <distributedMetric>1</distributedMetric>          \r
+
+    \    </IPv4StaticRoute>       \r
+
+    \    </com:cpeDeleteStaticRouteIPv4> \r
+
+    </soapenv:Body> \r
+
+    </soapenv:Envelope> "
+parameters: []
+headers:
+  - name: Content-Type
+    value: text/xml
+    id: pair_3f41455c37604d5d8dd837103619f73f
+authentication:
+  type: basic
+  disabled: false
+  username: apis
+  password: apis2020
+metaSortKey: -1629833827716.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

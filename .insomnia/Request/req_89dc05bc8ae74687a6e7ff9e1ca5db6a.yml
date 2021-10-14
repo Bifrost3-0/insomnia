@@ -1,0 +1,32 @@
+_id: req_89dc05bc8ae74687a6e7ff9e1ca5db6a
+type: Request
+parentId: fld_22d4ad56946046588d3abf642f6a9c32
+modified: 1631567724192
+created: 1631550482813
+url: "{{ _.base_url }}:{{ _.hub5_idirect_platform
+  }}/api/v1/evo/config/obj/remote/NMSID"
+name: DEACTIVATE TERMINAL IDIRECT ARG HUB5
+description: ""
+method: PATCH
+body:
+  mimeType: application/json
+  text: '{"Active":"false"}'
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_12e6bbcc09ba46f495c9d8015b1b382b
+authentication:
+  type: basic
+  useISO88591: false
+  disabled: false
+  username: systemapi
+  password: tiws2019
+metaSortKey: -1629837660220
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

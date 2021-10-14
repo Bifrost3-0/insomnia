@@ -1,0 +1,278 @@
+_id: req_0ac71595511d4abb96b81d7fc81c9a47
+type: Request
+parentId: fld_2f3ab373b62d4940a7624abd9ab55752
+modified: 1629841403796
+created: 1629833827684
+url: https://{{ _.base_url }}:{{ _.gilat_ku_balcarce }}/ws/cpeService
+name: Alta de Terminal L2 QinQ Gem4
+description: ""
+method: POST
+body:
+  mimeType: ""
+  text: "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\r
+
+    <SOAP-ENV:Envelope
+    xmlns:SOAP-ENV=\"http://schemas.xmlsoap.org/soap/envelope/\"\r
+
+    \txmlns:com=\"com.gilat.ngnms.server.services.ws.cfg.face\"
+    xmlns:urn=\"urn:com.gilat.ngnms.server.ws.dto.cfg\">\r
+
+    \t<SOAP-ENV:Header />\r
+
+    \t<SOAP-ENV:Body>\r
+
+    \t\t<com:createCPE>\r
+
+    \                <cpe>\r
+
+    \                    <cpeId>\r
+
+    \                        <managedGroupId>3</managedGroupId>\r
+
+    \                        <subscriberId>998888</subscriberId>\r
+
+    \                    </cpeId>\r
+
+    \                    <getMacFromCPE>ENABLE</getMacFromCPE>\r
+
+    \                    <clusterCode>091A</clusterCode>\r
+
+    \                    <platform>Gemini-4 S2X</platform>\r
+
+    \                    <ipStack>IPV4_ONLY</ipStack>\r
+
+    \                 \r
+
+    \                    <slaName>SLA_1024/1024 CIR 256</slaName>\r
+
+    \                    <rtnClassifierName>RTNClass</rtnClassifierName>\r
+
+    \                    <description>PRUEBAL2</description>\r
+
+    \                    <authorization>FULL_ACCESS</authorization>\r
+
+    \                    <dataAuthorization>AUTHORIZED</dataAuthorization>\r
+
+    \                    <ipAddressing>ROUTER</ipAddressing>\r
+
+    \                    <provStatus>FULL_ACCESS</provStatus>\r
+
+    \                               \r
+
+    \                <vrs>\r
+
+    \               <!--Zero or more repetitions:-->\r
+
+    \               <urn:VR>\r
+
+    \                  <vlanId>350</vlanId>\r
+
+    \                  <inPorts>\r
+
+    \                     <!--Zero or more repetitions:-->\r
+
+    \                     <portId>1</portId>\r
+
+    \t\t\t\t\t <portId>2</portId>\r
+
+    \t\t\t\t\t <portId>3</portId>\r
+
+    \t\t\t\t\t <portId>4</portId>\r
+
+    \                  </inPorts>\r
+
+    \                  <layer2>\r
+
+    \                     <vxgwId>1</vxgwId>\r
+
+    \t\t\t\t\t <vxlanVni>350</vxlanVni>\r
+
+    \t\t\t\t\t <vxlanUnit>350</vxlanUnit>\r
+
+    \                     <sTagVlanId>350</sTagVlanId>\r
+
+    \                  </layer2>\r
+
+    \               </urn:VR>\r
+
+    \t\t\t   \r
+
+    \t\t\t   <!--Zero or more repetitions:-->\r
+
+    \               <urn:VR>\r
+
+    \                  <vlanId>351</vlanId>\r
+
+    \                  <inPorts>\r
+
+    \                     <!--Zero or more repetitions:-->\r
+
+    \                     <portId>1</portId>\r
+
+    \                  </inPorts>\r
+
+    \                  <layer2>\r
+
+    \                     <vxgwId>1</vxgwId>\r
+
+    \t\t\t\t\t <vxlanVni>351</vxlanVni>\r
+
+    \t\t\t\t\t <vxlanUnit>351</vxlanUnit>\r
+
+    \                     <sTagVlanId>351</sTagVlanId>\r
+
+    \                  </layer2>\r
+
+    \               </urn:VR>\r
+
+    \t\t\t   \r
+
+    \t\t\t   <!--Zero or more repetitions:-->\r
+
+    \               <urn:VR>\r
+
+    \                  <vlanId>352</vlanId>\r
+
+    \                  <inPorts>\r
+
+    \                     <!--Zero or more repetitions:-->\r
+
+    \                     <portId>1</portId>\r
+
+    \                  </inPorts>\r
+
+    \                  <layer2>\r
+
+    \                     <vxgwId>1</vxgwId>\r
+
+    \t\t\t\t\t <vxlanVni>352</vxlanVni>\r
+
+    \t\t\t\t\t <vxlanUnit>352</vxlanUnit>\r
+
+    \                     <sTagVlanId>352</sTagVlanId>\r
+
+    \                  </layer2>\r
+
+    \               </urn:VR>\r
+
+    \            </vrs>\r
+
+    \t\t\t\t\t\r
+
+    \t\t\t\r
+
+    \            <physPorts>\r
+
+    \               <!--Zero or more repetitions:-->\r
+
+    \               <urn:PhysicalPort>\r
+
+    \                  <id>1</id>\r
+
+    \                  <nicMode>Trunk</nicMode>\r
+
+    \                  <supportedVRs>\r
+
+    \                     <!--Zero or more repetitions:-->\r
+
+    \                     <vlanID>350</vlanID>\r
+
+    \t\t\t\t\t <vlanID>351</vlanID>\r
+
+    \t\t\t\t\t <vlanID>352</vlanID>\r
+
+    \                  </supportedVRs>\r
+
+    \               </urn:PhysicalPort>\r
+
+    \t\t\t   \r
+
+    \               <urn:PhysicalPort>\r
+
+    \                  <id>2</id>\r
+
+    \                  <nicMode>Trunk</nicMode>\r
+
+    \                  <supportedVRs>\r
+
+    \                     <!--Zero or more repetitions:-->\r
+
+    \                     <vlanID>350</vlanID>\r
+
+    \                     <vlanID>351</vlanID>\r
+
+    \t\t\t\t\t <vlanID>352</vlanID>\r
+
+    \                  </supportedVRs>\r
+
+    \               </urn:PhysicalPort>\r
+
+    \t\t\t   \r
+
+    \               <urn:PhysicalPort>\r
+
+    \                  <id>3</id>\r
+
+    \                  <nicMode>Trunk</nicMode>\r
+
+    \                  <supportedVRs>\r
+
+    \                     <!--Zero or more repetitions:-->\r
+
+    \                     <vlanID>350</vlanID>\r
+
+    \                     <vlanID>351</vlanID>\r
+
+    \t\t\t\t\t <vlanID>352</vlanID>\r
+
+    \                  </supportedVRs>\r
+
+    \               </urn:PhysicalPort>\r
+
+    \t\t\t   \r
+
+    \               <urn:PhysicalPort>\r
+
+    \                  <id>4</id>\r
+
+    \                  <nicMode>Access</nicMode>\r
+
+    \                  <supportedVRs>\r
+
+    \                     <!--Zero or more repetitions:-->\r
+
+    \                     <vlanID>350</vlanID>\r
+
+    \                  </supportedVRs>\r
+
+    \               </urn:PhysicalPort>\r
+
+    \            </physPorts>\r
+
+    \r
+
+    \                </cpe>\r
+
+    \            </com:createCPE>\r
+
+    \        </SOAP-ENV:Body>\r
+
+    \    </SOAP-ENV:Envelope>"
+parameters: []
+headers:
+  - name: Content-Type
+    value: text/xml
+    id: pair_c30afe8bd7554bc3a98e13c98a0d0e44
+authentication:
+  type: basic
+  disabled: false
+  username: apis
+  password: apis2020
+metaSortKey: -1629833827684
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

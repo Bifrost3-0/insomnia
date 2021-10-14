@@ -1,0 +1,31 @@
+_id: req_26d1b5eb91bf4334941d40a38b6b97e4
+type: Request
+parentId: wrk_7c28e35996214fcabe68cfd78f898499
+modified: 1629817447392
+created: 1629817359909
+url: api,com/crearservicio/bifrost
+name: crearServicio
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"test":"test"
+    }
+parameters: []
+headers: []
+authentication:
+  type: basic
+  useISO88591: false
+  disabled: false
+  username: test
+  password: test
+metaSortKey: -1629817359909
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

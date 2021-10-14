@@ -1,0 +1,26 @@
+_id: req_fd1a5ae71ddd4026a23061b1aa25b017
+type: Request
+parentId: fld_97dbf942020f44deadb60f489ddf2dfe
+modified: 1630603471715
+created: 1630603327952
+url: "{{ _.base_url }}:{{ _.idirectlima_platform }}/api/v1/evo/config/obj/remote"
+name: ListarTerminales IDIRECT LIMA
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: basic
+  useISO88591: false
+  disabled: false
+  username: systemapi
+  password: tiws2019
+metaSortKey: -1629847655928
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

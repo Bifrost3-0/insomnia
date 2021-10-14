@@ -1,0 +1,25 @@
+_id: req_bd13d362e9dd4489877b94d505667e76
+type: Request
+parentId: fld_4fb2b5b7eceb437aa0c7ac76015db876
+modified: 1632854491129
+created: 1629840532457
+url: https://api-nms.hispasat.es/v1/broadband/backend/subslot/byslot?slotid=52
+name: Get Subslots by Slot
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  disabled: false
+  token: "{{ _.token_hispasat }}"
+  prefix: ""
+metaSortKey: -1629840532457
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

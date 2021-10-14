@@ -1,0 +1,54 @@
+_id: req_609127521c494b39bb9e485a4da0525d
+type: Request
+parentId: fld_4fb2b5b7eceb437aa0c7ac76015db876
+modified: 1629842255508
+created: 1629840532426
+url: https://api-nms.hispasat.es/v1/broadband/backend/terminals
+name: Desprovisionar Terminal
+description: ""
+method: PUT
+body:
+  mimeType: ""
+  text: |-
+    {
+            "id": 6515,
+            "name": "Prueba-67485",
+            "macAddress": "ABAB1212ACAC",
+            "client": {
+                "id": 10            },
+            "terminalsType": {
+                "id": 18
+                },
+            "logged": false,
+            "dayResetQuote": 4,
+            "provisioning": false,
+            "terminalStatus": {
+                "id": 2
+            },
+            "slotDto": {
+                "id": 52
+            },
+            "subslotDto": {
+                "id": 111
+            },
+            "profile": {
+                "id": 944    },
+            "commercialName": "Prueba-67485"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication:
+  type: bearer
+  disabled: false
+  token: eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJvcmRlcmluZ21uLnBlQHRlbGVmb25pY2EuY29tIiwiaWF0IjoxNjIzOTY4OTEyLCJleHAiOjE2MjM5Nzk3MTJ9.dXfyeg-m62smZVayONQMafiCAfMFtilIjrgng9EFmUyrbG0i4uRqUccwDRTP7HLWlGoagca_vUUhetxFb2lvnw
+  prefix: ""
+metaSortKey: -1629840532450.375
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

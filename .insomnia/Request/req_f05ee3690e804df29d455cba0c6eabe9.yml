@@ -1,0 +1,30 @@
+_id: req_f05ee3690e804df29d455cba0c6eabe9
+type: Request
+parentId: fld_8b0356c714f5411694952d6c54d102ea
+modified: 1630085338506
+created: 1630085241191
+url: https://kongadmin.bifrost.pe/services
+name: Create Service
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {   
+        "name":"openfaas",
+        "url":"https://openfaas.bifrost.pe/function"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_d52a67e7ef3546569c99013fb655eff4
+authentication: {}
+metaSortKey: -1630085241191
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

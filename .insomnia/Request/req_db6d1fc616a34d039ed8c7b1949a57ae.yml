@@ -1,0 +1,31 @@
+_id: req_db6d1fc616a34d039ed8c7b1949a57ae
+type: Request
+parentId: fld_555a631248b340bca083a9a3ce70f93f
+modified: 1631627199753
+created: 1631627005225
+url: https://kong.bifrost.pe/presale-editcontract
+name: Test editContract
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"id": 2,
+    	"name": "Test para api",
+    	"contractFile": "fileHAHAHA.txt"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_393f3e4830204f7c8dedce223abe39ee
+authentication: {}
+metaSortKey: -1631627005226
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

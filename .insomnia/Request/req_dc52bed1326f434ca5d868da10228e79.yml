@@ -1,0 +1,62 @@
+_id: req_dc52bed1326f434ca5d868da10228e79
+type: Request
+parentId: fld_4fb2b5b7eceb437aa0c7ac76015db876
+modified: 1632854446703
+created: 1629840532417
+url: https://api-nms.hispasat.es/v1/broadband/backend/terminals/search-with-quota
+name: Lista de Terminales - Puller
+description: ""
+method: POST
+body:
+  mimeType: ""
+  text: |-
+    {
+        "orderSort": "laborum aliquip ad mollit anim",
+        "orderDir": "DESC",
+        "page": -98999888,
+        "size": -94231771,
+        "name": "dolor",
+        "nameClient": "et",
+        "clientId": 57026570,
+        "identifier": "laboris dolor",
+        "macAddress": "est adipisicing",
+        "platformId": -9813162,
+        "terminalStatusId": -97804866,
+        "subslotId": 49772260,
+        "beamId": -92800943,
+        "profileId": 19144967,
+        "logged": false,
+        "slotId": -82153025,
+        "consumido": "deserunt commodo id ea",
+        "quotaConsumed": true,
+        "clientIdList": [
+            -20171690,
+            18082032
+        ],
+        "searchList": -19211028,
+        "ownerId": 50787315,
+        "subscriberPublicIpAddress": "quis laborum sit",
+        "statusIdList": [
+            26781551,
+            9883729
+        ],
+        "searchStatusList": -6083551
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_6b1af527ad2e43b5b42963154f5f5601
+authentication:
+  type: bearer
+  disabled: false
+  token: "{{ _.token_hispasat }}"
+  prefix: ""
+metaSortKey: -1629840532467
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

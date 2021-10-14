@@ -1,0 +1,27 @@
+_id: req_131b1b1b84984a1eb59110d512388ec5
+type: Request
+parentId: fld_4fb2b5b7eceb437aa0c7ac76015db876
+modified: 1629840532450
+created: 1629840532450
+url: https://api-nms.hispasat.es/v1/broadband/backend/terminals/freeips?ipconnectivityid=24
+name: IP Libre
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication:
+  type: bearer
+  disabled: false
+  token: eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJkZW1vdGl3c21pbmVkdUB0ZWxlZm9uaWNhLmNvbSIsImlhdCI6MTYxOTQ1MTAyMSwiZXhwIjoxNjE5NDYxODIxfQ.kmKIlfI5m5Ca1xCLqBhR1MahiIXbTGSnfVZZMuLMWx2YM7gKa0tSAQvLWhDOPxgHA72c58lS69SlJ8ljHr3tbA
+  prefix: ""
+metaSortKey: -1629840532450
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

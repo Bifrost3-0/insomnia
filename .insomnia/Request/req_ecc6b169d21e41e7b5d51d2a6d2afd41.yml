@@ -1,0 +1,32 @@
+_id: req_ecc6b169d21e41e7b5d51d2a6d2afd41
+type: Request
+parentId: fld_c7360f7efe1e4775b80047d5e7b37eb5
+modified: 1630602692427
+created: 1629839686366
+url: :{{ _.idirectarg_platform }}/api/v1/evo/config/obj/remote/NMSID
+name: update multivlan
+description: ""
+method: PATCH
+body:
+  mimeType: application/json
+  text: '{"VLanID":"requestvlanid","ETH0IPAddress":"requestethaddress","ETH0SubnetMask":"requestmask","StaticRoutes":{"IPAddress":"requeststaticro","SubnetMask":
+    "requeststaticrosub","Gateway":"requestdefaulgw"}}'
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_b35cf807acd64b9eb93fe5e08331201e
+authentication:
+  type: basic
+  useISO88591: false
+  disabled: false
+  username: systemapi
+  password: tiws2019
+metaSortKey: -1629839686366
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,21 @@
+_id: req_eddd4b1919a649d0a8f55a7e47873d96
+type: Request
+parentId: fld_4fb2b5b7eceb437aa0c7ac76015db876
+modified: 1629842232446
+created: 1629840532424
+url: "{{baseUrl}}/terminals/:terminalId"
+name: Delete Terminal
+description: ""
+method: DELETE
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1629840532450.25
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

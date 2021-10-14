@@ -1,0 +1,22 @@
+_id: req_90c9cc608593463da504acdf438afd15
+type: Request
+parentId: fld_d7199f03fbb64bc881ab8044417fb5f0
+modified: 1629840633942
+created: 1629840532484
+url: "{{baseUrl}}/graphdata/graph/terminalquote?id=85040814&from=1965-04-28&to=\
+  1965-04-28"
+name: Ping Terminal
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1629840532484
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

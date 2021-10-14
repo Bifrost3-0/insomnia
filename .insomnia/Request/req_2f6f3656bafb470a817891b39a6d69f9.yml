@@ -1,0 +1,32 @@
+_id: req_2f6f3656bafb470a817891b39a6d69f9
+type: Request
+parentId: fld_22d4ad56946046588d3abf642f6a9c32
+modified: 1631567817790
+created: 1631550482781
+url: "{{ _.base_url }}:{{ _.hub5_idirect_platform
+  }}/api/v1/evo/config/obj/remote/NMSID"
+name: CHANGE OUTDOOR_IDIRECT ARG HUB5
+description: ""
+method: PATCH
+body:
+  mimeType: application/json
+  text: '{"AntennaComponents": {"BUCID" : requestBuc , "LNBIDs" : [requestLnb]}}'
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_b14e553e3dc849168e163158044ed7f3
+authentication:
+  type: basic
+  useISO88591: false
+  disabled: false
+  username: systemapi
+  password: tiws2019
+metaSortKey: -1629837497785
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

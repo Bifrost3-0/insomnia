@@ -1,0 +1,52 @@
+_id: req_ee8a2cbc14ba437482bd1697ace46f2d
+type: Request
+parentId: fld_7e0640ca8fe545f4bc524fc7f83cc3ea
+modified: 1630446397547
+created: 1630446397547
+url: http://192.168.29.20:8080/ws/cpeService
+name: Get CPE Static Route
+description: ""
+method: POST
+body:
+  mimeType: ""
+  text: "<Envelope xmlns=\"http://schemas.xmlsoap.org/soap/envelope/\">\r
+
+    \    <Body>\r
+
+    \        <getCPEStaticRouteIPv4
+    xmlns=\"com.gilat.ngnms.server.services.ws.cfg.face\">\r
+
+    \            <!-- Optional -->\r
+
+    \            <cpeId xmlns=\"\">\r
+
+    \                <managedGroupId>2</managedGroupId>\r
+
+    \                <subscriberId>121</subscriberId>\r
+
+    \            </cpeId>\r
+
+    \            <vlanId xmlns=\"\">507</vlanId>\r
+
+    \        </getCPEStaticRouteIPv4>\r
+
+    \    </Body>\r
+
+    </Envelope>"
+parameters: []
+headers:
+  - name: Content-Type
+    value: text/xml
+authentication:
+  type: basic
+  disabled: false
+  username: lmejia
+  password: L@mm1812
+metaSortKey: -1630446397547
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

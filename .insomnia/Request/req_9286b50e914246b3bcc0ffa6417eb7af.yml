@@ -1,9 +1,10 @@
 _id: req_9286b50e914246b3bcc0ffa6417eb7af
 type: Request
 parentId: fld_9820ea0a8fc7456ba4927e3fc5ce2bbd
-modified: 1629478325039
+modified: 1632513059340
 created: 1629478325039
-url: 3.23.181.222/orbith-api/public/v1/api-isp/subscribers?limit=1000
+url: "{{ _.base_url }}:{{ _.newtect_platform
+  }}/orbith-api/public/v1/api-isp/subscribers?limit=1000"
 name: Suscriptores
 description: ""
 method: GET
@@ -12,7 +13,9 @@ body:
   mimeType: application/x-www-form-urlencoded
 parameters: []
 headers: []
-authentication: {}
+authentication:
+  type: bearer
+  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJsdW1lbi1qd3QiLCJzdWIiOjQzMCwiaWF0IjoxNjMyNTA4OTUyLCJleHAiOjE2MzI1OTUzNTJ9.Q-ubScADHyKEuGjekNM2Z6RUG2QmEWsbXnl_rTZe_SE
 metaSortKey: -1629478325039
 isPrivate: false
 settingStoreCookies: true

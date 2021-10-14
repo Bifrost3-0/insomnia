@@ -1,0 +1,33 @@
+_id: req_2b62075109c0493bac9b8254847376ee
+type: Request
+parentId: fld_97dbf942020f44deadb60f489ddf2dfe
+modified: 1633033868128
+created: 1630603249001
+url: "{{ _.base_url }}:{{ _.idirectlima_platform
+  }}/api/v1/evo/config/obj/remote/2271"
+name: CAMBIO DE PLAN _ IDIRECT LIMA
+description: ""
+method: PATCH
+body:
+  mimeType: application/json
+  text: >
+    {"UpCIR":"555","UpMIR":"2048","DownCIR":"2222","DownMIR":"516","MaxIR":"512","CIR":"512"}
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_2dd5ff430d0542be854e07c51bf3fa6d
+authentication:
+  type: basic
+  useISO88591: false
+  disabled: false
+  username: systemapi
+  password: tiws2019
+metaSortKey: -1629847656228
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

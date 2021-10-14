@@ -1,0 +1,25 @@
+_id: req_c7bc6f91c403425f91480c67bd156857
+type: Request
+parentId: fld_72934ecc41df485e90c6ade1ed35c140
+modified: 1631550482719
+created: 1631550482719
+url: "{{ _.base_url }}:{{ _.idirectarg_platform }}/api/v1/evo/config/obj/buc"
+name: LISTAR DE BUC ARG
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: basic
+  disabled: false
+  username: systemapi
+  password: tiws2019
+metaSortKey: -1628593725424.75
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
