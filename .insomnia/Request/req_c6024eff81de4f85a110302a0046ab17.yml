@@ -1,14 +1,14 @@
 _id: req_c6024eff81de4f85a110302a0046ab17
 type: Request
 parentId: fld_d3f156c5f5474a978976e57992662795
-modified: 1634597261409
+modified: 1634602705610
 created: 1634596538197
-url: https://192.168.36.50:8585/NMSAPI/secure/oauth/authorize
+url: https://192.168.36.50:8585/NMSAPI/secure/oauth/authorize?response_type=token&client_id=jovian&redirect_uri=/NMSAPI/secure/tokenService/accessToken
 name: Request Token Authentication
 description: ""
 method: GET
 body:
-  mimeType: multipart/form-data
+  mimeType: application/x-www-form-urlencoded
   params:
     - id: pair_0e7ba0cf3a0541a5ad93bf58bf285c02
       name: client_id
@@ -16,7 +16,7 @@ body:
       description: ""
     - id: pair_f4386eca462043d0ade88b38022b4c10
       name: redirect_uri
-      value: /NMSAPI/secure/tokenService/accessToken
+      value: http://192.168.36.50:8585/NMSAPI/secure/tokenService/accessToken
       description: ""
     - id: pair_7eb2eab6ab0f46e18e6b39503bed409d
       name: response_type
@@ -25,19 +25,19 @@ body:
 parameters: []
 headers:
   - name: Content-Type
-    value: multipart/form-data
+    value: application/x-www-form-urlencoded
     id: pair_9bc59637b36d4a63882790012bd087cd
   - id: pair_686a8ff026a645e2a8692a2be1806375
     name: "Authorization: Basic dXNlcm5hbWU6cGFzc3dvcmQ="
-    value: ""
+    value: Authorization:Basic T3JkZXJpbmc6T3JkZXJpbmc0VGVsIQ==
     description: ""
     disabled: true
 authentication:
   type: basic
   useISO88591: false
   disabled: false
-  username: username
-  password: password
+  username: Ordering
+  password: Ordering4Tel!
 metaSortKey: -1634596538197
 isPrivate: false
 settingStoreCookies: true

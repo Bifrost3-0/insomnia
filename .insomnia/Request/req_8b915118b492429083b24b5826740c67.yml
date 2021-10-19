@@ -1,9 +1,9 @@
 _id: req_8b915118b492429083b24b5826740c67
 type: Request
 parentId: fld_d3f156c5f5474a978976e57992662795
-modified: 1629437531600
+modified: 1634602750107
 created: 1629384670571
-url: :{{ _.hughes_platform }}/NMSAPI/vsats/status?showAll=true
+url: http://192.168.36.50:8585/NMSAPI/vsats/status?showAll=true
 name: Status de Todas las terminales
 description: ""
 method: GET
@@ -13,7 +13,7 @@ headers: []
 authentication:
   type: bearer
   disabled: false
-  token: 71e16572-b0bc-11aa-5e3d-457c6a769cdc
+  token: 59a53670-6da1-4956-b0df-36cb56b153b6
   prefix: ""
 metaSortKey: -1629384670571
 isPrivate: false
