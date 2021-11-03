@@ -1,11 +1,11 @@
-_id: env_df90a7fa52934f96b0365eaa229ac38b
+_id: env_d05ea15fa70b4c4eb0c12f043bb024d9
 type: Environment
 parentId: env_467191896fbc186b33676805d502008f55dc9848
-modified: 1635956455465
-created: 1628562870178
-name: Production Proxy Bifrost
+modified: 1635956483663
+created: 1635956460434
+name: Production Bifrost .39
 data:
-  base_url: 192.168.36.50
+  base_url: 192.168.36.39
   hughes_platform: 80
   newtect_platform: 8081
   gilat_ka_platform: 8888
@@ -33,4 +33,4 @@ dataPropertyOrder:
     - token_hispasat
 color: "#50fb56"
 isPrivate: false
-metaSortKey: 1
+metaSortKey: 814266271251.5
