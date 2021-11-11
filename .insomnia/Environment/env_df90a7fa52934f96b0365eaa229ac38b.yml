@@ -1,7 +1,7 @@
 _id: env_df90a7fa52934f96b0365eaa229ac38b
 type: Environment
 parentId: env_467191896fbc186b33676805d502008f55dc9848
-modified: 1634151825162
+modified: 1636378705336
 created: 1628562870178
 name: Production Proxy Bifrost
 data:
@@ -16,7 +16,7 @@ data:
   general_api: https://apiaws.bifrost.pe/api
   newtect_user: integracion-tiws@orbith.com
   newtect_password: GLRt3RV3sUNWMnN
-  token_hispasat: eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJvcmRlcmluZ21uLnBlQHRlbGVmb25pY2EuY29tIiwiaWF0IjoxNjM0MTUxODA4LCJleHAiOjE2MzQxNjI2MDh9.GiNKQhwPtXqTfX0BjtAzI6VnfzRQQNXIZy1QuzbU_j1eBD5_IH-V-iSXxTag5SRkFSHd0BHjYZhiGQ2irBO3Ng
+  token_hispasat: eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJvcmRlcmluZ21uLnBlQHRlbGVmb25pY2EuY29tIiwiaWF0IjoxNjM2Mzc4NjkwLCJleHAiOjE2MzYzODk0OTB9.kMY-RrHSgg1ABs1qOqjjAnkSFsWi9ebXw8ItJ9SRc7YuahLZEanftB8moCofOyZeBhOuqDNG7gVDNdIcFoBnpQ
 dataPropertyOrder:
   "&":
     - base_url

@@ -1,0 +1,108 @@
+_id: req_afbe02c8fca74bc2b15d5949076774a6
+type: Request
+parentId: fld_4dcde7e8836d44048eb999ae7ddae2ae
+modified: 1632950548154
+created: 1632950548154
+url: https://191.241.195.16/ws/cpeService
+name: Alta de Terminal
+description: ""
+method: POST
+body:
+  mimeType: ""
+  text: "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\r
+
+    \    <SOAP-ENV:Envelope
+    xmlns:SOAP-ENV=\"http://schemas.xmlsoap.org/soap/envelope/\"
+    xmlns:com=\"com.gilat.ngnms.server.services.ws.cfg.face\"
+    xmlns:urn=\"urn:com.gilat.ngnms.server.ws.dto.cfg\">\r
+
+    \    <SOAP-ENV:Header />\r
+
+    \        <SOAP-ENV:Body>\r
+
+    \            <com:createCPE>\r
+
+    \                <cpe>\r
+
+    \                    <cpeId>\r
+
+    \                        <managedGroupId>7</managedGroupId>\r
+
+    \                        <subscriberId>60077</subscriberId>\r
+
+    \                    </cpeId>\r
+
+    \                    <getMacFromCPE>ENABLE</getMacFromCPE>\r
+
+    \                    <clusterCode>094A</clusterCode>\r
+
+    \                    <platform>Gemini-i S2X</platform>\r
+
+    \                    <ipStack>IPV4_ONLY</ipStack>\r
+
+    \                    <slaName>SLA 20/3 Mbs 45 GB</slaName>\r
+
+    \                    <description>Pruebita60077</description>\r
+
+    \                    <authorization>FULL_ACCESS</authorization>\r
+
+    \                    <dataAuthorization>AUTHORIZED</dataAuthorization>\r
+
+    \                    <ipAddressing>ROUTER</ipAddressing>\r
+
+    \                    <provStatus>FULL_ACCESS</provStatus>\r
+
+    \                    <nicMode>Access</nicMode>\r
+
+    \                    <vrs>\r
+
+    \                        <urn:VR>\r
+
+    \                            <vlanId>200</vlanId>\r
+
+    \                            <ipv4>\r
+
+    \                                <ipv4Prefix>29</ipv4Prefix>\r
+
+    \                            </ipv4>\r
+
+    \                            <ipv4DynamicRoute>\r
+
+    \                            <satelliteRIPv2>ADVERTISE</satelliteRIPv2>\
+    \r
+
+    \                            <lanRIPv2>ADVERTISE</lanRIPv2>\r
+
+    \                            <advertiseDGtoLAN>NEVER</advertiseDGtoLAN>\
+    \r
+
+    \                            </ipv4DynamicRoute>\r
+
+    \                        </urn:VR>\r
+
+    \                    </vrs>\r
+
+    \                </cpe>\r
+
+    \            </com:createCPE>\r
+
+    \        </SOAP-ENV:Body>\r
+
+    \    </SOAP-ENV:Envelope>"
+parameters: []
+headers:
+  - name: Content-Type
+    value: text/xml
+authentication:
+  type: basic
+  disabled: false
+  username: telefonica
+  password: $telefonica$
+metaSortKey: -1632950548154
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

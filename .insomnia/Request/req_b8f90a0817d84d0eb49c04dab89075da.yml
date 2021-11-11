@@ -1,10 +1,10 @@
-_id: req_a53194914ffa451e909272aaf14da281
+_id: req_b8f90a0817d84d0eb49c04dab89075da
 type: Request
-parentId: fld_7e0640ca8fe545f4bc524fc7f83cc3ea
-modified: 1636663315275
-created: 1630446397536
-url: https://192.168.225.10/ws/cpeService
-name: Edit Terminal KU
+parentId: fld_4dcde7e8836d44048eb999ae7ddae2ae
+modified: 1633119995233
+created: 1633119191001
+url: https://191.241.195.16/ws/cpeService
+name: Change ServicePlan
 description: ""
 method: POST
 body:
@@ -17,10 +17,10 @@ body:
                 <com:modifyCPE>
                     <cpe>
                         <cpeId>
-                            <managedGroupId>2</managedGroupId>
-                            <subscriberId>667788</subscriberId>
+                            <managedGroupId>7</managedGroupId>
+                            <subscriberId>85443</subscriberId>
                         </cpeId>
-                        <slaName>SLA_4096/4096_70%</slaName> 
+                        <slaName>SLA 10/2 Mbps 15 GB</slaName>
                     </cpe>
                 </com:modifyCPE>
             </SOAP-ENV:Body>
@@ -29,13 +29,13 @@ parameters: []
 headers:
   - name: Content-Type
     value: text/xml
-    id: pair_46b7f82bc69e485288eb6f67d588cccc
+    id: pair_1966c63fad1e49a3aad93dc43593cd26
 authentication:
   type: basic
   disabled: false
-  username: APIs
-  password: MediaNetworks123
-metaSortKey: -1630446397536
+  username: telefonica
+  password: $telefonica$
+metaSortKey: -1632901666981.5
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true
