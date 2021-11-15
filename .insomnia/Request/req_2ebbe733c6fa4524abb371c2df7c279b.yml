@@ -1,43 +1,35 @@
 _id: req_2ebbe733c6fa4524abb371c2df7c279b
 type: Request
 parentId: fld_7e0640ca8fe545f4bc524fc7f83cc3ea
-modified: 1630446397555
+modified: 1636975934803
 created: 1630446397555
-url: https://192.168.225.10/ws/cpeService
+url: "{{ _.base_url }}:{{ _.gilat_ku_colombia }}/ws/cpeService"
 name: Get Terminal KU
 description: ""
 method: POST
 body:
   mimeType: ""
-  text: "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\r
+  text: >
+    <?xml version="1.0" encoding="UTF-8"?>
 
-    <soapenv:Envelope
-    xmlns:soapenv=\"http://schemas.xmlsoap.org/soap/envelope/\"
-    xmlns:com=\"com.gilat.ngnms.server.services.ws.cfg.face\">   \r
+    <soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:com="com.gilat.ngnms.server.services.ws.cfg.face">   
+     <soapenv:Header/>    
+     <soapenv:Body>       
+     <com:getCPEbyID>          
+        <id>             
+            <managedGroupId>2</managedGroupId>             
+            <subscriberId>999231</subscriberId>          
+        </id>       
+    </com:getCPEbyID>    
 
-    \ <soapenv:Header/>    \r
+    </soapenv:Body> 
 
-    \ <soapenv:Body>       \r
-
-    \ <com:getCPEbyID>          \r
-
-    \    <id>             \r
-
-    \        <managedGroupId>2</managedGroupId>             \r
-
-    \        <subscriberId>999231</subscriberId>          \r
-
-    \    </id>       \r
-
-    </com:getCPEbyID>    \r
-
-    </soapenv:Body> \r
-
-    </soapenv:Envelope>\r\n"
+    </soapenv:Envelope>
 parameters: []
 headers:
   - name: Content-Type
     value: text/xml
+    id: pair_420d123a0bcc4075b57ead312ed2eda1
 authentication:
   type: basic
   disabled: false
