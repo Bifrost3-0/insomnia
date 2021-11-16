@@ -1,0 +1,38 @@
+_id: req_986f9a28365b4726876a7a62b3d608cb
+type: Request
+parentId: fld_0d13e82b3d8947c3b350d2c33798e03f
+modified: 1636136081748
+created: 1636135948030
+url: https://kong.bifrost.pe/function/api-auth
+name: OVT
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |
+    {"id":26,"params":{"requestBtId":1964}}
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_7b8f68c07f5640e492e2b34b1135bc25
+  - id: pair_f69546396466446db104454c05a9b3d7
+    name: Token
+    value: ZDRzNlhBNkdDM3dKTVNudWdOVUpVcjJNUlhVVndCTVM2ODE1cmYwSTVKY3FMZXo5RElYNTVkYW9sc3Na60ac27c31fa29
+    description: ""
+    disabled: true
+  - id: pair_3fa99708e7da46699cae53a0997b291b
+    name: ""
+    value: ""
+    description: ""
+authentication:
+  type: bearer
+  token: VmpORHJQaXBrbHpFSk13UFdFeXk3QVF3V29uakUyU2YxSmxiZ3hIelBHRk9HWnh1d2hGdHJ2alBQMnQx618573bac984a
+metaSortKey: -1631807994222.25
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
