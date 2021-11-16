@@ -1,7 +1,7 @@
 _id: req_a8249e30abbd4257acc605c510c988ed
 type: Request
 parentId: fld_0d13e82b3d8947c3b350d2c33798e03f
-modified: 1636135929945
+modified: 1636725937966
 created: 1635960065594
 url: https://kong.bifrost.pe/function/api-auth
 name: ListOrder
@@ -10,7 +10,7 @@ method: POST
 body:
   mimeType: application/json
   text: |
-    {"id":10,"params":{"requestBtId":1934955}}
+    {"id":10,"params":{"requestBtId":194955}}
 parameters: []
 headers:
   - name: Content-Type
@@ -27,7 +27,7 @@ headers:
     description: ""
 authentication:
   type: bearer
-  token: QW5GY2R4RTY0VzVvaWszeFlTejNNUnA2MzVyOVQ3MWU2eEVmUVd4TGJvdngyQkc1QXFKNnY5UXVrcnVy6182aad8152df
+  token: UTFMYTdHYzZIN3JWV01nWEQyZkRnOFB4NE5FM0JUYVRFN3FrVHZZZ1VOb1lTWXVxRWptaTFmYnV6N3U5618c2992af024
 metaSortKey: -1631986909757.5
 isPrivate: false
 settingStoreCookies: true

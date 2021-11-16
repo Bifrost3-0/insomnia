@@ -1,9 +1,9 @@
 _id: req_666d9d3b8c9840fc8b1f21856a3852e2
 type: Request
 parentId: fld_f21c417bea1f414e859214b49ee351ce
-modified: 1636417924357
+modified: 1637020601876
 created: 1629384618276
-url: "{{ _.base_url }}:{{ _.hughes_platform }}/NMSAPI/vsats/1600014552/status"
+url: "{{ _.base_url }}:{{ _.hughes_platform }}/NMSAPI/vsats/ORBITHB600340/status"
 name: Status de terminal
 description: ""
 method: GET

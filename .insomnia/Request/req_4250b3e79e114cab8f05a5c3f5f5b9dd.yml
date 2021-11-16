@@ -1,9 +1,9 @@
 _id: req_4250b3e79e114cab8f05a5c3f5f5b9dd
 type: Request
 parentId: fld_f21c417bea1f414e859214b49ee351ce
-modified: 1629437354974
+modified: 1636752752572
 created: 1629384618242
-url: :{{ _.hughes_platform }}/NMSAPI/vsats/SITEID/stats/ovt
+url: "{{ _.base_url }}:{{ _.hughes_platform }}/NMSAPI/vsats/280Sxd011/stats/ovt"
 name: OVT
 description: OVT
 method: GET
