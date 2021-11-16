@@ -1,9 +1,9 @@
 _id: req_ec7bfe4f7cb4406088dbbf8e39a53800
 type: Request
 parentId: fld_f21c417bea1f414e859214b49ee351ce
-modified: 1629437476094
+modified: 1630424034612
 created: 1629384618031
-url: :{{ _.hughes_platform }}/NMSAPI/servicePlans/PLAN/features
+url: :{{ _.hughes_platform }}/NMSAPI/servicePlans/MVCHILE_3M_1M_30GB_60GB/features
 name: Planes de servicio - Features
 description: ""
 method: GET

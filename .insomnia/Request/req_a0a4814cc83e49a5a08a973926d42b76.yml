@@ -1,7 +1,7 @@
 _id: req_a0a4814cc83e49a5a08a973926d42b76
 type: Request
 parentId: fld_08f67bda6c264043af9b2386d8399760
-modified: 1628604111355
+modified: 1634920527353
 created: 1628565809516
 url: "{{ _.general_api }}/AdministrationApp/login"
 name: Login
@@ -12,7 +12,7 @@ body:
   text: >
     {
 
-    "username": "ronald.tamayol@telefonica.com", "password": "movistar",   "tipo": "user"
+    "username": "api@fonelight.com", "password": "apifonelight",   "tipo": "user"
 
     }
 parameters: []

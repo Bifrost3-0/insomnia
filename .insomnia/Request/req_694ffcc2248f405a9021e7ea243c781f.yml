@@ -1,9 +1,10 @@
 _id: req_694ffcc2248f405a9021e7ea243c781f
 type: Request
 parentId: fld_f21c417bea1f414e859214b49ee351ce
-modified: 1629437380519
+modified: 1636417804410
 created: 1629384618114
-url: :{{ _.hughes_platform }}/NMSAPI/vsats/SITEID/addTokens?capacity=MBTOKEN
+url: "{{ _.base_url }}:{{ _.hughes_platform
+  }}/NMSAPI/vsats/1600014552/addTokens?capacity=20000"
 name: Add Token
 description: ""
 method: PUT

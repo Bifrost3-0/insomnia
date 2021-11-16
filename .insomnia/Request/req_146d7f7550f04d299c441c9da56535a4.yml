@@ -1,17 +1,17 @@
-_id: req_666d9d3b8c9840fc8b1f21856a3852e2
+_id: req_146d7f7550f04d299c441c9da56535a4
 type: Request
 parentId: fld_f21c417bea1f414e859214b49ee351ce
-modified: 1637020601876
-created: 1629384618276
-url: "{{ _.base_url }}:{{ _.hughes_platform }}/NMSAPI/vsats/ORBITHB600340/status"
-name: Status de terminal
+modified: 1634596498523
+created: 1634596498523
+url: ""
+name: Request Token
 description: ""
 method: GET
 body: {}
 parameters: []
 headers: []
 authentication: {}
-metaSortKey: -1629384618277
+metaSortKey: -1634596498523
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

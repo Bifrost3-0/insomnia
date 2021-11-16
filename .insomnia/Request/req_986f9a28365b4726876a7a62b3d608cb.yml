@@ -1,16 +1,16 @@
-_id: req_f117f1dedc2d48b8871ff57b5b2333cc
+_id: req_986f9a28365b4726876a7a62b3d608cb
 type: Request
 parentId: fld_0d13e82b3d8947c3b350d2c33798e03f
-modified: 1636577292015
-created: 1632344740828
+modified: 1636136081748
+created: 1636135948030
 url: https://kong.bifrost.pe/function/api-auth
-name: bifrostApi
+name: OVT
 description: ""
 method: POST
 body:
   mimeType: application/json
   text: |
-    {"id":34,"params":{"requestPlatformId":1}}
+    {"id":26,"params":{"requestBtId":1964}}
 parameters: []
 headers:
   - name: Content-Type
@@ -27,8 +27,8 @@ headers:
     description: ""
 authentication:
   type: bearer
-  token: UTFMYTdHYzZIN3JWV01nWEQyZkRnOFB4NE5FM0JUYVRFN3FrVHZZZ1VOb1lTWXVxRWptaTFmYnV6N3U5618c2992af024
-metaSortKey: -1632344740828
+  token: VmpORHJQaXBrbHpFSk13UFdFeXk3QVF3V29uakUyU2YxSmxiZ3hIelBHRk9HWnh1d2hGdHJ2alBQMnQx618573bac984a
+metaSortKey: -1631807994222.25
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true
