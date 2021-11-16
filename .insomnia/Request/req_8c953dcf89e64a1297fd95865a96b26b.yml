@@ -1,7 +1,7 @@
 _id: req_8c953dcf89e64a1297fd95865a96b26b
 type: Request
 parentId: fld_2f3ab373b62d4940a7624abd9ab55752
-modified: 1632337102007
+modified: 1636976087752
 created: 1629833827701
 url: http://{{ _.base_url }}:{{ _.gilat_ku_balcarce }}/ws/cpeService
 name: Lista Terminales - Pulleo
@@ -9,27 +9,17 @@ description: ""
 method: POST
 body:
   mimeType: ""
-  text: "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\r
-
-    \    <soapenv:Envelope
-    xmlns:soapenv=\"http://schemas.xmlsoap.org/soap/envelope/\"
-    xmlns:com=\"com.gilat.ngnms.server.services.ws.cfg.face\">   \r
-
-    \    <soapenv:Header/>    \r
-
-    \    <soapenv:Body>       \r
-
-    \    <com:getCPEsByManagedGroup>          \r
-
-    \        <managedGroupId>2</managedGroupId>          \r
-
-    \        <lastIndex>0</lastIndex>       \r
-
-    \    </com:getCPEsByManagedGroup>    \r
-
-    \    </soapenv:Body> \r
-
-    \    </soapenv:Envelope> "
+  text: >-
+    <?xml version="1.0" encoding="UTF-8"?>
+        <soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:com="com.gilat.ngnms.server.services.ws.cfg.face">   
+        <soapenv:Header/>    
+        <soapenv:Body>       
+        <com:getCPEsByManagedGroup>          
+            <managedGroupId>2</managedGroupId>          
+            <lastIndex>0</lastIndex>       
+        </com:getCPEsByManagedGroup>    
+        </soapenv:Body> 
+        </soapenv:Envelope> 
 parameters: []
 headers:
   - name: Content-Type

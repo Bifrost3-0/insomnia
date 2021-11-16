@@ -1,7 +1,7 @@
 _id: req_cd9111b89f1346a9996eeb00deeb3fd8
 type: Request
 parentId: fld_4fb2b5b7eceb437aa0c7ac76015db876
-modified: 1632854474308
+modified: 1637015026053
 created: 1629840532464
 url: https://api-nms.hispasat.es/v1/broadband/backend/slot/byclient
 name: Get Slots

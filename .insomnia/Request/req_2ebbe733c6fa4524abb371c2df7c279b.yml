@@ -1,9 +1,9 @@
 _id: req_2ebbe733c6fa4524abb371c2df7c279b
 type: Request
 parentId: fld_7e0640ca8fe545f4bc524fc7f83cc3ea
-modified: 1636975934803
+modified: 1636981289013
 created: 1630446397555
-url: "{{ _.base_url }}:{{ _.gilat_ku_colombia }}/ws/cpeService"
+url: https://{{ _.base_url }}:{{ _.gilat_ku_colombia }}/ws/cpeService
 name: Get Terminal KU
 description: ""
 method: POST
@@ -18,7 +18,7 @@ body:
      <com:getCPEbyID>          
         <id>             
             <managedGroupId>2</managedGroupId>             
-            <subscriberId>999231</subscriberId>          
+            <subscriberId>667788</subscriberId>          
         </id>       
     </com:getCPEbyID>    
 

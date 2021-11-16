@@ -1,7 +1,7 @@
 _id: req_af7437b9c7ba40bd840d8db9d04937f9
 type: Request
 parentId: fld_4fb2b5b7eceb437aa0c7ac76015db876
-modified: 1632858216477
+modified: 1636976070123
 created: 1629840532452
 url: https://api-nms.hispasat.es/v1/broadband/backend/subslot/byslot?slotid=52
 name: Get IpConnectivities by Vlan
