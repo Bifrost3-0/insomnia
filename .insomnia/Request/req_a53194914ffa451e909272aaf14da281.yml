@@ -1,7 +1,7 @@
 _id: req_a53194914ffa451e909272aaf14da281
 type: Request
 parentId: fld_7e0640ca8fe545f4bc524fc7f83cc3ea
-modified: 1636663315275
+modified: 1637281992376
 created: 1630446397536
 url: https://192.168.225.10/ws/cpeService
 name: Edit Terminal KU
@@ -9,9 +9,10 @@ description: ""
 method: POST
 body:
   mimeType: ""
-  text: >-
+  text: >+
     <?xml version="1.0" encoding="UTF-8"?>
-        <SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:com="com.gilat.ngnms.server.services.ws.cfg.face" xmlns:urn="urn:com.gilat.ngnms.server.ws.dto.cfg">
+        <SOAP-ENV:Envelope 
+    xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:com="com.gilat.ngnms.server.services.ws.cfg.face" xmlns:urn="urn:com.gilat.ngnms.server.ws.dto.cfg">
         <SOAP-ENV:Header />
             <SOAP-ENV:Body>
                 <com:modifyCPE>
@@ -25,6 +26,7 @@ body:
                 </com:modifyCPE>
             </SOAP-ENV:Body>
         </SOAP-ENV:Envelope>
+
 parameters: []
 headers:
   - name: Content-Type
