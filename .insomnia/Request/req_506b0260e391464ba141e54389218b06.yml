@@ -1,0 +1,73 @@
+_id: req_506b0260e391464ba141e54389218b06
+type: Request
+parentId: fld_4dcde7e8836d44048eb999ae7ddae2ae
+modified: 1632950548148
+created: 1632950548148
+url: https://191.241.195.16/ws/elementsInformationService
+name: GetElementPerformance
+description: ""
+method: POST
+body:
+  mimeType: ""
+  text: "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\r
+
+    <soapenv:Envelope
+    xmlns:soapenv=\"http://schemas.xmlsoap.org/soap/envelope/\"
+    xmlns:com=\"com.gilat.ngnms.server.services.ws.cfg.face\">   \r
+
+    <soapenv:Header/>    \r
+
+    <soapenv:Body>       \r
+
+    <com:getElementPerformance>         \r
+
+    <reportElement>             \r
+
+    \    <element>                \r
+
+    \        <eType>CPE</eType>                \r
+
+    \        <cpeId>                   \r
+
+    \            <managedGroupId>7</managedGroupId>                   \r
+
+    \            <subscriberId>1360470</subscriberId>                \r
+
+    \        </cpeId>             \r
+
+    \    </element>             \r
+
+    \    <reportType>TX_CAPABILITY</reportType>             \r
+
+    \    <resolution>H</resolution>             \r
+
+    \    <startDate>1595549154000</startDate>             \r
+
+    \    <endDate>1595635554000</endDate>          \r
+
+    </reportElement>          \r
+
+    <lastIndex>0</lastIndex>       \r
+
+    </com:getElementPerformance>    \r
+
+    </soapenv:Body> \r
+
+    </soapenv:Envelope> "
+parameters: []
+headers:
+  - name: Content-Type
+    value: text/xml
+authentication:
+  type: basic
+  disabled: false
+  username: telefonica
+  password: $telefonica$
+metaSortKey: -1632950548148
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

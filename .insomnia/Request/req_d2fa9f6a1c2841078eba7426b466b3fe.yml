@@ -1,16 +1,18 @@
 _id: req_d2fa9f6a1c2841078eba7426b466b3fe
 type: Request
 parentId: fld_4fb2b5b7eceb437aa0c7ac76015db876
-modified: 1629841859046
+modified: 1636378721314
 created: 1629840532443
-url: "{{baseUrl}}/profile/assignmentbyslot?slotid=85040814"
+url: https://api-nms.hispasat.es/v1/broadband/backend/profile/assignmentbyslot?slotid=52
 name: Listar Planes de Servicio
 description: ""
 method: GET
 body: {}
 parameters: []
 headers: []
-authentication: {}
+authentication:
+  type: bearer
+  token: "{{ _.token_hispasat }}"
 metaSortKey: -1629840532443
 isPrivate: false
 settingStoreCookies: true

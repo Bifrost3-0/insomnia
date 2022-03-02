@@ -1,7 +1,7 @@
 _id: req_eddd4b1919a649d0a8f55a7e47873d96
 type: Request
 parentId: fld_4fb2b5b7eceb437aa0c7ac76015db876
-modified: 1629842232446
+modified: 1634151660118
 created: 1629840532424
 url: "{{baseUrl}}/terminals/:terminalId"
 name: Delete Terminal
@@ -10,7 +10,9 @@ method: DELETE
 body: {}
 parameters: []
 headers: []
-authentication: {}
+authentication:
+  type: bearer
+  token: "{{ _.token_hispasat }}"
 metaSortKey: -1629840532450.25
 isPrivate: false
 settingStoreCookies: true

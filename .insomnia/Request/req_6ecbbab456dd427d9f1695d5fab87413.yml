@@ -1,7 +1,7 @@
 _id: req_6ecbbab456dd427d9f1695d5fab87413
 type: Request
 parentId: fld_4fb2b5b7eceb437aa0c7ac76015db876
-modified: 1629842005545
+modified: 1634151628314
 created: 1629840532432
 url: "{{baseUrl}}/terminals"
 name: Update Terminal
@@ -823,7 +823,10 @@ parameters: []
 headers:
   - name: Content-Type
     value: application/json
-authentication: {}
+    id: pair_d7d300d4546e488f9db72d54ffce59d2
+authentication:
+  type: bearer
+  token: "{{ _.token_hispasat }}"
 metaSortKey: -1629840532450.5
 isPrivate: false
 settingStoreCookies: true

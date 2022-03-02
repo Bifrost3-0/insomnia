@@ -1,7 +1,7 @@
 _id: req_6f22ddf2a7d745ecb29bd8586ce60fda
 type: Request
 parentId: fld_4fb2b5b7eceb437aa0c7ac76015db876
-modified: 1629840532403
+modified: 1634151790879
 created: 1629840532403
 url: "{{baseUrl}}/terminals/free-subnet-ips?ipconnectivityid=85040814&newPrefix\
   =85040814"
@@ -11,7 +11,9 @@ method: GET
 body: {}
 parameters: []
 headers: []
-authentication: {}
+authentication:
+  type: bearer
+  token: "{{ _.token_hispasat }}"
 metaSortKey: -1629840532403
 isPrivate: false
 settingStoreCookies: true

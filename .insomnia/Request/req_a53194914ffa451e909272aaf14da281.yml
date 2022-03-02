@@ -1,7 +1,7 @@
 _id: req_a53194914ffa451e909272aaf14da281
 type: Request
 parentId: fld_7e0640ca8fe545f4bc524fc7f83cc3ea
-modified: 1630446397536
+modified: 1637281992376
 created: 1630446397536
 url: https://192.168.225.10/ws/cpeService
 name: Edit Terminal KU
@@ -9,43 +9,29 @@ description: ""
 method: POST
 body:
   mimeType: ""
-  text: "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\r
+  text: >+
+    <?xml version="1.0" encoding="UTF-8"?>
+        <SOAP-ENV:Envelope 
+    xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:com="com.gilat.ngnms.server.services.ws.cfg.face" xmlns:urn="urn:com.gilat.ngnms.server.ws.dto.cfg">
+        <SOAP-ENV:Header />
+            <SOAP-ENV:Body>
+                <com:modifyCPE>
+                    <cpe>
+                        <cpeId>
+                            <managedGroupId>2</managedGroupId>
+                            <subscriberId>667788</subscriberId>
+                        </cpeId>
+                        <slaName>SLA_4096/4096_70%</slaName> 
+                    </cpe>
+                </com:modifyCPE>
+            </SOAP-ENV:Body>
+        </SOAP-ENV:Envelope>
 
-    \    <SOAP-ENV:Envelope
-    xmlns:SOAP-ENV=\"http://schemas.xmlsoap.org/soap/envelope/\"
-    xmlns:com=\"com.gilat.ngnms.server.services.ws.cfg.face\"
-    xmlns:urn=\"urn:com.gilat.ngnms.server.ws.dto.cfg\">\r
-
-    \    <SOAP-ENV:Header />\r
-
-    \        <SOAP-ENV:Body>\r
-
-    \            <com:modifyCPE>\r
-
-    \                <cpe>\r
-
-    \                    <cpeId>\r
-
-    \                        <managedGroupId>2</managedGroupId>\r
-
-    \                        <subscriberId>66778899</subscriberId>\r
-
-    \                    </cpeId>\r
-
-    \                    <subscriberPublicIpAddress>10.20.30.5</subscriberP\
-    ublicIpAddress> \r
-
-    \                </cpe>\r
-
-    \            </com:modifyCPE>\r
-
-    \        </SOAP-ENV:Body>\r
-
-    \    </SOAP-ENV:Envelope>"
 parameters: []
 headers:
   - name: Content-Type
     value: text/xml
+    id: pair_46b7f82bc69e485288eb6f67d588cccc
 authentication:
   type: basic
   disabled: false

@@ -1,7 +1,7 @@
 _id: req_87c9a905eaab4405ae3e7be0a84cbf9e
 type: Request
 parentId: fld_4fb2b5b7eceb437aa0c7ac76015db876
-modified: 1629840532445
+modified: 1634151713698
 created: 1629840532445
 url: https://api-nms.hispasat.es/v1/broadband/backend/terminals/freeidentifier
 name: Lista de Identificadores Libres
@@ -12,10 +12,11 @@ parameters: []
 headers:
   - name: Content-Type
     value: application/json
+    id: pair_97f5055660ef467cb6c9a114b3f6a15f
 authentication:
   type: bearer
   disabled: false
-  token: eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJkZW1vdGl3c21pbmVkdUB0ZWxlZm9uaWNhLmNvbSIsImlhdCI6MTYxOTQ1MDMzNiwiZXhwIjoxNjE5NDYxMTM2fQ.Rl-Xo1J0Dc90qS8RWPT32DFXiunIS_yFYRnwnzp1RVLJsf4VYw7ZJ_7fa6o1TsHW1GcgT-Ydcf_KyAOfTtnz8w
+  token: "{{ _.token_hispasat }}"
   prefix: ""
 metaSortKey: -1629840532445
 isPrivate: false
