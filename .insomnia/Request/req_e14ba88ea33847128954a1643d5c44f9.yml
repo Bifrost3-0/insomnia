@@ -1,14 +1,13 @@
 _id: req_e14ba88ea33847128954a1643d5c44f9
 type: Request
 parentId: fld_2fcc67bf8a814999ba1cf96f7a07eba7
-modified: 1646420639654
+modified: 1646420941873
 created: 1646419002382
 url: "{{ _.bifrost_url}}/api/forecastMN/callFunctionV2"
 name: orderSwapTerminal
 description: |-
   - Create in DB
-  - Create Order and OrderDetail
-  - Pull an Put OVT to Activation Data
+  - Intercambio de Terminal de Order
 method: POST
 body:
   mimeType: multipart/form-data
@@ -42,5 +41,5 @@ settingStoreCookies: true
 settingSendCookies: true
 settingDisableRenderRequestBody: false
 settingEncodeUrl: true
-settingRebuildPath: true
+settingRebuildPath: false
 settingFollowRedirects: global

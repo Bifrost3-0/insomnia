@@ -1,14 +1,13 @@
 _id: req_7dc3cfddc8a84037b06b8ce471d20ae9
 type: Request
 parentId: fld_2fcc67bf8a814999ba1cf96f7a07eba7
-modified: 1646420640010
+modified: 1646420910284
 created: 1646418989326
 url: "{{ _.bifrost_url}}/api/forecastMN/callFunctionV2"
 name: orderDeleteTerminal
 description: |-
   - Create in DB
-  - Create Order and OrderDetail
-  - Pull an Put OVT to Activation Data
+  - Eliminar Terminal de Order
 method: POST
 body:
   mimeType: multipart/form-data

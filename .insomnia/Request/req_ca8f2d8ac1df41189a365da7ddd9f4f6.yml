@@ -1,7 +1,7 @@
 _id: req_ca8f2d8ac1df41189a365da7ddd9f4f6
 type: Request
 parentId: fld_2fcc67bf8a814999ba1cf96f7a07eba7
-modified: 1646419371551
+modified: 1646420722388
 created: 1646418823680
 url: "{{ _.bifrost_url}}/api/forecastMN/callFunctionV2"
 name: registerTerminalResidencial
