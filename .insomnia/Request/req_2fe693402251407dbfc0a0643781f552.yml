@@ -1,17 +1,17 @@
-_id: req_fd44a17e06234be4aa0348e86d32195f
+_id: req_2fe693402251407dbfc0a0643781f552
 type: Request
-parentId: fld_f21c417bea1f414e859214b49ee351ce
-modified: 1639513088043
-created: 1629384618323
-url: :{{ _.hughes_platform }}/NMSAPI/vsats/ORBITHB600452/
-name: Datos de terminal
+parentId: wrk_7c28e35996214fcabe68cfd78f898499
+modified: 1629481930451
+created: 1629481930451
+url: ""
+name: https://laravel360.bifrost.pe/api/infocgi/280S3011171310795
 description: ""
 method: GET
 body: {}
 parameters: []
 headers: []
 authentication: {}
-metaSortKey: -1629384618323
+metaSortKey: -1629481930451
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true
