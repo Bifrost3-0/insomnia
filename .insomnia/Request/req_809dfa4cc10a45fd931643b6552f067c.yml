@@ -1,0 +1,43 @@
+_id: req_809dfa4cc10a45fd931643b6552f067c
+type: Request
+parentId: fld_2fcc67bf8a814999ba1cf96f7a07eba7
+modified: 1646431682508
+created: 1646431558423
+url: "{{ _.bifrost_url_dev }}/api/insomniaFunctions/addTokenHughesInsomnia"
+name: orderAddTokens
+description: ""
+method: POST
+body:
+  mimeType: multipart/form-data
+  params:
+    - id: pair_8364731ca1f44fc88042a95f5d73b5b5
+      name: siteId
+      value: ""
+      description: ""
+    - id: pair_b8e76ca5a43943c5a5c97de75e846513
+      name: value
+      value: "1"
+      description: ""
+    - id: pair_a976c6b855aa44619f3f5ed78ebb51c8
+      name: date
+      value: 2022-01-01 00:00:00
+      description: ""
+parameters: []
+headers:
+  - id: pair_924aa53cb8c14691b35a996b7de69bdc
+    name: token
+    value: "{% response 'body', 'req_8fcaa559a6144a6da85a5c4542eba643',
+      'b64::JC5kYXRhLnNlc3Npb24udG9rZW4=::46b', 'never', 60 %}"
+    description: ""
+  - name: Content-Type
+    value: multipart/form-data
+    id: pair_6d65f370e15744f9aaeca346cc0a0fb1
+authentication: {}
+metaSortKey: -1646190647303.75
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
