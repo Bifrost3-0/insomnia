@@ -1,0 +1,34 @@
+_id: req_543169412c384a0ba285fa51dc231f93
+type: Request
+parentId: fld_8f325192798b48bc9a9691cf7c8b09f2
+modified: 1646259441631
+created: 1646256417456
+url: /api/stargoupdate
+name: CREATE TERMINAL
+description: ""
+method: GET
+body:
+  mimeType: multipart/form-data
+  params:
+    - id: pair_f70652e6bf434d6786caf76d8bc63f9b
+      name: type
+      value: create
+      description: ""
+    - id: pair_f1736cb52e184f1dbf0c5764df83dc1d
+      name: siteId
+      value: aquivalaterminal
+      description: ""
+parameters: []
+headers:
+  - name: Content-Type
+    value: multipart/form-data
+    id: pair_fcf0c2651aea48ed825b87f005fda936
+authentication: {}
+metaSortKey: -1646256417456
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

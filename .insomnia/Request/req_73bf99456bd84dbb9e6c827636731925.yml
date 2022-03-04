@@ -1,0 +1,34 @@
+_id: req_73bf99456bd84dbb9e6c827636731925
+type: Request
+parentId: fld_8f325192798b48bc9a9691cf7c8b09f2
+modified: 1646256541216
+created: 1646256424788
+url: /api/stargoupdate
+name: DELETE TERMINAL
+description: ""
+method: GET
+body:
+  mimeType: multipart/form-data
+  params:
+    - id: pair_db0da3c58fbe474a8abe195b64eef893
+      name: type
+      value: delete
+      description: ""
+    - id: pair_fe5e31abf04049ac85447cfbf63ad703
+      name: siteId
+      value: aquivalaterminal
+      description: ""
+parameters: []
+headers:
+  - name: Content-Type
+    value: multipart/form-data
+    id: pair_101d9522eeca45049dc412e90f4c2ea4
+authentication: {}
+metaSortKey: -1646256409221.25
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
