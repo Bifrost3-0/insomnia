@@ -1,7 +1,7 @@
 _id: req_e14ba88ea33847128954a1643d5c44f9
 type: Request
 parentId: fld_2fcc67bf8a814999ba1cf96f7a07eba7
-modified: 1646419002645
+modified: 1646420566488
 created: 1646419002382
 url: "{{ _.bifrost_url}}/api/forecastMN/callFunctionV2"
 name: orderSwapTerminal
@@ -15,10 +15,14 @@ body:
   params:
     - id: pair_9101368227d94f169ff216892aea4522
       name: functionId
-      value: ""
+      value: "15"
       description: ""
     - id: pair_0d83f91c877c457fbabc72fece8267be
       name: dataForm
+      value: ""
+      description: ""
+    - id: pair_25a6614f547d4827bd387515f6fb6283
+      name: btId
       value: ""
       description: ""
 parameters: []
