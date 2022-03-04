@@ -1,7 +1,7 @@
 _id: req_eef3fe4845f44882b459ffed0c1ea95a
 type: Request
 parentId: fld_2fcc67bf8a814999ba1cf96f7a07eba7
-modified: 1646417362303
+modified: 1646427298733
 created: 1646256291895
 url: ""
 name: RegisterTerminalEstatico
@@ -17,6 +17,7 @@ parameters: []
 headers:
   - name: Content-Type
     value: multipart/form-data
+    id: pair_3e22eac033e14661be85311b78744b44
 authentication: {}
 metaSortKey: -1646256291895
 isPrivate: false
