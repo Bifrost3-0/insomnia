@@ -1,7 +1,7 @@
 _id: req_ecfdf5b78a294550b56bc1df2810214e
 type: Request
 parentId: fld_2fcc67bf8a814999ba1cf96f7a07eba7
-modified: 1646419218040
+modified: 1646419275038
 created: 1646419085428
 url: "{{ _.bifrost_url}}/api/forecastMN/callFunctionV2"
 name: registerTerminalEmpresarial
@@ -15,11 +15,11 @@ body:
   params:
     - id: pair_9101368227d94f169ff216892aea4522
       name: functionId
-      value: ""
+      value: "400"
       description: ""
     - id: pair_0d83f91c877c457fbabc72fece8267be
       name: dataForm
-      value: ""
+      value: '{"id":"requestdSiteid","servicePlanId":"requestServiceplanname","mode":4,"vlanAddressing":[{"vlanCfName":"requestVlanname","intfCfMappedIPv4Subnet":"requestIpv4subnet","intfCfMappedIPv6Prefix":"requestIpv6prefix"}]}'
       description: ""
 parameters: []
 headers:
