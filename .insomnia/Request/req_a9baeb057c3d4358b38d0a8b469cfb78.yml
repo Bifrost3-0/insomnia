@@ -1,7 +1,7 @@
 _id: req_a9baeb057c3d4358b38d0a8b469cfb78
 type: Request
 parentId: fld_2fcc67bf8a814999ba1cf96f7a07eba7
-modified: 1646420072548
+modified: 1646420370809
 created: 1646419026878
 url: "{{ _.bifrost_url}}/api/forecastMN/callFunctionV2"
 name: orderResetTerminal
@@ -19,6 +19,10 @@ body:
       description: ""
     - id: pair_0d83f91c877c457fbabc72fece8267be
       name: dataForm
+      value: ""
+      description: ""
+    - id: pair_68b60434e27a4aaeb19704c2997af39f
+      name: btId
       value: ""
       description: ""
 parameters: []
