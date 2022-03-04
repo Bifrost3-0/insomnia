@@ -1,7 +1,7 @@
 _id: req_10f17d30b30d43dd9975b2e471c2d5be
 type: Request
 parentId: fld_2fcc67bf8a814999ba1cf96f7a07eba7
-modified: 1646420781127
+modified: 1646421364802
 created: 1646419020638
 url: "{{ _.bifrost_url}}/api/forecastMN/callFunctionV2"
 name: orderUnmoveTerminal
@@ -15,10 +15,6 @@ body:
     - id: pair_9101368227d94f169ff216892aea4522
       name: functionId
       value: "18"
-      description: ""
-    - id: pair_0d83f91c877c457fbabc72fece8267be
-      name: dataForm
-      value: ""
       description: ""
     - id: pair_029f402554154d038c63a17800784f2b
       name: btId
