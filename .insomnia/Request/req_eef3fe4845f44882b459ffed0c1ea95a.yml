@@ -1,7 +1,7 @@
 _id: req_eef3fe4845f44882b459ffed0c1ea95a
 type: Request
 parentId: fld_2fcc67bf8a814999ba1cf96f7a07eba7
-modified: 1646416120619
+modified: 1646417362303
 created: 1646256291895
 url: ""
 name: RegisterTerminalEstatico
@@ -10,9 +10,13 @@ description: |-
   - Create Order and OrderDetail
   - Pull an Put OVT to Activation Data
 method: GET
-body: {}
+body:
+  mimeType: multipart/form-data
+  params: []
 parameters: []
-headers: []
+headers:
+  - name: Content-Type
+    value: multipart/form-data
 authentication: {}
 metaSortKey: -1646256291895
 isPrivate: false
