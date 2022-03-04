@@ -1,7 +1,7 @@
 _id: req_c11e8fb3339140fa9bfe790715cb8e67
 type: Request
 parentId: fld_2fcc67bf8a814999ba1cf96f7a07eba7
-modified: 1646418977953
+modified: 1646419367511
 created: 1646418977696
 url: "{{ _.bifrost_url}}/api/forecastMN/callFunctionV2"
 name: orderSuspendTerminal
