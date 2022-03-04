@@ -1,11 +1,14 @@
 _id: req_eef3fe4845f44882b459ffed0c1ea95a
 type: Request
 parentId: fld_2fcc67bf8a814999ba1cf96f7a07eba7
-modified: 1646256291895
+modified: 1646416120619
 created: 1646256291895
 url: ""
-name: REGISTAERMANUALACTIVATION
-description: ""
+name: RegisterTerminalEstatico
+description: |-
+  - Create in DB
+  - Create Order and OrderDetail
+  - Pull an Put OVT to Activation Data
 method: GET
 body: {}
 parameters: []

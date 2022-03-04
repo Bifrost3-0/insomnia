@@ -1,10 +1,11 @@
 _id: env_df90a7fa52934f96b0365eaa229ac38b
 type: Environment
 parentId: env_467191896fbc186b33676805d502008f55dc9848
-modified: 1636378705336
+modified: 1646416990862
 created: 1628562870178
 name: Production Proxy Bifrost
 data:
+  bifrost_url: https://onpremise.bifrost.pe
   base_url: 192.168.36.50
   hughes_platform: 80
   newtect_platform: 8081
@@ -17,8 +18,10 @@ data:
   newtect_user: integracion-tiws@orbith.com
   newtect_password: GLRt3RV3sUNWMnN
   token_hispasat: eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJvcmRlcmluZ21uLnBlQHRlbGVmb25pY2EuY29tIiwiaWF0IjoxNjM2Mzc4NjkwLCJleHAiOjE2MzYzODk0OTB9.kMY-RrHSgg1ABs1qOqjjAnkSFsWi9ebXw8ItJ9SRc7YuahLZEanftB8moCofOyZeBhOuqDNG7gVDNdIcFoBnpQ
+  token_login: ""
 dataPropertyOrder:
   "&":
+    - bifrost_url
     - base_url
     - hughes_platform
     - newtect_platform
@@ -31,6 +34,7 @@ dataPropertyOrder:
     - newtect_user
     - newtect_password
     - token_hispasat
+    - token_login
 color: "#50fb56"
 isPrivate: false
 metaSortKey: 1
