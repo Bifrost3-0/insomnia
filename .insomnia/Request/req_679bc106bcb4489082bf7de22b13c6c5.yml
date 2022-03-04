@@ -1,7 +1,7 @@
 _id: req_679bc106bcb4489082bf7de22b13c6c5
 type: Request
 parentId: fld_4fb2b5b7eceb437aa0c7ac76015db876
-modified: 1632858443887
+modified: 1641599117128
 created: 1629840532429
 url: "{{ _.hispasat_ka }}/1951"
 name: Get Terminal

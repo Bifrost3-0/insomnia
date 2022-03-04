@@ -1,7 +1,7 @@
 _id: req_543169412c384a0ba285fa51dc231f93
 type: Request
 parentId: fld_8f325192798b48bc9a9691cf7c8b09f2
-modified: 1646259441631
+modified: 1646416579187
 created: 1646256417456
 url: /api/stargoupdate
 name: CREATE TERMINAL
@@ -18,12 +18,21 @@ body:
       name: siteId
       value: aquivalaterminal
       description: ""
+    - id: pair_dc4a63228d7f456eb0fad2b9603ef2e2
+      name: ""
+      value: ""
+      description: ""
 parameters: []
 headers:
   - name: Content-Type
     value: multipart/form-data
     id: pair_fcf0c2651aea48ed825b87f005fda936
-authentication: {}
+authentication:
+  type: basic
+  useISO88591: false
+  disabled: false
+  username: ""
+  password: ""
 metaSortKey: -1646256417456
 isPrivate: false
 settingStoreCookies: true

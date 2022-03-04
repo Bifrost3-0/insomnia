@@ -1,7 +1,7 @@
 _id: req_b07671e4ea3f49cdbe16934808c19c46
 type: Request
 parentId: fld_d3f156c5f5474a978976e57992662795
-modified: 1629437600049
+modified: 1646412505031
 created: 1629384670535
 url: :{{ _.hughes_platform }}/NMSAPI/vsats/SITEID
 name: Cambio Plan Empresarial
@@ -9,23 +9,16 @@ description: ""
 method: PUT
 body:
   mimeType: ""
-  text: "{\r
-
-    \    \"servicePlanId\": \"NOMBRE_PLAN\",\r
-
-    \    \"mode\": 4,\r
-
-    \    \"vlanAddressing\": \r
-
-    \    [ { \"vlanCfName\": \"VLAN_ID\",\r
-
-    \    \"intfCfMappedIPv4Subnet\":\"IPV4\",  \r
-
-    \    \"intfCfMappedIPv6Prefix\":\"IPV6\" \r
-
-    \    } ]\r
-
-    }"
+  text: |-
+    {
+        "servicePlanId": "NOMBRE_PLAN",
+        "mode": 4,
+        "vlanAddressing": 
+        [ { "vlanCfName": "VLAN_ID",
+        "intfCfMappedIPv4Subnet":"IPV4",  
+        "intfCfMappedIPv6Prefix":"IPV6" 
+        } ]
+    }
 parameters: []
 headers:
   - name: Content-Type
