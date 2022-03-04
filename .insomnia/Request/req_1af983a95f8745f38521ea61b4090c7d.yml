@@ -1,14 +1,13 @@
 _id: req_1af983a95f8745f38521ea61b4090c7d
 type: Request
 parentId: fld_2fcc67bf8a814999ba1cf96f7a07eba7
-modified: 1646420638988
+modified: 1646420752059
 created: 1646419013830
 url: "{{ _.bifrost_url}}/api/forecastMN/callFunctionV2"
 name: orderMoveTerminal
 description: |-
-  - Create in DB
   - Create Order and OrderDetail
-  - Pull an Put OVT to Activation Data
+  - Cambio de Coordenadas del equipo / Trocar coordenadas do terminal
 method: POST
 body:
   mimeType: multipart/form-data

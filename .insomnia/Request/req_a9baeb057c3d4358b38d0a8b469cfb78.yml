@@ -1,14 +1,13 @@
 _id: req_a9baeb057c3d4358b38d0a8b469cfb78
 type: Request
 parentId: fld_2fcc67bf8a814999ba1cf96f7a07eba7
-modified: 1646420629724
+modified: 1646420801833
 created: 1646419026878
 url: "{{ _.bifrost_url}}/api/forecastMN/callFunctionV2"
 name: orderResetTerminal
 description: |-
-  - Create in DB
   - Create Order and OrderDetail
-  - Pull an Put OVT to Activation Data
+  - Reinicio de la terminal / Reinicialização do terminal
 method: POST
 body:
   mimeType: multipart/form-data
