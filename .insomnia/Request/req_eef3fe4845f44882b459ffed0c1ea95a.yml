@@ -1,7 +1,11 @@
 _id: req_eef3fe4845f44882b459ffed0c1ea95a
 type: Request
 parentId: fld_2fcc67bf8a814999ba1cf96f7a07eba7
+<<<<<<< HEAD
 modified: 1646429629164
+=======
+modified: 1646427298733
+>>>>>>> origin/main
 created: 1646256291895
 url: "{{bifrost_url_dev}}/api/insomniaFunctions/addTokenHughesInsomnia"
 name: orderAddTokens
@@ -29,12 +33,16 @@ parameters: []
 headers:
   - name: Content-Type
     value: multipart/form-data
+<<<<<<< HEAD
     id: pair_724c4b16c2ef400480696ffb59ef37fe
   - id: pair_352702ca96204b1097c875f91933e5aa
     name: token
     value: "{% response 'body', 'req_8fcaa559a6144a6da85a5c4542eba643',
       'b64::JC5kYXRhLnNlc3Npb24udG9rZW4=::46b', 'never', 60 %}"
     description: ""
+=======
+    id: pair_3e22eac033e14661be85311b78744b44
+>>>>>>> origin/main
 authentication: {}
 metaSortKey: -1646256291895
 isPrivate: false
