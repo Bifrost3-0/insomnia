@@ -1,9 +1,9 @@
 _id: req_a9baeb057c3d4358b38d0a8b469cfb78
 type: Request
 parentId: fld_2fcc67bf8a814999ba1cf96f7a07eba7
-modified: 1646421366820
+modified: 1646693295993
 created: 1646419026878
-url: "{{ _.bifrost_url}}/api/forecastMN/callFunctionV2"
+url: localhost:8000/api/insomniaFunctions/orderResetTerminal
 name: orderResetTerminal
 description: |-
   - Create Order and OrderDetail
@@ -13,11 +13,23 @@ body:
   mimeType: multipart/form-data
   params:
     - id: pair_9101368227d94f169ff216892aea4522
-      name: functionId
-      value: "512"
+      name: siteId
+      value: 230B093127643001
       description: ""
     - id: pair_68b60434e27a4aaeb19704c2997af39f
-      name: btId
+      name: value
+      value: ""
+      description: ""
+    - id: pair_65fbf752820c435f886751ee0340ae63
+      name: date
+      value: 2022-03-07
+      description: ""
+    - id: pair_949a0dd5d1674dde93fc2a65e6ca0ad2
+      name: api
+      value: ""
+      description: ""
+    - id: pair_ce4338dae8f4401d8888e8d4d9a32fdf
+      name: bd
       value: ""
       description: ""
 parameters: []

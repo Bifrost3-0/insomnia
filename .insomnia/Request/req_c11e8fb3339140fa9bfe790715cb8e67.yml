@@ -1,9 +1,9 @@
 _id: req_c11e8fb3339140fa9bfe790715cb8e67
 type: Request
 parentId: fld_2fcc67bf8a814999ba1cf96f7a07eba7
-modified: 1646421355215
+modified: 1646688139266
 created: 1646418977696
-url: "{{ _.bifrost_url}}/api/forecastMN/callFunctionV2"
+url: localhost:8000/api/insomniaFunctions/orderSuspendTerminal
 name: orderSuspendTerminal
 description: |-
   - Create Order and OrderDetail
@@ -13,11 +13,23 @@ body:
   mimeType: multipart/form-data
   params:
     - id: pair_9101368227d94f169ff216892aea4522
-      name: functionId
-      value: "7"
+      name: siteId
+      value: 230B093127643001
       description: ""
     - id: pair_a06cbbeef1694fabb6e36bb541a722e9
-      name: btId
+      name: value
+      value: ""
+      description: ""
+    - id: pair_693edffb80804be4bd936a06727c10af
+      name: date
+      value: 2022-03-07
+      description: ""
+    - id: pair_6ff07e113e3241b9943f8f24f46d69b9
+      name: api
+      value: ""
+      description: ""
+    - id: pair_2f5fd4aaf4eb42f3bc40ea8d0a3228c1
+      name: bd
       value: ""
       description: ""
 parameters: []

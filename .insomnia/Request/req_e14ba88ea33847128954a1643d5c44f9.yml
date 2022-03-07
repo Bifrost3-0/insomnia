@@ -1,9 +1,9 @@
 _id: req_e14ba88ea33847128954a1643d5c44f9
 type: Request
 parentId: fld_2fcc67bf8a814999ba1cf96f7a07eba7
-modified: 1646421359188
+modified: 1646690687605
 created: 1646419002382
-url: "{{ _.bifrost_url}}/api/forecastMN/callFunctionV2"
+url: localhost:8000/api/insomniaFunctions/orderSwapTerminal
 name: orderSwapTerminal
 description: |-
   - Create in DB
@@ -13,11 +13,23 @@ body:
   mimeType: multipart/form-data
   params:
     - id: pair_9101368227d94f169ff216892aea4522
-      name: functionId
-      value: "15"
+      name: siteId
+      value: 230B093127643001
       description: ""
     - id: pair_25a6614f547d4827bd387515f6fb6283
-      name: btId
+      name: value
+      value: ""
+      description: ""
+    - id: pair_ae2581e1a4d54f4db51ea1657e2c3a8b
+      name: date
+      value: 2022-03-07
+      description: ""
+    - id: pair_4bec6db5cb254966b1ce7577796a211d
+      name: api
+      value: ""
+      description: ""
+    - id: pair_02e43a197350414b8e9d0c2362b02474
+      name: bd
       value: ""
       description: ""
 parameters: []
