@@ -1,7 +1,7 @@
 _id: req_ecfdf5b78a294550b56bc1df2810214e
 type: Request
 parentId: fld_2fcc67bf8a814999ba1cf96f7a07eba7
-modified: 1646826572812
+modified: 1646845871743
 created: 1646419085428
 url: "{{ _.bifrost_url}}/api/insomniaFunctions/registerTerminalEmpresarialInsomnia"
 name: registerTerminalEmpresarial
@@ -15,7 +15,7 @@ body:
   params:
     - id: pair_9101368227d94f169ff216892aea4522
       name: siteId
-      value: ""
+      value: PRUEBASITEID
       description: ""
     - id: pair_0d83f91c877c457fbabc72fece8267be
       name: value
@@ -23,15 +23,15 @@ body:
       description: ""
     - id: pair_aee813ed4f524e4d9aa657d266971f5e
       name: date
-      value: ""
+      value: 2020-06-17 05:37:54
       description: ""
     - id: pair_c71f9089794942caa6fa33d7195b79bf
       name: bd
-      value: ""
+      value: "1"
       description: ""
     - id: pair_cc8ce70a6449469d9911756884783467
       name: servicePlanName
-      value: ""
+      value: BANSAT_STATIC_6M_2M_20GB_N
       description: ""
 parameters: []
 headers:
