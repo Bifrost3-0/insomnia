@@ -1,9 +1,9 @@
 _id: req_8bee78210e7140cf965a8717c1ecf1bf
 type: Request
 parentId: fld_2fcc67bf8a814999ba1cf96f7a07eba7
-modified: 1646667784148
+modified: 1646826568647
 created: 1646419090212
-url: "{{ _.bifrost_url}}/api/forecastMN/callFunctionV2"
+url: "{{ _.bifrost_url}}/api/insomniaFunctions/registerTerminalEstaticoInsomnia"
 name: registerTerminalEstatico
 description: |-
   - Create in DB
@@ -14,12 +14,24 @@ body:
   mimeType: multipart/form-data
   params:
     - id: pair_9101368227d94f169ff216892aea4522
-      name: functionId
-      value: "399"
+      name: siteId
+      value: ""
       description: ""
     - id: pair_0d83f91c877c457fbabc72fece8267be
-      name: dataForm
-      value: '{"id":"requestdSiteid","servicePlanId":"requestServiceplanname","staticIpSubnetSize":"requestStaticipsubnet"}'
+      name: value
+      value: ""
+      description: ""
+    - id: pair_6245c1c03fad4ba4b01ecaf033de4f5a
+      name: date
+      value: ""
+      description: ""
+    - id: pair_336dd58860be4bb1bd7a0ffcf9449908
+      name: bd
+      value: ""
+      description: ""
+    - id: pair_584320b3f4b14659a3681081c4f2e2b5
+      name: servicePlanName
+      value: ""
       description: ""
 parameters: []
 headers:
