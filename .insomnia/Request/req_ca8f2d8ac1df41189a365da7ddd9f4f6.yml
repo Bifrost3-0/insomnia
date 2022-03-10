@@ -1,7 +1,7 @@
 _id: req_ca8f2d8ac1df41189a365da7ddd9f4f6
 type: Request
 parentId: fld_2fcc67bf8a814999ba1cf96f7a07eba7
-modified: 1646932193969
+modified: 1646936702196
 created: 1646418823680
 url: localhost:8000/api/insomniaFunctions/registerTerminalResidencialInsomnia
 name: registerTerminalResidencial
@@ -53,6 +53,7 @@ body:
       name: hubId
       value: "1"
       description: ""
+      disabled: true
     - id: pair_0832a868c1a54683ad6b2cc390836011
       name: forecastId
       value: "104"
