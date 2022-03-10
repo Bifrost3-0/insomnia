@@ -1,7 +1,7 @@
 _id: req_7dc3cfddc8a84037b06b8ce471d20ae9
 type: Request
 parentId: fld_2fcc67bf8a814999ba1cf96f7a07eba7
-modified: 1646690055822
+modified: 1646931869385
 created: 1646418989326
 url: localhost:8000/api/insomniaFunctions/orderDeleteTerminal
 name: orderDeleteTerminal
@@ -14,7 +14,7 @@ body:
   params:
     - id: pair_9101368227d94f169ff216892aea4522
       name: siteId
-      value: 230B093127643001
+      value: 230B093102194601
       description: ""
     - id: pair_b12b2a4aa85f476daba63e16f4677d93
       name: value

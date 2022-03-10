@@ -1,9 +1,9 @@
 _id: req_8bee78210e7140cf965a8717c1ecf1bf
 type: Request
 parentId: fld_2fcc67bf8a814999ba1cf96f7a07eba7
-modified: 1646826568647
+modified: 1646932227390
 created: 1646419090212
-url: "{{ _.bifrost_url}}/api/insomniaFunctions/registerTerminalEstaticoInsomnia"
+url: localhost:8000/api/insomniaFunctions/registerTerminalEstaticoInsomnia
 name: registerTerminalEstatico
 description: |-
   - Create in DB
@@ -31,6 +31,46 @@ body:
       description: ""
     - id: pair_584320b3f4b14659a3681081c4f2e2b5
       name: servicePlanName
+      value: ""
+      description: ""
+    - id: pair_71d40278b84b4d9f848638984b301ea8
+      name: vnoId
+      value: ""
+      description: ""
+    - id: pair_2664ec67605849f09e852c53711f907f
+      name: servicesPlanId
+      value: ""
+      description: ""
+    - id: pair_10715958b342428bb072ebf1ed478f9f
+      name: beamId
+      value: ""
+      description: ""
+    - id: pair_5a41f4ef3d5144758ac0bbe7957ae69f
+      name: customerId
+      value: ""
+      description: ""
+    - id: pair_7b205f3aa6a54d5db1668e3f7d988f39
+      name: hubId
+      value: ""
+      description: ""
+    - id: pair_81d3326bd2af429b9b7e32fb3894921c
+      name: forecastId
+      value: ""
+      description: ""
+    - id: pair_50ad65bc2eec492a9463a674cd4e3d3e
+      name: data_creation
+      value: ""
+      description: ""
+    - id: pair_3c87e8df893b4c438435236ea4bcb59a
+      name: latitud
+      value: ""
+      description: ""
+    - id: pair_f3a80b270ebd4aa292cfa7c8deceaed0
+      name: longitud
+      value: ""
+      description: ""
+    - id: pair_876a1a1a653a4835927e0f266171c181
+      name: suscriberId
       value: ""
       description: ""
 parameters: []

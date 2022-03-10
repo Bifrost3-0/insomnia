@@ -1,9 +1,9 @@
 _id: req_ca8f2d8ac1df41189a365da7ddd9f4f6
 type: Request
 parentId: fld_2fcc67bf8a814999ba1cf96f7a07eba7
-modified: 1646845864998
+modified: 1646932193969
 created: 1646418823680
-url: "{{ _.bifrost_url}}/api/insomniaFunctions/registerTerminalResidencialInsomnia"
+url: localhost:8000/api/insomniaFunctions/registerTerminalResidencialInsomnia
 name: registerTerminalResidencial
 description: |-
   - Create in DB
@@ -32,6 +32,46 @@ body:
     - id: pair_0ba203386d2f4c9fa6162c5b19c24de1
       name: servicePlanName
       value: BANSAT_STATIC_6M_2M_20GB_N
+      description: ""
+    - id: pair_027f2ef03679487fbed181f620643ff5
+      name: vnoId
+      value: "1"
+      description: ""
+    - id: pair_ad71335118f442259c00d5ab21b74f93
+      name: servicesPlanId
+      value: "1"
+      description: ""
+    - id: pair_6fe4b11a2c6a4964b43a7bdd6d1f2b91
+      name: beamId
+      value: "1"
+      description: ""
+    - id: pair_9bccc3f4282f47b9bb3de993c54214bc
+      name: customerId
+      value: "1"
+      description: ""
+    - id: pair_55f35d26ad634d7bb2db6765957798a0
+      name: hubId
+      value: "1"
+      description: ""
+    - id: pair_0832a868c1a54683ad6b2cc390836011
+      name: forecastId
+      value: "104"
+      description: ""
+    - id: pair_39afe7a0db844107ba8e68c4860dd387
+      name: data_creation
+      value: 2021-03-10 05:37:54
+      description: ""
+    - id: pair_578fe5549ae04b69a6d8a72e74f08d2a
+      name: latitud
+      value: "-38.95923"
+      description: ""
+    - id: pair_0f6e7f28d26645818f0ca69db505e5c5
+      name: longitud
+      value: "-68.05002"
+      description: ""
+    - id: pair_0ca66a1bdc6f4710b5b07cf44b42a70e
+      name: suscriberId
+      value: "22562"
       description: ""
 parameters: []
 headers:
