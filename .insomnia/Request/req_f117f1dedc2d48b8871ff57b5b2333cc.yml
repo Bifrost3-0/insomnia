@@ -1,7 +1,7 @@
 _id: req_f117f1dedc2d48b8871ff57b5b2333cc
 type: Request
 parentId: fld_0d13e82b3d8947c3b350d2c33798e03f
-modified: 1636577292015
+modified: 1647272045581
 created: 1632344740828
 url: https://kong.bifrost.pe/function/api-auth
 name: bifrostApi
@@ -27,7 +27,7 @@ headers:
     description: ""
 authentication:
   type: bearer
-  token: UTFMYTdHYzZIN3JWV01nWEQyZkRnOFB4NE5FM0JUYVRFN3FrVHZZZ1VOb1lTWXVxRWptaTFmYnV6N3U5618c2992af024
+  token: N3E0Znk5dzNUM2hWMmtMcGNhbE9vQzVvVVV4NTByWG1pU2F1ZGR2RGRLVTlIOWRFOVh3TnRGbEtlald1619f95899929b
 metaSortKey: -1632344740828
 isPrivate: false
 settingStoreCookies: true

@@ -1,7 +1,7 @@
 _id: req_94e537bbbf5249ab9bfcd4fd5e8d3317
 type: Request
 parentId: fld_f21c417bea1f414e859214b49ee351ce
-modified: 1629437399524
+modified: 1637083143413
 created: 1629384618096
 url: :{{ _.hughes_platform }}/NMSAPI/vsats/SITEID
 name: Cambio Plan Residencial
@@ -9,13 +9,11 @@ description: ""
 method: PUT
 body:
   mimeType: ""
-  text: "{\r
-
-    \    \"servicePlanId\": \"NOMBRE_PLAN\",\r
-
-    \    \"mode\": 1\r
-
-    }"
+  text: |-
+    {
+        "servicePlanId": "NOMBRE_PLAN",
+        "mode": 1
+    }
 parameters: []
 headers:
   - name: Content-Type

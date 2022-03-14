@@ -1,7 +1,7 @@
 _id: req_0604c32e63064932943914cd9ae52361
 type: Request
 parentId: fld_d7199f03fbb64bc881ab8044417fb5f0
-modified: 1637014982493
+modified: 1637075281579
 created: 1637014369084
 url: https://api-nms.hispasat.es/v1/broadband/backend/graphdata/graph/slot/trafficfwdrtn?from=2021-11-14T00:00:00&to=2021-11-15T00:00:00&frecuency=hours&id=52
 name: Traffic Fwd Rtn Slot

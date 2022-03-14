@@ -1,7 +1,7 @@
 _id: req_29acfd3802144215a1b36ed95db4539c
 type: Request
 parentId: fld_f21c417bea1f414e859214b49ee351ce
-modified: 1629437414286
+modified: 1637083142390
 created: 1629384618088
 url: :{{ _.hughes_platform }}/NMSAPI/vsats/SITEID
 name: Cambio Plan Estático
@@ -9,15 +9,12 @@ description: ""
 method: PUT
 body:
   mimeType: ""
-  text: "{\r
-
-    \    \"servicePlanId\": \"NOMBRE_PLAN\",\r
-
-    \    \"mode\": 2,\r
-
-    \    \"staticIpSubnetSize\": \"NROIPS\"\r
-
-    }"
+  text: |-
+    {
+        "servicePlanId": "NOMBRE_PLAN",
+        "mode": 2,
+        "staticIpSubnetSize": "NROIPS"
+    }
 parameters: []
 headers:
   - name: Content-Type

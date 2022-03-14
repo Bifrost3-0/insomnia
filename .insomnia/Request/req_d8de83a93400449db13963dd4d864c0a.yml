@@ -1,0 +1,26 @@
+_id: req_d8de83a93400449db13963dd4d864c0a
+type: Request
+parentId: fld_0d13e82b3d8947c3b350d2c33798e03f
+modified: 1647276901354
+created: 1647272155804
+url: https://apiaws.bifrost.pe/api/AdministrationApp/login
+name: TOKEN Bifrost
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: ""
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_9ac917ccc9324de58b1974fa8512b0e5
+authentication: {}
+metaSortKey: -1647272155804
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
