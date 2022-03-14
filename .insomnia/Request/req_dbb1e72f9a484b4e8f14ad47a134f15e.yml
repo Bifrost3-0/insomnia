@@ -1,0 +1,63 @@
+_id: req_dbb1e72f9a484b4e8f14ad47a134f15e
+type: Request
+parentId: fld_2fcc67bf8a814999ba1cf96f7a07eba7
+modified: 1647268732626
+created: 1647012647802
+url: localhost:8000/api/insomniaFunctions/updateTerminal
+name: updateTerminal
+description: ""
+method: POST
+body:
+  mimeType: multipart/form-data
+  params:
+    - id: pair_ba262c4b652245488c9b7aa34f93bd92
+      name: siteId
+      value: ""
+      description: ""
+    - id: pair_11c62623c8d44e07bf1a0f52caeae178
+      name: date
+      value: ""
+      description: ""
+    - id: pair_ecba02dc5a9e488eba6f8569137968ff
+      name: status
+      value: ""
+      description: ""
+    - id: pair_848f0db8875e48e5b4ea88937ac8d768
+      name: vnoId
+      value: ""
+      description: ""
+    - id: pair_4be99452e36c4c1397c6ff271bf9dbbf
+      name: servicesPlanId
+      value: ""
+      description: ""
+    - id: pair_7d73d4946da64a9387ae726ba1209289
+      name: beamId
+      value: ""
+      description: ""
+    - id: pair_ed4ba446004d408e8612e45ca20218b1
+      name: customerId
+      value: ""
+      description: ""
+    - id: pair_4571d57fbb7e4865a22ad2bda69d0b37
+      name: technologyId
+      value: ""
+      description: ""
+parameters: []
+headers:
+  - name: Content-Type
+    value: multipart/form-data
+    id: pair_dbd7a4be01f54d329c01190c4db8ba82
+  - id: pair_c4f3c7b39afd406a9f7381f8b4f4d7f3
+    name: token
+    value: "{% response 'body', 'req_8fcaa559a6144a6da85a5c4542eba643',
+      'b64::JC5kYXRhLnNlc3Npb24udG9rZW4=::46b', 'never', 60 %}"
+    description: ""
+authentication: {}
+metaSortKey: -1646223464559.875
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
