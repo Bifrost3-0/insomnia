@@ -1,7 +1,7 @@
 _id: req_ef5eb8fa4e2f42029c6ea13832cbe1dc
 type: Request
 parentId: fld_69b803e28a354bc885b9f925885d863c
-modified: 1647356022148
+modified: 1647359244713
 created: 1646417507631
 url: localhost:8000/api/forecastMN/createMnosBeam
 name: createMnosBeam
@@ -11,7 +11,47 @@ body:
   mimeType: multipart/form-data
   params:
     - id: pair_a972627e328d453ab79e448c401fadb6
+      name: lat
+      value: ""
+      description: ""
+    - id: pair_624dea6744ae43b79e095792e1743620
+      name: long
+      value: ""
+      description: ""
+    - id: pair_67a112f8e1ff4ae0b7b3d69c614f6047
       name: name
+      value: ""
+      description: ""
+    - id: pair_ae49e665cc7b45d1b9862c74b9827b5c
+      name: created_at
+      value: ""
+      description: ""
+    - id: pair_7089aa35e23b46439f754e4e2bc28679
+      name: oracleId
+      value: ""
+      description: ""
+    - id: pair_7f5f1515352c4b4ea53a225efd4e9afe
+      name: inroute_group
+      value: ""
+      description: ""
+    - id: pair_b18471c212ca4c2095e28578932b5ed9
+      name: network_id
+      value: ""
+      description: ""
+    - id: pair_5e80c820bb194f559b25e298bab4f21c
+      name: hubId
+      value: ""
+      description: ""
+    - id: pair_2ef5896d21c84ef1b6b83990bf12d38e
+      name: cluster_code
+      value: ""
+      description: ""
+    - id: pair_52d377e3b07649b288d45158fe020669
+      name: platformId
+      value: ""
+      description: ""
+    - id: pair_cff80ae1ee934c4fb1d771c77cea5c33
+      name: subsystemId
       value: ""
       description: ""
 parameters: []

@@ -1,7 +1,7 @@
 _id: req_2c047c53340449a586af3f05a051c63d
 type: Request
 parentId: fld_481de497de914935a6304b9119057f6a
-modified: 1647356088644
+modified: 1647358449268
 created: 1647355829888
 url: localhost:8000/api/forecastMN/updateMnosVlan/1249
 name: updateMnosVlan
@@ -9,7 +9,43 @@ description: ""
 method: POST
 body:
   mimeType: multipart/form-data
-  params: []
+  params:
+    - id: pair_74e631b1504c4d9598ed96af88bda069
+      name: beamId
+      value: ""
+      description: ""
+    - id: pair_f39394644f0845fa835a0408de5708e0
+      name: vnoId
+      value: ""
+      description: ""
+    - id: pair_52ef4eae55ca439398544a345f6b15ef
+      name: name
+      value: ""
+      description: ""
+    - id: pair_ba2f6043acec487f97829e236c97af68
+      name: updated_at
+      value: ""
+      description: ""
+    - id: pair_1ba49dba5e2241a58c7fadf901fd8e12
+      name: plattformVlanId
+      value: ""
+      description: ""
+    - id: pair_2253f2a04cc34925a263bb1d235d1525
+      name: servicePlanId
+      value: ""
+      description: ""
+    - id: pair_d4faf4f3d4524fad976449aa5498ae51
+      name: oracleId
+      value: ""
+      description: ""
+    - id: pair_2d62f3a9ca5f43f78e56cabedf539186
+      name: subVnoId
+      value: ""
+      description: ""
+    - id: pair_87b1e973e53d4f2e88b986c9f5283d6b
+      name: platformId
+      value: ""
+      description: ""
 parameters: []
 headers:
   - name: Content-Type

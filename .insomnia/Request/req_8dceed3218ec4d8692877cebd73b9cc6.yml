@@ -1,7 +1,7 @@
 _id: req_8dceed3218ec4d8692877cebd73b9cc6
 type: Request
 parentId: fld_bc5bc7d79b844bb6aa5e070cea0300ed
-modified: 1647356029513
+modified: 1647359131887
 created: 1646430091771
 url: localhost:8000/api/forecastMN/createGenVno
 name: createGenVno
@@ -12,6 +12,34 @@ body:
   params:
     - id: pair_a972627e328d453ab79e448c401fadb6
       name: name
+      value: ""
+      description: ""
+    - id: pair_349cc6e9bbfe4e9a86bf9e853e4f2db4
+      name: detail
+      value: ""
+      description: ""
+    - id: pair_adb113026e6d4ced9d7a8529383b811a
+      name: created_at
+      value: ""
+      description: ""
+    - id: pair_a75019480ce6465e873ffdb88f28442a
+      name: countryId
+      value: ""
+      description: ""
+    - id: pair_3dce7692c80a4a629e66f9b4b6591d84
+      name: oracleId
+      value: ""
+      description: ""
+    - id: pair_4af9d836ff7c44af9d59a91d9d50d968
+      name: familyId
+      value: ""
+      description: ""
+    - id: pair_574775b494ba47bc96a5f55d4462165d
+      name: nomen_vno
+      value: ""
+      description: ""
+    - id: pair_736f9119f518458abed3d848c201f7dd
+      name: model
       value: ""
       description: ""
 parameters: []

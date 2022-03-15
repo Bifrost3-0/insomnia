@@ -1,7 +1,7 @@
 _id: req_98c014aa5dc54fa096f37382d8d56e8c
 type: Request
 parentId: fld_481de497de914935a6304b9119057f6a
-modified: 1647356083794
+modified: 1647358406516
 created: 1647355812967
 url: localhost:8000/api/forecastMN/createMnosVlan
 name: createMnosVlan
@@ -9,7 +9,43 @@ description: ""
 method: POST
 body:
   mimeType: multipart/form-data
-  params: []
+  params:
+    - id: pair_6a910bd7e88540a2b171fe82793ae1bb
+      name: beamId
+      value: ""
+      description: ""
+    - id: pair_58eae077df0b485b8636741997ee3456
+      name: vnoId
+      value: ""
+      description: ""
+    - id: pair_69af942fbd6c4293927b4d9574e1146e
+      name: name
+      value: ""
+      description: ""
+    - id: pair_c58a462387e041bdbbbde4ec21292b5b
+      name: created_at
+      value: ""
+      description: ""
+    - id: pair_bc2dcc43ec6d4203a73f6663b48f27fa
+      name: plattformVlanId
+      value: ""
+      description: ""
+    - id: pair_8d218b64fb514565a7ab61b69fe50287
+      name: servicePlanId
+      value: ""
+      description: ""
+    - id: pair_c5a3c10005e44f2baf5d14e5b35acf81
+      name: oracleId
+      value: ""
+      description: ""
+    - id: pair_1c0b11b02a904f55821916c049b289ef
+      name: subVnoId
+      value: ""
+      description: ""
+    - id: pair_aaaca4aed7a84371b847c6d11d0a9f2d
+      name: platformId
+      value: ""
+      description: ""
 parameters: []
 headers:
   - name: Content-Type

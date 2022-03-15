@@ -1,7 +1,7 @@
 _id: req_d4e305b6447740f7b3200925eed2c0b2
 type: Request
 parentId: fld_bc5bc7d79b844bb6aa5e070cea0300ed
-modified: 1647356032772
+modified: 1647359132446
 created: 1647355918329
 url: localhost:8000/api/forecastMN/updateGenVno/215
 name: updateGenVno
@@ -9,7 +9,39 @@ description: ""
 method: POST
 body:
   mimeType: multipart/form-data
-  params: []
+  params:
+    - id: pair_317f6c305f9f4f7f9bcccf8f81b4f35b
+      name: name
+      value: ""
+      description: ""
+    - id: pair_ccc8025c56e44aa6822fdda52fb2a228
+      name: detail
+      value: ""
+      description: ""
+    - id: pair_1c292f1cda3a44d3ab626c17e3ae142f
+      name: updated_at
+      value: ""
+      description: ""
+    - id: pair_305a262a686a4cf9b268da157efb7601
+      name: countryId
+      value: ""
+      description: ""
+    - id: pair_1a45c2bcde1c4b6782446fe227710953
+      name: oracleId
+      value: ""
+      description: ""
+    - id: pair_56227ee47409428983ebeeeb39590fbb
+      name: familyId
+      value: ""
+      description: ""
+    - id: pair_dd322cd8b9b14d06bc28c63d36d6ae5e
+      name: nomen_vno
+      value: ""
+      description: ""
+    - id: pair_25f8b39079df4c3bb347e8872ae71ff4
+      name: model
+      value: ""
+      description: ""
 parameters: []
 headers:
   - name: Content-Type

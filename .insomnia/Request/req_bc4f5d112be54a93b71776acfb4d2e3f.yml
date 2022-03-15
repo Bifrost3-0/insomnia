@@ -1,7 +1,7 @@
 _id: req_bc4f5d112be54a93b71776acfb4d2e3f
 type: Request
 parentId: fld_dc0df04d10d448919bf787c330d1c9e3
-modified: 1647357250392
+modified: 1647358936330
 created: 1647355576778
 url: localhost:8000/api/forecastMN/createMnosVnoBeamSp
 name: createMnosVnoBeamSp
@@ -9,7 +9,23 @@ description: ""
 method: POST
 body:
   mimeType: multipart/form-data
-  params: []
+  params:
+    - id: pair_7f7d8b4399f84303bfb91da8be71253a
+      name: vnoId
+      value: ""
+      description: ""
+    - id: pair_6b864e57dbc242588d277c924c2f34bc
+      name: beamId
+      value: ""
+      description: ""
+    - id: pair_283e9bf873884e2b85a2e2325181662e
+      name: servicePlanId
+      value: ""
+      description: ""
+    - id: pair_0b3ba1965c1c447f8ad6abe92957bd5c
+      name: created_at
+      value: ""
+      description: ""
 parameters: []
 headers:
   - name: Content-Type

@@ -1,7 +1,7 @@
 _id: req_66ef4e007b8840f9b92e4108572a1035
 type: Request
 parentId: fld_57b69bea49734490bb78998c08bcbfa8
-modified: 1647356035460
+modified: 1647359005321
 created: 1646430116140
 url: localhost:8000/api/forecastMN/createGenHub
 name: createGenHub
@@ -12,6 +12,30 @@ body:
   params:
     - id: pair_a972627e328d453ab79e448c401fadb6
       name: name
+      value: ""
+      description: ""
+    - id: pair_1d170a2c6a3b424dbfdec9d030e9ba5f
+      name: description
+      value: ""
+      description: ""
+    - id: pair_c342d2e2e7f54c56a1643004a8de299e
+      name: created_at
+      value: ""
+      description: ""
+    - id: pair_521a7098259d4c24805cdf3d8b1f2777
+      name: latitude
+      value: ""
+      description: ""
+    - id: pair_92bf22e3aa0347cc9759c5ada7808151
+      name: longitude
+      value: ""
+      description: ""
+    - id: pair_e44b4c9e6f104f20994a741e2358d819
+      name: technologyId
+      value: ""
+      description: ""
+    - id: pair_eed4e201ceb4496ba0281ef9c06ff8ba
+      name: active_tp
       value: ""
       description: ""
 parameters: []

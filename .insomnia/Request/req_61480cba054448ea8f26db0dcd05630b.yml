@@ -1,7 +1,7 @@
 _id: req_61480cba054448ea8f26db0dcd05630b
 type: Request
 parentId: fld_0cecdb8356054c73b475c0413e025268
-modified: 1647356075018
+modified: 1647358617710
 created: 1647355767349
 url: localhost:8000/api/forecastMN/updateMnosServicePlan/1709
 name: updateMnosServicePlan
@@ -9,7 +9,87 @@ description: ""
 method: POST
 body:
   mimeType: multipart/form-data
-  params: []
+  params:
+    - id: pair_49d2d1f82e9047ab904c5c2dc7ba9d30
+      name: platformId
+      value: ""
+      description: ""
+    - id: pair_70e69d43b73d412284bc169c182632d6
+      name: name
+      value: ""
+      description: ""
+    - id: pair_1c7e8eda7caa4aa88e9b989ad0205f75
+      name: crmId
+      value: ""
+      description: ""
+    - id: pair_7e2f30c1d86d46b89393f75d49a6e4a5
+      name: download
+      value: ""
+      description: ""
+    - id: pair_a22ce96f9950469b90ed800f96e1df1c
+      name: upload
+      value: ""
+      description: ""
+    - id: pair_59134112a998499a901e33be77db2805
+      name: guarantedRadio
+      value: ""
+      description: ""
+    - id: pair_e6499ae3c379407394f7ef7c6c77acb9
+      name: nmsName
+      value: ""
+      description: ""
+    - id: pair_15df92fa24954b1d86ddff58e4cb32d3
+      name: quota
+      value: ""
+      description: ""
+    - id: pair_3a1dac2ddd2c4fba8d7a88d6e51c4c92
+      name: ipTypeIdx
+      value: ""
+      description: ""
+    - id: pair_6ec21071b3b24285a5bac6e57fcceaea
+      name: ipAmount
+      value: ""
+      description: ""
+    - id: pair_103e0591b79544dbaf390a4a3582f888
+      name: bwNominal
+      value: ""
+      description: ""
+    - id: pair_375b531dd82e44b18547b356861efe95
+      name: fee
+      value: ""
+      description: ""
+    - id: pair_a1ffae1679d44054915aad544f5bbb46
+      name: throttledSpeed
+      value: ""
+      description: ""
+    - id: pair_8fe4b2fc98ed4804ab047b42fe643b15
+      name: transmision
+      value: ""
+      description: ""
+    - id: pair_bb29d016412d4f1284633fa23d0b63d4
+      name: activation
+      value: ""
+      description: ""
+    - id: pair_9675130af4764cb2837c9cecc74f3f9f
+      name: vnn
+      value: ""
+      description: ""
+    - id: pair_0863fc0fc2f6485683f2a75fa88fa299
+      name: oracleId
+      value: ""
+      description: ""
+    - id: pair_2c7d538bbb22496da47c6ec5d513db26
+      name: updated_at
+      value: ""
+      description: ""
+    - id: pair_c2f241a58b2d475f82dbe1a1b92eb214
+      name: limited
+      value: ""
+      description: ""
+    - id: pair_34c41d9d86a243d8901561dab3265515
+      name: tecnologyId
+      value: ""
+      description: ""
 parameters: []
 headers:
   - name: Content-Type

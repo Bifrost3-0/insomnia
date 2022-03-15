@@ -1,7 +1,7 @@
 _id: req_d46f490d22c544e9ac9e9cb7b927368d
 type: Request
 parentId: fld_57b69bea49734490bb78998c08bcbfa8
-modified: 1647356038878
+modified: 1647359027101
 created: 1647355880130
 url: localhost:8000/api/forecastMN/updateGenHub/75
 name: updateGenHub
@@ -9,7 +9,36 @@ description: ""
 method: POST
 body:
   mimeType: multipart/form-data
-  params: []
+  params:
+    - id: pair_7dfe5b8fac484ae786704a61ddae6c0c
+      name: name
+      value: ""
+      description: ""
+    - id: pair_1a98867e179849a2ae743d1f85f69844
+      name: description
+      value: ""
+      description: ""
+    - id: pair_b10524f6e2804d76ac2240b7a88c665a
+      name: created_at
+      value: ""
+      description: ""
+    - id: pair_cd3645f25217477e83bc0f9d5e2ac561
+      name: latitude
+      value: ""
+      description: ""
+    - id: pair_f107861a2c354bae881c29e2648b1dab
+      name: longitude
+      value: ""
+      description: ""
+    - id: pair_0c5b2601b9144ebc92c9629c5d460d97
+      name: technologyId
+      value: ""
+      description: ""
+    - id: pair_5b281bb1b3b344a0b52eb8a2b6c28932
+      name: ""
+      value: ""
+      description: ""
+      disabled: true
 parameters: []
 headers:
   - name: Content-Type

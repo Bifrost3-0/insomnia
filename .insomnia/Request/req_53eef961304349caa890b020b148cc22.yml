@@ -1,7 +1,7 @@
 _id: req_53eef961304349caa890b020b148cc22
 type: Request
 parentId: fld_5dd89128bb9148798bb2a1f43affc481
-modified: 1647356058213
+modified: 1647358872335
 created: 1647355682559
 url: localhost:8000/api/forecastMN/createMnosBtActivationData
 name: createMnosBtActivationData
@@ -9,7 +9,99 @@ description: ""
 method: POST
 body:
   mimeType: multipart/form-data
-  params: []
+  params:
+    - id: pair_84b26dfb3b424c208fc27b50cb41426a
+      name: beamId
+      value: ""
+      description: ""
+    - id: pair_82a05b3bf8c449eca0ac35d76391a16a
+      name: siteId
+      value: ""
+      description: ""
+    - id: pair_7883083db7cc44c8b14eaa5655559ad0
+      name: created_at
+      value: ""
+      description: ""
+    - id: pair_5e5bab1cb12f42cc8fce45e9c16a7ef3
+      name: azimuth
+      value: ""
+      description: ""
+    - id: pair_91fb47d805d14aa896df53840247318a
+      name: uplinkPolarization
+      value: ""
+      description: ""
+    - id: pair_22d914fcfc304c9ea7a0aebd53405430
+      name: elevation
+      value: ""
+      description: ""
+    - id: pair_de92c85fe9f5459d927a1b3f8a5819e9
+      name: esn
+      value: ""
+      description: ""
+    - id: pair_431b510b765d4adaaed1783c035bfd98
+      name: systemaStateCode
+      value: ""
+      description: ""
+    - id: pair_0b961db14b874efab72bb9f55a89e70b
+      name: terminalStateCode
+      value: ""
+      description: ""
+    - id: pair_59bd821313854fcab2dc11558f24199c
+      name: latitude
+      value: ""
+      description: ""
+    - id: pair_eb9e910fcb7a4e6f978adad90172cf29
+      name: longitude
+      value: ""
+      description: ""
+    - id: pair_8097d39b378e4e1d9ed5fe0c29982298
+      name: downlinkModCod
+      value: ""
+      description: ""
+    - id: pair_3c366dfe166c45429c31884442b93d3a
+      name: ocuPowerType
+      value: ""
+      description: ""
+    - id: pair_8eb39abc437b4d3eb1087e40b5c551a4
+      name: genstLastRebootReason
+      value: ""
+      description: ""
+    - id: pair_b1247dc52a334dfd982eb698a811fe95
+      name: downlinkEsNo
+      value: ""
+      description: ""
+    - id: pair_511ab95f4db04f64a6d178715a70d0e9
+      name: uplinkEsNo
+      value: ""
+      description: ""
+    - id: pair_c6ade62a6113415188f1b34ee187ea61
+      name: hardwareType
+      value: ""
+      description: ""
+    - id: pair_52873d87c4454aaa9622c679f25d2408
+      name: uplinkCoderate
+      value: ""
+      description: ""
+    - id: pair_cc1277413f964db5bd179468337e967b
+      name: uplinkPowerBackOff
+      value: ""
+      description: ""
+    - id: pair_cc02f12eb7504b978068245f016c8740
+      name: uplinkSymbolRate
+      value: ""
+      description: ""
+    - id: pair_ad6d467295be46c4b5f56554235556e8
+      name: currentSwVersionId
+      value: ""
+      description: ""
+    - id: pair_dd3152ee3b36487ab746e14c67136a13
+      name: servicePlanId
+      value: ""
+      description: ""
+    - id: pair_d687108c1c204d4aa2ccdb4626c0148a
+      name: terminalStatus
+      value: ""
+      description: ""
 parameters: []
 headers:
   - name: Content-Type

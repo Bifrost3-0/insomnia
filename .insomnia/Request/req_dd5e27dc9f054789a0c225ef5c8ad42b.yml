@@ -1,7 +1,7 @@
 _id: req_dd5e27dc9f054789a0c225ef5c8ad42b
 type: Request
 parentId: fld_b453448a857e41beb761750ddfcbb2f3
-modified: 1647356066764
+modified: 1647358669357
 created: 1647355708663
 url: localhost:8000/api/forecastMN/createGenFamilyPermision
 name: createGenFamilyPermision
@@ -9,7 +9,19 @@ description: ""
 method: POST
 body:
   mimeType: multipart/form-data
-  params: []
+  params:
+    - id: pair_e6383eb7caa040c59621da7fec949ac9
+      name: familyId
+      value: ""
+      description: ""
+    - id: pair_08f8a539a37f475e9540e284fb587281
+      name: vnoId
+      value: ""
+      description: ""
+    - id: pair_bdfb79e9f67c4b479bc95a9991af2767
+      name: created_at
+      value: ""
+      description: ""
 parameters: []
 headers:
   - name: Content-Type
