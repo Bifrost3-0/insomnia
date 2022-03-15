@@ -1,7 +1,7 @@
 _id: req_ef5964e18ed245ebb43a61b7db55b0ee
 type: Request
 parentId: fld_864189c6a15a4194bf48420db1f4960f
-modified: 1647358956174
+modified: 1647369619733
 created: 1646430104447
 url: localhost:8000/api/forecastMN/createGenFamily
 name: createGenFamily

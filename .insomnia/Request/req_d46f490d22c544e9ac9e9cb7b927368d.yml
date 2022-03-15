@@ -1,7 +1,7 @@
 _id: req_d46f490d22c544e9ac9e9cb7b927368d
 type: Request
 parentId: fld_57b69bea49734490bb78998c08bcbfa8
-modified: 1647359027101
+modified: 1647369623116
 created: 1647355880130
 url: localhost:8000/api/forecastMN/updateGenHub/75
 name: updateGenHub
@@ -34,11 +34,6 @@ body:
       name: technologyId
       value: ""
       description: ""
-    - id: pair_5b281bb1b3b344a0b52eb8a2b6c28932
-      name: ""
-      value: ""
-      description: ""
-      disabled: true
 parameters: []
 headers:
   - name: Content-Type

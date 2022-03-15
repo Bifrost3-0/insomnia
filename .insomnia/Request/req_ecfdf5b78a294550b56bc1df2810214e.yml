@@ -1,7 +1,7 @@
 _id: req_ecfdf5b78a294550b56bc1df2810214e
 type: Request
 parentId: fld_2fcc67bf8a814999ba1cf96f7a07eba7
-modified: 1647018840503
+modified: 1647369457080
 created: 1646419085428
 url: localhost:8000/api/insomniaFunctions/registerTerminalEmpresarialInsomnia
 name: registerTerminalEmpresarial
@@ -49,41 +49,6 @@ body:
       name: technologyId
       value: ""
       description: ""
-    - id: pair_cc8ce70a6449469d9911756884783467
-      name: servicePlanName
-      value: BANSAT_STATIC_6M_2M_20GB_N
-      description: ""
-      disabled: true
-    - id: pair_07274932473149abbb755d2cb6e507e7
-      name: hubId
-      value: ""
-      description: ""
-      disabled: true
-    - id: pair_1f4e8e8f99a441a6b5102ed938890a69
-      name: forecastId
-      value: ""
-      description: ""
-      disabled: true
-    - id: pair_d8c05ff35675472c9ac64ade9574d580
-      name: data_creation
-      value: ""
-      description: ""
-      disabled: true
-    - id: pair_5e8b1ec8d48f4b23a0e3f979248e872a
-      name: latitud
-      value: ""
-      description: ""
-      disabled: true
-    - id: pair_59e00d2161624a7c93ddcf2d62eb56d4
-      name: longitud
-      value: ""
-      description: ""
-      disabled: true
-    - id: pair_199b4f3632bb4e24a112a33165d17e85
-      name: suscriberId
-      value: ""
-      description: ""
-      disabled: true
 parameters: []
 headers:
   - name: Content-Type
