@@ -1,0 +1,26 @@
+_id: req_4494cff789af4598ad7a27e9a00d2a9e
+type: Request
+parentId: fld_2fcc67bf8a814999ba1cf96f7a07eba7
+modified: 1647356017841
+created: 1647355993683
+url: localhost:8000/api/insomniaFunctions/orderDelete/1
+name: orderDelete
+description: ""
+method: DELETE
+body: {}
+parameters: []
+headers:
+  - id: pair_13b2d199c771418797836baed760d361
+    name: token
+    value: "{% response 'body', 'req_8fcaa559a6144a6da85a5c4542eba643',
+      'b64::JC5kYXRhLnNlc3Npb24udG9rZW4=::46b', 'never', 60 %}"
+    description: ""
+authentication: {}
+metaSortKey: -1647355993683
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

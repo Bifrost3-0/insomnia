@@ -1,31 +1,27 @@
-_id: req_ef5964e18ed245ebb43a61b7db55b0ee
+_id: req_98c014aa5dc54fa096f37382d8d56e8c
 type: Request
-parentId: fld_864189c6a15a4194bf48420db1f4960f
-modified: 1647356041842
-created: 1646430104447
-url: "{{bifrost_url}}/api/model/mnos_beam"
-name: CreateFamVno
-description: This functions is use to create a new Beam
+parentId: fld_481de497de914935a6304b9119057f6a
+modified: 1647356083794
+created: 1647355812967
+url: localhost:8000/api/forecastMN/createMnosVlan
+name: createMnosVlan
+description: ""
 method: POST
 body:
   mimeType: multipart/form-data
-  params:
-    - id: pair_a972627e328d453ab79e448c401fadb6
-      name: name
-      value: ""
-      description: ""
+  params: []
 parameters: []
 headers:
   - name: Content-Type
     value: multipart/form-data
-    id: pair_56d93e29534349ec8ee51fee5b5532a4
-  - id: pair_25cee8d2f394474abfd26a9b7ad9eab1
+    id: pair_6d07940ad2bb4bad83ec0067c34ea42c
+  - id: pair_9e47b1e36b374225a10043bdb1e9d70d
     name: token
     value: "{% response 'body', 'req_8fcaa559a6144a6da85a5c4542eba643',
       'b64::JC5kYXRhLnNlc3Npb24udG9rZW4=::46b', 'never', 60 %}"
     description: ""
 authentication: {}
-metaSortKey: -1646417438336.5
+metaSortKey: -1647355812967
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

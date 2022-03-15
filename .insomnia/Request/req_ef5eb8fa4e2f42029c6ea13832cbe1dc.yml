@@ -1,10 +1,10 @@
 _id: req_ef5eb8fa4e2f42029c6ea13832cbe1dc
 type: Request
 parentId: fld_69b803e28a354bc885b9f925885d863c
-modified: 1646427303149
+modified: 1647356022148
 created: 1646417507631
-url: "{{bifrost_url}}/api/model/mnos_beam"
-name: CreateBeam
+url: localhost:8000/api/forecastMN/createMnosBeam
+name: createMnosBeam
 description: This functions is use to create a new Beam
 method: POST
 body:

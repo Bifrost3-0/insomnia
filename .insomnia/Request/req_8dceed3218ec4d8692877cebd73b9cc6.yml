@@ -1,10 +1,10 @@
 _id: req_8dceed3218ec4d8692877cebd73b9cc6
 type: Request
 parentId: fld_bc5bc7d79b844bb6aa5e070cea0300ed
-modified: 1646430269252
+modified: 1647356029513
 created: 1646430091771
-url: "{{bifrost_url}}/api/model/vno"
-name: CreateVno
+url: localhost:8000/api/forecastMN/createGenVno
+name: createGenVno
 description: This functions is use to create a new Beam
 method: POST
 body:
