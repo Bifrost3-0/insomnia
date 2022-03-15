@@ -1,7 +1,7 @@
 _id: req_cd1e52127526478098a0b9586e9112ed
 type: Request
 parentId: fld_57b69bea49734490bb78998c08bcbfa8
-modified: 1646430338874
+modified: 1647375076504
 created: 1646430159823
 url: "{{bifrost_url}}/api/rfc/getHub"
 name: ListarHub

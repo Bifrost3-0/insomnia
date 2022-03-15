@@ -1,7 +1,7 @@
 _id: req_dda02178bcf749b29dce155006ea0bf4
 type: Request
 parentId: fld_864189c6a15a4194bf48420db1f4960f
-modified: 1646430531708
+modified: 1647367985607
 created: 1646430128068
 url: "{{bifrost_url}}/api/model/GenFamilyPermision"
 name: ListarFamiliyVno

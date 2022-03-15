@@ -1,7 +1,7 @@
 _id: req_bc4f5d112be54a93b71776acfb4d2e3f
 type: Request
 parentId: fld_dc0df04d10d448919bf787c330d1c9e3
-modified: 1647369618115
+modified: 1647376825374
 created: 1647355576778
 url: localhost:8000/api/forecastMN/createMnosVnoBeamSp
 name: createMnosVnoBeamSp
@@ -24,6 +24,10 @@ body:
       description: ""
     - id: pair_0b3ba1965c1c447f8ad6abe92957bd5c
       name: created_at
+      value: ""
+      description: ""
+    - id: pair_af2df8a043864714871d3dfe2ee478f7
+      name: ""
       value: ""
       description: ""
 parameters: []

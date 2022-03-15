@@ -1,11 +1,15 @@
 _id: req_dbb1e72f9a484b4e8f14ad47a134f15e
 type: Request
 parentId: fld_2fcc67bf8a814999ba1cf96f7a07eba7
-modified: 1647369442258
+modified: 1647376204698
 created: 1647012647802
-url: localhost:8000/api/insomniaFunctions/updateTerminal
+url: localhost:8000/api/insomniaFunctions/updateTerminal/1123123
 name: updateTerminal
-description: ""
+description: >-
+  -en el update terminal: agregar en la ruta el id de la terminal
+  (api/insomniaFunctions/updateTerminal/1123123) y actualizar todas las columnas
+
+  que se van llenando en el body.
 method: POST
 body:
   mimeType: multipart/form-data
@@ -41,6 +45,10 @@ body:
     - id: pair_4571d57fbb7e4865a22ad2bda69d0b37
       name: technologyId
       value: ""
+      description: ""
+    - id: pair_90ee0492a2214d7aaa8783ed8b1dbcec
+      name: activationDate
+      value: 2022-02-01 00:00:00
       description: ""
 parameters: []
 headers:
