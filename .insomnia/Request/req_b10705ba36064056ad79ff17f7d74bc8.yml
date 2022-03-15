@@ -1,7 +1,11 @@
 _id: req_b10705ba36064056ad79ff17f7d74bc8
 type: Request
 parentId: fld_7e0640ca8fe545f4bc524fc7f83cc3ea
+<<<<<<< HEAD
 modified: 1636981200028
+=======
+modified: 1637281986294
+>>>>>>> origin/changes-yeltsin
 created: 1632244083343
 url: "{{ _.base_url }}:{{ _.gilat_ku_colombia }}/ws/cpeService"
 name: Lista Terminales - Pulleo

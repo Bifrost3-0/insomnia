@@ -1,9 +1,9 @@
 _id: req_eddd4b1919a649d0a8f55a7e47873d96
 type: Request
 parentId: fld_4fb2b5b7eceb437aa0c7ac76015db876
-modified: 1634151660118
+modified: 1641600488095
 created: 1629840532424
-url: "{{baseUrl}}/terminals/:terminalId"
+url: "    https://api-nms.hispasat.es/v1/broadband/backend/terminals/5955"
 name: Delete Terminal
 description: ""
 method: DELETE
@@ -12,7 +12,7 @@ parameters: []
 headers: []
 authentication:
   type: bearer
-  token: "{{ _.token_hispasat }}"
+  token: eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJvcmRlcmluZ21uLnBlQHRlbGVmb25pY2EuY29tIiwiaWF0IjoxNjQxNjAwMTQwLCJleHAiOjE2NDE2MTA5NDB9.8dDHMqQB9yL3cF_Xab4zXN778Nbhf2Ts694xXvDP8hDPerdkUb_ATKmJN8AxIrmBv1O_ANIWFPZL_5KxKddCBA
 metaSortKey: -1629840532450.25
 isPrivate: false
 settingStoreCookies: true

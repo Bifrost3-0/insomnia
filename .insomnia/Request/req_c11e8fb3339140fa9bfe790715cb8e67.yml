@@ -1,0 +1,53 @@
+_id: req_c11e8fb3339140fa9bfe790715cb8e67
+type: Request
+parentId: fld_2fcc67bf8a814999ba1cf96f7a07eba7
+modified: 1647268747507
+created: 1646418977696
+url: localhost:8000/api/insomniaFunctions/orderSuspendTerminal
+name: orderSuspendTerminal
+description: |-
+  - Create Order and OrderDetail
+  - Suspender Terminal de Order
+method: POST
+body:
+  mimeType: multipart/form-data
+  params:
+    - id: pair_9101368227d94f169ff216892aea4522
+      name: siteId
+      value: 230B093127643001
+      description: ""
+    - id: pair_a06cbbeef1694fabb6e36bb541a722e9
+      name: value
+      value: ""
+      description: ""
+    - id: pair_693edffb80804be4bd936a06727c10af
+      name: date
+      value: 2022-03-07
+      description: ""
+    - id: pair_6ff07e113e3241b9943f8f24f46d69b9
+      name: api
+      value: ""
+      description: ""
+    - id: pair_2f5fd4aaf4eb42f3bc40ea8d0a3228c1
+      name: bd
+      value: ""
+      description: ""
+parameters: []
+headers:
+  - name: Content-Type
+    value: multipart/form-data
+    id: pair_724c4b16c2ef400480696ffb59ef37fe
+  - id: pair_352702ca96204b1097c875f91933e5aa
+    name: token
+    value: "{% response 'body', 'req_8fcaa559a6144a6da85a5c4542eba643',
+      'b64::JC5kYXRhLnNlc3Npb24udG9rZW4=::46b', 'never', 60 %}"
+    description: ""
+authentication: {}
+metaSortKey: -1646059373239.75
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

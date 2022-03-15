@@ -1,0 +1,372 @@
+_id: req_37b66313b1dd41378eda835e9e9e03d3
+type: Request
+parentId: fld_b3c5ffa9c8564b518d0e6a658a367177
+modified: 1646416642937
+created: 1646258471500
+url: devapiaws.bifrost.pe/crearterminalidirecthub5l5
+name: ADDTERMINAL
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"url": "http:\/\/192.168.36.50:81\/api\/v1\/evo\/config\/obj\/remote",
+    	"data": {
+    		"auth": [
+    			"systemapi",
+    			"tiws2019"
+    		],
+    		"verify": false,
+    		"headers": {
+    			"Content-Type": "application\/json"
+    		},
+    		"json": {
+    			"Name": "LURIDI01IPT33",
+    			"Status": "",
+    			"SN": "58090",
+    			"ModelType": "iQDesktop",
+    			"InrouteGroupID": "45",
+    			"NetworkID": "8",
+    			"Active": true,
+    			"MgmtIPAddress": "100.76.4.145",
+    			"MgmtSubnetMask": "255.255.255.252",
+    			"MgmtGateway": "0.0.0.0",
+    			"LanIPAddress": "100.99.1.49",
+    			"LanSubnetMask": "255.255.255.248",
+    			"LanGateway": "0.0.0.0",
+    			"RXCarrierID": -1,
+    			"TXCarrierID": -1,
+    			"FanIn": "DEFAULT",
+    			"FanOut": "DEFAULT",
+    			"FanOutSecond": "",
+    			"TXPower": -27,
+    			"Lat": "-5.271369",
+    			"Lon": "-76.98585",
+    			"TCPCompression": false,
+    			"UDPHdrCompression": false,
+    			"UDPCompression": false,
+    			"LinkEncryption": false,
+    			"CRTP": false,
+    			"UpCIR": 300,
+    			"UpMIR": 1000,
+    			"UpMIN": 0,
+    			"DownCIR": 300,
+    			"DownMIR": 1000,
+    			"DownMIN": 300,
+    			"AntennaID": 19,
+    			"AntennaTxHandshake": false,
+    			"IsMobile": false,
+    			"IsSCPC": false,
+    			"SCPCPeerID": 0,
+    			"IsRoaming": false,
+    			"SymbolRate": 389,
+    			"MODCOD": "QPSK3\/4",
+    			"InitialPower": -27,
+    			"MaxPower": -15,
+    			"SpreadingFactor": 0,
+    			"PayloadSize": 170,
+    			"P1DB": 0,
+    			"OBOLimit": 1,
+    			"RxOnly": false,
+    			"RxOnlyMulticast": false,
+    			"RxOnlyMCTimeout": 60,
+    			"LocalTelnetOnly": false,
+    			"SleepIn": 0,
+    			"AllowBGP": false,
+    			"DisableTxPWM": false,
+    			"VLanTagging": false,
+    			"AdminPassword": "P@55w0rd!",
+    			"UserPassword": "iDirect",
+    			"PoolLicense": [
+    				"iQ-5 Mbps"
+    			],
+    			"Mobile": {
+    				"Security": false,
+    				"Handshake": false,
+    				"GPSInput": "Manual",
+    				"GPSRefreshRate": 120,
+    				"SerialDevice": "ttyS0",
+    				"SerialSettings": "4800, 8N1",
+    				"COTMType": "Maritime",
+    				"MinLookAngle": -1,
+    				"MaxSkew": 90,
+    				"SkewMargin": 90
+    			},
+    			"L2oS": {
+    				"SDT": 1,
+    				"Ethertype1": "0x8100",
+    				"Ethertype2": "",
+    				"BFD": false,
+    				"Compression": 0,
+    				"HeaderCompression": {
+    					"CompressionType": "Disable",
+    					"Profiles": []
+    				},
+    				"MTU": 1540
+    			},
+    			"SecondReceiver": {
+    				"Enabled": false,
+    				"RxFrequency": 0,
+    				"SymbolRate": 0,
+    				"SecondRxPort": {
+    					"IFL": "Rx1",
+    					"LNBID": 0,
+    					"BoostLnbVoltage": false,
+    					"MCFPEncryption": false
+    				},
+    				"AuthorizedMCFPStreams": []
+    			},
+    			"Customer": {
+    				"Name": "",
+    				"Phone": "",
+    				"CommissionDate": "",
+    				"ContractNumber": "",
+    				"SiteNotes": ""
+    			},
+    			"Mesh": {
+    				"Mode": "Non-Mesh",
+    				"ReceiverIPAddress": "0.0.0.0",
+    				"ReceiverSubnetMask": "255.255.255.0",
+    				"ReceiverSN": 0,
+    				"ReceiverFadeMargin": 1,
+    				"ReceiverHysteresisMargin": 0.6
+    			},
+    			"DiscretePorts": [
+    				{
+    					"PortNumber": 1,
+    					"Enabled": true,
+    					"Speed": "Auto",
+    					"Duplex": "Full",
+    					"Mode": "Access",
+    					"PortEthertype1": "0x8100",
+    					"PortEthertype2": "n\/a",
+    					"SvnIDs": [
+    						200
+    					]
+    				},
+    				{
+    					"PortNumber": 2,
+    					"Enabled": true,
+    					"Speed": "Auto",
+    					"Duplex": "Full",
+    					"Mode": "Access",
+    					"PortEthertype1": "0x8100",
+    					"PortEthertype2": "n\/a",
+    					"SvnIDs": [
+    						"1"
+    					]
+    				}
+    			],
+    			"RoamingInstances": [],
+    			"CustomKeys": {
+    				"RemoteSide": "",
+    				"HubSide": ""
+    			},
+    			"VLans": [
+    				{
+    					"VLanID": 102,
+    					"ETH0IPAddress": "",
+    					"ETH0SubnetMask": "",
+    					"SAT0IPAddress": "100.76.4.145",
+    					"SAT0SubnetMask": "255.255.255.252",
+    					"ETH0RIPv2": false,
+    					"SAT0RIPv2": false,
+    					"NAT": false,
+    					"DNS": {
+    						"Enabled": false,
+    						"PrimaryName": "ns1",
+    						"PrimaryAddr": "0",
+    						"SecondaryName": "ns2",
+    						"SecondaryAddr": "0",
+    						"CacheSize": 100,
+    						"FwdQSize": 1000,
+    						"FwdTimeout": 2000
+    					},
+    					"DHCP": {
+    						"DhcpMode": 0,
+    						"LeaseSeconds": 43200,
+    						"PrimaryDnsAddr": "0.0.0.0",
+    						"SecondaryDnsAddr": "0.0.0.0",
+    						"DefaultGwAddr": "0.0.0.0",
+    						"RelayServer": "0.0.0.0"
+    					},
+    					"StaticRoutes": [
+    						{
+    							"IPAddress": "0.0.0.0",
+    							"SubnetMask": "0.0.0.0",
+    							"Gateway": "0.0.0.0",
+    							"Interface": "sat0",
+    							"Cost": 1
+    						}
+    					]
+    				},
+    				{
+    					"VLanID": 200,
+    					"ETH0IPAddress": "10.162.145.161",
+    					"ETH0SubnetMask": "255.255.255.248",
+    					"SAT0IPAddress": "100.76.4.145",
+    					"SAT0SubnetMask": "255.255.255.252",
+    					"ETH0RIPv2": 0,
+    					"SAT0RIPv2": false,
+    					"NAT": false,
+    					"DNS": {
+    						"Enabled": false,
+    						"PrimaryName": "ns1",
+    						"PrimaryAddr": "0",
+    						"SecondaryName": "ns2",
+    						"SecondaryAddr": "0",
+    						"CacheSize": 100,
+    						"FwdQSize": 1000,
+    						"FwdTimeout": 2000
+    					},
+    					"DHCP": {
+    						"DhcpMode": 1,
+    						"LeaseSeconds": 43200,
+    						"PrimaryDnsAddr": "8.8.8.8",
+    						"SecondaryDnsAddr": "0.0.0.0",
+    						"DefaultGwAddr": "10.162.145.161",
+    						"RelayServer": "0.0.0.0",
+    						"ClientAddrRanges": [
+    							{
+    								"StartAddr": "10.162.145.162",
+    								"EndAddr": "10.162.145.162"
+    							}
+    						]
+    					},
+    					"StaticRoutes": [
+    						{
+    							"Cost": 1,
+    							"Gateway": "0.0.0.0",
+    							"IPAddress": "0.0.0.0",
+    							"Interface": "sat0",
+    							"SubnetMask": "0.0.0.0"
+    						}
+    					]
+    				}
+    			],
+    			"RemoteQOS": {
+    				"DSQOS": {
+    					"QOSGroupType": "RemoteServiceGroup",
+    					"FilterProfile": "Default Downstream Filter",
+    					"FilterProfileID": 4,
+    					"ServiceGroup": "Bandwith\/Remote Service Group",
+    					"ServiceGroupID": 1319,
+    					"ServiceProfile": "IPT_2G_Downstream",
+    					"ServiceProfileID": 303,
+    					"MCServiceProfile": "",
+    					"MCServiceProfileID": 0
+    				},
+    				"DSRateShaping": {
+    					"EnableMaxIR": true,
+    					"MaxIR": 256,
+    					"EnableCIR": true,
+    					"CIR": 256,
+    					"Priority": "Cost Based",
+    					"Cost": 1,
+    					"EnableMinIR": false,
+    					"MinIR": 0,
+    					"EnableEIR": true,
+    					"MinMODCOD": "BPSK-3\/4"
+    				},
+    				"DSDistributor": {
+    					"Enabled": true,
+    					"SegmentSize": 70
+    				},
+    				"DSAllocRelToCIR": false,
+    				"NominalMODCOD": "QPSK-3\/4",
+    				"MaxMODCOD": "32APSK-7\/9",
+    				"USQOS": {
+    					"QOSGroupType": "RemoteServiceGroup",
+    					"FilterProfile": "Default Upstream Filter",
+    					"FilterProfileID": 3,
+    					"ServiceGroup": "Bandwidth\/Remote Service Group",
+    					"ServiceGroupID": 1346,
+    					"ServiceProfile": "Default Upstream Profile",
+    					"ServiceProfileID": 304
+    				},
+    				"USRateShaping": {
+    					"EnableMaxIR": true,
+    					"MaxIR": 256,
+    					"EnableCIR": true,
+    					"CIR": 256,
+    					"Priority": "Cost Based",
+    					"Cost": 1,
+    					"EnableMinIR": false,
+    					"MinIR": 0,
+    					"EnableEIR": false,
+    					"MinMODCOD": "N\/A"
+    				},
+    				"USDistributor": {
+    					"Enabled": true,
+    					"SegmentSize": 70
+    				},
+    				"USAdaptive": {
+    					"EnableMaxImpairment": false,
+    					"MaxImpairment": -1,
+    					"MinSymrate": 0,
+    					"MaxCN": 25
+    				},
+    				"IdleDormant": {
+    					"Enabled": false,
+    					"IdleSlotsEvery": 8,
+    					"DormantSlotsEvery": 32,
+    					"IdleSTimeout": 120,
+    					"DormantTimeout": 180
+    				},
+    				"USAllocRelToCIR": false
+    			},
+    			"AntennaComponents": {
+    				"BUCID": 36,
+    				"LNBIDs": [
+    					59
+    				],
+    				"ReflectorID": 0,
+    				"BoostLnbVoltage": true,
+    				"CableLength": 0,
+    				"Address": "0.0.0.0",
+    				"Port": 0,
+    				"HuntFreqSelect": "Inherit",
+    				"HuntFreq": 0,
+    				"NoiseRefFreq": 0,
+    				"RXPolarization": "Horizontal",
+    				"TXPolarization": "Cross-pol",
+    				"ConnectTimeout": 30,
+    				"InitTXPowerOffset": 0,
+    				"OpenAMIPAntennaController": {
+    					"TxFreq": 0,
+    					"TxBandwidth": 0,
+    					"HuntBandwidth": 0,
+    					"TxLocalOscillator": 0,
+    					"RxLocalOscillator": 0
+    				},
+    				"SeaTelDACAntennaController": {
+    					"LNBVoltage": 0,
+    					"Enable22KhzTone": false,
+    					"EnableDAC97": false,
+    					"NID": "",
+    					"DVB_FEC": 0
+    				},
+    				"OrbitSBCAntennaController": {
+    					"LNBVoltage": 0,
+    					"Enable22KhzTone": false
+    				}
+    			}
+    		}
+    	},
+    	"method": "POST"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_80fe3290d5294959a22e4ca09407830d
+authentication: {}
+metaSortKey: -1646258471501
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

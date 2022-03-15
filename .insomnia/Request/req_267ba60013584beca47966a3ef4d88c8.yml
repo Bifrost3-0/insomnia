@@ -1,47 +1,46 @@
 _id: req_267ba60013584beca47966a3ef4d88c8
 type: Request
 parentId: fld_4fb2b5b7eceb437aa0c7ac76015db876
-modified: 1632854508982
+modified: 1641599163519
 created: 1629840532435
-url: https://api-nms.hispasat.es/v1/broadband/backend/terminals/freeidentifier
+url: https://api-nms.hispasat.es/v1/broadband/backend/terminals
 name: Alta Terminal
 description: ""
 method: POST
 body:
   mimeType: ""
-  text: "{\r
+  text: >
+    {
 
-    \"name\":\"nombre de terminal\",  \r
+    "name":"nombre de terminal",  
 
-    \"identifier\":\"123456\", \r
+    "identifier":"123456", 
 
-    \"macAddress\":\"123456789ABC\", \r
+    "macAddress":"123456789ABC", 
 
-    \"client\": {\"id\":1}, \r
+    "client": {"id":1}, 
 
-    \"terminalsType\":{\"id\":1}, \r
+    "terminalsType":{"id":1}, 
 
-    \"provisioning\":\"true\",\r
+    "provisioning":"true",
 
-    \"description\":\"descripción del terminal\", \r
+    "description":"descripción del terminal", 
 
-    \"dayResetQuote\":\"1\",\r
+    "dayResetQuote":"1",
 
-    \"slotDto\":{\"id\":1},\r
+    "slotDto":{"id":1},
 
-    \"subslotDto\":{\"id\":1},\r
+    "subslotDto":{"id":1},
 
-    \"assignmentProfile\":{\"id\":1},\r
+    "assignmentProfile":{"id":1},
 
-    \"latitude\":\"30\",\r
+    "latitude":"30",
 
-    \"longitude\":\"-4\",\r
+    "longitude":"-4",
 
-    \"vrList\":[{\"portNumber\":\"1\",\"portMode\":{\"id\":1},\"slotVlan\":{\
-    \"id\":1},\"prefix\":30,\"subscriberPublicIpAddress\":\"192.168.10.23\",\"i\
-    pv4Dhcp\":true,\"ipConnectivity\":{\"id\":1}}]\r
+    "vrList":[{"portNumber":"1","portMode":{"id":1},"slotVlan":{"id":1},"prefix":30,"subscriberPublicIpAddress":"192.168.10.23","ipv4Dhcp":true,"ipConnectivity":{"id":1}}]
 
-    } \r\n"
+    } 
 parameters: []
 headers:
   - name: Content-Type

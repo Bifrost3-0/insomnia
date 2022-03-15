@@ -1,9 +1,15 @@
 _id: req_fd44a17e06234be4aa0348e86d32195f
 type: Request
 parentId: fld_f21c417bea1f414e859214b49ee351ce
+<<<<<<< HEAD
 modified: 1641876850334
 created: 1629384618323
 url: "{{ _.base_url }}:{{ _.hughes_platform }}/NMSAPI/vsats/1600033435/"
+=======
+modified: 1639513088043
+created: 1629384618323
+url: :{{ _.hughes_platform }}/NMSAPI/vsats/ORBITHB600452/
+>>>>>>> origin/changes-yeltsin
 name: Datos de terminal
 description: ""
 method: GET

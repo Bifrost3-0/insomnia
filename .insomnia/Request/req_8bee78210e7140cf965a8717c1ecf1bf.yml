@@ -1,0 +1,110 @@
+_id: req_8bee78210e7140cf965a8717c1ecf1bf
+type: Request
+parentId: fld_2fcc67bf8a814999ba1cf96f7a07eba7
+modified: 1647267413558
+created: 1646419090212
+url: localhost:8000/api/insomniaFunctions/registerTerminalEstaticoInsomnia
+name: registerTerminalEstatico
+description: |-
+  - Create in DB
+  - Create Order and OrderDetail
+  - Pull an Put OVT to Activation Data
+method: POST
+body:
+  mimeType: multipart/form-data
+  params:
+    - id: pair_9101368227d94f169ff216892aea4522
+      name: siteId
+      value: PRUEBASITEID
+      description: ""
+    - id: pair_0d83f91c877c457fbabc72fece8267be
+      name: value
+      value: ""
+      description: ""
+    - id: pair_6245c1c03fad4ba4b01ecaf033de4f5a
+      name: date
+      value: 2020-06-17 05:37:54
+      description: ""
+    - id: pair_336dd58860be4bb1bd7a0ffcf9449908
+      name: bd
+      value: "1"
+      description: ""
+    - id: pair_71d40278b84b4d9f848638984b301ea8
+      name: vnoId
+      value: "1"
+      description: ""
+    - id: pair_2664ec67605849f09e852c53711f907f
+      name: servicesPlanId
+      value: "1"
+      description: ""
+    - id: pair_10715958b342428bb072ebf1ed478f9f
+      name: beamId
+      value: "1"
+      description: ""
+    - id: pair_5a41f4ef3d5144758ac0bbe7957ae69f
+      name: customerId
+      value: "1"
+      description: ""
+    - id: pair_8ccd2e422bca4d388a9ba971eb586a89
+      name: technologyId
+      value: "1"
+      description: ""
+    - id: pair_88d9ae1be05a4efcb9f26b52d1ee1092
+      name: id
+      value: ""
+      description: ""
+      disabled: true
+    - id: pair_876a1a1a653a4835927e0f266171c181
+      name: suscriberId
+      value: "22562"
+      description: ""
+      disabled: true
+    - id: pair_584320b3f4b14659a3681081c4f2e2b5
+      name: servicePlanName
+      value: ""
+      description: ""
+      disabled: true
+    - id: pair_7b205f3aa6a54d5db1668e3f7d988f39
+      name: hubId
+      value: ""
+      description: ""
+      disabled: true
+    - id: pair_81d3326bd2af429b9b7e32fb3894921c
+      name: forecastId
+      value: "104"
+      description: ""
+      disabled: true
+    - id: pair_50ad65bc2eec492a9463a674cd4e3d3e
+      name: data_creation
+      value: 2020-06-17 05:37:54
+      description: ""
+      disabled: true
+    - id: pair_3c87e8df893b4c438435236ea4bcb59a
+      name: latitud
+      value: "-38.95923"
+      description: ""
+      disabled: true
+    - id: pair_f3a80b270ebd4aa292cfa7c8deceaed0
+      name: longitud
+      value: "-68.05002"
+      description: ""
+      disabled: true
+parameters: []
+headers:
+  - name: Content-Type
+    value: multipart/form-data
+    id: pair_724c4b16c2ef400480696ffb59ef37fe
+  - id: pair_352702ca96204b1097c875f91933e5aa
+    name: token
+    value: "{% response 'body', 'req_8fcaa559a6144a6da85a5c4542eba643',
+      'b64::JC5kYXRhLnNlc3Npb24udG9rZW4=::46b', 'never', 60 %}"
+    description: ""
+authentication: {}
+metaSortKey: -1646075783127.6875
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

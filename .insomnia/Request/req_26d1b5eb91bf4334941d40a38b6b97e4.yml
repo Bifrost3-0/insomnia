@@ -16,8 +16,7 @@ body:
 parameters: []
 headers: []
 authentication:
-  type: basic
-  useISO88591: false
+  type: digest
   disabled: false
   username: test
   password: test

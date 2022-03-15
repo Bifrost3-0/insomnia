@@ -1,0 +1,21 @@
+_id: req_6cc6d600dee74a97acc0ad8d934253ac
+type: Request
+parentId: fld_10961f9711b44c98aa5813729b712bde
+modified: 1634858026194
+created: 1634858026194
+url: ""
+name: Lista Ordenes
+description: ""
+method: POST
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1634858026194
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,53 @@
+_id: req_1af983a95f8745f38521ea61b4090c7d
+type: Request
+parentId: fld_2fcc67bf8a814999ba1cf96f7a07eba7
+modified: 1646758387663
+created: 1646419013830
+url: localhost:8000/api/insomniaFunctions/orderMoveTerminal
+name: orderMoveTerminal
+description: |-
+  - Create Order and OrderDetail
+  - Cambio de Coordenadas del equipo / Trocar coordenadas do terminal
+method: POST
+body:
+  mimeType: multipart/form-data
+  params:
+    - id: pair_9101368227d94f169ff216892aea4522
+      name: siteId
+      value: 230B093127643001
+      description: ""
+    - id: pair_5c55c1ed9a594afba60594701f0f8013
+      name: value
+      value: ""
+      description: ""
+    - id: pair_74cdaba3a9234aa1828e939ce066dfef
+      name: date
+      value: 2022-03-07
+      description: ""
+    - id: pair_b86fc7a9b85e4e4dbfa1fa032022657a
+      name: api
+      value: ""
+      description: ""
+    - id: pair_3e5fc46046a84b07b647f1d58d7f4e4e
+      name: bd
+      value: ""
+      description: ""
+parameters: []
+headers:
+  - name: Content-Type
+    value: multipart/form-data
+    id: pair_724c4b16c2ef400480696ffb59ef37fe
+  - id: pair_352702ca96204b1097c875f91933e5aa
+    name: token
+    value: "{% response 'body', 'req_8fcaa559a6144a6da85a5c4542eba643',
+      'b64::JC5kYXRhLnNlc3Npb24udG9rZW4=::46b', 'never', 60 %}"
+    description: ""
+authentication: {}
+metaSortKey: -1645996810541.9883
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,27 @@
+_id: req_8caec081339e4b3d8304554f749b83ff
+type: Request
+parentId: fld_10961f9711b44c98aa5813729b712bde
+modified: 1646429069435
+created: 1634857005439
+url: ""
+name: ListaTerminales
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |
+    {"id":9,"params":{"requestVnoId":"57"}}
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_6468f03dfcea4a0d88808eb70d0c5a26
+authentication: {}
+metaSortKey: -1634857005439
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
