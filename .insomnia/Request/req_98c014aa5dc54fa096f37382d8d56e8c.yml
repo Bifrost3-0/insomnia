@@ -1,11 +1,12 @@
 _id: req_98c014aa5dc54fa096f37382d8d56e8c
 type: Request
 parentId: fld_481de497de914935a6304b9119057f6a
-modified: 1647376688868
+modified: 1647384491662
 created: 1647355812967
 url: localhost:8000/api/forecastMN/createMnosVlan
 name: createMnosVlan
-description: ""
+description: |
+  this function can be used to create the Vlan
 method: POST
 body:
   mimeType: multipart/form-data

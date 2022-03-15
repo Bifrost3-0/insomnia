@@ -1,12 +1,15 @@
 _id: req_9d32507e6efe4da5b2d0b29a1a745769
 type: Request
 parentId: fld_2fcc67bf8a814999ba1cf96f7a07eba7
-modified: 1647376347506
+modified: 1647383622051
 created: 1647376318743
 url: localhost:8000/api/insomniaFunctions/orderReactivateTerminal
 name: orderReactivateTerminal
-description: "- Esta pendiente la creación de ordenes para reactivar terminales,
-  es lo mismo que suspender pero con el transactionId 8"
+description: >-
+  - Esta pendiente la creación de ordenes para reactivar terminales, es lo mismo
+  que suspender pero con el transactionId 8
+
+  - completado
 method: POST
 body:
   mimeType: multipart/form-data

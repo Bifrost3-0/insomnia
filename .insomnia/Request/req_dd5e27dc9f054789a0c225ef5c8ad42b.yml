@@ -1,11 +1,12 @@
 _id: req_dd5e27dc9f054789a0c225ef5c8ad42b
 type: Request
 parentId: fld_b453448a857e41beb761750ddfcbb2f3
-modified: 1647376882228
+modified: 1647384426584
 created: 1647355708663
 url: localhost:8000/api/forecastMN/createGenFamilyPermision
 name: createGenFamilyPermision
-description: ""
+description: |
+  this function can be used to create the FamilyPermision
 method: POST
 body:
   mimeType: multipart/form-data

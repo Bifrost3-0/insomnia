@@ -1,11 +1,13 @@
 _id: req_61480cba054448ea8f26db0dcd05630b
 type: Request
 parentId: fld_0cecdb8356054c73b475c0413e025268
-modified: 1647376674884
+modified: 1647384457215
 created: 1647355767349
 url: localhost:8000/api/forecastMN/updateMnosServicePlan/1709
 name: updateMnosServicePlan
-description: El id del plan se agrega en la url
+description: |
+  El id del plan se agrega en la url
+  this function can be used to update the ServicePlan
 method: POST
 body:
   mimeType: multipart/form-data

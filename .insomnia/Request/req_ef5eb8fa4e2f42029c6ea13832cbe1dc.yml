@@ -1,7 +1,7 @@
 _id: req_ef5eb8fa4e2f42029c6ea13832cbe1dc
 type: Request
 parentId: fld_69b803e28a354bc885b9f925885d863c
-modified: 1647369627832
+modified: 1647384310374
 created: 1646417507631
 url: localhost:8000/api/forecastMN/createMnosBeam
 name: createMnosBeam
