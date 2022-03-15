@@ -1,18 +1,28 @@
 _id: req_ef5964e18ed245ebb43a61b7db55b0ee
 type: Request
 parentId: fld_864189c6a15a4194bf48420db1f4960f
-modified: 1647356041842
+modified: 1647357628826
 created: 1646430104447
-url: "{{bifrost_url}}/api/model/mnos_beam"
-name: CreateFamVno
+url: localhost:8000/api/forecastMN/createGenFamily
+name: createGenFamily
 description: This functions is use to create a new Beam
 method: POST
 body:
   mimeType: multipart/form-data
   params:
     - id: pair_a972627e328d453ab79e448c401fadb6
+      name: status
+      value: "1"
+      description: ""
+      disabled: false
+    - id: pair_75f83f95b8e64ef5b84d6245abb7f139
       name: name
-      value: ""
+      value: "1"
+      description: ""
+      disabled: false
+    - id: pair_cd10dc3f82fd472884d4e6a4f44d76da
+      name: created_at
+      value: 2022-03-15 17:16:50
       description: ""
 parameters: []
 headers:
