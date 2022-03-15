@@ -1,11 +1,7 @@
 _id: req_afbe02c8fca74bc2b15d5949076774a6
 type: Request
 parentId: fld_4dcde7e8836d44048eb999ae7ddae2ae
-<<<<<<< HEAD
-modified: 1636976080097
-=======
 modified: 1637281896805
->>>>>>> origin/changes-yeltsin
 created: 1632950548154
 url: https://191.241.195.16/ws/cpeService
 name: Alta de Terminal
@@ -56,11 +52,7 @@ parameters: []
 headers:
   - name: Content-Type
     value: text/xml
-<<<<<<< HEAD
-    id: pair_3ad7439273444ec0996351be2dbc96d1
-=======
     id: pair_1fcf521862354a0f9ee468ca0c5fe078
->>>>>>> origin/changes-yeltsin
 authentication:
   type: basic
   disabled: false

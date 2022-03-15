@@ -1,11 +1,7 @@
 _id: env_df90a7fa52934f96b0365eaa229ac38b
 type: Environment
 parentId: env_467191896fbc186b33676805d502008f55dc9848
-<<<<<<< HEAD
-modified: 1635956455465
-=======
 modified: 1646667539263
->>>>>>> origin/changes-yeltsin
 created: 1628562870178
 name: Production Proxy Bifrost
 data:
@@ -19,20 +15,12 @@ data:
   hub5_idirect_platform: 85
   idirectarg_platform: 81
   hispasat_ka: 8094
-<<<<<<< HEAD
-  gilat_ku_colombia: 8080
-  general_api: https://apiaws.bifrost.pe/api
-  newtect_user: integracion-tiws@orbith.com
-  newtect_password: GLRt3RV3sUNWMnN
-  token_hispasat: eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJvcmRlcmluZ21uLnBlQHRlbGVmb25pY2EuY29tIiwiaWF0IjoxNjM3MDE0NzIxLCJleHAiOjE2MzcwMjU1MjF9.IGpS4prGg_KWNsF-RuLSiDPkmBanR4NH-HgxNjKr9pHGHsliYamv0bFRD2ERZn1Z-MfsBLXbrDmhAp2HAxFQxg
-=======
   url_hispasat_ka: https://api-nms.hispasat.es/v1/broadband/backend
   general_api: https://apiaws.bifrost.pe/api
   newtect_user: integracion-tiws@orbith.com
   newtect_password: GLRt3RV3sUNWMnN
   token_hispasat: eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJvcmRlcmluZ21uLnBlQHRlbGVmb25pY2EuY29tIiwiaWF0IjoxNjQ2NjY1ODY1LCJleHAiOjE2NDY2NzY2NjV9.NRaUKnyBl3ZOSvxwA-UZjpNbzLB-pbLXcDx9kVoz5YpF5aSDVZxLRwLxQmgFMne_lULiAM226gBjsdVsRzth2Q
   token_login: ""
->>>>>>> origin/changes-yeltsin
 dataPropertyOrder:
   "&":
     - bifrost_url
@@ -45,11 +33,8 @@ dataPropertyOrder:
     - hub5_idirect_platform
     - idirectarg_platform
     - hispasat_ka
-<<<<<<< HEAD
     - gilat_ku_colombia
-=======
     - url_hispasat_ka
->>>>>>> origin/changes-yeltsin
     - general_api
     - newtect_user
     - newtect_password

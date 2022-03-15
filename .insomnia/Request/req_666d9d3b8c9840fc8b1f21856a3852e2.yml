@@ -1,15 +1,9 @@
 _id: req_666d9d3b8c9840fc8b1f21856a3852e2
 type: Request
 parentId: fld_f21c417bea1f414e859214b49ee351ce
-<<<<<<< HEAD
-modified: 1642013118787
-created: 1629384618276
-url: "{{ _.base_url }}:{{ _.hughes_platform }}/NMSAPI/vsats/1600033456/status"
-=======
 modified: 1638803185795
 created: 1629384618276
 url: "{{ _.base_url }}:{{ _.hughes_platform }}/NMSAPI/vsats/270RJLC1097/status"
->>>>>>> origin/changes-yeltsin
 name: Status de terminal
 description: ""
 method: GET

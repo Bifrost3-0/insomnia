@@ -1,11 +1,7 @@
 _id: req_bd13d362e9dd4489877b94d505667e76
 type: Request
 parentId: fld_4fb2b5b7eceb437aa0c7ac76015db876
-<<<<<<< HEAD
-modified: 1636976072236
-=======
 modified: 1641600578179
->>>>>>> origin/changes-yeltsin
 created: 1629840532457
 url: https://api-nms.hispasat.es/v1/broadband/backend/subslot/byslot?slotid=265
 name: Get Subslots by Slot
