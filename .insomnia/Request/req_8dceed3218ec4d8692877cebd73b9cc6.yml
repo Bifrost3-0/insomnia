@@ -1,9 +1,9 @@
 _id: req_8dceed3218ec4d8692877cebd73b9cc6
 type: Request
 parentId: fld_bc5bc7d79b844bb6aa5e070cea0300ed
-modified: 1647384344373
+modified: 1647406245903
 created: 1646430091771
-url: localhost:8000/api/forecastMN/createGenVno
+url: "{{ _.bifrost_url_dev }}/api/forecastMN/createGenVno"
 name: createGenVno
 description: this function can be used to create the Vno
 method: POST

@@ -1,9 +1,9 @@
 _id: req_7d53b2304bf34b188a2e063dbdc4cd82
 type: Request
 parentId: fld_69b803e28a354bc885b9f925885d863c
-modified: 1647384311076
+modified: 1647406249861
 created: 1647355956624
-url: localhost:8000/api/forecastMN/updateMnosBeam/1
+url: "{{ _.bifrost_url_dev }}/api/forecastMN/updateMnosBeam/1"
 name: updateMnosBeam
 description: This function can be used to update the Beam
 method: POST

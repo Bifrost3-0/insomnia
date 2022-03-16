@@ -1,9 +1,10 @@
 _id: req_ca8f2d8ac1df41189a365da7ddd9f4f6
 type: Request
 parentId: fld_2fcc67bf8a814999ba1cf96f7a07eba7
-modified: 1647384202568
+modified: 1647406138788
 created: 1646418823680
-url: localhost:8000/api/insomniaFunctions/registerTerminalResidencialInsomnia
+url: "{{ _.bifrost_url_dev
+  }}/api/insomniaFunctions/registerTerminalResidencialInsomnia"
 name: registerTerminalResidencial
 description: |-
   - Create in DB

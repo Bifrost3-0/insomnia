@@ -1,24 +1,20 @@
-_id: req_48e267c079e5422595ae0c30e9295a24
+_id: req_d6a36f10b4b24c5da417a23aba6ad2a6
 type: Request
 parentId: fld_2fcc67bf8a814999ba1cf96f7a07eba7
-modified: 1647406262274
-created: 1647384656091
-url: "{{ _.bifrost_url_dev }}/api/insomniaFunctions/asignarIP"
-name: asignarIP
+modified: 1647406262801
+created: 1647405878323
+url: "{{ _.bifrost_url_dev }}/api/insomniaFunctions/DesasignarIP"
+name: DesasignarIP
 description: ""
 method: POST
 body:
   mimeType: multipart/form-data
   params:
-    - id: pair_522cba0ef51c4b539df87309f2f07c81
-      name: siteId
-      value: ""
-      description: ""
-    - id: pair_d222a8a1b06843a7aed45abdd5984521
+    - id: pair_79eb1cee38094680b349f4cfcef79a80
       name: ipv4
       value: ""
       description: ""
-    - id: pair_960012ea47f54692af94b2950b3eab02
+    - id: pair_084a830558e6412983262b0cc4cbe33d
       name: ipv6
       value: ""
       description: ""
@@ -26,14 +22,14 @@ parameters: []
 headers:
   - name: Content-Type
     value: multipart/form-data
-    id: pair_96ee4c82d40b4fa19738bb8f7cd2e851
-  - id: pair_17783b0114ed4904a798d577aaa84901
+    id: pair_c0f15d75846d4e16a6aec2fe30ebc0ae
+  - id: pair_f501891935994837b24464b0d00dfe86
     name: token
     value: "{% response 'body', 'req_8fcaa559a6144a6da85a5c4542eba643',
       'b64::JC5kYXRhLnNlc3Npb24udG9rZW4=::46b', 'never', 60 %}"
     description: ""
 authentication: {}
-metaSortKey: -1647384656091
+metaSortKey: -1647405878323
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

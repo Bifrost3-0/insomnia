@@ -1,9 +1,9 @@
 _id: req_61480cba054448ea8f26db0dcd05630b
 type: Request
 parentId: fld_0cecdb8356054c73b475c0413e025268
-modified: 1647384457215
+modified: 1647406202442
 created: 1647355767349
-url: localhost:8000/api/forecastMN/updateMnosServicePlan/1709
+url: "{{ _.bifrost_url_dev }}/api/forecastMN/updateMnosServicePlan/1709"
 name: updateMnosServicePlan
 description: |
   El id del plan se agrega en la url

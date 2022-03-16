@@ -1,9 +1,10 @@
 _id: req_8bee78210e7140cf965a8717c1ecf1bf
 type: Request
 parentId: fld_2fcc67bf8a814999ba1cf96f7a07eba7
-modified: 1647383629720
+modified: 1647406147802
 created: 1646419090212
-url: localhost:8000/api/insomniaFunctions/registerTerminalEstaticoInsomnia
+url: "{{ _.bifrost_url_dev
+  }}/api/insomniaFunctions/registerTerminalEstaticoInsomnia"
 name: registerTerminalEstatico
 description: |-
   - Create in DB

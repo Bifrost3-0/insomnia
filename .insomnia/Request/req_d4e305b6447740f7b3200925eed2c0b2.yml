@@ -1,9 +1,9 @@
 _id: req_d4e305b6447740f7b3200925eed2c0b2
 type: Request
 parentId: fld_bc5bc7d79b844bb6aa5e070cea0300ed
-modified: 1647384326470
+modified: 1647406241824
 created: 1647355918329
-url: localhost:8000/api/forecastMN/updateGenVno/215
+url: "{{ _.bifrost_url_dev }}/api/forecastMN/updateGenVno/215"
 name: updateGenVno
 description: |
   this function can be used to update the Vno

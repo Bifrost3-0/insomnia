@@ -1,9 +1,9 @@
 _id: req_ef5964e18ed245ebb43a61b7db55b0ee
 type: Request
 parentId: fld_864189c6a15a4194bf48420db1f4960f
-modified: 1647384383737
+modified: 1647406227388
 created: 1646430104447
-url: localhost:8000/api/forecastMN/createGenFamily
+url: "{{ _.bifrost_url_dev }}/api/forecastMN/createGenFamily"
 name: createGenFamily
 description: |
   this function can be used to create the family

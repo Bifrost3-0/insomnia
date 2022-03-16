@@ -1,9 +1,9 @@
 _id: req_2c047c53340449a586af3f05a051c63d
 type: Request
 parentId: fld_481de497de914935a6304b9119057f6a
-modified: 1647384500684
+modified: 1647406191476
 created: 1647355829888
-url: localhost:8000/api/forecastMN/updateMnosVlan/1249
+url: "{{ _.bifrost_url_dev }}/api/forecastMN/updateMnosVlan/1249"
 name: updateMnosVlan
 description: |
   this function can be used to update the Vlan

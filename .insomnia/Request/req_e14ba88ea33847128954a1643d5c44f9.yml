@@ -1,9 +1,9 @@
 _id: req_e14ba88ea33847128954a1643d5c44f9
 type: Request
 parentId: fld_2fcc67bf8a814999ba1cf96f7a07eba7
-modified: 1647383469377
+modified: 1647406166967
 created: 1646419002382
-url: localhost:8000/api/insomniaFunctions/orderSwapTerminal
+url: "{{ _.bifrost_url_dev }}/api/insomniaFunctions/orderSwapTerminal"
 name: orderSwapTerminal
 description: |-
   - Create in DB

@@ -1,9 +1,9 @@
 _id: req_dbb1e72f9a484b4e8f14ad47a134f15e
 type: Request
 parentId: fld_2fcc67bf8a814999ba1cf96f7a07eba7
-modified: 1647384661824
+modified: 1647406119129
 created: 1647012647802
-url: localhost:8000/api/insomniaFunctions/updateTerminal/1123123
+url: "{{ _.bifrost_url_dev }}/api/insomniaFunctions/updateTerminal/1123123"
 name: updateTerminal
 description: >-
   -en el update terminal: agregar en la ruta el id de la terminal

@@ -1,9 +1,9 @@
 _id: req_10f17d30b30d43dd9975b2e471c2d5be
 type: Request
 parentId: fld_2fcc67bf8a814999ba1cf96f7a07eba7
-modified: 1647383465306
+modified: 1647406176581
 created: 1646419020638
-url: localhost:8000/api/insomniaFunctions/orderUnmoveTerminal
+url: "{{ _.bifrost_url_dev }}/api/insomniaFunctions/orderUnmoveTerminal"
 name: orderUnmoveTerminal
 description: |-
   - Create Order and OrderDetail

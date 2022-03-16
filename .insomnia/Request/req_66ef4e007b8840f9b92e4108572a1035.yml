@@ -1,9 +1,9 @@
 _id: req_66ef4e007b8840f9b92e4108572a1035
 type: Request
 parentId: fld_57b69bea49734490bb78998c08bcbfa8
-modified: 1647384357124
+modified: 1647406236861
 created: 1646430116140
-url: localhost:8000/api/forecastMN/createGenHub
+url: "{{ _.bifrost_url_dev }}/api/forecastMN/createGenHub"
 name: createGenHub
 description: |
   this function can be used to create the Hub
