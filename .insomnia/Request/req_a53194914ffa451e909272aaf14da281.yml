@@ -1,7 +1,7 @@
 _id: req_a53194914ffa451e909272aaf14da281
 type: Request
 parentId: fld_7e0640ca8fe545f4bc524fc7f83cc3ea
-modified: 1648491152877
+modified: 1648492179769
 created: 1630446397536
 url: https://{{ _.base_url }}:{{ _.gilat_ku_colombia }}/ws/cpeService
 name: Edit Terminal KU

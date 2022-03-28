@@ -1,7 +1,7 @@
 _id: req_35d8a409cf3440a8a24c59e0ae83442f
 type: Request
 parentId: fld_7e0640ca8fe545f4bc524fc7f83cc3ea
-modified: 1648491960884
+modified: 1648492685563
 created: 1648488656108
 url: https://191.241.195.16/ws/cpeService
 name: Edit Terminal GILATAMZ
@@ -22,6 +22,7 @@ body:
                         <managedGroupId>18</managedGroupId>                
                         <subscriberId>1</subscriberId>             
                     </cpeId>             
+                    <httpAcceleration>DISABLE</httpAcceleration>
                     <tcpAcceleration>DISABLE</tcpAcceleration>
                 </cpe>       
             </com:modifyCPE>    
