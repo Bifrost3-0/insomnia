@@ -1,21 +1,21 @@
-_id: req_8e9f660bad444f4ca96fba3795aecdc4
+_id: req_6cb92c001dd8449fb89f685fdaf4a8f0
 type: Request
 parentId: fld_7e0640ca8fe545f4bc524fc7f83cc3ea
-modified: 1648490891136
-created: 1630446397551
-url: https://192.168.225.10/ws/cpeService
-name: GetCPEs - Pulleo Gilat KU
+modified: 1648491904218
+created: 1648490029127
+url: https://191.241.195.16/ws/cpeService
+name: list Terminals GILATAMZ
 description: ""
 method: POST
 body:
-  mimeType: ""
+  mimeType: application/xml
   text: >-
     <?xml version="1.0" encoding="UTF-8"?>
         <soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:com="com.gilat.ngnms.server.services.ws.cfg.face">   
         <soapenv:Header/>    
         <soapenv:Body>       
         <com:getCPEsByManagedGroup>          
-            <managedGroupId>2</managedGroupId>          
+            <managedGroupId>18</managedGroupId>          
             <lastIndex>0</lastIndex>       
         </com:getCPEsByManagedGroup>    
         </soapenv:Body> 
@@ -24,13 +24,14 @@ parameters: []
 headers:
   - name: Content-Type
     value: text/xml
-    id: pair_ccc1a9a361314d8a95697dfce343989e
+    id: pair_46b7f82bc69e485288eb6f67d588cccc
 authentication:
   type: basic
   disabled: false
-  username: APIs
-  password: MediaNetworks123
-metaSortKey: -1630446397551
+  username: apisistemas
+  password: Mayo.2021
+  useISO88591: false
+metaSortKey: -1630192460901.75
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

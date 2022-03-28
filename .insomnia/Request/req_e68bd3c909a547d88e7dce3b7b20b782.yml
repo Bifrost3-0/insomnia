@@ -1,7 +1,7 @@
 _id: req_e68bd3c909a547d88e7dce3b7b20b782
 type: Request
 parentId: fld_7c4a08fcb9a24b27bd0a0df89ce1cdb1
-modified: 1628795802424
+modified: 1648488560302
 created: 1628608358785
 url: "{{ _.base_url }}:{{ _.gilat_ku_balcarce }}/ws/cpeService"
 name: modifyCPE IP
@@ -9,39 +9,22 @@ description: ""
 method: POST
 body:
   mimeType: ""
-  text: "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\r
-
-    \    <SOAP-ENV:Envelope
-    xmlns:SOAP-ENV=\"http://schemas.xmlsoap.org/soap/envelope/\"
-    xmlns:com=\"com.gilat.ngnms.server.services.ws.cfg.face\"
-    xmlns:urn=\"urn:com.gilat.ngnms.server.ws.dto.cfg\">\r
-
-    \    <SOAP-ENV:Header />\r
-
-    \        <SOAP-ENV:Body>\r
-
-    \            <com:modifyCPE>\r
-
-    \                <cpe>\r
-
-    \                    <cpeId>\r
-
-    \                        <managedGroupId>2</managedGroupId>\r
-
-    \                        <subscriberId>66778899</subscriberId>\r
-
-    \                    </cpeId>\r
-
-    \                    <subscriberPublicIpAddress>10.20.30.5</subscriberP\
-    ublicIpAddress> \r
-
-    \                </cpe>\r
-
-    \            </com:modifyCPE>\r
-
-    \        </SOAP-ENV:Body>\r
-
-    \    </SOAP-ENV:Envelope>"
+  text: >-
+    <?xml version="1.0" encoding="UTF-8"?>
+        <SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:com="com.gilat.ngnms.server.services.ws.cfg.face" xmlns:urn="urn:com.gilat.ngnms.server.ws.dto.cfg">
+        <SOAP-ENV:Header />
+            <SOAP-ENV:Body>
+                <com:modifyCPE>
+                    <cpe>
+                        <cpeId>
+                            <managedGroupId>2</managedGroupId>
+                            <subscriberId>66778899</subscriberId>
+                        </cpeId>
+                        <subscriberPublicIpAddress>10.20.30.5</subscriberPublicIpAddress> 
+                    </cpe>
+                </com:modifyCPE>
+            </SOAP-ENV:Body>
+        </SOAP-ENV:Envelope>
 parameters: []
 headers:
   - name: Content-Type

@@ -1,7 +1,7 @@
 _id: req_045c4961689f4f578a2b0e93e8c279d5
 type: Request
 parentId: fld_2f3ab373b62d4940a7624abd9ab55752
-modified: 1629841369322
+modified: 1648491140747
 created: 1629833827686
 url: https://{{ _.base_url }}:{{ _.gilat_ku_balcarce }}/ws/cpeService
 name: Cambiar IP Wan
@@ -9,39 +9,22 @@ description: ""
 method: POST
 body:
   mimeType: ""
-  text: "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\r
-
-    \    <SOAP-ENV:Envelope
-    xmlns:SOAP-ENV=\"http://schemas.xmlsoap.org/soap/envelope/\"
-    xmlns:com=\"com.gilat.ngnms.server.services.ws.cfg.face\"
-    xmlns:urn=\"urn:com.gilat.ngnms.server.ws.dto.cfg\">\r
-
-    \    <SOAP-ENV:Header />\r
-
-    \        <SOAP-ENV:Body>\r
-
-    \            <com:modifyCPE>\r
-
-    \                <cpe>\r
-
-    \                    <cpeId>\r
-
-    \                        <managedGroupId>2</managedGroupId>\r
-
-    \                        <subscriberId>66778899</subscriberId>\r
-
-    \                    </cpeId>\r
-
-    \                    <subscriberPublicIpAddress>10.20.30.5</subscriberP\
-    ublicIpAddress> \r
-
-    \                </cpe>\r
-
-    \            </com:modifyCPE>\r
-
-    \        </SOAP-ENV:Body>\r
-
-    \    </SOAP-ENV:Envelope>"
+  text: >-
+    <?xml version="1.0" encoding="UTF-8"?>
+        <SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:com="com.gilat.ngnms.server.services.ws.cfg.face" xmlns:urn="urn:com.gilat.ngnms.server.ws.dto.cfg">
+        <SOAP-ENV:Header />
+            <SOAP-ENV:Body>
+                <com:modifyCPE>
+                    <cpe>
+                        <cpeId>
+                            <managedGroupId>2</managedGroupId>
+                            <subscriberId>66778899</subscriberId>
+                        </cpeId>
+                        <subscriberPublicIpAddress>10.20.30.5</subscriberPublicIpAddress> 
+                    </cpe>
+                </com:modifyCPE>
+            </SOAP-ENV:Body>
+        </SOAP-ENV:Envelope>
 parameters: []
 headers:
   - name: Content-Type

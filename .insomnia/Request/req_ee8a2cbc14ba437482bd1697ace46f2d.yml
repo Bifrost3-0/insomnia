@@ -1,7 +1,7 @@
 _id: req_ee8a2cbc14ba437482bd1697ace46f2d
 type: Request
 parentId: fld_7e0640ca8fe545f4bc524fc7f83cc3ea
-modified: 1630446397547
+modified: 1648490885022
 created: 1630446397547
 url: http://192.168.29.20:8080/ws/cpeService
 name: Get CPE Static Route
@@ -9,34 +9,24 @@ description: ""
 method: POST
 body:
   mimeType: ""
-  text: "<Envelope xmlns=\"http://schemas.xmlsoap.org/soap/envelope/\">\r
-
-    \    <Body>\r
-
-    \        <getCPEStaticRouteIPv4
-    xmlns=\"com.gilat.ngnms.server.services.ws.cfg.face\">\r
-
-    \            <!-- Optional -->\r
-
-    \            <cpeId xmlns=\"\">\r
-
-    \                <managedGroupId>2</managedGroupId>\r
-
-    \                <subscriberId>121</subscriberId>\r
-
-    \            </cpeId>\r
-
-    \            <vlanId xmlns=\"\">507</vlanId>\r
-
-    \        </getCPEStaticRouteIPv4>\r
-
-    \    </Body>\r
-
-    </Envelope>"
+  text: >-
+    <Envelope xmlns="http://schemas.xmlsoap.org/soap/envelope/">
+        <Body>
+            <getCPEStaticRouteIPv4 xmlns="com.gilat.ngnms.server.services.ws.cfg.face">
+                <!-- Optional -->
+                <cpeId xmlns="">
+                    <managedGroupId>2</managedGroupId>
+                    <subscriberId>121</subscriberId>
+                </cpeId>
+                <vlanId xmlns="">507</vlanId>
+            </getCPEStaticRouteIPv4>
+        </Body>
+    </Envelope>
 parameters: []
 headers:
   - name: Content-Type
     value: text/xml
+    id: pair_616d882c68b7482fa4021c12d30d6cf2
 authentication:
   type: basic
   disabled: false

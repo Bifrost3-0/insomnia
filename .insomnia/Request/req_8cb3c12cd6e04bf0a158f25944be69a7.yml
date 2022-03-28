@@ -1,7 +1,7 @@
 _id: req_8cb3c12cd6e04bf0a158f25944be69a7
 type: Request
 parentId: fld_7e0640ca8fe545f4bc524fc7f83cc3ea
-modified: 1630446397539
+modified: 1648491480939
 created: 1630446397539
 url: https://192.168.225.10/ws/cpeService
 name: Reset CPE
@@ -9,37 +9,28 @@ description: ""
 method: POST
 body:
   mimeType: ""
-  text: "<soapenv:Envelope
-    xmlns:soapenv=\"http://schemas.xmlsoap.org/soap/envelope/\"
-    xmlns:com=\"com.gilat.ngnms.server.services.ws.cfg.face\">   \r
+  text: >+
+    <soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"
+    xmlns:com="com.gilat.ngnms.server.services.ws.cfg.face">   
+     <soapenv:Header/>    
+     <soapenv:Body>       
+     <com:resetCPE>          
+        <id>             
+            <managedGroupId>2</managedGroupId>             
+            <subscriberId>667788</subscriberId>          
+        </id>       
+    </com:resetCPE>
 
-    \ <soapenv:Header/>    \r
+    </soapenv:Body> 
 
-    \ <soapenv:Body>       \r
+    </soapenv:Envelope>
 
-    \ <com:resetCPE>          \r
 
-    \    <id>             \r
-
-    \        <managedGroupId>2</managedGroupId>             \r
-
-    \        <subscriberId>667788</subscriberId>          \r
-
-    \    </id>       \r
-
-    </com:resetCPE>\r
-
-    </soapenv:Body> \r
-
-    </soapenv:Envelope>\r
-
-    \r
-
-    \r\n"
 parameters: []
 headers:
   - name: Content-Type
     value: text/xml
+    id: pair_7114bf48bdd14a09b5a0652894a55883
 authentication:
   type: basic
   disabled: false

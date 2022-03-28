@@ -1,7 +1,7 @@
 _id: req_dd9ff4619ef34fbead50b79123c36576
 type: Request
 parentId: fld_7c4a08fcb9a24b27bd0a0df89ce1cdb1
-modified: 1628795709408
+modified: 1648491567453
 created: 1628608358795
 url: "{{ _.base_url }}:{{ _.gilat_ku_balcarce }}/ws/cpeService"
 name: Suspend Terminal
@@ -9,40 +9,24 @@ description: ""
 method: POST
 body:
   mimeType: ""
-  text: "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\r
-
-    <soapenv:Envelope \r
-
-    xmlns:soapenv=\"http://schemas.xmlsoap.org/soap/envelope/\" \r
-
-    xmlns:com=\"com.gilat.ngnms.server.services.ws.cfg.face\">    \r
-
-    \    <soapenv:Header/>    \r
-
-    \    <soapenv:Body>       \r
-
-    \        <com:modifyCPE>          \r
-
-    \            <cpe>             \r
-
-    \                <cpeId>                \r
-
-    \                    <managedGroupId>2</managedGroupId>                \
-    \r
-
-    \                    <subscriberId>78800</subscriberId>             \r
-
-    \                </cpeId>             \r
-
-    \                <authorization>TX_BLOCKED</authorization>\r
-
-    \            </cpe>       \r
-
-    \        </com:modifyCPE>    \r
-
-    \    </soapenv:Body> \r
-
-    \    </soapenv:Envelope>\r\n"
+  text: |
+    <?xml version="1.0" encoding="UTF-8"?>
+    <soapenv:Envelope 
+    xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" 
+    xmlns:com="com.gilat.ngnms.server.services.ws.cfg.face">    
+        <soapenv:Header/>    
+        <soapenv:Body>       
+            <com:modifyCPE>          
+                <cpe>             
+                    <cpeId>                
+                        <managedGroupId>2</managedGroupId>                
+                        <subscriberId>78800</subscriberId>             
+                    </cpeId>             
+                    <authorization>TX_BLOCKED</authorization>
+                </cpe>       
+            </com:modifyCPE>    
+        </soapenv:Body> 
+        </soapenv:Envelope>
 parameters: []
 headers:
   - name: Content-Type

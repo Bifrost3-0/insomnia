@@ -1,7 +1,7 @@
 _id: req_4f5eeaf990814e24b1eb568e34890058
 type: Request
 parentId: fld_2f3ab373b62d4940a7624abd9ab55752
-modified: 1629841078813
+modified: 1648491510133
 created: 1629833827703
 url: https://{{ _.base_url }}:{{ _.gilat_ku_balcarce }}/ws/cpeService
 name: Resert Terminal
@@ -9,33 +9,23 @@ description: ""
 method: POST
 body:
   mimeType: ""
-  text: "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\r
+  text: >
+    <?xml version="1.0" encoding="UTF-8"?>
 
-    <soapenv:Envelope
-    xmlns:soapenv=\"http://schemas.xmlsoap.org/soap/envelope/\"
-    xmlns:com=\"com.gilat.ngnms.server.services.ws.cfg.face\">   \r
+    <soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:com="com.gilat.ngnms.server.services.ws.cfg.face">   
+     <soapenv:Header/>    
+     <soapenv:Body>       
+        <com:resetCPE>          
+            <id>             
+                <managedGroupId>2</managedGroupId>             
+                <subscriberId>11221122</subscriberId>          
+            </id>       
+        </com:resetCPE> 
+    </com:getCPEbyID>    
 
-    \ <soapenv:Header/>    \r
+    </soapenv:Body> 
 
-    \ <soapenv:Body>       \r
-
-    \    <com:resetCPE>          \r
-
-    \        <id>             \r
-
-    \            <managedGroupId>2</managedGroupId>             \r
-
-    \            <subscriberId>11221122</subscriberId>          \r
-
-    \        </id>       \r
-
-    \    </com:resetCPE> \r
-
-    </com:getCPEbyID>    \r
-
-    </soapenv:Body> \r
-
-    </soapenv:Envelope>\r\n"
+    </soapenv:Envelope>
 parameters: []
 headers:
   - name: Content-Type

@@ -1,14 +1,14 @@
-_id: req_1605690f8f734e2880d5bba372aa6447
+_id: req_35d8a409cf3440a8a24c59e0ae83442f
 type: Request
-parentId: fld_7c4a08fcb9a24b27bd0a0df89ce1cdb1
-modified: 1648490930092
-created: 1628608358796
-url: "{{ _.base_url }}:{{ _.gilat_ku_balcarce }}/ws/cpeService"
-name: Change Service Plan
+parentId: fld_7e0640ca8fe545f4bc524fc7f83cc3ea
+modified: 1648491960884
+created: 1648488656108
+url: https://191.241.195.16/ws/cpeService
+name: Edit Terminal GILATAMZ
 description: ""
 method: POST
 body:
-  mimeType: ""
+  mimeType: application/xml
   text: |
     <?xml version="1.0" encoding="UTF-8"?>
     <soapenv:Envelope 
@@ -19,10 +19,10 @@ body:
             <com:modifyCPE>          
                 <cpe>             
                     <cpeId>                
-                        <managedGroupId>2</managedGroupId>                
-                        <subscriberId>78800</subscriberId>             
+                        <managedGroupId>18</managedGroupId>                
+                        <subscriberId>1</subscriberId>             
                     </cpeId>             
-                    <slaName>SLA100 768/768 CIR 154/154</slaName> 
+                    <tcpAcceleration>DISABLE</tcpAcceleration>
                 </cpe>       
             </com:modifyCPE>    
         </soapenv:Body> 
@@ -31,13 +31,13 @@ parameters: []
 headers:
   - name: Content-Type
     value: text/xml
-    id: pair_84ee3651bd9d46b0858dcaa2441d93c0
+    id: pair_46b7f82bc69e485288eb6f67d588cccc
 authentication:
   type: basic
   disabled: false
-  username: apis
-  password: apis2020
-metaSortKey: -1628608358796
+  username: apisistemas
+  password: Mayo.2021
+metaSortKey: -1630277106446.5
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

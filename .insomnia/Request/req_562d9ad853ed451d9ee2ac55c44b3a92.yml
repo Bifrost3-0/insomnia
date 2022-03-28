@@ -1,7 +1,7 @@
 _id: req_562d9ad853ed451d9ee2ac55c44b3a92
 type: Request
 parentId: fld_7c4a08fcb9a24b27bd0a0df89ce1cdb1
-modified: 1628795727379
+modified: 1648491566473
 created: 1628608358793
 url: "{{ _.base_url }}:{{ _.gilat_ku_balcarce }}/ws/cpeService"
 name: Delete Terminal KU
@@ -9,28 +9,18 @@ description: ""
 method: POST
 body:
   mimeType: ""
-  text: "<Envelope xmlns=\"http://schemas.xmlsoap.org/soap/envelope/\">\r
-
-    \    <Body>\r
-
-    \        <deleteCPE
-    xmlns=\"com.gilat.ngnms.server.services.ws.cfg.face\">\r
-
-    \            <!-- Optional -->\r
-
-    \            <id xmlns=\"\">\r
-
-    \                <managedGroupId>2</managedGroupId>\r
-
-    \                <subscriberId>1022273</subscriberId>\r
-
-    \            </id>\r
-
-    \        </deleteCPE>\r
-
-    \    </Body>\r
-
-    </Envelope>\r\n"
+  text: |
+    <Envelope xmlns="http://schemas.xmlsoap.org/soap/envelope/">
+        <Body>
+            <deleteCPE xmlns="com.gilat.ngnms.server.services.ws.cfg.face">
+                <!-- Optional -->
+                <id xmlns="">
+                    <managedGroupId>2</managedGroupId>
+                    <subscriberId>1022273</subscriberId>
+                </id>
+            </deleteCPE>
+        </Body>
+    </Envelope>
 parameters: []
 headers:
   - name: Content-Type

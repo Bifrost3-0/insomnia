@@ -1,7 +1,7 @@
 _id: req_ec30ab4b7e41410aacbdbbcf89f06c56
 type: Request
 parentId: fld_7e0640ca8fe545f4bc524fc7f83cc3ea
-modified: 1630446397542
+modified: 1648491486529
 created: 1630446397542
 url: https://192.168.225.10/ws/cpeService
 name: cpeReleaseMac
@@ -9,33 +9,26 @@ description: ""
 method: POST
 body:
   mimeType: ""
-  text: "<soapenv:Envelope
-    xmlns:soapenv=\"http://schemas.xmlsoap.org/soap/envelope/\"
-    xmlns:com=\"com.gilat.ngnms.server.services.ws.cfg.face\">    \r
+  text: >-
+    <soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"
+    xmlns:com="com.gilat.ngnms.server.services.ws.cfg.face">    
 
-    <soapenv:Header/>    \r
+    <soapenv:Header/>    
+     <soapenv:Body>       
+        <com:cpeReleaseMac>          
+            <cpeId>             
+                <managedGroupId>2</managedGroupId>             
+                <subscriberId>requestSuscriberId</subscriberId>          
+            </cpeId>          
+        </com:cpeReleaseMac>    
+    </soapenv:Body> 
 
-    \ <soapenv:Body>       \r
-
-    \    <com:cpeReleaseMac>          \r
-
-    \        <cpeId>             \r
-
-    \            <managedGroupId>2</managedGroupId>             \r
-
-    \            <subscriberId>requestSuscriberId</subscriberId>          \r
-
-    \        </cpeId>          \r
-
-    \    </com:cpeReleaseMac>    \r
-
-    </soapenv:Body> \r
-
-    </soapenv:Envelope>"
+    </soapenv:Envelope>
 parameters: []
 headers:
   - name: Content-Type
     value: text/xml
+    id: pair_ea6a62c3fa3041e7a8e6b141332049df
 authentication:
   type: basic
   disabled: false

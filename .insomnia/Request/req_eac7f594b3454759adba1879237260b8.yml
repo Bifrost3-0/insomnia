@@ -1,7 +1,7 @@
 _id: req_eac7f594b3454759adba1879237260b8
 type: Request
 parentId: fld_2f3ab373b62d4940a7624abd9ab55752
-modified: 1637005520266
+modified: 1648491536038
 created: 1629833827721
 url: http://{{ _.base_url }}:{{ _.gilat_ku_balcarce }}/ws/cpeService
 name: Get Terminal

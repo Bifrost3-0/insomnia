@@ -1,7 +1,7 @@
 _id: req_1803e3e4d4df47f5aad5d802bebeea0f
 type: Request
 parentId: fld_7c4a08fcb9a24b27bd0a0df89ce1cdb1
-modified: 1628795739566
+modified: 1648491565838
 created: 1628608358791
 url: "{{ _.base_url }}:{{ _.gilat_ku_balcarce }}/ws/cpeService"
 name: CreateCPE Bifrost
@@ -9,179 +9,90 @@ description: ""
 method: POST
 body:
   mimeType: ""
-  text: "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\r
-
-    \    <SOAP-ENV:Envelope
-    xmlns:SOAP-ENV=\"http://schemas.xmlsoap.org/soap/envelope/\"
-    xmlns:com=\"com.gilat.ngnms.server.services.ws.cfg.face\"
-    xmlns:urn=\"urn:com.gilat.ngnms.server.ws.dto.cfg\">\r
-
-    \    <SOAP-ENV:Header />\r
-
-    \        <SOAP-ENV:Body>\r
-
-    \            <com:createCPE>\r
-
-    \                <cpe>\r
-
-    \                    <cpeId>\r
-
-    \                        <managedGroupId>2</managedGroupId>\r
-
-    \                        <subscriberId>1013878</subscriberId>\r
-
-    \                    </cpeId>\r
-
-    \                    <getMacFromCPE>ENABLE</getMacFromCPE>\r
-
-    \                    <clusterCode>091A</clusterCode>\r
-
-    \                    <platform>Gemini-4 S2X</platform>\r
-
-    \                    <ipStack>IPV4_ONLY</ipStack>\r
-
-    \                   \r
-
-    \                    <slaName>SLA109 128/128 CIR 12/12</slaName>\r
-
-    \                    <rtnClassifierName>RTN_TIWS</rtnClassifierName>\r
-
-    \                    <description>1013878</description>\r
-
-    \                    <authorization>FULL_ACCESS</authorization>\r
-
-    \                    <dataAuthorization>AUTHORIZED</dataAuthorization>\r
-
-    \                    <ipAddressing>ROUTER</ipAddressing>\r
-
-    \                    <provStatus>FULL_ACCESS</provStatus>\r
-
-    \                    \r
-
-    \                    <vrs>\r
-
-    \                        <urn:VR>\r
-
-    \                            <vlanId>329</vlanId>\r
-
-    \                            <ipv4>\r
-
-    \                                <subscriberPublicIpAddress>209.13.134.\
-    2</subscriberPublicIpAddress>\r
-
-    \                                <ipv4Prefix>30</ipv4Prefix>\r
-
-    \                                <ipv4Dhcp>ENABLE</ipv4Dhcp>\r
-
-    \                                <configureDhcpParameters>false</config\
-    ureDhcpParameters>\r
-
-    \                                <overrideIPv4ConnectivityMode>false</o\
-    verrideIPv4ConnectivityMode>\r
-
-    \                            </ipv4>\r
-
-    \                            <ipv4DynamicRoute>\r
-
-    \                            <satelliteRIPv2>ADVERTISE</satelliteRIPv2>\
-    \r
-
-    \                            <lanRIPv2>DISABLE</lanRIPv2>\r
-
-    \                            <advertiseDGtoLAN>NEVER</advertiseDGtoLAN>\
-    \r
-
-    \                            </ipv4DynamicRoute>\r
-
-    \                        </urn:VR>\r
-
-    \                    </vrs>\r
-
-    \                                 \r
-
-    \                    <physPorts>\r
-
-    \                        <urn:PhysicalPort> \r
-
-    \                            <id>1</id>\r
-
-    \                            <name>port-1</name>\r
-
-    \                            <portStatus>ENABLE</portStatus>\r
-
-    \                            <nicMode>Access</nicMode>\r
-
-    \                            <supportedVRs>\r
-
-    \                                <vlanID>329</vlanID>\r
-
-    \                            </supportedVRs>\r
-
-    \                        </urn:PhysicalPort> \r
-
-    \                        <urn:PhysicalPort>\r
-
-    \                            <id>2</id>\r
-
-    \                            <name>port-2</name>\r
-
-    \                            <portStatus>ENABLE</portStatus>\r
-
-    \                            <nicMode>Trunk</nicMode>\r
-
-    \                            <supportedVRs>\r
-
-    \                                <vlanID>329</vlanID>\r
-
-    \                            </supportedVRs>\r
-
-    \                        </urn:PhysicalPort> \r
-
-    \                        <urn:PhysicalPort>\r
-
-    \                            <id>3</id>\r
-
-    \                            <name>port-3</name>\r
-
-    \                            <portStatus>ENABLE</portStatus>\r
-
-    \                            <nicMode>Trunk</nicMode>\r
-
-    \                            <supportedVRs>\r
-
-    \                                <vlanID>329</vlanID>\r
-
-    \                            </supportedVRs>\r
-
-    \                        </urn:PhysicalPort> \r
-
-    \                        <urn:PhysicalPort>\r
-
-    \                            <id>4</id>\r
-
-    \                            <name>port-4</name>\r
-
-    \                            <portStatus>ENABLE</portStatus>\r
-
-    \                            <nicMode>Trunk</nicMode>\r
-
-    \                            <supportedVRs>\r
-
-    \                                <vlanID>329</vlanID>\r
-
-    \                            </supportedVRs>\r
-
-    \                        </urn:PhysicalPort> \r
-
-    \                    </physPorts>\r
-
-    \                </cpe>\r
-
-    \            </com:createCPE>\r
-
-    \        </SOAP-ENV:Body>\r
-
-    \    </SOAP-ENV:Envelope>"
+  text: >-
+    <?xml version="1.0" encoding="UTF-8"?>
+        <SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:com="com.gilat.ngnms.server.services.ws.cfg.face" xmlns:urn="urn:com.gilat.ngnms.server.ws.dto.cfg">
+        <SOAP-ENV:Header />
+            <SOAP-ENV:Body>
+                <com:createCPE>
+                    <cpe>
+                        <cpeId>
+                            <managedGroupId>2</managedGroupId>
+                            <subscriberId>1013878</subscriberId>
+                        </cpeId>
+                        <getMacFromCPE>ENABLE</getMacFromCPE>
+                        <clusterCode>091A</clusterCode>
+                        <platform>Gemini-4 S2X</platform>
+                        <ipStack>IPV4_ONLY</ipStack>
+                       
+                        <slaName>SLA109 128/128 CIR 12/12</slaName>
+                        <rtnClassifierName>RTN_TIWS</rtnClassifierName>
+                        <description>1013878</description>
+                        <authorization>FULL_ACCESS</authorization>
+                        <dataAuthorization>AUTHORIZED</dataAuthorization>
+                        <ipAddressing>ROUTER</ipAddressing>
+                        <provStatus>FULL_ACCESS</provStatus>
+                        
+                        <vrs>
+                            <urn:VR>
+                                <vlanId>329</vlanId>
+                                <ipv4>
+                                    <subscriberPublicIpAddress>209.13.134.2</subscriberPublicIpAddress>
+                                    <ipv4Prefix>30</ipv4Prefix>
+                                    <ipv4Dhcp>ENABLE</ipv4Dhcp>
+                                    <configureDhcpParameters>false</configureDhcpParameters>
+                                    <overrideIPv4ConnectivityMode>false</overrideIPv4ConnectivityMode>
+                                </ipv4>
+                                <ipv4DynamicRoute>
+                                <satelliteRIPv2>ADVERTISE</satelliteRIPv2>
+                                <lanRIPv2>DISABLE</lanRIPv2>
+                                <advertiseDGtoLAN>NEVER</advertiseDGtoLAN>
+                                </ipv4DynamicRoute>
+                            </urn:VR>
+                        </vrs>
+                                     
+                        <physPorts>
+                            <urn:PhysicalPort> 
+                                <id>1</id>
+                                <name>port-1</name>
+                                <portStatus>ENABLE</portStatus>
+                                <nicMode>Access</nicMode>
+                                <supportedVRs>
+                                    <vlanID>329</vlanID>
+                                </supportedVRs>
+                            </urn:PhysicalPort> 
+                            <urn:PhysicalPort>
+                                <id>2</id>
+                                <name>port-2</name>
+                                <portStatus>ENABLE</portStatus>
+                                <nicMode>Trunk</nicMode>
+                                <supportedVRs>
+                                    <vlanID>329</vlanID>
+                                </supportedVRs>
+                            </urn:PhysicalPort> 
+                            <urn:PhysicalPort>
+                                <id>3</id>
+                                <name>port-3</name>
+                                <portStatus>ENABLE</portStatus>
+                                <nicMode>Trunk</nicMode>
+                                <supportedVRs>
+                                    <vlanID>329</vlanID>
+                                </supportedVRs>
+                            </urn:PhysicalPort> 
+                            <urn:PhysicalPort>
+                                <id>4</id>
+                                <name>port-4</name>
+                                <portStatus>ENABLE</portStatus>
+                                <nicMode>Trunk</nicMode>
+                                <supportedVRs>
+                                    <vlanID>329</vlanID>
+                                </supportedVRs>
+                            </urn:PhysicalPort> 
+                        </physPorts>
+                    </cpe>
+                </com:createCPE>
+            </SOAP-ENV:Body>
+        </SOAP-ENV:Envelope>
 parameters: []
 headers:
   - name: Content-Type

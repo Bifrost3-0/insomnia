@@ -1,7 +1,7 @@
 _id: req_c993652c838e4aa3ae0099e9cb302ecb
 type: Request
 parentId: fld_2f3ab373b62d4940a7624abd9ab55752
-modified: 1637006288297
+modified: 1648491522684
 created: 1629833827690
 url: http://{{ _.base_url }}:{{ _.gilat_ku_balcarce }}/ws/cpeService
 name: Delete Terminal

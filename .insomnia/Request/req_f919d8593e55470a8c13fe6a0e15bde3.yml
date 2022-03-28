@@ -1,7 +1,7 @@
 _id: req_f919d8593e55470a8c13fe6a0e15bde3
 type: Request
 parentId: fld_7e0640ca8fe545f4bc524fc7f83cc3ea
-modified: 1630446397540
+modified: 1648491483011
 created: 1630446397540
 url: https://192.168.225.10/ws/cpeService
 name: Del Static Route
@@ -9,60 +9,36 @@ description: ""
 method: POST
 body:
   mimeType: ""
-  text: "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\r
+  text: >+
+    <?xml version="1.0" encoding="UTF-8"?>
+        <SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:com="com.gilat.ngnms.server.services.ws.cfg.face" xmlns:urn="urn:com.gilat.ngnms.server.ws.dto.cfg">
+        <SOAP-ENV:Header />
+            <SOAP-ENV:Body>
+                <com:cpeDeleteStaticRouteIPv4>
+                    <cpe>
+                        <cpeId>
+                            <managedGroupId>2</managedGroupId>
+                            <subscriberId>667788</subscriberId>
+                        </cpeId>
+                <!-- Optional -->
+                        <IPv4StaticRoute xmlns="">
+                            <network>192.168.36.25</network>
+                            <subnetMask>255.255.255.252</subnetMask>
+                            <nextHop>10.20.30.14</nextHop>
+                            <ipV4Interface>LAN</ipV4Interface>
+                            <redistribute>RIPv2</redistribute>
+                            <distributedMetric>1</distributedMetric>
+                        </IPv4StaticRoute>
+                    </cpe>
+                </com:cpeDeleteStaticRouteIPv4>
+            </SOAP-ENV:Body>
+        </SOAP-ENV:Envelope>
 
-    \    <SOAP-ENV:Envelope
-    xmlns:SOAP-ENV=\"http://schemas.xmlsoap.org/soap/envelope/\"
-    xmlns:com=\"com.gilat.ngnms.server.services.ws.cfg.face\"
-    xmlns:urn=\"urn:com.gilat.ngnms.server.ws.dto.cfg\">\r
-
-    \    <SOAP-ENV:Header />\r
-
-    \        <SOAP-ENV:Body>\r
-
-    \            <com:cpeDeleteStaticRouteIPv4>\r
-
-    \                <cpe>\r
-
-    \                    <cpeId>\r
-
-    \                        <managedGroupId>2</managedGroupId>\r
-
-    \                        <subscriberId>667788</subscriberId>\r
-
-    \                    </cpeId>\r
-
-    \            <!-- Optional -->\r
-
-    \                    <IPv4StaticRoute xmlns=\"\">\r
-
-    \                        <network>192.168.36.25</network>\r
-
-    \                        <subnetMask>255.255.255.252</subnetMask>\r
-
-    \                        <nextHop>10.20.30.14</nextHop>\r
-
-    \                        <ipV4Interface>LAN</ipV4Interface>\r
-
-    \                        <redistribute>RIPv2</redistribute>\r
-
-    \                        <distributedMetric>1</distributedMetric>\r
-
-    \                    </IPv4StaticRoute>\r
-
-    \                </cpe>\r
-
-    \            </com:cpeDeleteStaticRouteIPv4>\r
-
-    \        </SOAP-ENV:Body>\r
-
-    \    </SOAP-ENV:Envelope>\r
-
-    \r\n"
 parameters: []
 headers:
   - name: Content-Type
     value: text/xml
+    id: pair_3f9831f7da2847e48e81866ce79eee3e
 authentication:
   type: basic
   disabled: false

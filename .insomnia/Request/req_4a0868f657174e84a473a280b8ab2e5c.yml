@@ -1,7 +1,7 @@
 _id: req_4a0868f657174e84a473a280b8ab2e5c
 type: Request
 parentId: fld_2f3ab373b62d4940a7624abd9ab55752
-modified: 1632337252417
+modified: 1648491536686
 created: 1629833827707
 url: http://{{ _.base_url }}:{{ _.gilat_ku_balcarce }}/ws/cpeService
 name: Alta Terminal L3 n vlans
@@ -9,99 +9,50 @@ description: ""
 method: POST
 body:
   mimeType: ""
-  text: "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\r
-
-    \    <SOAP-ENV:Envelope
-    xmlns:SOAP-ENV=\"http://schemas.xmlsoap.org/soap/envelope/\"
-    xmlns:com=\"com.gilat.ngnms.server.services.ws.cfg.face\"
-    xmlns:urn=\"urn:com.gilat.ngnms.server.ws.dto.cfg\">\r
-
-    \    <SOAP-ENV:Header />\r
-
-    \        <SOAP-ENV:Body>\r
-
-    \            <com:createCPE>\r
-
-    \                <cpe>\r
-
-    \                    <cpeId>\r
-
-    \                        <managedGroupId>2</managedGroupId>\r
-
-    \                        <subscriberId>78798</subscriberId>\r
-
-    \                    </cpeId>\r
-
-    \                    <getMacFromCPE>ENABLE</getMacFromCPE>\r
-
-    \                    <clusterCode>091A</clusterCode>\r
-
-    \                    <platform>Gemini-4 S2X</platform>\r
-
-    \                    <ipStack>IPV4_ONLY</ipStack>\r
-
-    \                   \r
-
-    \                    <slaName>SLA54 512/512 CIR 256/256</slaName>\r
-
-    \                    <description>Pruebita78798</description>\r
-
-    \                    <authorization>FULL_ACCESS</authorization>\r
-
-    \                    <dataAuthorization>AUTHORIZED</dataAuthorization>\r
-
-    \                    <ipAddressing>ROUTER</ipAddressing>\r
-
-    \                    <provStatus>FULL_ACCESS</provStatus>\r
-
-    \                    <nicMode>Trunk</nicMode>\r
-
-    \                    <vrs>\r
-
-    \                        <urn:VR>\r
-
-    \                            <vlanId>50</vlanId>\r
-
-    \                            <ipv4>\r
-
-    \                                <subscriberPublicIpAddress>10.20.30.22\
-    5</subscriberPublicIpAddress>\r
-
-    \                                <ipv4Prefix>27</ipv4Prefix>\r
-
-    \                                <ipv4Dhcp>ENABLE</ipv4Dhcp>\r
-
-    \                                <configureDhcpParameters>false</config\
-    ureDhcpParameters>\r
-
-    \                                <overrideIPv4ConnectivityMode>false</o\
-    verrideIPv4ConnectivityMode>\r
-
-    \                            </ipv4>\r
-
-    \                            <ipv4DynamicRoute>\r
-
-    \                            <satelliteRIPv2>ADVERTISE</satelliteRIPv2>\
-    \r
-
-    \                            <lanRIPv2>DISABLE</lanRIPv2>\r
-
-    \                            <advertiseDGtoLAN>NEVER</advertiseDGtoLAN>\
-    \r
-
-    \                            </ipv4DynamicRoute>\r
-
-    \                        </urn:VR>\r
-
-    \                    </vrs>\r
-
-    \                </cpe>\r
-
-    \            </com:createCPE>\r
-
-    \        </SOAP-ENV:Body>\r
-
-    \    </SOAP-ENV:Envelope>"
+  text: >-
+    <?xml version="1.0" encoding="UTF-8"?>
+        <SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:com="com.gilat.ngnms.server.services.ws.cfg.face" xmlns:urn="urn:com.gilat.ngnms.server.ws.dto.cfg">
+        <SOAP-ENV:Header />
+            <SOAP-ENV:Body>
+                <com:createCPE>
+                    <cpe>
+                        <cpeId>
+                            <managedGroupId>2</managedGroupId>
+                            <subscriberId>78798</subscriberId>
+                        </cpeId>
+                        <getMacFromCPE>ENABLE</getMacFromCPE>
+                        <clusterCode>091A</clusterCode>
+                        <platform>Gemini-4 S2X</platform>
+                        <ipStack>IPV4_ONLY</ipStack>
+                       
+                        <slaName>SLA54 512/512 CIR 256/256</slaName>
+                        <description>Pruebita78798</description>
+                        <authorization>FULL_ACCESS</authorization>
+                        <dataAuthorization>AUTHORIZED</dataAuthorization>
+                        <ipAddressing>ROUTER</ipAddressing>
+                        <provStatus>FULL_ACCESS</provStatus>
+                        <nicMode>Trunk</nicMode>
+                        <vrs>
+                            <urn:VR>
+                                <vlanId>50</vlanId>
+                                <ipv4>
+                                    <subscriberPublicIpAddress>10.20.30.225</subscriberPublicIpAddress>
+                                    <ipv4Prefix>27</ipv4Prefix>
+                                    <ipv4Dhcp>ENABLE</ipv4Dhcp>
+                                    <configureDhcpParameters>false</configureDhcpParameters>
+                                    <overrideIPv4ConnectivityMode>false</overrideIPv4ConnectivityMode>
+                                </ipv4>
+                                <ipv4DynamicRoute>
+                                <satelliteRIPv2>ADVERTISE</satelliteRIPv2>
+                                <lanRIPv2>DISABLE</lanRIPv2>
+                                <advertiseDGtoLAN>NEVER</advertiseDGtoLAN>
+                                </ipv4DynamicRoute>
+                            </urn:VR>
+                        </vrs>
+                    </cpe>
+                </com:createCPE>
+            </SOAP-ENV:Body>
+        </SOAP-ENV:Envelope>
 parameters: []
 headers:
   - name: Content-Type
