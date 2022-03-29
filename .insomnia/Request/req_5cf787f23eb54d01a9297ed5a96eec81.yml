@@ -1,9 +1,9 @@
-_id: req_48334a57d7654acc88d57d6517c3923c
+_id: req_5cf787f23eb54d01a9297ed5a96eec81
 type: Request
-parentId: fld_4dcde7e8836d44048eb999ae7ddae2ae
-modified: 1647557342784
-created: 1632950548152
-url: https://191.241.195.16/ws/cpeService
+parentId: fld_3caac6b05ac24a3f8f8296f9cd426374
+modified: 1648504908435
+created: 1647557408178
+url: https://nmscxs.hispamar.com.br/ws/cpeService
 name: GetCPEs - Pulleo Gilat KA
 description: ""
 method: POST
@@ -28,8 +28,8 @@ headers:
 authentication:
   type: basic
   disabled: false
-  username: telefonica
-  password: $telefonica$
+  username: apisistemas
+  password: Mayo.2021
 metaSortKey: -1632950548152
 isPrivate: false
 settingStoreCookies: true

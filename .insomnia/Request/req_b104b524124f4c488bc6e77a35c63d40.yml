@@ -1,0 +1,21 @@
+_id: req_b104b524124f4c488bc6e77a35c63d40
+type: Request
+parentId: fld_41bd85fb10294628a24dfca157cf0321
+modified: 1648505009990
+created: 1648505009990
+url: ""
+name: Derivar Incidencia
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1648505009990
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

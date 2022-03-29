@@ -1,0 +1,21 @@
+_id: req_b8c25b7c99094303b3fce074774af36f
+type: Request
+parentId: fld_41bd85fb10294628a24dfca157cf0321
+modified: 1648504962876
+created: 1648504962876
+url: ""
+name: Crear Incidencia
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1648504962876
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

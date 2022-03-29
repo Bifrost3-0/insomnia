@@ -1,0 +1,45 @@
+_id: req_9be41c394dc2474a9adc486c734cda79
+type: Request
+parentId: fld_3caac6b05ac24a3f8f8296f9cd426374
+modified: 1647557408187
+created: 1647557408187
+url: https://191.241.195.16/ws/cpeService
+name: Change ServicePlan
+description: ""
+method: POST
+body:
+  mimeType: ""
+  text: >-
+    <?xml version="1.0" encoding="UTF-8"?>
+        <SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:com="com.gilat.ngnms.server.services.ws.cfg.face" xmlns:urn="urn:com.gilat.ngnms.server.ws.dto.cfg">
+        <SOAP-ENV:Header />
+            <SOAP-ENV:Body>
+                <com:modifyCPE>
+                    <cpe>
+                        <cpeId>
+                            <managedGroupId>7</managedGroupId>
+                            <subscriberId>85443</subscriberId>
+                        </cpeId>
+                        <slaName>SLA 10/2 Mbps 15 GB</slaName>
+                    </cpe>
+                </com:modifyCPE>
+            </SOAP-ENV:Body>
+        </SOAP-ENV:Envelope>
+parameters: []
+headers:
+  - name: Content-Type
+    value: text/xml
+    id: pair_1966c63fad1e49a3aad93dc43593cd26
+authentication:
+  type: basic
+  disabled: false
+  username: telefonica
+  password: $telefonica$
+metaSortKey: -1632901666981.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

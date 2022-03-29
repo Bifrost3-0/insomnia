@@ -1,0 +1,21 @@
+_id: req_54c1edf662f54a909adf81b8b782bd32
+type: Request
+parentId: fld_41bd85fb10294628a24dfca157cf0321
+modified: 1648505028684
+created: 1648505028684
+url: ""
+name: Info Incidencia
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1648505028684
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

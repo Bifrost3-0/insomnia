@@ -1,0 +1,21 @@
+_id: req_5fab0d0b614042afbf9f9a9dd8b7aa05
+type: Request
+parentId: fld_41bd85fb10294628a24dfca157cf0321
+modified: 1648505018362
+created: 1648505018362
+url: ""
+name: Cerrar Incidencia
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1648505018362
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

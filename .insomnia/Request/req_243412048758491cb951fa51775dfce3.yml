@@ -1,8 +1,8 @@
-_id: req_be134cdd4e62408cb3816ec8099515e5
+_id: req_243412048758491cb951fa51775dfce3
 type: Request
-parentId: fld_4dcde7e8836d44048eb999ae7ddae2ae
-modified: 1647557330352
-created: 1632950548153
+parentId: fld_3caac6b05ac24a3f8f8296f9cd426374
+modified: 1647557408181
+created: 1647557408181
 url: https://191.241.195.16/ws/cpeService
 name: Get Terminal
 description: ""
