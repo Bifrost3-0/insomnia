@@ -1,15 +1,45 @@
 _id: req_8fd64819a8a74e488f24d1ab66348ef9
 type: Request
 parentId: fld_41bd85fb10294628a24dfca157cf0321
-modified: 1648504997117
+modified: 1648745080438
 created: 1648504997117
-url: ""
+url: https://onpremise.bifrost.pe/api/IncidentApp/saveEditTicket
 name: Actualizar Incidencia
 description: ""
-method: GET
-body: {}
+method: POST
+body:
+  mimeType: application/json
+  text: '{"id":21299,"pinProblemId":1,"requestInformation":null,"contact_incidence":"Raúl
+    Franco","timeCamp":0,"initIncident":"2022-03-30
+    14:00:00","resolveIncident":null,"pinPriorityId":21,"description":"Ticket
+    Prueba
+    Api","includeFailureMassive":0,"sendTechnicalCamp":false,"mediaComunicationId":28,"typeContactId":11,"typeGroupId":530,"typeTicketId":127,"pin_causa_id":null,"desc_close":null,"dateClose":null,"mStatusId":2,"file_name_devolution":null,"desc_devolution":null,"date_devolution":null,"id_area_creator":20,"id_area_current":20,"user_id_creator":2546,"user_id_current":2546,"description_assignation":null,"status":1,"updated_at":"2022-03-31
+    16:34:38","created_at":"2022-03-31
+    16:34:38","dataTree":"","derivativeNoc":1,"nivelNocId":506,"derivation_comment":null,"file_name_close":null,"dataComunication":"947772131","resolve":0,"createdByClient":0,"notification1":0,"notification2":0,"notification3":0,"notification4":0,"notification5":0,"notification6":0,"notification7":0,"notification8":0,"notification9":0,"pinTechnologyId":1,"gateway":null,"platform":"1","satellite":"1","durationIncident":null,"terminalsAffected":null,"relatedIndividualTicket":null,"clientname":null,"rcst":null,"statusevent":null,"historyOracle":0,"n1":null,"n2":null,"n3":null,"sum_n_values":null,"subsistema":null,"proyectos":null,"servicios_afectados":null,"elementos_afectados":null,"pin_imputable_id":null,"master_status":{"id":2,"name":"EN
+    CURSO","created_at":null,"updated_at":null,"status":1,"description":null,"reference":"INCIDENCIAS"},"nivelnoc":{"id":506,"typeId":36,"status":1,"detail":"N1","oracleId":0,"created_at":"2019-05-17
+    00:00:00","updated_at":"2019-05-17 00:00:00","description":"nivel
+    noc"},"user_current":{"id":2546,"profileId":130,"oracleUserId":null,"fullname":"Usuario
+    NOC1","username":"walterjpv@hotmail.com","email":"walterjpv@hotmail.com","password":"$2y$10$kLTCnIduN1oDQbQgBFMuwOmSucOLcrtboqLo89Yi5tZ6YdjVTsfXy","status":1,"userAlfresco":null,"areaId":20,"tdp":1,"vnoId":null,"subVnoId":null,"contratistaId":null,"lang":"es","gmt":"GMT-0","passwordAlfresco":null,"levelId":1,"updated_at":"2022-01-11
+    20:48:00","created_at":"2020-09-16
+    18:39:33","name":null,"icon":"https://cdn.iconscout.com/icon/free/png-256/avatar-372-456324.png","timeZone":null,"cip":null,"address":null,"accessId":1,"fixedAssetId":null},"priority":{"id":23,"typeId":8,"status":1,"detail":"Crítica","oracleId":22,"created_at":"2018-12-12
+    00:00:00","updated_at":"2018-12-12
+    00:00:00","description":"nivel  prioridad"},"area_current":{"id":20,"name":"NOC
+    TIWS","description":"NOC
+    TIWS","status":1,"created_at":null,"updated_at":null,"responsableId":null,"code":null,"type":1,"reference":"incidencia","managementId":1},"problem":{"id":1,"status":1,"tree_name":"Incomunicación
+    Total de servicio","symptomId":6,"platformId":1,"created_at":"2019-02-21
+    20:51:58","updated_at":"2019-02-21
+    20:51:58","type":1},"technology":{"id":1,"name":"KA","description":"Tecnologia
+    KA","status":1,"created_at":"2020-08-12 16:12:14","updated_at":"2020-08-12
+    16:12:14"},"cause":null}'
 parameters: []
-headers: []
+headers:
+  - id: pair_154176c56a7f4ce49e6acf8f2ad94256
+    name: token
+    value: OHVPZTlzVWhpWEFZdjVlb3dYYWNYaWp5c21pWDd2ZktBZWVwMWN6ZnQ1SEIwVUZIWkY5ZVRSZEpjOUpM6245c6c285cb4
+    description: ""
+  - name: Content-Type
+    value: application/json
+    id: pair_cf45529caeb84921a2a3a6dbad1ae562
 authentication: {}
 metaSortKey: -1648504997117
 isPrivate: false

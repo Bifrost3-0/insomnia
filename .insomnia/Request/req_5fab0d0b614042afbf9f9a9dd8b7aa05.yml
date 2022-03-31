@@ -1,15 +1,38 @@
 _id: req_5fab0d0b614042afbf9f9a9dd8b7aa05
 type: Request
 parentId: fld_41bd85fb10294628a24dfca157cf0321
-modified: 1648505018362
+modified: 1648748777178
 created: 1648505018362
-url: ""
+url: https://onpremise.bifrost.pe/api/IncidentApp/saveCerrarTicket
 name: Cerrar Incidencia
 description: ""
-method: GET
-body: {}
+method: POST
+body:
+  mimeType: application/json
+  text: >-
+    ------WebKitFormBoundaryvboa6bh22eCOC7ge
+
+    Content-Disposition: form-data; name="modelo"
+
+
+    {"idticket":21299,"causa":17,"resolveIncident":"2022-03-31 00:00:00","terminales":1,"imputable":3,"desc":"Api ","serviciosafectados":"Otro","elementosafectados":"Otro","subsistema":"Otros","resolve":0}
+
+    ------WebKitFormBoundaryvboa6bh22eCOC7ge
+
+    Content-Disposition: form-data; name="file"
+
+
+
+    ------WebKitFormBoundaryvboa6bh22eCOC7ge--
 parameters: []
-headers: []
+headers:
+  - id: pair_47484d7565ca4e698c460a3359c3115d
+    name: token
+    value: OHVPZTlzVWhpWEFZdjVlb3dYYWNYaWp5c21pWDd2ZktBZWVwMWN6ZnQ1SEIwVUZIWkY5ZVRSZEpjOUpM6245c6c285cb4
+    description: ""
+  - name: Content-Type
+    value: application/json
+    id: pair_dd4278e3f8464ed8a5ea7a61dade340d
 authentication: {}
 metaSortKey: -1648505018362
 isPrivate: false

@@ -1,15 +1,32 @@
 _id: req_b8c25b7c99094303b3fce074774af36f
 type: Request
 parentId: fld_41bd85fb10294628a24dfca157cf0321
-modified: 1648504962876
+modified: 1648744735734
 created: 1648504962876
-url: ""
+url: https://onpremise.bifrost.pe/api/IncidentApp/saveTicket
 name: Crear Incidencia
 description: ""
-method: GET
-body: {}
+method: POST
+body:
+  mimeType: application/json
+  text: '{"form":{"nameCliente":"","prioridad":"23","tipocontacto":11,"contactoincidencia":"Raúl
+    Franco","problema":1,"customer_name":"MOVISTAR
+    CHILE","nombrecontacto":"USUARIO PRUEBA
+    PRUEBA","comunicacion":28,"numerocontacto":"947772131","impacto":"26","urgencia":"18","desc":"Ticket
+    Prueba
+    Api"},"terminal":{"id":7292,"platformId":1,"siteId":"1600011200","nameplatform":"Hughes","customername":"USUARIO
+    PRUEBA
+    PRUEBA","customercode":1600011200,"statusname":"critical","sateliteId":1,"tecnologianame":"KA","esn":"10549097","vnoId":54,"vnoname":"MOVISTAR
+    CHILE","tecnologiaid":1},"optionselected":""}'
 parameters: []
-headers: []
+headers:
+  - id: pair_40ce56db364e476c94b54e4664561748
+    name: token
+    value: OHVPZTlzVWhpWEFZdjVlb3dYYWNYaWp5c21pWDd2ZktBZWVwMWN6ZnQ1SEIwVUZIWkY5ZVRSZEpjOUpM6245c6c285cb4
+    description: ""
+  - name: Content-Type
+    value: application/json
+    id: pair_87c14b37b1c143e8a4529e0cdc7429ca
 authentication: {}
 metaSortKey: -1648504962876
 isPrivate: false

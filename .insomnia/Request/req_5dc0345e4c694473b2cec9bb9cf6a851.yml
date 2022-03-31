@@ -1,15 +1,19 @@
 _id: req_5dc0345e4c694473b2cec9bb9cf6a851
 type: Request
 parentId: fld_41bd85fb10294628a24dfca157cf0321
-modified: 1648505060394
+modified: 1648744734277
 created: 1648505060394
-url: ""
+url: https://onpremise.bifrost.pe/api/IncidentApp/listTicket
 name: Listar Incidencias
 description: ""
 method: GET
 body: {}
 parameters: []
-headers: []
+headers:
+  - id: pair_0bfb262755d04068a1dc12eb63bd6604
+    name: token
+    value: OHVPZTlzVWhpWEFZdjVlb3dYYWNYaWp5c21pWDd2ZktBZWVwMWN6ZnQ1SEIwVUZIWkY5ZVRSZEpjOUpM6245c6c285cb4
+    description: ""
 authentication: {}
 metaSortKey: -1648505060394
 isPrivate: false

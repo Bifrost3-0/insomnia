@@ -1,15 +1,25 @@
 _id: req_b104b524124f4c488bc6e77a35c63d40
 type: Request
 parentId: fld_41bd85fb10294628a24dfca157cf0321
-modified: 1648505009990
+modified: 1648748715224
 created: 1648505009990
-url: ""
+url: https://onpremise.bifrost.pe/api/IncidentApp/saveAsignacion
 name: Derivar Incidencia
 description: ""
-method: GET
-body: {}
+method: POST
+body:
+  mimeType: application/json
+  text: '{"area":14,"idticket":21299,"impacto":null,"urgencia":null,"prioridad":null,"comentarioDerivacion":"","isn2":1,"nivelnoc":"507","desc":"Derivación
+    Prueba Api, no atender.","usuario":1187}'
 parameters: []
-headers: []
+headers:
+  - id: pair_4dcb6a937a8f42e6a32e2550ac310fe5
+    name: token
+    value: OHVPZTlzVWhpWEFZdjVlb3dYYWNYaWp5c21pWDd2ZktBZWVwMWN6ZnQ1SEIwVUZIWkY5ZVRSZEpjOUpM6245c6c285cb4
+    description: ""
+  - name: Content-Type
+    value: application/json
+    id: pair_57eb60de683c4638a3bff0f5b4cc30e9
 authentication: {}
 metaSortKey: -1648505009990
 isPrivate: false
