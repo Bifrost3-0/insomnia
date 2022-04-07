@@ -1,28 +1,25 @@
 _id: req_7f39af30460740bf85947f644ed0c150
 type: Request
 parentId: fld_4fb2b5b7eceb437aa0c7ac76015db876
-modified: 1629842262222
+modified: 1644257021695
 created: 1629840532399
-url: |
-  https://api-nms.hispasat.es/v1/broadband/backend/terminals/purchased-quota
+url: https://api-nms.hispasat.es/v1/broadband/backend/terminals/purchased-quota
 name: Agregar Megas
 description: ""
 method: POST
 body:
   mimeType: ""
-  text: "{\r
-
-    \"terminalId\": \"6374\", \r
-
-    \"purchasedSize\": 1, \r
-
-    \"monthsExpire\": 3\r
-
-    }\r\n"
+  text: |
+    {
+    "terminalId": "6374", 
+    "purchasedSize": 1, 
+    "monthsExpire": 3
+    }
 parameters: []
 headers:
   - name: Content-Type
     value: application/json
+    id: pair_032b336b0f3f48d5a060a26a5bb0be74
 authentication:
   type: bearer
   disabled: false

@@ -1,9 +1,9 @@
 _id: req_131b1b1b84984a1eb59110d512388ec5
 type: Request
 parentId: fld_4fb2b5b7eceb437aa0c7ac76015db876
-modified: 1634151691522
+modified: 1646666041625
 created: 1629840532450
-url: https://api-nms.hispasat.es/v1/broadband/backend/terminals/freeips?ipconnectivityid=24
+url: https://api-nms.hispasat.es/v1/broadband/backend/terminals/freeips?ipconnectivityid=522
 name: IP Libre
 description: ""
 method: GET

@@ -1,7 +1,7 @@
 _id: req_ac03fb35a7be4368abe44fab3b3cd5be
 type: Request
 parentId: fld_4fb2b5b7eceb437aa0c7ac76015db876
-modified: 1632858353420
+modified: 1644257007536
 created: 1629840532438
 url: https://api-nms.hispasat.es/v1/broadband/backend/terminals
 name: Inventariar Terminal

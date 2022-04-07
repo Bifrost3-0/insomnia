@@ -1,7 +1,7 @@
 _id: req_7f83e02640af43abb9a4e8352b7a8f1d
 type: Request
 parentId: fld_7c4a08fcb9a24b27bd0a0df89ce1cdb1
-modified: 1628793626145
+modified: 1648486109409
 created: 1628608358824
 url: "{{ _.base_url }}:{{ _.gilat_ku_balcarce }}/ws/cpeService"
 name: Get Static Route
@@ -9,31 +9,22 @@ description: ""
 method: POST
 body:
   mimeType: ""
-  text: "<soapenv:Envelope
-    xmlns:soapenv=\"http://schemas.xmlsoap.org/soap/envelope/\"
-    xmlns:com=\"com.gilat.ngnms.server.services.ws.cfg.face\">    \r
+  text: >-
+    <soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"
+    xmlns:com="com.gilat.ngnms.server.services.ws.cfg.face">    
 
-    <soapenv:Header/>    \r
+    <soapenv:Header/>    
+     <soapenv:Body>       
+        <com:getCPEStaticRouteIPv4>          
+            <cpeId>             
+                <managedGroupId>2</managedGroupId>             
+                <subscriberId>88154</subscriberId>          
+            </cpeId>          
+            <vlanId>1550</vlanId>       
+        </com:getCPEStaticRouteIPv4>    
+    </soapenv:Body> 
 
-    \ <soapenv:Body>       \r
-
-    \    <com:getCPEStaticRouteIPv4>          \r
-
-    \        <cpeId>             \r
-
-    \            <managedGroupId>2</managedGroupId>             \r
-
-    \            <subscriberId>88154</subscriberId>          \r
-
-    \        </cpeId>          \r
-
-    \        <vlanId>1550</vlanId>       \r
-
-    \    </com:getCPEStaticRouteIPv4>    \r
-
-    </soapenv:Body> \r
-
-    </soapenv:Envelope> "
+    </soapenv:Envelope> 
 parameters: []
 headers:
   - name: Content-Type

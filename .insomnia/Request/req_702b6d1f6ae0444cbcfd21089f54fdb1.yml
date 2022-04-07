@@ -1,7 +1,7 @@
 _id: req_702b6d1f6ae0444cbcfd21089f54fdb1
 type: Request
 parentId: fld_4fb2b5b7eceb437aa0c7ac76015db876
-modified: 1634151780528
+modified: 1644257028870
 created: 1629840532419
 url: https://api-nms.hispasat.es/v1/broadband/backend/terminals/startselftest?terminalid=5125
 name: Test de Velocidad

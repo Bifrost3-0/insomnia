@@ -1,7 +1,7 @@
 _id: req_4f5eeaf990814e24b1eb568e34890058
 type: Request
 parentId: fld_2f3ab373b62d4940a7624abd9ab55752
-modified: 1648491510133
+modified: 1649345183874
 created: 1629833827703
 url: https://{{ _.base_url }}:{{ _.gilat_ku_balcarce }}/ws/cpeService
 name: Resert Terminal

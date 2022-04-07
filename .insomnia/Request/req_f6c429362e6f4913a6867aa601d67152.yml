@@ -1,7 +1,7 @@
 _id: req_f6c429362e6f4913a6867aa601d67152
 type: Request
 parentId: fld_3caac6b05ac24a3f8f8296f9cd426374
-modified: 1647557408163
+modified: 1648658261588
 created: 1647557408163
 url: https://191.241.195.16/ws/cpeService
 name: Edit Terminal KA
@@ -9,43 +9,27 @@ description: ""
 method: POST
 body:
   mimeType: ""
-  text: "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\r
-
-    \    <SOAP-ENV:Envelope
-    xmlns:SOAP-ENV=\"http://schemas.xmlsoap.org/soap/envelope/\"
-    xmlns:com=\"com.gilat.ngnms.server.services.ws.cfg.face\"
-    xmlns:urn=\"urn:com.gilat.ngnms.server.ws.dto.cfg\">\r
-
-    \    <SOAP-ENV:Header />\r
-
-    \        <SOAP-ENV:Body>\r
-
-    \            <com:modifyCPE>\r
-
-    \                <cpe>\r
-
-    \                    <cpeId>\r
-
-    \                        <managedGroupId>7</managedGroupId>\r
-
-    \                        <subscriberId>1379617</subscriberId>\r
-
-    \                    </cpeId>\r
-
-    \                    <subscriberPublicIpAddress>10.20.30.5</subscriberP\
-    ublicIpAddress> \r
-
-    \                </cpe>\r
-
-    \            </com:modifyCPE>\r
-
-    \        </SOAP-ENV:Body>\r
-
-    \    </SOAP-ENV:Envelope>"
+  text: >-
+    <?xml version="1.0" encoding="UTF-8"?>
+        <SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:com="com.gilat.ngnms.server.services.ws.cfg.face" xmlns:urn="urn:com.gilat.ngnms.server.ws.dto.cfg">
+        <SOAP-ENV:Header />
+            <SOAP-ENV:Body>
+                <com:modifyCPE>
+                    <cpe>
+                        <cpeId>
+                            <managedGroupId>7</managedGroupId>
+                            <subscriberId>1379617</subscriberId>
+                        </cpeId>
+                        <subscriberPublicIpAddress>10.20.30.5</subscriberPublicIpAddress> 
+                    </cpe>
+                </com:modifyCPE>
+            </SOAP-ENV:Body>
+        </SOAP-ENV:Envelope>
 parameters: []
 headers:
   - name: Content-Type
     value: text/xml
+    id: pair_f76a85997ed241e788bf13ed37a6093a
 authentication:
   type: basic
   disabled: false
