@@ -1,7 +1,7 @@
 _id: req_afbe02c8fca74bc2b15d5949076774a6
 type: Request
 parentId: fld_4dcde7e8836d44048eb999ae7ddae2ae
-modified: 1649344018169
+modified: 1649424854609
 created: 1632950548154
 url: https://191.241.195.16/ws/cpeService
 name: Alta de Terminal
@@ -24,8 +24,8 @@ body:
                         <clusterCode>094A</clusterCode>
                         <platform>Gemini-i S2X</platform>
                         <ipStack>IPV4_ONLY</ipStack>
-                        <slaName>SLA 20/3 Mbs 45 GB</slaName>
-                        <description>Pruebita60077</description>
+                        <slaName>SLA 20/3 Mbps 45 GB</slaName>
+                        <description>Prueba08042022</description>
                         <authorization>FULL_ACCESS</authorization>
                         <dataAuthorization>AUTHORIZED</dataAuthorization>
                         <ipAddressing>ROUTER</ipAddressing>
@@ -37,11 +37,6 @@ body:
                                 <ipv4>
                                     <ipv4Prefix>29</ipv4Prefix>
                                 </ipv4>
-                                <ipv4DynamicRoute>
-                                <satelliteRIPv2>ADVERTISE</satelliteRIPv2>
-                                <lanRIPv2>ADVERTISE</lanRIPv2>
-                                <advertiseDGtoLAN>NEVER</advertiseDGtoLAN>
-                                </ipv4DynamicRoute>
                             </urn:VR>
                         </vrs>
                     </cpe>
