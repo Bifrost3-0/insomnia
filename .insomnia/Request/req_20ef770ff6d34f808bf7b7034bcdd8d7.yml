@@ -1,0 +1,26 @@
+_id: req_20ef770ff6d34f808bf7b7034bcdd8d7
+type: Request
+parentId: fld_41bd85fb10294628a24dfca157cf0321
+modified: 1649542282637
+created: 1649114170402
+url: https://apiaws.bifrost.pe/api/IncidentApp/derivarToNoc
+name: Derivar Incidencia al NOC
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: ""
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_853e317e3a214ed68a5433721dce5dbc
+authentication: {}
+metaSortKey: -1649114170402
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

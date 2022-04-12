@@ -1,0 +1,47 @@
+_id: req_8f6d780a3d1a41569d652f86a3e0ae23
+type: Request
+parentId: fld_41bd85fb10294628a24dfca157cf0321
+modified: 1649542272904
+created: 1649453503891
+url: https://apiaws.bifrost.pe/api/IncidentApp/getTicketMasivo?id=21413
+name: Info Incidencia Masivo
+description: >+
+  input
+
+  id: 21413
+
+
+
+  output
+
+  {"ticket":{"id":21413,"pinProblemId":7,"requestInformation":null,"contact_incidence":null,"timeCamp":null,"initIncident":"2022-04-08 00:00:00","resolveIncident":"2022-04-09 00:00:00","pinPriorityId":23,"description":"Prueba Api Masivo Create","includeFailureMassive":0,"sendTechnicalCamp":null,"mediaComunicationId":0,"typeContactId":null,"typeGroupId":529,"typeTicketId":127,"pin_causa_id":null,"desc_close":null,"dateClose":null,"mStatusId":2,"file_name_devolution":null,"desc_devolution":null,"date_devolution":null,"id_area_creator":20,"id_area_current":20,"user_id_creator":2546,"user_id_current":2546,"description_assignation":null,"status":1,"updated_at":"2022-04-08 18:05:12","created_at":"2022-04-08 18:05:12","dataTree":null,"derivativeNoc":1,"nivelNocId":506,"derivation_comment":null,"file_name_close":null,"dataComunication":null,"resolve":1,"createdByClient":0,"notification1":0,"notification2":0,"notification3":0,"notification4":0,"notification5":0,"notification6":0,"notification7":0,"notification8":0,"notification9":0,"pinTechnologyId":1,"gateway":"1","platform":"1","satellite":"1","durationIncident":"60","terminalsAffected":"2","relatedIndividualTicket":"T0021105","clientname":"[]","rcst":"Prueba Api Masivo Create","statusevent":null,"historyOracle":0,"n1":null,"n2":null,"n3":null,"sum_n_values":null,"subsistema":null,"proyectos":null,"servicios_afectados":null,"elementos_afectados":null,"pin_imputable_id":null,"master_status":{"id":2,"name":"EN CURSO","created_at":null,"updated_at":null,"status":1,"description":null,"reference":"INCIDENCIAS"},"nivelnoc":{"id":506,"typeId":36,"status":1,"detail":"N1","oracleId":0,"created_at":"2019-05-17 00:00:00","updated_at":"2019-05-17 00:00:00","description":"nivel noc"},"user_current":{"id":2546,"profileId":130,"oracleUserId":null,"fullname":"Usuario NOC1","username":"walterjpv@hotmail.com","email":"walterjpv@hotmail.com","password":"$2y$10$jwRMf7CeG12q8dtpsciKG.anSkTMSlP4Pvj\/DL7hOFDbctYw4mqBi","status":1,"userAlfresco":null,"areaId":20,"tdp":1,"vnoId":null,"subVnoId":null,"contratistaId":null,"lang":"es","gmt":"GMT-0","passwordAlfresco":null,"levelId":1,"updated_at":"2022-03-31 20:07:59","created_at":"2020-09-16 18:39:33","name":null,"icon":"https:\/\/cdn.iconscout.com\/icon\/free\/png-256\/avatar-372-456324.png","timeZone":null,"cip":null,"address":null,"accessId":1,"fixedAssetId":null},"area_current":{"id":20,"name":"NOC TIWS","description":"NOC TIWS","status":1,"created_at":null,"updated_at":null,"responsableId":null,"code":null,"type":1,"reference":"incidencia","managementId":1},"medio_comunicacion":null,"problem":{"id":7,"status":1,"tree_name":"Sin servicio de internet","symptomId":null,"platformId":null,"created_at":null,"updated_at":null,"type":2},"technology":{"id":1,"name":"KA","description":"Tecnologia KA","status":1,"created_at":"2020-08-12 16:12:14","updated_at":"2020-08-12 16:12:14"},"gen_platform":{"id":1,"name":"Hughes","description":"Plataforma de Internet Satelital KA Hughes","scope_name":"HGPRIVATE","status":1,"created_at":"2019-02-16 00:00:00","updated_at":"2012-03-16 00:00:00","technologyId":1,"url":null,"nameCollection":"hughes","sateliteId":1},"gen_gateway":{"id":1,"name":"Hub Arica","description":null,"status":1,"created_at":null,"updated_at":"2021-01-15 09:10:26","latitude":"-18.358837","longitude":"-70.322595","technologyId":1,"active_tp":1},"gen_satelite":{"id":1,"name":"Amazonas 3"},"cause":null},"element":{"id":20844,"planId":null,"ticketId":21413,"terminalId":null,"vnoId":142,"subVnoId":null,"data":"[{\"servicio\":true,\"id\":\"B=1|V=2|S=2\",\"servicePlanId\":2,\"vnoId\":2,\"beamId\":1,\"label\":\"VIVO_SAO_2M_0.256M_10GB_10GB\"},{\"servicio\":true,\"id\":\"B=1|V=2|S=5\",\"servicePlanId\":5,\"vnoId\":2,\"beamId\":1,\"label\":\"VIVO_SAO_12M_3M_60GB_60GB\"}]","planta":"[{\"id\":317,\"siteId\":\"230B013590381401\"},{\"id\":319,\"siteId\":\"230B093565659801\"},{\"id\":432,\"siteId\":\"230B013132261001\"},{\"id\":486,\"siteId\":\"230B093592448901\"},{\"id\":957,\"siteId\":\"DEMOSPLT2\"},{\"id\":2251,\"siteId\":\"DEMO20160822\"},{\"id\":2415,\"siteId\":\"230B013527803801\"},{\"id\":14971,\"siteId\":\"PRUEBASP01\"},{\"id\":22527,\"siteId\":\"230B013556047901\"},{\"id\":25374,\"siteId\":\"TEST04092019\"},{\"id\":28933,\"siteId\":\"test15102019\"},{\"id\":28948,\"siteId\":\"test17102019v1\"}]","status":1,"updated_at":"2022-04-08 18:05:12","created_at":"2022-04-08 18:05:12"}}
+
+
+
+
+
+
+
+
+
+method: GET
+body: {}
+parameters:
+  - id: pair_a5714ee2abec427d9065921a5a5cf387
+    name: id
+    value: "20271"
+    description: ""
+headers:
+  - id: pair_b0472328c0ab4f8fa549d1efb48669d6
+    name: token
+    value: ZkY3aDlrWnEzcGpON0ljNno3UWNYNzBHNVRTUzFVOHV2UmU0ejMzTEtyRGo3TVdCTzduN2djZVh0TG9W6247880504a39
+    description: ""
+authentication: {}
+metaSortKey: -1648505026103.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

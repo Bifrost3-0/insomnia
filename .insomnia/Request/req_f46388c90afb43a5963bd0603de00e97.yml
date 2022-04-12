@@ -1,0 +1,29 @@
+_id: req_f46388c90afb43a5963bd0603de00e97
+type: Request
+parentId: fld_41bd85fb10294628a24dfca157cf0321
+modified: 1649434763854
+created: 1648855961623
+url: https://onpremise.bifrost.pe/api/IncidentApp/ListAdvanceTicket
+name: Info Lista Avance
+description: ""
+method: GET
+body: {}
+parameters:
+  - id: pair_a5714ee2abec427d9065921a5a5cf387
+    name: idterminal
+    value: "21299"
+    description: ""
+headers:
+  - id: pair_b0472328c0ab4f8fa549d1efb48669d6
+    name: token
+    value: ZkY3aDlrWnEzcGpON0ljNno3UWNYNzBHNVRTUzFVOHV2UmU0ejMzTEtyRGo3TVdCTzduN2djZVh0TG9W6247880504a39
+    description: ""
+authentication: {}
+metaSortKey: -1648505023523
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

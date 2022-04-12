@@ -1,0 +1,37 @@
+_id: req_7ea32b2eceb244e5849b6e1d889d3c9d
+type: Request
+parentId: fld_41bd85fb10294628a24dfca157cf0321
+modified: 1648740893113
+created: 1648740386401
+url: https://onpremise.bifrost.pe/api/IncidentApp/listTicketv2
+name: Listar Incidencias v2
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - id: pair_37a63f439b84437792c4c59d15883cd5
+    name: token
+    value: OHVPZTlzVWhpWEFZdjVlb3dYYWNYaWp5c21pWDd2ZktBZWVwMWN6ZnQ1SEIwVUZIWkY5ZVRSZEpjOUpM6245c6c285cb4
+    description: ""
+authentication:
+  type: oauth1
+  disabled: false
+  signatureMethod: HMAC-SHA1
+  consumerKey: ""
+  consumerSecret: ""
+  tokenKey: ""
+  tokenSecret: ""
+  privateKey: ""
+  version: "1.0"
+  nonce: ""
+  timestamp: ""
+  callback: ""
+metaSortKey: -1648740386401
+isPrivate: false
+settingStoreCookies: false
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

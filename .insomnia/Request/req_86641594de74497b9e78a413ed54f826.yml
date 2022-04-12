@@ -1,0 +1,46 @@
+_id: req_86641594de74497b9e78a413ed54f826
+type: Request
+parentId: fld_41bd85fb10294628a24dfca157cf0321
+modified: 1649802633805
+created: 1648857462295
+url: https://onpremise.bifrost.pe/api/IncidentApp/ticketadvancestore
+name: Actualizar Info Avance Incidencia
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: >-
+    ------WebKitFormBoundary7qxiiBAyqdKfLWEk
+
+    Content-Disposition: form-data; name="file"; filename="Prueba Aissa.docx"
+
+    Content-Type: application/vnd.openxmlformats-officedocument.wordprocessingml.document
+
+
+
+    ------WebKitFormBoundary7qxiiBAyqdKfLWEk
+
+    Content-Disposition: form-data; name="modelo"
+
+
+    {"content":"Es una Prueba - Api - Progreso Ticket","action":null,"progresVisibleClient":true,"requestInformation":1,"ticketid":21318,"visible":1,"tdp":1}
+
+    ------WebKitFormBoundary7qxiiBAyqdKfLWEk--
+parameters: []
+headers:
+  - id: pair_154176c56a7f4ce49e6acf8f2ad94256
+    name: token
+    value: bGFqNXRzeUJjbndvNHhSZVZHNHIyT0twZWJzdDl1MERvNUxLNkRjdmZiZERiNmltOGh4WTY3SWlSeHJV62478e888b294
+    description: ""
+  - name: Content-Type
+    value: application/json
+    id: pair_cf45529caeb84921a2a3a6dbad1ae562
+authentication: {}
+metaSortKey: -1648504979996.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
