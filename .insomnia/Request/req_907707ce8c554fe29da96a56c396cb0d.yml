@@ -1,7 +1,7 @@
 _id: req_907707ce8c554fe29da96a56c396cb0d
 type: Request
 parentId: fld_41bd85fb10294628a24dfca157cf0321
-modified: 1649698694385
+modified: 1650293863610
 created: 1649441147529
 url: https://apiaws.bifrost.pe/api/IncidentApp/saveTicketMasivo
 name: Crear Incidencia Masiva
@@ -100,10 +100,64 @@ description: >+
 method: POST
 body:
   mimeType: application/json
-  text: '{"clientefront":"","ticket":"T0021105","planes":[],"duracion":60,"tecnologia":1,"plataforma":1,"gateway":1,"satelite":1,"problema":7,"inicio":"2022-04-08
-    00:00:00","resolucion":"2022-04-09 00:00:00","rcst":"Prueba Api Masivo
-    Create","desc":"Prueba Api Masivo Create","detalle":"Prueba Api Masivo
-    Create","cliente":[],"data":[{"servicio":true,"id":"B=1|V=2|S=2","servicePlanId":2,"vnoId":2,"beamId":1,"label":"VIVO_SAO_2M_0.256M_10GB_10GB"},{"servicio":true,"id":"B=1|V=2|S=5","servicePlanId":5,"vnoId":2,"beamId":1,"label":"VIVO_SAO_12M_3M_60GB_60GB"}],"serviceplan":[{"servicio":true,"id":"B=1|V=2|S=2","servicePlanId":2,"vnoId":2,"beamId":1,"label":"VIVO_SAO_2M_0.256M_10GB_10GB"},{"servicio":true,"id":"B=1|V=2|S=5","servicePlanId":5,"vnoId":2,"beamId":1,"label":"VIVO_SAO_12M_3M_60GB_60GB"}],"servicePlanIds":[2,5]}'
+  text: |-
+    {
+    	"clientefront": "",
+    	"ticket": "T0021105",
+    	"planes": [],
+    	"duracion": 60,
+    	"tecnologia": 1,
+    	"plataforma": 1,
+    	"gateway": 1,
+    	"satelite": 1,
+    	"problema": 7,
+    	"inicio": "2022-04-08 00:00:00", 
+    	"resolucion": "2022-04-09 00:00:00",
+    	"rcst": "Prueba Api Masivo Create",
+    	"desc": "Prueba Api Masivo Create",
+    	"detalle": "Prueba Api Masivo Create",
+    	"cliente": [],
+    	"data": [
+    		{
+    			"servicio": true,
+    			"id": "B=1|V=2|S=2",
+    			"servicePlanId": 2,
+    			"vnoId": 2,
+    			"beamId": 1,
+    			"label": "VIVO_SAO_2M_0.256M_10GB_10GB"
+    		},
+    		{
+    			"servicio": true,
+    			"id": "B=1|V=2|S=5",
+    			"servicePlanId": 5,
+    			"vnoId": 2,
+    			"beamId": 1,
+    			"label": "VIVO_SAO_12M_3M_60GB_60GB"
+    		}
+    	],
+    	"serviceplan": [
+    		{
+    			"servicio": true,
+    			"id": "B=1|V=2|S=2",
+    			"servicePlanId": 2,
+    			"vnoId": 2,
+    			"beamId": 1,
+    			"label": "VIVO_SAO_2M_0.256M_10GB_10GB"
+    		},
+    		{
+    			"servicio": true,
+    			"id": "B=1|V=2|S=5",
+    			"servicePlanId": 5,
+    			"vnoId": 2,
+    			"beamId": 1,
+    			"label": "VIVO_SAO_12M_3M_60GB_60GB"
+    		}
+    	],
+    	"servicePlanIds": [
+    		2,
+    		5
+    	]
+    }
 parameters: []
 headers:
   - id: pair_40ce56db364e476c94b54e4664561748

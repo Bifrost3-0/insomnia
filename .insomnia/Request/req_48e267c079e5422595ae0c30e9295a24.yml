@@ -1,7 +1,7 @@
 _id: req_48e267c079e5422595ae0c30e9295a24
 type: Request
 parentId: fld_2fcc67bf8a814999ba1cf96f7a07eba7
-modified: 1647406262274
+modified: 1650293713330
 created: 1647384656091
 url: "{{ _.bifrost_url_dev }}/api/insomniaFunctions/asignarIP"
 name: asignarIP
@@ -31,6 +31,10 @@ headers:
     name: token
     value: "{% response 'body', 'req_8fcaa559a6144a6da85a5c4542eba643',
       'b64::JC5kYXRhLnNlc3Npb24udG9rZW4=::46b', 'never', 60 %}"
+    description: ""
+  - id: pair_d82ddc9049f1423590eaadabe1a1c9fe
+    name: ""
+    value: ""
     description: ""
 authentication: {}
 metaSortKey: -1647384656091
