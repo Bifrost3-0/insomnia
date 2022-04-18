@@ -1,7 +1,7 @@
 _id: req_8f6d780a3d1a41569d652f86a3e0ae23
 type: Request
 parentId: fld_41bd85fb10294628a24dfca157cf0321
-modified: 1649542272904
+modified: 1650295404374
 created: 1649453503891
 url: https://apiaws.bifrost.pe/api/IncidentApp/getTicketMasivo?id=21413
 name: Info Incidencia Masivo
@@ -37,7 +37,7 @@ headers:
     value: ZkY3aDlrWnEzcGpON0ljNno3UWNYNzBHNVRTUzFVOHV2UmU0ejMzTEtyRGo3TVdCTzduN2djZVh0TG9W6247880504a39
     description: ""
 authentication: {}
-metaSortKey: -1648505026103.5
+metaSortKey: -1649114170477
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

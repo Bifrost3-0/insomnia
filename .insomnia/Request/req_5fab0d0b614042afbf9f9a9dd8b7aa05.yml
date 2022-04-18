@@ -1,11 +1,128 @@
 _id: req_5fab0d0b614042afbf9f9a9dd8b7aa05
 type: Request
-parentId: fld_41bd85fb10294628a24dfca157cf0321
-modified: 1650293857347
+parentId: fld_fce10bd045414ec2bd6c7cdd1c633bef
+modified: 1650295215924
 created: 1648505018362
-url: "{{url}}/api/IncidentApp/saveCerrarTicket"
+url: "{{ bifrost_url }}/api/IncidentApp/saveCerrarTicket"
 name: Cerrar Incidencia
-description: ""
+description: >
+  https://onpremise.bifrost.pe/api/IncidentApp/saveCerrarTicket
+
+
+  Close Ticket
+
+
+  Input:
+
+  ------WebKitFormBoundarybmxuiBRzAMMlvDBA
+
+  Content-Disposition: form-data; name="modelo"
+
+
+  {"idticket":21443,"causa":17,"resolveIncident":"2022-04-13 00:00:00","terminales":1,"imputable":3,"desc":"Prueba Api Cerrar Ticket","serviciosafectados":"Internet","elementosafectados":"Modem SCPC","subsistema":"Otros","resolve":1}
+
+  ------WebKitFormBoundarybmxuiBRzAMMlvDBA
+
+  Content-Disposition: form-data; name="file"
+
+
+
+  ------WebKitFormBoundarybmxuiBRzAMMlvDBA—
+
+
+  Output:
+
+  {"id":21443,"pinProblemId":5,"requestInformation":null,"contact_incidence":"USUARIO PRUEBA","timeCamp":"10","initIncident":"2022-04-12 17:33:32","resolveIncident":"2022-04-13 00:00:00","pinPriorityId":22,"description":"Ticket Prueba Api Create","includeFailureMassive":1,"sendTechnicalCamp":1,"mediaComunicationId":28,"typeContactId":11,"typeGroupId":530,"typeTicketId":8,"pin_causa_id":17,"desc_close":"Prueba Api Cerrar Ticket","dateClose":"2022-04-18 15:01:33","mStatusId":3,"file_name_devolution":null,"desc_devolution":null,"date_devolution":null,"id_area_creator":20,"id_area_current":14,"user_id_creator":2546,"user_id_current":null,"description_assignation":"Prueba Api Asignar Atenci\u00f3n","status":1,"updated_at":"2022-04-18 15:01:33","created_at":"2022-04-11 17:33:32","dataTree":"","derivativeNoc":1,"nivelNocId":507,"derivation_comment":null,"file_name_close":null,"dataComunication":"987654321","resolve":1,"createdByClient":0,"notification1":0,"notification2":0,"notification3":0,"notification4":0,"notification5":0,"notification6":0,"notification7":0,"notification8":0,"notification9":0,"pinTechnologyId":1,"gateway":null,"platform":"1","satellite":"1","durationIncident":null,"terminalsAffected":1,"relatedIndividualTicket":null,"clientname":null,"rcst":null,"statusevent":null,"historyOracle":0,"n1":"226","n2":"9700","n3":"0","sum_n_values":null,"subsistema":"Otros","proyectos":null,"servicios_afectados":"Internet","elementos_afectados":"Modem SCPC","pin_imputable_id":3,"nivelnoc":{"id":507,"typeId":36,"status":1,"detail":"N2","oracleId":0,"created_at":"2019-05-17 00:00:00","updated_at":"2019-05-17 00:00:00","description":"nivel noc"}}
+
+
+  Input Use:
+
+  // Datos del Usuario Creador
+
+  userId = user->id
+
+
+  idticket
+
+  imputable
+
+  desc
+
+  terminales
+
+  elementosafectados
+
+  causa
+
+  resolve
+
+  resolveIncident
+
+  serviciosafectados
+
+  subsistema
+
+
+
+  	Save – Usuario NOC:
+
+  Create Ticket:
+
+  mStatusId = 3
+
+  pin_imputable_id = imputable;
+
+  dateClose = date("Y-m-d H:i:s");
+
+  desc_close = desc;
+
+  file_name_close = $pathfile;
+
+  terminalsAffected = terminales;
+
+  elementos_afectados = elementosafectados;
+
+  pin_causa_id =  causa
+
+  resolve = 1
+
+  resolveIncident = resolveIncident
+
+  n1 = json_encode($data_time[0]['N1']);
+
+  n2 = json_encode($data_time[1]['N2']);
+
+  n3 = json_encode($data_time[2]['N3']);
+
+  servicios_afectados = serviciosafectados
+
+  subsistema = subsistema
+
+
+  •	Si no es usuario del NOC
+
+  resolveIncident = date("Y-m-d H:i:s")
+
+
+  Create TicketElement: // se utilizan los campos del input
+
+
+
+  Create PinTicketAdvance:
+
+  'ticketId' = id,
+
+  'typeAdvancedId' = 71 // tipo
+
+  'userId' = user->id,
+
+  'visible_customer' => 0,
+
+  'content' = desc,
+
+  'finished' = date("Y-m-d H:i:s"),
+
+  'ticket_level' = nivelnoc->detail
 method: POST
 body:
   mimeType: application/json
@@ -26,13 +143,14 @@ parameters: []
 headers:
   - id: pair_47484d7565ca4e698c460a3359c3115d
     name: token
-    value: OHVPZTlzVWhpWEFZdjVlb3dYYWNYaWp5c21pWDd2ZktBZWVwMWN6ZnQ1SEIwVUZIWkY5ZVRSZEpjOUpM6245c6c285cb4
+    value: "{% response 'body', 'req_11f61d413f46476cb2dd29361d4b5e4b',
+      'b64::JC5kYXRhLnNlc3Npb24udG9rZW4=::46b', 'never', 60 %}"
     description: ""
   - name: Content-Type
     value: application/json
     id: pair_dd4278e3f8464ed8a5ea7a61dade340d
 authentication: {}
-metaSortKey: -1648505018362
+metaSortKey: -1648505044564
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

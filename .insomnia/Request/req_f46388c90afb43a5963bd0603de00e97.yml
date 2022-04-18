@@ -1,7 +1,7 @@
 _id: req_f46388c90afb43a5963bd0603de00e97
 type: Request
 parentId: fld_41bd85fb10294628a24dfca157cf0321
-modified: 1649434763854
+modified: 1650295323385
 created: 1648855961623
 url: https://onpremise.bifrost.pe/api/IncidentApp/ListAdvanceTicket
 name: Info Lista Avance
@@ -19,7 +19,7 @@ headers:
     value: ZkY3aDlrWnEzcGpON0ljNno3UWNYNzBHNVRTUzFVOHV2UmU0ejMzTEtyRGo3TVdCTzduN2djZVh0TG9W6247880504a39
     description: ""
 authentication: {}
-metaSortKey: -1648505023523
+metaSortKey: -1649114170452
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true
