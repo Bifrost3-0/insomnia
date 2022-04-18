@@ -1,0 +1,21 @@
+_id: req_1246d697f22a4dfb93d9d5661c2d95d6
+type: Request
+parentId: fld_6ef856fc418d48bb92d9f97b23af6a74
+modified: 1649883643501
+created: 1649883060110
+url: "{{newbackend}}/api/listPreSale"
+name: Get PvContract
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1649883060110
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
