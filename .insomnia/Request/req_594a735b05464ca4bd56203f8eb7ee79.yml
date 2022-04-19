@@ -1,0 +1,39 @@
+_id: req_594a735b05464ca4bd56203f8eb7ee79
+type: Request
+parentId: fld_fce10bd045414ec2bd6c7cdd1c633bef
+modified: 1650375115029
+created: 1650331414007
+url: http://localhost:8000/api/IncidentApp/derivarTicketBifrost
+name: derivarTicketBifrost
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"userId": 2,
+    	"mStatusId": 2,
+    	"user_id_current": 1,
+    	"id_area_current": 1,
+    	"description_assignation": null,
+    	"nivelNocId": 507
+    }
+parameters: []
+headers:
+  - id: pair_0af1013252fa4947af1098eb20de2276
+    name: token
+    value: "{% response 'body', 'req_11f61d413f46476cb2dd29361d4b5e4b',
+      'b64::JC5kYXRhLnNlc3Npb24udG9rZW4=::46b', 'never', 60 %}"
+    description: ""
+  - name: Content-Type
+    value: application/json
+    id: pair_5569fc6fa248415a8324b8c82cbddae7
+authentication: {}
+metaSortKey: -1648505044570.25
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

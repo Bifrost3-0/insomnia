@@ -1,0 +1,40 @@
+_id: req_0de81d6f65e443ca9480be823bd08cf2
+type: Request
+parentId: fld_fce10bd045414ec2bd6c7cdd1c633bef
+modified: 1650375510430
+created: 1650372587588
+url: http://localhost:8000/api/IncidentApp/advanceTicketBifrost
+name: Solicitud de Archivos al Cliente
+description: ""
+method: POST
+body:
+  mimeType: multipart/form-data
+  params:
+    - name: modelo
+      value: '{	"userId": 2,	"ticketId": 1000,	"tdp": 1,	"requestInformation":
+        1,	"content": "Prueba Api Progreso",	"visible_customer": 1,	"timeCamp":
+        0,	"includeFailureMassive": 0,	"typeAdvancedId": 2,	"visible_customer":
+        0}'
+      id: pair_8c47d1b7848543b6b31a8b62b6e79edf
+      type: text
+      multiline: false
+      disabled: false
+parameters: []
+headers:
+  - id: pair_b1922e6e8c5740bab6e86e337b8dd18c
+    name: token
+    value: "{% response 'body', 'req_11f61d413f46476cb2dd29361d4b5e4b',
+      'b64::JC5kYXRhLnNlc3Npb24udG9rZW4=::46b', 'never', 60 %}"
+    description: ""
+  - name: Content-Type
+    value: multipart/form-data
+    id: pair_4c4712f8f254420f876469bcd859c6f9
+authentication: {}
+metaSortKey: -1648505044573.375
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

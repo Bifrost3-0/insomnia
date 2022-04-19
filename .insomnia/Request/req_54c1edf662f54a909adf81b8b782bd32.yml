@@ -1,7 +1,7 @@
 _id: req_54c1edf662f54a909adf81b8b782bd32
 type: Request
 parentId: fld_fce10bd045414ec2bd6c7cdd1c633bef
-modified: 1650295450380
+modified: 1650373346443
 created: 1648505028684
 url: "{{ bifrost_url }}/api/IncidentApp/getTicketSimple"
 name: Info Incidencia
@@ -11,7 +11,7 @@ body: {}
 parameters:
   - id: pair_a5714ee2abec427d9065921a5a5cf387
     name: id
-    value: "20271"
+    value: "1000"
     description: ""
 headers:
   - id: pair_b0472328c0ab4f8fa549d1efb48669d6

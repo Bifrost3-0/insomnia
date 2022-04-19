@@ -1,0 +1,38 @@
+_id: req_5385dab06974403a846867ecf05a89ee
+type: Request
+parentId: fld_fce10bd045414ec2bd6c7cdd1c633bef
+modified: 1650375563209
+created: 1650375562615
+url: http://localhost:8000/api/IncidentApp/stopClockTicketBifrost
+name: Quitar Parada
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"userId": 2,
+    	"ticketId": 1000,
+    	"estado": "PARADA",
+    	"mStatusId": 2,
+    	"initIncident": "2022-04-01 00:00:00",
+    	"sendTechnicalCamp": 0,
+    	"timeCamp": 0,
+    	"includeFailureMassive": 0,
+    	"typeAdvancedId": 2,
+    	"visible_customer": 0
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_c73454bbf65f47cba4882cebe91d97f8
+authentication: {}
+metaSortKey: -1648505044571.0312
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

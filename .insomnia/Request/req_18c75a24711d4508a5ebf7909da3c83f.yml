@@ -1,0 +1,43 @@
+_id: req_18c75a24711d4508a5ebf7909da3c83f
+type: Request
+parentId: fld_fce10bd045414ec2bd6c7cdd1c633bef
+modified: 1650375235834
+created: 1650331812071
+url: http://localhost:8000/api/IncidentApp/editTicketBifrost
+name: editTicketBifrost
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"userId": 2,
+    	"ticketId": 1000,
+    	"pinPriorityId": 516,
+    	"mStatusId": 2,
+    	"initIncident": "2022-04-01 00:00:00",
+    	"sendTechnicalCamp": 0,
+    	"timeCamp": 0,
+    	"includeFailureMassive": 0,
+    	"typeAdvancedId": 2,
+    	"visible_customer": 0
+    }
+parameters: []
+headers:
+  - id: pair_12db21173606400c8a1c23a229708306
+    name: token
+    value: "{% response 'body', 'req_11f61d413f46476cb2dd29361d4b5e4b',
+      'b64::JC5kYXRhLnNlc3Npb24udG9rZW4=::46b', 'never', 60 %}"
+    description: ""
+  - name: Content-Type
+    value: application/json
+    id: pair_2054fb5d1a08446e9d7acca897805919
+authentication: {}
+metaSortKey: -1648505044576.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

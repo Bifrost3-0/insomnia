@@ -1,11 +1,11 @@
 _id: req_5fab0d0b614042afbf9f9a9dd8b7aa05
 type: Request
 parentId: fld_fce10bd045414ec2bd6c7cdd1c633bef
-modified: 1650295215924
+modified: 1650373166398
 created: 1648505018362
 url: "{{ bifrost_url }}/api/IncidentApp/saveCerrarTicket"
 name: Cerrar Incidencia
-description: >
+description: >+
   https://onpremise.bifrost.pe/api/IncidentApp/saveCerrarTicket
 
 
@@ -68,7 +68,7 @@ description: >
 
   Create Ticket:
 
-  mStatusId = 3
+  mStatusId = 3 // CERRADO
 
   pin_imputable_id = imputable;
 
@@ -84,15 +84,15 @@ description: >
 
   pin_causa_id =  causa
 
-  resolve = 1
+  resolve = 1 
 
   resolveIncident = resolveIncident
 
-  n1 = json_encode($data_time[0]['N1']);
+  n1 = json_encode(data_time[0]['N1']) // Calcula Tiempo en N1 según el avance
 
-  n2 = json_encode($data_time[1]['N2']);
+  n2 = json_encode(data_time[1]['N2']) // Calcula Tiempo en N2 según el avance
 
-  n3 = json_encode($data_time[2]['N3']);
+  n3 = json_encode(data_time[2]['N3']) // Calcula Tiempo en N3 según el avance
 
   servicios_afectados = serviciosafectados
 
@@ -107,12 +107,11 @@ description: >
   Create TicketElement: // se utilizan los campos del input
 
 
-
   Create PinTicketAdvance:
 
   'ticketId' = id,
 
-  'typeAdvancedId' = 71 // tipo
+  'typeAdvancedId' = 71 // Cierre de ticket
 
   'userId' = user->id,
 
@@ -123,22 +122,25 @@ description: >
   'finished' = date("Y-m-d H:i:s"),
 
   'ticket_level' = nivelnoc->detail
+
+
 method: POST
 body:
-  mimeType: application/json
-  text: |-
-    {
-    	"idticket": 21299,
-    	"causa": 17,
-    	"resolveIncident": "2022-03-31 00:00:00",
-    	"terminales": 1,
-    	"imputable": 3,
-    	"desc": "Api ",
-    	"serviciosafectados": "Otro",
-    	"elementosafectados": "Otro",
-    	"subsistema": "Otros",
-    	"resolve": 0
-    }
+  mimeType: multipart/form-data
+  params:
+    - name: modelo
+      value: '{	"idticket": 21299,	"causa": 17,	"resolveIncident": "2022-03-31
+        00:00:00",	"terminales": 1,	"imputable": 3,	"desc": "Api
+        ",	"serviciosafectados": "Otro",	"elementosafectados":
+        "Otro",	"subsistema": "Otros",	"resolve": 0}'
+      id: pair_5dc3d10cd9334de2b00caf9d324c8c98
+    - id: pair_530769559baa4fb590f55ae8c319a99a
+      name: file
+      value: ""
+      description: ""
+      type: file
+      multiline: null
+      fileName: C:\Users\Computadora\Downloads\pruebaAisa.csv
 parameters: []
 headers:
   - id: pair_47484d7565ca4e698c460a3359c3115d
@@ -147,7 +149,7 @@ headers:
       'b64::JC5kYXRhLnNlc3Npb24udG9rZW4=::46b', 'never', 60 %}"
     description: ""
   - name: Content-Type
-    value: application/json
+    value: multipart/form-data
     id: pair_dd4278e3f8464ed8a5ea7a61dade340d
 authentication: {}
 metaSortKey: -1648505044564

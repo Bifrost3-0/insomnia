@@ -1,7 +1,7 @@
 _id: env_df90a7fa52934f96b0365eaa229ac38b
 type: Environment
 parentId: env_467191896fbc186b33676805d502008f55dc9848
-modified: 1649883072993
+modified: 1650331482751
 created: 1628562870178
 name: Production Proxy Bifrost
 data:
@@ -41,4 +41,4 @@ dataPropertyOrder:
     - token_login
 color: "#50fb56"
 isPrivate: false
-metaSortKey: 1
+metaSortKey: 3

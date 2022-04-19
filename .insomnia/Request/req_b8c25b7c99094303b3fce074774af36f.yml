@@ -1,11 +1,184 @@
 _id: req_b8c25b7c99094303b3fce074774af36f
 type: Request
 parentId: fld_fce10bd045414ec2bd6c7cdd1c633bef
-modified: 1650295211873
+modified: 1650375186126
 created: 1648504962876
 url: "{{ bifrost_url }}/api/IncidentApp/saveTicket"
 name: Crear Incidencia
-description: ""
+description: >+
+  https://onpremise.bifrost.pe/api/IncidentApp/saveTicket
+
+
+  Create Ticket
+
+
+  Input:
+
+  {"form":{"nameCliente":"","prioridad":"20","tipocontacto":11,"contactoincidencia":"USUARIO PRUEBA","problema":5,"customer_name":"MOVISTAR CHILE","nombrecontacto":"USUARIO PRUEBA PRUEBA","comunicacion":28,"numerocontacto":"987654321","impacto":"24","urgencia":"17","desc":"Ticket Prueba Api Create"},"terminal":{"id":7292,"platformId":1,"siteId":"1600011200","nameplatform":"Hughes","customername":"USUARIO PRUEBA PRUEBA","customercode":1600011200,"statusname":"critical","sateliteId":1,"tecnologianame":"KA","esn":"10549097","vnoId":54,"vnoname":"MOVISTAR CHILE","tecnologiaid":1},"optionselected":""}
+
+
+  Output:
+
+  "email success"
+
+  Func: sendNotify // las notificaciones están desabilitadas
+
+
+  Input Use:
+
+  optionselected = “” // árbol de decisión
+
+
+  // Datos del Usuario Creador
+
+  dataUser->areaId //id_area_creator, id_area_current
+
+  dataUser->id //user_id_creator, user_id_current
+
+
+  // Datos de la terminal 
+
+  terminal[id] // terminalId
+
+  idvno = terminal[vnoId] // vnoId
+
+  idsubvno = terminal[subVnoId] // subVnoId
+
+  terminal[platformId] // platform
+
+  terminal[sateliteId] // sateliteId
+
+  terminal[tecnologiaid] // pinTechnologyId
+
+
+  // Datos Formulario
+
+  form[problema] // pinProblemId
+
+  form[desc] // description
+
+  form[comunicacion] // mediaComunicationId
+
+  form[numerocontacto] // dataComunication
+
+  form[tipocontacto] // typeContactId
+
+  form[prioridad] // pinPriorityId	
+
+  form[contactoincidencia] // contact_incidence
+
+
+  	Save – Usuario NOC:
+
+  Create Ticket:
+
+  typeGroupId = 530 // simple-masivo
+
+  nivelNocId = 506 // N1
+
+  typeTicketId = 127 // Incidencia
+
+  mStatusId = 2 // EN CURSO
+
+  dataTree = “” // Con el usuario NOC no se selecciona el Tree
+
+  derivativeNoc = 1 // si
+
+  initIncident = date("Y-m-d H:i:s") // Inicio Incidencia - Fecha Actual
+
+  createdByClient = 0 // no
+
+  form['prioridad']
+
+
+  Create TicketElement: // se utilizan los campos del input
+
+
+  Create PinTicketAdvance:
+
+  typeAdvancedId = 69 // Registro de ticket
+
+  visible_customer = 1 // si
+
+  ticket_level = 'N1' // nivel en texto
+
+
+  	Save – Cliente:
+
+  Create Ticket:
+
+  typeGroupId = 530 // simple-masivo
+
+  nivelNocId = 524 // Cliente
+
+  typeTicketId = 7 // Atención
+
+  mStatusId = 1 // NUEVO
+
+  dataTree // Con el usuario Cliente si se selecciona el Tree
+
+  derivativeNoc = 0 // no
+
+  initIncident = date("Y-m-d H:i:s") // Inicio Incidencia - Fecha Actual
+
+  createdByClient = 1 // si
+
+  form['prioridad'] = 527 // si lo creo el cliente es de prioridad “No definido”
+
+
+  Create TicketElement: // se utilizan los campos del input
+
+
+  Create PinTicketAdvance:
+
+  typeAdvancedId = 69 // Registro de ticket
+
+  visible_customer = 1 // si
+
+  ticket_level = 'Cliente' // nivel en texto
+
+
+
+  // Diferencia
+
+  // Usuario NOC
+
+  createdByClient = 0;
+
+  typeTicketId = 127;
+
+  nivelNocId = 506;
+
+  ticket_level = N1;
+
+  derivativeNoc = 1;
+
+  mStatusId = 2;
+
+  treetexto // Con el usuario NOC no se selecciona el Tree
+
+  form['prioridad']
+
+
+  // Cliente
+
+  createdByClient = 1;
+
+  typeTicketId = 7
+
+  nivelNocId = 524
+
+  ticket_level = 'Cliente';
+
+  derivativeNoc = 0;
+
+  mStatusId = 1;
+
+  treetexto // Dato del árbol seleccionado
+
+  form['prioridad'] = 527 // si lo creo el cliente es de prioridad “No definido”
+
+
 method: POST
 body:
   mimeType: application/json
