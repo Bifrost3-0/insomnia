@@ -1,7 +1,7 @@
 _id: req_11f61d413f46476cb2dd29361d4b5e4b
 type: Request
 parentId: fld_e3cf468229924462b30bbd34e3e0e9d4
-modified: 1650372926672
+modified: 1650403375940
 created: 1650293519044
 url: "{{ bifrost_url }}/api/AdministrationApp/login"
 name: Login Bifrost
@@ -10,7 +10,7 @@ method: POST
 body:
   mimeType: application/json
   text: |
-    {"username":"julio_hlr@hotmail.com","password":"enero2021","tipo":"user"}
+    {"username":"remedy@hotmail.com","password":"enero2021","tipo":"user"}
 parameters:
   - id: pair_ecfe708b65e94bf0898af9a007fb5500
     name: ""

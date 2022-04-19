@@ -1,9 +1,9 @@
 _id: req_ab49a3a35c314361b67404e174444266
 type: Request
 parentId: fld_fce10bd045414ec2bd6c7cdd1c633bef
-modified: 1650375837420
+modified: 1650403426746
 created: 1650373569982
-url: http://localhost:8000/api/IncidentApp/stopClockTicketBifrost
+url: "{{ bifrost_url }}/api/IncidentApp/stopClockTicketBifrost"
 name: Iniciar Parada
 description: ""
 method: POST
@@ -11,22 +11,21 @@ body:
   mimeType: application/json
   text: |-
     {
+    	"userCode": 1,
     	"userId": 2,
     	"ticketId": 1000,
-    	"estado": "PARADA",
-    	"mStatusId": 2,
-    	"initIncident": "2022-04-01 00:00:00",
-    	"sendTechnicalCamp": 0,
-    	"timeCamp": 0,
-    	"includeFailureMassive": 0,
-    	"typeAdvancedId": 2,
-    	"visible_customer": 0
+    	"estado": null
     }
 parameters: []
 headers:
   - name: Content-Type
     value: application/json
     id: pair_c73454bbf65f47cba4882cebe91d97f8
+  - id: pair_3bec8385f4114b089836c4b840819b58
+    name: token
+    value: "{% response 'body', 'req_11f61d413f46476cb2dd29361d4b5e4b',
+      'b64::JC5kYXRhLnNlc3Npb24udG9rZW4=::46b', 'never', 60 %}"
+    description: ""
 authentication: {}
 metaSortKey: -1648505044571.8125
 isPrivate: false

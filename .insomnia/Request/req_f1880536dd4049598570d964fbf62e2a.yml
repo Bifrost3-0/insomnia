@@ -1,9 +1,9 @@
 _id: req_f1880536dd4049598570d964fbf62e2a
 type: Request
 parentId: fld_fce10bd045414ec2bd6c7cdd1c633bef
-modified: 1650375913992
+modified: 1650403402375
 created: 1650375419586
-url: http://localhost:8000/api/IncidentApp/advanceTicketBifrost
+url: "{{ bifrost_url }}/api/IncidentApp/advanceTicketBifrost"
 name: Solicitud de Archivos al Cliente - Respuesta
 description: |
   Colocar TDP = 0 para la respuesta del Cliente
@@ -12,8 +12,9 @@ body:
   mimeType: multipart/form-data
   params:
     - name: modelo
-      value: '{	"userId": 2,	"ticketId": 1000,	"tdp": 0,	"requestInformation":
-        1,	"content": "Prueba Api Progreso",	"visible_customer": 1,	"timeCamp":
+      value: '{	"userCode": 1,	"userId": 2,	"ticketId": 1000,	"tdp":
+        0,	"requestInformation": 1,	"content": "Prueba Api
+        Progreso",	"visible_customer": 1,	"timeCamp":
         0,	"includeFailureMassive": 0,	"typeAdvancedId": 2,	"visible_customer":
         0}'
       id: pair_8c47d1b7848543b6b31a8b62b6e79edf
