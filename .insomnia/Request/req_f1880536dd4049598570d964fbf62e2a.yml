@@ -1,11 +1,12 @@
 _id: req_f1880536dd4049598570d964fbf62e2a
 type: Request
 parentId: fld_fce10bd045414ec2bd6c7cdd1c633bef
-modified: 1650375515359
+modified: 1650375913992
 created: 1650375419586
 url: http://localhost:8000/api/IncidentApp/advanceTicketBifrost
 name: Solicitud de Archivos al Cliente - Respuesta
-description: ""
+description: |
+  Colocar TDP = 0 para la respuesta del Cliente
 method: POST
 body:
   mimeType: multipart/form-data
