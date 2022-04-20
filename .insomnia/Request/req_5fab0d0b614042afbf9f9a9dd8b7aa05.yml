@@ -141,7 +141,6 @@ body:
       value: ""
       description: ""
       type: file
-      multiline: null
       fileName: C:\Users\Computadora\Downloads\pruebaAisa.csv
 parameters: []
 headers:
