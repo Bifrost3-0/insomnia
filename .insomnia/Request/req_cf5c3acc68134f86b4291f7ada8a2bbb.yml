@@ -1,18 +1,16 @@
 _id: req_cf5c3acc68134f86b4291f7ada8a2bbb
 type: Request
 parentId: fld_21d91af9f1dc427aae1267ecd117c76b
-modified: 1650404774767
+modified: 1650544973440
 created: 1650376951669
 url: "{{ bifrost_url }}/api/IncidentApp/saveRemedy"
 name: saveRemedy
-description: ""
+description: "\n\n\n"
 method: POST
 body:
   mimeType: application/json
-  text: |-
+  text: |
     {
-    	"userCode": 1,
-    	"userId": 2,
     	"ticketId": 1000,
     	"remedy_code": 516,
     	"date_register": "2022-04-01 00:00:00",

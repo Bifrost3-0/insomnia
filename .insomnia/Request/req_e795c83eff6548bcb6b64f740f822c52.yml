@@ -1,21 +1,43 @@
 _id: req_e795c83eff6548bcb6b64f740f822c52
 type: Request
 parentId: fld_fce10bd045414ec2bd6c7cdd1c633bef
-modified: 1650408306079
+modified: 1650501980582
 created: 1650378000753
 url: "{{ bifrost_url }}/api/IncidentApp/resolveTicketBifrost"
 name: resolveTicketBifrost
 description: ""
 method: POST
 body:
-  mimeType: application/json
-  text: |-
-    {
-    	"userCode": 1,
-    	"userId": 2,
-    	"ticketId": 1000,
-    	"resolveIncident": "2022-04-11 00:00:00"
-    }
+  mimeType: multipart/form-data
+  params:
+    - id: pair_cd5aa15f6d4c434181da8d57bc332dc2
+      name: modelo
+      value: |-
+        {
+        	"ticketId": 1000,
+        	"imputable": 3,
+        	"causa": 17,
+        	"serviciosafectados": "Otro",
+        	"elementosafectados": "Otro",
+        	"subsistema": "Otros",
+        	"terminales": 1,
+        	"desc": "Prueba Api ",
+        	"resolveIncident": "2022-03-31 00:00:00",
+        	
+        	"date_register": "2022-04-01 00:00:00",
+        	"userEmail": "user@email.com",
+        	"userData": "json(fullname,user,area,etc)"
+        }
+      description: ""
+      type: text
+      multiline: application/json
+    - id: pair_6af2eefe41e448cc8a8f6013e2fe1529
+      name: file
+      value: ""
+      description: ""
+      type: file
+      multiline: null
+      fileName: C:\Users\Computadora\Downloads\Prueba Aissa.docx
 parameters: []
 headers:
   - id: pair_78245cc00eba42ca86f5de1ad4ff5d73
@@ -24,7 +46,7 @@ headers:
       'b64::JC5kYXRhLnNlc3Npb24udG9rZW4=::46b', 'never', 60 %}"
     description: ""
   - name: Content-Type
-    value: application/json
+    value: multipart/form-data
     id: pair_96c7b70b34fc4141b39ba3c4ba8eb523
 authentication: {}
 metaSortKey: -1648505044567.125

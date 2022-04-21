@@ -1,11 +1,11 @@
 _id: req_5fab0d0b614042afbf9f9a9dd8b7aa05
 type: Request
 parentId: fld_fce10bd045414ec2bd6c7cdd1c633bef
-modified: 1650403613107
+modified: 1650501984643
 created: 1648505018362
 url: "{{ bifrost_url }}/api/IncidentApp/saveCerrarTicket"
 name: Cerrar Incidencia
-description: >+
+description: >-
   https://onpremise.bifrost.pe/api/IncidentApp/saveCerrarTicket
 
 
@@ -124,18 +124,38 @@ description: >+
   'ticket_level' = nivelnoc->detail
 
 
+
+  Nota:
+
+  "resolve": 0 // No esta resuelto, se puede editar fecha resolución (resolveIncident)
+
+  "resolve": 1 // Si esta resuelto, no se puede editar fecha resolución (resolveIncident)
 method: POST
 body:
   mimeType: multipart/form-data
   params:
     - name: modelo
-      value: '{	"userCode": 1,	"idticket": 21299,	"causa": 17,	"resolveIncident":
-        "2022-03-31 00:00:00",	"terminales": 1,	"imputable": 3,	"desc": "Api
-        ",	"serviciosafectados": "Otro",	"elementosafectados":
-        "Otro",	"subsistema": "Otros",	"resolve": 0}'
+      value: |-
+        {
+        	"idticket": 21299,
+        	"imputable": 3,
+        	"causa": 17,
+        	"serviciosafectados": "Otro",
+        	"elementosafectados": "Otro",
+        	"subsistema": "Otros",
+        	"terminales": 1,
+        	"desc": "Prueba Api ",
+        	"resolveIncident": "2022-03-31 00:00:00",
+        	"closeIncident": "2022-03-31 01:00:00",
+        	"resolve": 0,
+        	
+        	"date_register": "2022-04-01 00:00:00",
+        	"userEmail": "user@email.com",
+        	"userData": "json(fullname,user,area,etc)"
+        }
       id: pair_5dc3d10cd9334de2b00caf9d324c8c98
       type: text
-      multiline: false
+      multiline: application/json
     - id: pair_530769559baa4fb590f55ae8c319a99a
       name: file
       value: ""

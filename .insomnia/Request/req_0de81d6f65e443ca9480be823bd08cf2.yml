@@ -1,7 +1,7 @@
 _id: req_0de81d6f65e443ca9480be823bd08cf2
 type: Request
 parentId: fld_fce10bd045414ec2bd6c7cdd1c633bef
-modified: 1650408170930
+modified: 1650501968861
 created: 1650372587588
 url: "{{ bifrost_url }}/api/IncidentApp/advanceTicketBifrost"
 name: Solicitud de Archivos al Cliente
@@ -12,13 +12,24 @@ body:
   mimeType: multipart/form-data
   params:
     - name: modelo
-      value: '{	"userCode": 1,	"userId": 2,	"ticketId": 1000,	"tdp":
-        1,	"requestInformation": 1,	"content": "Prueba Api
-        Progreso",	"visible_customer": 1,	"timeCamp":
-        0,	"includeFailureMassive": 0,	"typeAdvancedId": 2 }'
+      value: |-
+        {
+        	"ticketId": 1000,
+        	"requestInformation": 1,
+        	"tdp": 1,
+        	"content": "Prueba Api Progreso",
+        	"visible_customer": 1,
+        	"timeCamp": 0,
+        	"includeFailureMassive": 0,
+        	"typeAdvancedId": 2,
+        	
+        	"date_register": "2022-04-01 00:00:00",
+        	"userEmail": "user@email.com",
+        	"userData": "json(fullname,user,area,etc)"
+        }
       id: pair_8c47d1b7848543b6b31a8b62b6e79edf
       type: text
-      multiline: false
+      multiline: application/json
       disabled: false
 parameters: []
 headers:

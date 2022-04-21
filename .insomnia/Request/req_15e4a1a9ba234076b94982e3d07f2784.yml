@@ -1,22 +1,22 @@
-_id: req_f1880536dd4049598570d964fbf62e2a
+_id: req_15e4a1a9ba234076b94982e3d07f2784
 type: Request
 parentId: fld_fce10bd045414ec2bd6c7cdd1c633bef
-modified: 1650501972368
-created: 1650375419586
+modified: 1650501965147
+created: 1650498487621
 url: "{{ bifrost_url }}/api/IncidentApp/advanceTicketBifrost"
-name: Solicitud de Archivos al Cliente - Respuesta
+name: Solicitud Registro Avance
 description: |
-  Colocar TDP = 0 para la respuesta del Cliente
+  Colocar TDP = 1 para indicar que se solicita al Cliente Información
 method: POST
 body:
   mimeType: multipart/form-data
   params:
     - name: modelo
-      value: |
+      value: |-
         {
         	"ticketId": 1000,
-        	"requestInformation": 1,
-        	"tdp": 0,
+        	"requestInformation": 0,
+        	"tdp": 1,
         	"content": "Prueba Api Progreso",
         	"visible_customer": 1,
         	"timeCamp": 0,
@@ -31,12 +31,6 @@ body:
       type: text
       multiline: application/json
       disabled: false
-    - id: pair_fdba1458b49746e592cd64a107e79953
-      name: file
-      value: ""
-      description: ""
-      type: file
-      fileName: C:\Users\Computadora\Downloads\pruebaAisa.csv
 parameters: []
 headers:
   - id: pair_b1922e6e8c5740bab6e86e337b8dd18c
@@ -48,7 +42,7 @@ headers:
     value: multipart/form-data
     id: pair_4c4712f8f254420f876469bcd859c6f9
 authentication: {}
-metaSortKey: -1648505044572.5938
+metaSortKey: -1648505044574.9375
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true
