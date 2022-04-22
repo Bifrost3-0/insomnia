@@ -1,135 +1,11 @@
 _id: req_5fab0d0b614042afbf9f9a9dd8b7aa05
 type: Request
 parentId: fld_fce10bd045414ec2bd6c7cdd1c633bef
-modified: 1650647866125
+modified: 1650655656333
 created: 1648505018362
-url: "{{ bifrost_url }}/api/IncidentApp/saveCerrarTicket"
+url: "{{ bifrost_url }}/api/IncidentApp/resolveTicketBifrost"
 name: Cerrar Incidencia
-description: >-
-  https://onpremise.bifrost.pe/api/IncidentApp/saveCerrarTicket
-
-
-  Close Ticket
-
-
-  Input:
-
-  ------WebKitFormBoundarybmxuiBRzAMMlvDBA
-
-  Content-Disposition: form-data; name="modelo"
-
-
-  {"idticket":21443,"causa":17,"resolveIncident":"2022-04-13 00:00:00","terminales":1,"imputable":3,"desc":"Prueba Api Cerrar Ticket","serviciosafectados":"Internet","elementosafectados":"Modem SCPC","subsistema":"Otros","resolve":1}
-
-  ------WebKitFormBoundarybmxuiBRzAMMlvDBA
-
-  Content-Disposition: form-data; name="file"
-
-
-
-  ------WebKitFormBoundarybmxuiBRzAMMlvDBA—
-
-
-  Output:
-
-  {"id":21443,"pinProblemId":5,"requestInformation":null,"contact_incidence":"USUARIO PRUEBA","timeCamp":"10","initIncident":"2022-04-12 17:33:32","resolveIncident":"2022-04-13 00:00:00","pinPriorityId":22,"description":"Ticket Prueba Api Create","includeFailureMassive":1,"sendTechnicalCamp":1,"mediaComunicationId":28,"typeContactId":11,"typeGroupId":530,"typeTicketId":8,"pin_causa_id":17,"desc_close":"Prueba Api Cerrar Ticket","dateClose":"2022-04-18 15:01:33","mStatusId":3,"file_name_devolution":null,"desc_devolution":null,"date_devolution":null,"id_area_creator":20,"id_area_current":14,"user_id_creator":2546,"user_id_current":null,"description_assignation":"Prueba Api Asignar Atenci\u00f3n","status":1,"updated_at":"2022-04-18 15:01:33","created_at":"2022-04-11 17:33:32","dataTree":"","derivativeNoc":1,"nivelNocId":507,"derivation_comment":null,"file_name_close":null,"dataComunication":"987654321","resolve":1,"createdByClient":0,"notification1":0,"notification2":0,"notification3":0,"notification4":0,"notification5":0,"notification6":0,"notification7":0,"notification8":0,"notification9":0,"pinTechnologyId":1,"gateway":null,"platform":"1","satellite":"1","durationIncident":null,"terminalsAffected":1,"relatedIndividualTicket":null,"clientname":null,"rcst":null,"statusevent":null,"historyOracle":0,"n1":"226","n2":"9700","n3":"0","sum_n_values":null,"subsistema":"Otros","proyectos":null,"servicios_afectados":"Internet","elementos_afectados":"Modem SCPC","pin_imputable_id":3,"nivelnoc":{"id":507,"typeId":36,"status":1,"detail":"N2","oracleId":0,"created_at":"2019-05-17 00:00:00","updated_at":"2019-05-17 00:00:00","description":"nivel noc"}}
-
-
-  Input Use:
-
-  // Datos del Usuario Creador
-
-  userId = user->id
-
-
-  idticket
-
-  imputable
-
-  desc
-
-  terminales
-
-  elementosafectados
-
-  causa
-
-  resolve
-
-  resolveIncident
-
-  serviciosafectados
-
-  subsistema
-
-
-
-  	Save – Usuario NOC:
-
-  Create Ticket:
-
-  mStatusId = 3 // CERRADO
-
-  pin_imputable_id = imputable;
-
-  dateClose = date("Y-m-d H:i:s");
-
-  desc_close = desc;
-
-  file_name_close = $pathfile;
-
-  terminalsAffected = terminales;
-
-  elementos_afectados = elementosafectados;
-
-  pin_causa_id =  causa
-
-  resolve = 1 
-
-  resolveIncident = resolveIncident
-
-  n1 = json_encode(data_time[0]['N1']) // Calcula Tiempo en N1 según el avance
-
-  n2 = json_encode(data_time[1]['N2']) // Calcula Tiempo en N2 según el avance
-
-  n3 = json_encode(data_time[2]['N3']) // Calcula Tiempo en N3 según el avance
-
-  servicios_afectados = serviciosafectados
-
-  subsistema = subsistema
-
-
-  •	Si no es usuario del NOC
-
-  resolveIncident = date("Y-m-d H:i:s")
-
-
-  Create TicketElement: // se utilizan los campos del input
-
-
-  Create PinTicketAdvance:
-
-  'ticketId' = id,
-
-  'typeAdvancedId' = 71 // Cierre de ticket
-
-  'userId' = user->id,
-
-  'visible_customer' => 0,
-
-  'content' = desc,
-
-  'finished' = date("Y-m-d H:i:s"),
-
-  'ticket_level' = nivelnoc->detail
-
-
-
-  Nota:
-
-  "resolve": 0 // No esta resuelto, se puede editar fecha resolución (resolveIncident)
-
-  "resolve": 1 // Si esta resuelto, no se puede editar fecha resolución (resolveIncident)
+description: ""
 method: POST
 body:
   mimeType: multipart/form-data
@@ -138,14 +14,6 @@ body:
       value: |-
         {
         	"idticket": 21299,
-        	"imputable": 3,
-        	"causa": 17,
-        	"serviciosafectados": "Otro",
-        	"elementosafectados": "Otro",
-        	"subsistema": "Otros",
-        	"terminalsAffected": 1,
-        	"desc": "Prueba Api ",
-        	"resolveIncident": "2022-03-31 00:00:00",
         	"closeIncident": "2022-03-31 01:00:00",
         	
         	"date_register": "2022-04-01 00:00:00",

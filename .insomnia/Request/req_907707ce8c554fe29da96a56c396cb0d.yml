@@ -1,102 +1,11 @@
 _id: req_907707ce8c554fe29da96a56c396cb0d
 type: Request
 parentId: fld_fce10bd045414ec2bd6c7cdd1c633bef
-modified: 1650647725584
+modified: 1650655618309
 created: 1649441147529
 url: "{{ bifrost_url }}/api/IncidentApp/saveTicketMasivo2"
 name: Crear Incidencia Masiva
-description: >+
-  Input:
-
-  {"clientefront":"","ticket":"T0021105","planes":[],"duracion":60,"tecnologia":1,"plataforma":1,"gateway":1,"satelite":1,"problema":7,"inicio":"2022-04-08 00:00:00","resolucion":"2022-04-09 00:00:00","rcst":"Prueba Api Masivo Create","desc":"Prueba Api Masivo Create","detalle":"Prueba Api Masivo Create","cliente":[],"data":[{"servicio":true,"id":"B=1|V=2|S=2","servicePlanId":2,"vnoId":2,"beamId":1,"label":"VIVO_SAO_2M_0.256M_10GB_10GB"},{"servicio":true,"id":"B=1|V=2|S=5","servicePlanId":5,"vnoId":2,"beamId":1,"label":"VIVO_SAO_12M_3M_60GB_60GB"}],"serviceplan":[{"servicio":true,"id":"B=1|V=2|S=2","servicePlanId":2,"vnoId":2,"beamId":1,"label":"VIVO_SAO_2M_0.256M_10GB_10GB"},{"servicio":true,"id":"B=1|V=2|S=5","servicePlanId":5,"vnoId":2,"beamId":1,"label":"VIVO_SAO_12M_3M_60GB_60GB"}],"servicePlanIds":[2,5]}
-
-
-  Output:
-
-  {"pinProblemId":7,"description":"Prueba Api Masivo Create","mediaComunicationId":0,"id_area_creator":20,"id_area_current":20,"user_id_creator":2546,"user_id_current":2546,"typeGroupId":529,"nivelNocId":506,"typeTicketId":127,"status":1,"pinPriorityId":23,"pinTechnologyId":1,"mStatusId":2,"derivativeNoc":1,"initIncident":"2022-04-08 00:00:00","createdByClient":0,"resolve":1,"resolveIncident":"2022-04-09 00:00:00","gateway":1,"platform":1,"satellite":1,"durationIncident":60,"terminalsAffected":2,"relatedIndividualTicket":"T0021105","clientname":"[]","rcst":"Prueba Api Masivo Create","statusevent":null,"updated_at":"2022-04-08 18:05:12","created_at":"2022-04-08 18:05:12","id":21413}
-
-
-  Input Use:
-
-  dataUser->areaId //id_area_creator, id_area_current
-
-  dataUser->id //user_id_creator, user_id_current
-
-  inicio //initIncident
-
-  resolucion //resolveIncident
-
-  problema //pinProblemId
-
-  description
-
-  medio //mediaComunicationId - no se usa
-
-  tecnologia //pinTechnologyId
-
-  gateway
-
-  plataforma
-
-  satelite
-
-  duracion //durationIncident
-
-  count(dataTerminales) //terminalsAffected
-
-  ticket //relatedIndividualTicket
-
-  cliente //clientname ["VIVO","FONELIGHT","OKSAT"]
-
-  rcst
-
-  statusevento
-
-  servicePlans // [{"servicio":true,"id":"B=1|V=2|S=2","servicePlanId":2,"vnoId":2,"beamId":1,"label":"VIVO_SAO_2M_0.256M_10GB_10GB"},{"servicio":true,"id":"B=1|V=2|S=5","servicePlanId":5,"vnoId":2,"beamId":1,"label":"VIVO_SAO_12M_3M_60GB_60GB"}]
-
-  servicePlanIds // [2,5]
-
-
-
-  Variables:
-
-  priority = 23 //pinPriorityId
-
-  createdbyclient = 0
-
-  tipo = 127 //typeTicketId
-
-  nivel = 506 //nivelNocId
-
-  niveltext = 'N1'
-
-  derivado = 1
-
-  estado = 2;
-
-  resolve = 0;
-
-
-  Crea Ticket
-
-  typeGroupId = 529
-
-
-  Crea TicketElement
-
-  vnoId = 142
-
-
-  Crea PinTicketAdvance
-
-  typeAdvancedId = 69
-
-  visible_customer = 1
-
-
-
-
-
+description: ""
 method: POST
 body:
   mimeType: application/json

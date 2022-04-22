@@ -1,12 +1,11 @@
 _id: req_15e4a1a9ba234076b94982e3d07f2784
 type: Request
 parentId: fld_fce10bd045414ec2bd6c7cdd1c633bef
-modified: 1650647751307
+modified: 1650655636914
 created: 1650498487621
 url: "{{ bifrost_url }}/api/IncidentApp/advanceTicketBifrost"
 name: Solicitud Registro Avance
-description: |
-  Colocar TDP = 1 para indicar que se solicita al Cliente Información
+description: ""
 method: POST
 body:
   mimeType: multipart/form-data
@@ -16,7 +15,8 @@ body:
         {
         	"ticketId": 1000,
         	"requestInformation": 0,
-        	"content": "Prueba Api Progreso",
+        	"description": "Prueba Api Progreso",
+        	"visible_customer": 0,
         	
         	"date_register": "2022-04-01 00:00:00",
         	"userEmail": "user@email.com",

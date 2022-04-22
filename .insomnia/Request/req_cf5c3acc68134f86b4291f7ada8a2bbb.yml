@@ -1,11 +1,11 @@
 _id: req_cf5c3acc68134f86b4291f7ada8a2bbb
 type: Request
 parentId: fld_21d91af9f1dc427aae1267ecd117c76b
-modified: 1650647685832
+modified: 1650655591774
 created: 1650376951669
 url: "{{ bifrost_url }}/api/IncidentApp/saveRemedy"
 name: saveRemedy
-description: "\n\n\n"
+description: ""
 method: POST
 body:
   mimeType: application/json
@@ -13,11 +13,10 @@ body:
     {
     	"ticketId": 1000,
     	"incidentNumber": 516,
-    	"ticketType": "Incident",
-    	"source": null,
-    	"reportedDate": "2022-04-15 00:00:00",
-    	"parentTicket": null,
     	"additionalData": null,
+    	
+    	"ticketType": "Incident",
+    	"areaAsigned": "",
     	
     	"date_register": "2022-04-01 00:00:00"
     }

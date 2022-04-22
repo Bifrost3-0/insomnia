@@ -1,12 +1,11 @@
 _id: req_0de81d6f65e443ca9480be823bd08cf2
 type: Request
 parentId: fld_fce10bd045414ec2bd6c7cdd1c633bef
-modified: 1650647780247
+modified: 1650655641837
 created: 1650372587588
 url: "{{ bifrost_url }}/api/IncidentApp/advanceTicketBifrost"
 name: Solicitud de Archivos al Cliente
-description: |
-  Colocar TDP = 1 para indicar que se solicita al Cliente Información
+description: ""
 method: POST
 body:
   mimeType: multipart/form-data
@@ -16,7 +15,7 @@ body:
         {
         	"ticketId": 1000,
         	"requestInformation": 1,
-        	"content": "Prueba Api Progreso",
+        	"description": "Prueba Api Progreso",
         	
         	"date_register": "2022-04-01 00:00:00",
         	"userEmail": "user@email.com",

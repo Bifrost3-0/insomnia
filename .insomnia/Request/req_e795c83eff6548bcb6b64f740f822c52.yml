@@ -1,7 +1,7 @@
 _id: req_e795c83eff6548bcb6b64f740f822c52
 type: Request
 parentId: fld_fce10bd045414ec2bd6c7cdd1c633bef
-modified: 1650647855808
+modified: 1650655649414
 created: 1650378000753
 url: "{{ bifrost_url }}/api/IncidentApp/resolveTicketBifrost"
 name: resolveTicketBifrost
@@ -17,8 +17,8 @@ body:
         	"ticketId": 1000,
         	"imputable": 3,
         	"causa": 17,
-        	"serviciosafectados": "Otro",
-        	"elementosafectados": "Otro",
+        	"servicios_afectados": "Otro",
+        	"elementos_afectados": "Otro",
         	"subsistema": "Otros",
         	"terminales": 1,
         	"desc": "Prueba Api ",
