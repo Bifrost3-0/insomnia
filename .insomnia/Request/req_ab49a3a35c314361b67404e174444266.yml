@@ -1,7 +1,7 @@
 _id: req_ab49a3a35c314361b67404e174444266
 type: Request
 parentId: fld_fce10bd045414ec2bd6c7cdd1c633bef
-modified: 1650501974903
+modified: 1650647770179
 created: 1650373569982
 url: "{{ bifrost_url }}/api/IncidentApp/stopClockTicketBifrost"
 name: Iniciar Parada
@@ -12,10 +12,11 @@ body:
   text: |-
     {
     	"ticketId": 1000,
+    	"descripción": "Descripcion: Ticket Prueba Api.",
     	
     	"date_register": "2022-04-01 00:00:00",
     	"userEmail": "user@email.com",
-    	"userData": "json(fullname,user,area,etc)"
+    	"userData": "json(fullname,user,email,area,etc)"
     }
 parameters: []
 headers:
