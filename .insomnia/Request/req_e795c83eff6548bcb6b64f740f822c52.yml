@@ -1,7 +1,7 @@
 _id: req_e795c83eff6548bcb6b64f740f822c52
 type: Request
 parentId: fld_fce10bd045414ec2bd6c7cdd1c633bef
-modified: 1650655649414
+modified: 1650664381459
 created: 1650378000753
 url: "{{ bifrost_url }}/api/IncidentApp/resolveTicketBifrost"
 name: resolveTicketBifrost
@@ -14,19 +14,19 @@ body:
       name: modelo
       value: |-
         {
+        	"dateRegister": "2022-04-01 00:00:00",
+        	"userData": "json(fullname,user,area,etc)",
+        	
         	"ticketId": 1000,
-        	"imputable": 3,
-        	"causa": 17,
+        	"description": "Prueba Api ",
+        	"resolveIncident": "2022-03-31 00:00:00",
+        	"pinImputableId": 3,
+        	"pinCausaId": 17,
+        	
+        	"terminalsAffected": "100;101;102;103",
         	"servicios_afectados": "Otro",
         	"elementos_afectados": "Otro",
-        	"subsistema": "Otros",
-        	"terminales": 1,
-        	"desc": "Prueba Api ",
-        	"resolveIncident": "2022-03-31 00:00:00",
-        	
-        	"date_register": "2022-04-01 00:00:00",
-        	"userEmail": "user@email.com",
-        	"userData": "json(fullname,user,area,etc)"
+        	"subsistema": "Otros"
         }
       description: ""
       type: text
@@ -36,7 +36,6 @@ body:
       value: ""
       description: ""
       type: file
-      multiline: null
       fileName: C:\Users\Computadora\Downloads\Prueba Aissa.docx
 parameters: []
 headers:

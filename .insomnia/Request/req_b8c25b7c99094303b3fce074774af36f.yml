@@ -1,7 +1,7 @@
 _id: req_b8c25b7c99094303b3fce074774af36f
 type: Request
 parentId: fld_fce10bd045414ec2bd6c7cdd1c633bef
-modified: 1650655660487
+modified: 1650664400528
 created: 1648504962876
 url: "{{ bifrost_url }}/api/IncidentApp/createTicketBifrost"
 name: Crear Incidencia
@@ -13,21 +13,19 @@ body:
     - name: modelo
       value: >-
         {
-        	"pinProblemId": 1,
-        	"description": "Sumary:Ticket Prueba Api. Descripcion: Ticket Prueba Api.",
-        	"mediaComunicationId": 28,
-        	"dataComunication": "947772131",
-        	"typeContactId": 11,
-        	"pinPriorityId": 23,
-        	"contact_incidence": "Raúl Franco",
-
-        	"nivelNocId": 506,
-
-        	"idTerminal": 7292,
+        	"dateRegister": "2022-04-01 00:00:00",
+        	"userData": "json(fullname,user,email,phone,area,etc)",
         	
-        	"date_register": "2022-04-01 00:00:00",
-        	"userEmail": "orderingmn.pe@telefonica.com",
-        	"userData": "json(fullname,user,email,phone,area,etc)"
+        	"ci": 7292,
+        	"nivelNocId": 506,
+        	"description": "Sumary:Ticket Prueba Api. Descripcion: Ticket Prueba Api.",
+        	"ticketType": "Incident",
+        	
+        	"pinPriorityId": 23,
+        	"pinProblemId": 1,
+        	"dataComunication": "json(contactIncidence,dataComunication,typeContactId,mediaComunicationId)"
+
+        	
         }
       id: pair_6372fce67feb4383813fb8df4559c462
       type: text
@@ -37,7 +35,6 @@ body:
       value: ""
       description: ""
       type: file
-      multiline: null
 parameters: []
 headers:
   - id: pair_40ce56db364e476c94b54e4664561748

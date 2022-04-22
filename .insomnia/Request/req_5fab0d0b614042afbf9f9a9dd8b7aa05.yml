@@ -1,7 +1,7 @@
 _id: req_5fab0d0b614042afbf9f9a9dd8b7aa05
 type: Request
 parentId: fld_fce10bd045414ec2bd6c7cdd1c633bef
-modified: 1650655656333
+modified: 1650664372658
 created: 1648505018362
 url: "{{ bifrost_url }}/api/IncidentApp/resolveTicketBifrost"
 name: Cerrar Incidencia
@@ -13,12 +13,11 @@ body:
     - name: modelo
       value: |-
         {
-        	"idticket": 21299,
-        	"closeIncident": "2022-03-31 01:00:00",
+        	"dateRegister": "2022-04-01 00:00:00",
+        	"userData": "json(fullname,user,area,etc)",
         	
-        	"date_register": "2022-04-01 00:00:00",
-        	"userEmail": "user@email.com",
-        	"userData": "json(fullname,user,area,etc)"
+        	"ticketId": 21299,
+        	"closeIncident": "2022-03-31 01:00:00"
         }
       id: pair_5dc3d10cd9334de2b00caf9d324c8c98
       type: text
