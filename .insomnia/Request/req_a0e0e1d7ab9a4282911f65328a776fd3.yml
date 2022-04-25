@@ -1,0 +1,31 @@
+_id: req_a0e0e1d7ab9a4282911f65328a776fd3
+type: Request
+parentId: fld_816a5f5b0cdf4beaae476929d9927352
+modified: 1650924330954
+created: 1650923443920
+url: http://localhost:8000/api/models/securityprofileuser/1
+name: GetProfileUser
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - id: pair_4aa855ab21b440e3b6647df186c5d3e4
+    name: Content-Type
+    value: multipart/form-data
+    description: ""
+  - id: pair_5440fa00ed344434b689eaffed8bd8e8
+    name: token
+    value: "{% response 'body', 'req_c8dafea35b98422f836ed03773c831ec',
+      'b64::JC5kYXRhLnNlc3Npb24udG9rZW4=::46b', 'never', 60 %}"
+    description: ""
+    disabled: false
+authentication: {}
+metaSortKey: -1650923443920
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
