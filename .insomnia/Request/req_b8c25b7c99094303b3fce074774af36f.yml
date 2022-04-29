@@ -1,7 +1,7 @@
 _id: req_b8c25b7c99094303b3fce074774af36f
 type: Request
 parentId: fld_fce10bd045414ec2bd6c7cdd1c633bef
-modified: 1650664400528
+modified: 1651179917587
 created: 1648504962876
 url: "{{ bifrost_url }}/api/IncidentApp/createTicketBifrost"
 name: Crear Incidencia
@@ -14,7 +14,7 @@ body:
       value: >-
         {
         	"dateRegister": "2022-04-01 00:00:00",
-        	"userData": "json(fullname,user,email,phone,area,etc)",
+        	"userData": "{'user':'raul.franco@telefonica.com','fullname':'Raul Franco','email':'ralfrancos@hotmail.com','phone':'987654321','area':'development'}",
         	
         	"ci": 7292,
         	"nivelNocId": 506,
