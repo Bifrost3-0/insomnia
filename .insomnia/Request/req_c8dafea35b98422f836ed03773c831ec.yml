@@ -1,0 +1,40 @@
+_id: req_c8dafea35b98422f836ed03773c831ec
+type: Request
+parentId: fld_816a5f5b0cdf4beaae476929d9927352
+modified: 1650924298023
+created: 1650923889606
+url: "{{ bifrost_url }}/api/AdministrationApp/login"
+name: Login
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |
+    {"username":"julio_hlr@hotmail.com","password":"enero2021","tipo":"user"}
+parameters:
+  - id: pair_ecfe708b65e94bf0898af9a007fb5500
+    name: ""
+    value: ""
+    description: ""
+  - id: pair_fa55f4dcb0b845e5901c6c63b5f00147
+    name: ""
+    value: ""
+    description: ""
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_bb3100d878fd43b78dd1521021d58d45
+authentication:
+  type: basic
+  useISO88591: false
+  disabled: false
+  username: ""
+  password: ""
+metaSortKey: -1650923443970
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
