@@ -1,7 +1,7 @@
 _id: req_e795c83eff6548bcb6b64f740f822c52
 type: Request
 parentId: fld_fce10bd045414ec2bd6c7cdd1c633bef
-modified: 1650665327060
+modified: 1651600605648
 created: 1650378000753
 url: "{{ bifrost_url }}/api/IncidentApp/resolveTicketBifrost"
 name: resolveTicketBifrost
@@ -22,6 +22,7 @@ body:
         	"resolveIncident": "2022-03-31 00:00:00",
         	"pinImputableId": 3,
         	"pinCausaId": 17,
+        	"durationIncident": 60,
         	
         	"terminalsAffected": "100;101;102;103",
         	"servicios_afectados": "Otro",

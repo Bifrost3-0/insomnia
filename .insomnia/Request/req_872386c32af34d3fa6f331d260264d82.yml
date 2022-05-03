@@ -27,8 +27,8 @@ body:
 
     \                <cpeId>                \r
 
-    \                    <managedGroupId>2</managedGroupId>                \
-    \r
+    \                    <managedGroupId>2</managedGroupId>                \\
+    r
 
     \                    <subscriberId>1012075</subscriberId>             \r
 

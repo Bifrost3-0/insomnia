@@ -1,7 +1,7 @@
 _id: req_15e4a1a9ba234076b94982e3d07f2784
 type: Request
 parentId: fld_fce10bd045414ec2bd6c7cdd1c633bef
-modified: 1651182078775
+modified: 1651613684015
 created: 1650498487621
 url: "{{ bifrost_url }}/api/IncidentApp/advanceTicketBifrost"
 name: Solicitud Registro Avance
@@ -19,8 +19,7 @@ body:
         	"ticketId": 1000,
         	"description": "Prueba Api Progreso",
         	
-        	"requestInformation": 0,
-        	"visibleCustomer": 0
+        	"requestInformation": 0
         }
       id: pair_8c47d1b7848543b6b31a8b62b6e79edf
       type: text
