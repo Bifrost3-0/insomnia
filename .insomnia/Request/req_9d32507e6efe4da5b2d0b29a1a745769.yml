@@ -1,7 +1,7 @@
 _id: req_9d32507e6efe4da5b2d0b29a1a745769
 type: Request
 parentId: fld_2fcc67bf8a814999ba1cf96f7a07eba7
-modified: 1647406158315
+modified: 1651794078228
 created: 1647376318743
 url: "{{ _.bifrost_url_dev }}/api/insomniaFunctions/orderReactivateTerminal"
 name: orderReactivateTerminal
@@ -24,7 +24,7 @@ body:
       description: ""
     - id: pair_693edffb80804be4bd936a06727c10af
       name: date
-      value: 2022-03-07
+      value: 2022-03-07 23:11:12
       description: ""
     - id: pair_6ff07e113e3241b9943f8f24f46d69b9
       name: api
