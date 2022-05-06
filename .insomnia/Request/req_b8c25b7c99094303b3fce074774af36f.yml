@@ -1,22 +1,22 @@
 _id: req_b8c25b7c99094303b3fce074774af36f
 type: Request
 parentId: fld_fce10bd045414ec2bd6c7cdd1c633bef
-modified: 1651613695246
+modified: 1651794182423
 created: 1648504962876
-url: "{{ bifrost_url }}/api/IncidentApp/createTicketBifrost"
+url: "{{ bifrost_url }}/api/incidentRemedy/createticketbifrost"
 name: Crear Incidencia
 description: ""
 method: POST
 body:
   mimeType: multipart/form-data
   params:
-    - name: modelo
+    - name: modelos
       value: >-
         {
         	"dateRegister": "2022-04-01 00:00:00",
-        	"userData": "{'user':'raul.franco@telefonica.com','fullname':'Raul Franco','email':'ralfrancos@hotmail.com','phone':'987654321','area':'development'}",
+        	"userData": "{'id':12,user':'raul.franco@telefonica.com','fullname':'Raul Franco','email':'ralfrancos@hotmail.com','phone':'987654321','area':'development'}",
         	
-        	"ci": 7292,
+        	"ciId": 123,
         	"nivelNocId": 506,
         	"description": "Sumary:Ticket Prueba Api. Descripcion: Ticket Prueba Api.",
         	"ticketType": "Incident",
