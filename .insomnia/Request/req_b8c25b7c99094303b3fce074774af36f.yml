@@ -1,11 +1,12 @@
 _id: req_b8c25b7c99094303b3fce074774af36f
 type: Request
 parentId: fld_fce10bd045414ec2bd6c7cdd1c633bef
-modified: 1652140216827
+modified: 1652315590430
 created: 1648504962876
 url: "{{ bifrost_url }}/api/incidentRemedy/createticketbifrost"
 name: Crear Incidencia
-description: ""
+description: '"{\"contactIncidence\":\"Raul
+  Franco\",\"dataComunication\":\"987654321\",\"typeContact\":\"Cliente/Técnico/Tercero\",\"mediaComunication\":\"e-Mail/Llamada/Presencial/Proactivo/Skype\"}"'
 method: POST
 body:
   mimeType: multipart/form-data
@@ -14,18 +15,30 @@ body:
       value: >-
         {
         	"dateRegister": "2022-04-01 00:00:00",
-        	"userData": "{'id':12,user':'raul.franco@telefonica.com','fullname':'Raul Franco','email':'ralfrancos@hotmail.com','phone':'987654321','area':'development'}",
+        	"userData": "{\"user\": \"raul.franco@telefonica.com\",\"fullname\":\"Raul Franco\",\"email\":\"ralfrancos@hotmail.com\",\"phone\":\"987654321\",\"area\":\"development\"}",
         	
-        	"ciId": 123,
+        	"ciId": 214510,
         	"nivelNocId": 506,
         	"description": "Sumary:Ticket Prueba Api. Descripcion: Ticket Prueba Api.",
-        	"ticketType": "Incident",
+        	"masivo": 0,
+        	
+        	"initIncident": "2022-04-01 00:00:00",
+        	"problemRealDate": "2022-04-01 00:00:00",
+        	"reportedDate": "2022-04-01 00:00:00",
+        	
+        	"tecnology": "Resolution Product Categorization Tier 1 (Tecnología/Producto)",
+        	"platform": "Resolution Product Categorization Tier 2",
+        	"gateway": "Resolution Product Categorization Tier 3",
+        	
+        	"operationalCategoryTier1": "Servicio",
+        	"operationalCategoryTier2": "Problema",
+        	"operationalCategoryTier3": "Detalle Problema",
+        	
+        	"Vendor Group": "Proveedor",
         	
         	"pinPriorityId": 23,
         	"pinProblemId": 1,
-        	"dataComunication": "json(contactIncidence,dataComunication,typeContactId,mediaComunicationId)"
-
-        	
+        	"dataComunication": "{\"contactIncidence\":\"Raul Franco\",\"dataComunication\":\"987654321\",\"typeContact\":\"Cliente\",\"mediaComunication\":\"Llamada\"}"
         }
       id: pair_6372fce67feb4383813fb8df4559c462
       type: text

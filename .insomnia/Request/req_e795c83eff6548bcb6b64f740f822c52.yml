@@ -1,11 +1,17 @@
 _id: req_e795c83eff6548bcb6b64f740f822c52
 type: Request
 parentId: fld_fce10bd045414ec2bd6c7cdd1c633bef
-modified: 1652134990164
+modified: 1652315657111
 created: 1650378000753
 url: "{{ bifrost_url }}/api/IncidentApp/resolveTicketBifrost"
 name: resolveTicketBifrost
-description: ""
+description: >+
+  Campo Adicional
+
+  	"pinCausaDetail": "Resolution Categorization Tier 3",
+  	
+  	"tecnology": "Resolution Product Categorization Tier 1 (Tecnología/Producto)",
+
 method: POST
 body:
   mimeType: multipart/form-data
@@ -20,9 +26,15 @@ body:
         	"ticketId": 1000,
         	"description": "Prueba Api ",
         	"resolveIncident": "2022-03-31 00:00:00",
-        	"pinImputableId": 3,
-        	"pinCausaId": 17,
         	"durationIncident": 60,
+
+        	"pinImputable": "Resolution Categorization Tier 1",
+        	"pinCausa": "Resolution Categorization Tier 2",
+        	"pinCausaDetail": "Resolution Categorization Tier 3",
+        	
+        	"tecnology": "Resolution Product Categorization Tier 1",
+        	"platform": "Resolution Product Categorization Tier 2",
+        	"gateway": "Resolution Product Categorization Tier 3",
         	
         	"terminalsAffected": "100;101;102;103",
         	"servicios_afectados": "Otro",
