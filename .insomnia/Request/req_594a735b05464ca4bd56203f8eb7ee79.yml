@@ -1,11 +1,25 @@
 _id: req_594a735b05464ca4bd56203f8eb7ee79
 type: Request
 parentId: fld_fce10bd045414ec2bd6c7cdd1c633bef
-modified: 1652314642927
+modified: 1652316886619
 created: 1650331414007
 url: "{{ bifrost_url }}/api/IncidentApp/derivarTicketBifrost"
 name: derivarTicketBifrost
-description: ""
+description: |
+  
+  {
+
+  	"dateRegister": "2022-04-01 00:00:00",
+  	"userData": "json(fullname,user,area,etc)",
+  	"userCurrentData": "json(fullname,user,area,etc)(Assignee)",
+
+  	"ticketId": 1000,
+  	"nivelNocId": 507,
+  	
+  	"vendorGroup": "Lista de Proveedores (N3)",
+  	"Vendor Ticket Number": "Lista de Ticket de Proveedor (INC000123)"
+  	
+  }
 method: POST
 body:
   mimeType: application/json
@@ -13,10 +27,13 @@ body:
     {
     	"dateRegister": "2022-04-01 00:00:00",
     	"userData": "json(fullname,user,area,etc)",
-    	"userCurrentData": "json(fullname,user,area,etc)",
-    	
+    	"userCurrentData": "json(fullname,user,area,etc)(Assignee)",
+
     	"ticketId": 1000,
-    	"nivelNocId": 507
+    	"nivelNocId": 507,
+    	
+    	"vendorGroup": "Lista de Proveedores (N3)",
+    	"Vendor Ticket Number": "Lista de Ticket de Proveedor (INC000123)"
     }
 parameters: []
 headers:

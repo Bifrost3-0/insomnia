@@ -1,15 +1,26 @@
 _id: req_ab49a3a35c314361b67404e174444266
 type: Request
 parentId: fld_fce10bd045414ec2bd6c7cdd1c633bef
-modified: 1652316250658
+modified: 1652316828519
 created: 1650373569982
 url: "{{ bifrost_url }}/api/IncidentApp/stopClockTicketBifrost"
 name: Iniciar Parada
-description: |-
+description: |
   Remedy
 
   	Status: El estado Pendiente equivale al estado Parada en el Bifrost.
   	Status Reason: Detalle de la parada.
+  	
+  {
+
+  	"dateRegister": "2022-04-01 00:00:00",
+  	"userData": "json(fullname,user,email,area,etc)",
+  	
+  	"ticketId": 1000,
+  	"mStatus": "Pending",
+  	"description": "Status Reason: Detalle del Pendiente"
+  	
+  }
 method: POST
 body:
   mimeType: application/json

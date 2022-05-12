@@ -1,12 +1,45 @@
 _id: req_b8c25b7c99094303b3fce074774af36f
 type: Request
 parentId: fld_fce10bd045414ec2bd6c7cdd1c633bef
-modified: 1652315590430
+modified: 1652316879820
 created: 1648504962876
 url: "{{ bifrost_url }}/api/incidentRemedy/createticketbifrost"
 name: Crear Incidencia
-description: '"{\"contactIncidence\":\"Raul
-  Franco\",\"dataComunication\":\"987654321\",\"typeContact\":\"Cliente/Técnico/Tercero\",\"mediaComunication\":\"e-Mail/Llamada/Presencial/Proactivo/Skype\"}"'
+description: >-
+  "{\"contactIncidence\":\"Raul
+  Franco\",\"dataComunication\":\"987654321\",\"typeContact\":\"Cliente/Técnico/Tercero\",\"mediaComunication\":\"e-Mail/Llamada/Presencial/Proactivo/Skype\"}"
+
+
+  {
+
+  	"dateRegister": "2022-04-01 00:00:00",
+  	"userData": "{\"user\": \"raul.franco@telefonica.com\",\"fullname\":\"Raul Franco\",\"email\":\"ralfrancos@hotmail.com\",\"phone\":\"987654321\",\"area\":\"development\"}",
+  	
+  	"ciId": 214510,
+  	"nivelNocId": 506,
+  	"description": "Sumary:Ticket Prueba Api. Descripcion: Ticket Prueba Api.",
+  	"masivo": 0,
+  	
+  	"initIncident": "2022-04-01 00:00:00",
+  	"problemRealDate": "2022-04-01 00:00:00",
+  	"reportedDate": "2022-04-01 00:00:00",
+  	
+  	"tecnology": "Resolution Product Categorization Tier 1 (Tecnología/Producto)",
+  	"platform": "Resolution Product Categorization Tier 2",
+  	"gateway": "Resolution Product Categorization Tier 3",
+  	
+  	"operationalCategoryTier1": "Servicio",
+  	"operationalCategoryTier2": "Problema",
+  	"operationalCategoryTier3": "Detalle Problema",
+  	
+  	"Vendor Group": "Proveedor",
+  	
+  	"pinPriorityId": 23,
+  	"pinProblemId": 1,
+  	"dataComunication": "{\"contactIncidence\":\"Raul Franco\",\"dataComunication\":\"987654321\",\"typeContact\":\"Cliente\",\"mediaComunication\":\"Llamada\"}"
+
+  	
+  }
 method: POST
 body:
   mimeType: multipart/form-data

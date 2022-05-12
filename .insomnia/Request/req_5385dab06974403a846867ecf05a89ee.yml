@@ -1,7 +1,7 @@
 _id: req_5385dab06974403a846867ecf05a89ee
 type: Request
 parentId: fld_fce10bd045414ec2bd6c7cdd1c633bef
-modified: 1652316254734
+modified: 1652316823707
 created: 1650375562615
 url: "{{ bifrost_url }}/api/IncidentApp/stopClockTicketBifrost"
 name: Quitar Parada
@@ -12,6 +12,17 @@ description: |-
 
   	"Status"
   	"Status Reason"
+  	
+  {
+  	
+  	"dateRegister": "2022-04-01 00:00:00",
+  	"userData": "json(fullname,user,email,area,etc)",
+  	
+  	"ticketId": 1000,
+  	"mStatus": "In-Progress",
+  	"description": "Status Reason: Detalle del Pendiente"
+  	
+  }
 method: POST
 body:
   mimeType: application/json
