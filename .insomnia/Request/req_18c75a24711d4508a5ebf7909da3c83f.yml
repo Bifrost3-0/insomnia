@@ -1,7 +1,7 @@
 _id: req_18c75a24711d4508a5ebf7909da3c83f
 type: Request
 parentId: fld_fce10bd045414ec2bd6c7cdd1c633bef
-modified: 1652476449339
+modified: 1652479328110
 created: 1650331812071
 url: "{{ bifrost_url }}/api/IncidentApp/editTicketBifrost"
 name: editTicketBifrost
@@ -17,7 +17,7 @@ body:
     	"ticketId": 1000,
     	"terminalsAffected": "100;101;102;103",
     	"pinPriorityId": 22,
-    	"initIncident": "2022-04-01 00:00:00",
+    	"initIncident": "2022-04-01 00:00:00"
     }
 parameters: []
 headers:
