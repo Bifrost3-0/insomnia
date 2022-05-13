@@ -1,7 +1,7 @@
 _id: req_e795c83eff6548bcb6b64f740f822c52
 type: Request
 parentId: fld_fce10bd045414ec2bd6c7cdd1c633bef
-modified: 1652316892399
+modified: 1652479080680
 created: 1650378000753
 url: "{{ bifrost_url }}/api/IncidentApp/resolveTicketBifrost"
 name: resolveTicketBifrost
@@ -61,6 +61,13 @@ body:
         	"platform": "Resolution Product Categorization Tier 2",
         	"gateway": "Resolution Product Categorization Tier 3",
         	
+        	"timeWithoutStops(hhmm)": "123:01",
+        	"timeWithStops(hhmm)": "123:01",
+        	"reasonForOutage": "Detalle Tecnico de la Incidencia",
+        	"incidentResolvedDateBulletin": "2022-03-31 00:00:00",
+        	"problemRealDate": "2022-03-31 00:00:00",
+        	"firstCallResolution" : 0,
+        	
         	"terminalsAffected": "100;101;102;103",
         	"servicios_afectados": "Otro",
         	"elementos_afectados": "Otro",
@@ -75,6 +82,10 @@ body:
       description: ""
       type: file
       fileName: C:\Users\Computadora\Downloads\Prueba Aissa.docx
+    - id: pair_1acb1552f2244fdba7bf1a86a74842cf
+      name: ""
+      value: ""
+      description: ""
 parameters: []
 headers:
   - id: pair_78245cc00eba42ca86f5de1ad4ff5d73
