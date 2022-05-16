@@ -1,22 +1,22 @@
-_id: req_5fab0d0b614042afbf9f9a9dd8b7aa05
+_id: req_92499ed430c140319a1333882acbe94c
 type: Request
-parentId: fld_fce10bd045414ec2bd6c7cdd1c633bef
-modified: 1652712301752
-created: 1648505018362
-url: "{{ bifrost_url }}/api/IncidentApp/closeTicket"
-name: Cerrar Incidencia
+parentId: fld_21d91af9f1dc427aae1267ecd117c76b
+modified: 1652713365398
+created: 1652712309197
+url: "{{ _.newbackend }}/api/incidentRemedy/closeTicket"
+name: Cerrar Incidenciax
 description: ""
 method: POST
 body:
   mimeType: multipart/form-data
   params:
     - name: modelo
-      value: >-
+      value: |-
         {
-        	"dateRegister": "2022-04-01 00:00:00",
-        	"userData": "{\"user\": \"raul.franco@telefonica.com\",\"fullname\":\"Raul Franco\",\"email\":\"ralfrancos@hotmail.com\",\"phone\":\"987654321\",\"area\":\"development\"}",
+        |
         	"reportedSource": "Telefono",
         	"cancelado": 1,
+        	"statusReason":"PRUEBA",
         	
         	"ticketId": 21299,
         	"closeIncident": "2022-03-31 01:00:00",
@@ -54,19 +54,19 @@ body:
       value: ""
       description: ""
       type: file
-      fileName: C:\Users\julio\OneDrive\Email attachments\Documentos\test.csv
+      fileName: C:\Users\ashly\Downloads\test.csv.txt
 parameters: []
 headers:
   - id: pair_47484d7565ca4e698c460a3359c3115d
     name: token
-    value: "{% response 'body', 'req_11f61d413f46476cb2dd29361d4b5e4b',
+    value: "{% response 'body', 'req_c8dafea35b98422f836ed03773c831ec',
       'b64::JC5kYXRhLnNlc3Npb24udG9rZW4=::46b', 'never', 60 %}"
     description: ""
   - name: Content-Type
     value: multipart/form-data
     id: pair_dd4278e3f8464ed8a5ea7a61dade340d
 authentication: {}
-metaSortKey: -1648505044564
+metaSortKey: -1650376951619
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

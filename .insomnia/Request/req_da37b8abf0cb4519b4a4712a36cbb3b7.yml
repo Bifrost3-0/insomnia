@@ -1,10 +1,10 @@
-_id: req_e795c83eff6548bcb6b64f740f822c52
+_id: req_da37b8abf0cb4519b4a4712a36cbb3b7
 type: Request
-parentId: fld_fce10bd045414ec2bd6c7cdd1c633bef
-modified: 1652713119982
-created: 1650378000753
-url: "{{ bifrost_url }}/api/IncidentApp/resolveTicketBifrost"
-name: resolveTicketBifrost
+parentId: fld_21d91af9f1dc427aae1267ecd117c76b
+modified: 1652713346519
+created: 1652712552466
+url: "{{ _.newbackend }}/api/incidentRemedy/resolveTicket"
+name: resolveTicketBifrostx
 description: >
   Campo Adicional
 
@@ -99,7 +99,7 @@ headers:
     value: multipart/form-data
     id: pair_96c7b70b34fc4141b39ba3c4ba8eb523
 authentication: {}
-metaSortKey: -1648505044567.125
+metaSortKey: -1650376951644
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true
