@@ -1,9 +1,9 @@
 _id: req_11f61d413f46476cb2dd29361d4b5e4b
 type: Request
 parentId: fld_e3cf468229924462b30bbd34e3e0e9d4
-modified: 1651601019246
+modified: 1652313391025
 created: 1650293519044
-url: "{{ bifrost_url }}/api/AdministrationApp/login"
+url: "{{ _.bifrost_url }}/api/AdministrationApp/login"
 name: Login Bifrost
 description: ""
 method: POST

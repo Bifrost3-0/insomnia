@@ -1,11 +1,16 @@
 _id: env_804c2305942a4270bb54256c1befe0eb
 type: Environment
 parentId: env_467191896fbc186b33676805d502008f55dc9848
-modified: 1650331482751
+modified: 1652312465192
 created: 1628604907262
 name: New Environment
-data: {}
-dataPropertyOrder: null
+data:
+  bifrost_backend: http://localhost:8000
+  bifrost_url: https://onpremisedev.bifrost.pe
+dataPropertyOrder:
+  "&":
+    - bifrost_backend
+    - bifrost_url
 color: null
 isPrivate: false
 metaSortKey: 5

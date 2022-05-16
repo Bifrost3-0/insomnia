@@ -38,6 +38,7 @@ description: >-
   	"pinProblemId": 1,
   	"dataComunication": "{\"contactIncidence\":\"Raul Franco\",\"dataComunication\":\"987654321\",\"typeContact\":\"Cliente\",\"mediaComunication\":\"Llamada\"}"
 
+
   	
   }
 method: POST
