@@ -1,0 +1,132 @@
+_id: req_9150606b58284c8cb54d9e6d689819b9
+type: Request
+parentId: fld_21d91af9f1dc427aae1267ecd117c76b
+modified: 1652820204714
+created: 1652720989214
+url: "{{ bifrost_url }}/api/incidentRemedy/createticketbifrost"
+name: Crear Incidencia
+description: >-
+  "{\"contactIncidence\":\"Raul
+  Franco\",\"dataComunication\":\"987654321\",\"typeContact\":\"Cliente/Técnico/Tercero\",\"mediaComunication\":\"e-Mail/Llamada/Presencial/Proactivo/Skype\"}"
+
+
+  {
+
+  	"dateRegister": "2022-04-01 00:00:00",
+  	"userData": "{\"user\": \"raul.franco@telefonica.com\",\"fullname\":\"Raul Franco\",\"email\":\"ralfrancos@hotmail.com\",\"phone\":\"987654321\",\"area\":\"development\"}",
+  	
+  	"ciId": 214510,
+  	"nivelNocId": 506,
+  	"description": "Sumary:Ticket Prueba Api. Descripcion: Ticket Prueba Api.",
+  	"masivo": 0,
+  	
+  	"initIncident": "2022-04-01 00:00:00",
+  	"problemRealDate": "2022-04-01 00:00:00",
+  	"reportedDate": "2022-04-01 00:00:00",
+  	
+  	"tecnology": "Resolution Product Categorization Tier 1 (Tecnología/Producto)",
+  	"platform": "Resolution Product Categorization Tier 2",
+  	"gateway": "Resolution Product Categorization Tier 3",
+  	
+  	"operationalCategoryTier1": "Servicio",
+  	"operationalCategoryTier2": "Problema",
+  	"operationalCategoryTier3": "Detalle Problema",
+  	
+  	"Vendor Group": "Proveedor",
+  	
+  	"pinPriorityId": 23,
+  	"pinProblemId": 1,
+  	"dataComunication": "{\"contactIncidence\":\"Raul Franco\",\"dataComunication\":\"987654321\",\"typeContact\":\"Cliente\",\"mediaComunication\":\"Llamada\"}"
+
+
+
+
+  	
+  }
+method: POST
+body:
+  mimeType: multipart/form-data
+  params:
+    - name: modelo
+      value: >-
+        {
+        	"dateRegister": "2022-04-01 00:00:00",
+        	"userData": "{\"user\": \"raul.franco@telefonica.com\",\"fullname\":\"Raul Franco\",\"email\":\"ralfrancos@hotmail.com\",\"phone\":\"987654321\",\"area\":\"development\"}",
+        	"reportedSource": "Llamada",
+        	
+        	"ciId": 214510,
+        	"nivelNoc": "N1",
+        	"description": "Sumary: Ticket Prueba Api. Notes: Ticket Prueba Api. statusReason: Detalle del cambio",
+        	"masivo": 0,
+        	
+        	"initIncident": "2022-04-01 00:00:00",
+        	"problemRealDate": "2022-04-01 02:00:00",
+        	"reportedDate": "2022-04-01 04:00:00",
+        	"targetDate": "2022-04-02 06:00:00",
+        	
+        	"resolutionProductCategorizationTier1": "technology",
+        	"resolutionProductCategorizationTier2": "platform",
+        	"resolutionProductCategorizationTier3": "gateway",
+        	
+        	"operationalCategoryTier1": "Servicio",
+        	"operationalCategoryTier2": "Problema",
+        	"operationalCategoryTier3": "Detalle Problema",
+        	
+        	"status": "EN CURSO",
+        	"vendorGroup": "Proveedor",
+        	
+        	"pinPriorityId": 23,
+        	"pinProblemId": 1,
+        	"dataComunication": "{\"contactIncidence\":\"Raul Franco\",\"dataComunication\":\"987654321\",\"typeContact\":\"Cliente\"}"
+        }
+      id: pair_6372fce67feb4383813fb8df4559c462
+      type: text
+      multiline: application/json
+    - id: pair_89f18f293be145048d0a722338ae1605
+      name: file1
+      value: ""
+      description: ""
+      type: file
+    - id: pair_7420437ead1b429fa615ae7bfa85a075
+      name: file2
+      value: ""
+      description: ""
+      type: file
+      multiline: null
+    - id: pair_ce2e436ed1fd42879cb54b7072ced1c9
+      name: file3
+      value: ""
+      description: ""
+      type: file
+      multiline: null
+    - id: pair_d8001edc17b64357890f27bf93689df6
+      name: file4
+      value: ""
+      description: ""
+      type: file
+      multiline: null
+    - id: pair_22e78c776025439f89c493e54f029bb6
+      name: file5
+      value: ""
+      description: ""
+      type: file
+      multiline: null
+parameters: []
+headers:
+  - id: pair_40ce56db364e476c94b54e4664561748
+    name: token
+    value: "{% response 'body', 'req_11f61d413f46476cb2dd29361d4b5e4b',
+      'b64::JC5kYXRhLnNlc3Npb24udG9rZW4=::46b', 'never', 60 %}"
+    description: ""
+  - name: Content-Type
+    value: multipart/form-data
+    id: pair_87c14b37b1c143e8a4529e0cdc7429ca
+authentication: {}
+metaSortKey: -1650376951719
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
