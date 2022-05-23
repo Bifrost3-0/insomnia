@@ -1,9 +1,9 @@
 _id: req_9150606b58284c8cb54d9e6d689819b9
 type: Request
 parentId: fld_21d91af9f1dc427aae1267ecd117c76b
-modified: 1653331212291
+modified: 1653332065417
 created: 1652720989214
-url: "{{ bifrost_url }}/api/incidentRemedy/createticketbifrost"
+url: "{{ _.newbackend }}/api/incidentRemedy/createticketbifrost"
 name: Crear Incidencia
 description: >-
   "{\"contactIncidence\":\"Raul
