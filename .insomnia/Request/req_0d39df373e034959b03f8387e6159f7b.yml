@@ -1,0 +1,61 @@
+_id: req_0d39df373e034959b03f8387e6159f7b
+type: Request
+parentId: fld_21d91af9f1dc427aae1267ecd117c76b
+modified: 1653423942629
+created: 1653400484308
+url: "{{ bifrost_url }}/api/IncidentApp/advanceTicketBifrost"
+name: Registro Avance
+description: ""
+method: POST
+body:
+  mimeType: multipart/form-data
+  params:
+    - name: modelo
+      value: >-
+        {
+        	"dateRegister": "2022-04-01 00:00:00",
+        	"userData": "{\"user\": \"raul.franco@telefonica.com\",\"fullname\":\"Raul Franco\",\"email\":\"ralfrancos@hotmail.com\",\"phone\":\"987654321\",\"area\":\"development\"}",
+        	
+        	"ticketId": 1000,
+        	"description": "Prueba Api Progreso",
+        	
+        	"type": "",
+        	"summary": "",
+        	"notes": "",
+        	"files": "",
+        	"submitDate": "",
+        	"viewAccess": "",
+        	"submitter": "",
+        	"assignedGroup": "",
+        	
+        	"requestInformation": 0
+        }
+      id: pair_8c47d1b7848543b6b31a8b62b6e79edf
+      type: text
+      multiline: application/json
+      disabled: false
+    - id: pair_0aeb8df4e0524b6eba116694d7fba8d2
+      name: file
+      value: ""
+      description: ""
+      type: file
+      fileName: C:\Users\Computadora\Downloads\pruebaAisa.csv
+parameters: []
+headers:
+  - id: pair_b1922e6e8c5740bab6e86e337b8dd18c
+    name: token
+    value: "{% response 'body', 'req_11f61d413f46476cb2dd29361d4b5e4b',
+      'b64::JC5kYXRhLnNlc3Npb24udG9rZW4=::46b', 'never', 60 %}"
+    description: ""
+  - name: Content-Type
+    value: multipart/form-data
+    id: pair_4c4712f8f254420f876469bcd859c6f9
+authentication: {}
+metaSortKey: -1650376951662.75
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
