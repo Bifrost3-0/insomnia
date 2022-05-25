@@ -1,0 +1,45 @@
+_id: req_6d25a6f361a64fd5af455066a75dea1e
+type: Request
+parentId: fld_21d91af9f1dc427aae1267ecd117c76b
+modified: 1653511217978
+created: 1653279587128
+url: "{{ _.newbackend }}/api/incidentRemedy/listTicket"
+name: Listar Incidencias Bifrostx
+description: ""
+method: GET
+body:
+  mimeType: multipart/form-data
+  params: []
+parameters:
+  - id: pair_8d3d15dd39dc499092a333472a1204c0
+    name: modelo
+    value: >-
+      {
+      	"dateRegister": "2022-04-01 00:00:00",
+      	"userData": "{\"user\": \"raul.franco@telefonica.com\",\"fullname\":\"Raul Franco\",\"email\":\"ralfrancos@hotmail.com\",\"phone\":\"987654321\",\"area\":\"development\"}"
+      }
+    description: ""
+    type: text
+    multiline: text/plain
+  - id: pair_1b65f941eb2440aba288875da04053d8
+    name: ""
+    value: ""
+    description: ""
+headers:
+  - id: pair_0bfb262755d04068a1dc12eb63bd6604
+    name: token
+    value: "{% response 'body', 'req_11f61d413f46476cb2dd29361d4b5e4b',
+      'b64::JC5kYXRhLnNlc3Npb24udG9rZW4=::46b', 'never', 60 %}"
+    description: ""
+  - name: Content-Type
+    value: multipart/form-data
+    id: pair_11c7543ad1ab4b8db0d8c8eedf036c07
+authentication: {}
+metaSortKey: -1650376951645.9531
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

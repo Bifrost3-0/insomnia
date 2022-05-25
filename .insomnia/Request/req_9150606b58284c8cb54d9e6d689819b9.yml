@@ -1,10 +1,10 @@
 _id: req_9150606b58284c8cb54d9e6d689819b9
 type: Request
 parentId: fld_21d91af9f1dc427aae1267ecd117c76b
-modified: 1653507846013
+modified: 1653280933860
 created: 1652720989214
 url: "{{ bifrost_url }}/api/incidentRemedy/createticketbifrost"
-name: Crear Incidenciax
+name: Crear Incidencia
 description: >-
   "{\"contactIncidence\":\"Raul
   Franco\",\"dataComunication\":\"987654321\",\"typeContact\":\"Cliente/Técnico/Tercero\",\"mediaComunication\":\"e-Mail/Llamada/Presencial/Proactivo/Skype\"}"
@@ -54,13 +54,11 @@ body:
         	"dateRegister": "2022-04-01 00:00:00",
         	"userData": "{\"user\": \"raul.franco@telefonica.com\",\"fullname\":\"Raul Franco\",\"email\":\"ralfrancos@hotmail.com\",\"phone\":\"987654321\",\"area\":\"development\"}",
         	"reportedSource": "Llamada",
-        	"incidentNumber": 516,
         	
         	"ciId": 214510,
         	"nivelNoc": "N1",
-        	"description": "Sumary: Ticket Prueba Api. Notes: Ticket Prueba Api.",
-        	"masivo": 1,
-        	"ticketType": "1 Incidencia/ 0 Petición",
+        	"description": "Sumary: Ticket Prueba Api. Notes: Ticket Prueba Api. statusReason: Detalle del cambio",
+        	"masivo": 0,
         	
         	"initIncident": "2022-04-01 00:00:00",
         	"problemRealDate": "2022-04-01 02:00:00",
@@ -75,8 +73,7 @@ body:
         	"operationalCategoryTier2": "Problema",
         	"operationalCategoryTier3": "Detalle Problema",
         	
-        	"status": "2",
-        	"statusReason": "Detalle del cambio",
+        	"status": "EN CURSO",
         	"vendorGroup": "Proveedor",
         	
         	"pinPriorityId": 23,
@@ -91,32 +88,30 @@ body:
       value: ""
       description: ""
       type: file
-      fileName: C:\Users\Computadora\Downloads\LeyendaPreventaV2.drawio.png
-      disabled: true
     - id: pair_7420437ead1b429fa615ae7bfa85a075
       name: file2
       value: ""
       description: ""
       type: file
-      disabled: true
+      multiline: null
     - id: pair_ce2e436ed1fd42879cb54b7072ced1c9
       name: file3
       value: ""
       description: ""
       type: file
-      disabled: true
+      multiline: null
     - id: pair_d8001edc17b64357890f27bf93689df6
       name: file4
       value: ""
       description: ""
       type: file
-      disabled: true
+      multiline: null
     - id: pair_22e78c776025439f89c493e54f029bb6
       name: file5
       value: ""
       description: ""
       type: file
-      disabled: true
+      multiline: null
 parameters: []
 headers:
   - id: pair_40ce56db364e476c94b54e4664561748

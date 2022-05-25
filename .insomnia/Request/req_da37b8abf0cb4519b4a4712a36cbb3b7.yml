@@ -1,7 +1,7 @@
 _id: req_da37b8abf0cb4519b4a4712a36cbb3b7
 type: Request
 parentId: fld_21d91af9f1dc427aae1267ecd117c76b
-modified: 1652713346519
+modified: 1653280932183
 created: 1652712552466
 url: "{{ _.newbackend }}/api/incidentRemedy/resolveTicket"
 name: resolveTicketBifrostx
@@ -37,6 +37,7 @@ description: >
 
 
 
+
   	
   }
 method: POST
@@ -45,16 +46,16 @@ body:
   params:
     - id: pair_cd5aa15f6d4c434181da8d57bc332dc2
       name: modelo
-      value: |-
+      value: >-
         {
         	"dateRegister": "2022-04-01 00:00:00",
-        	"userData": "json(fullname,user,area,etc)",
-        	
+        	"userData": "{\"user\": \"raul.franco@telefonica.com\",\"fullname\":\"Raul Franco\",\"email\":\"ralfrancos@hotmail.com\",\"phone\":\"987654321\",\"area\":\"development\"}",
+        	"pinPriorityId":23,
         	"ticketId": 1000,
         	"description": "Prueba Api ",
         	"resolveIncident": "2022-03-31 00:00:00",
         	"durationIncident": 60,
-
+        	"includeFailureMassive":0,
         	"pinImputable": "Resolution Categorization Tier 1",
         	"pinCausa": "Resolution Categorization Tier 2",
         	"pinCausaDetail": "Resolution Categorization Tier 3",
@@ -73,7 +74,8 @@ body:
         	"terminalsAffected": "100;101;102;103",
         	"servicios_afectados": "Otro",
         	"elementos_afectados": "Otro",
-        	"subsistema": "Otros"
+        	"subsistema": "Otros",
+        	"isn2"
         }
       description: ""
       type: text

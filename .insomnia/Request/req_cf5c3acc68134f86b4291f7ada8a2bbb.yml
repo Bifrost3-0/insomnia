@@ -1,10 +1,10 @@
 _id: req_cf5c3acc68134f86b4291f7ada8a2bbb
 type: Request
 parentId: fld_21d91af9f1dc427aae1267ecd117c76b
-modified: 1653507856722
+modified: 1652668104764
 created: 1650376951669
 url: "{{ bifrost_url }}/api/IncidentApp/saveRemedy"
-name: saveRemedyx
+name: saveRemedy
 description: ""
 method: POST
 body:

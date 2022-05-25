@@ -1,7 +1,7 @@
 _id: req_92499ed430c140319a1333882acbe94c
 type: Request
 parentId: fld_21d91af9f1dc427aae1267ecd117c76b
-modified: 1652713365398
+modified: 1653280932537
 created: 1652712309197
 url: "{{ _.newbackend }}/api/incidentRemedy/closeTicket"
 name: Cerrar Incidenciax
@@ -11,25 +11,22 @@ body:
   mimeType: multipart/form-data
   params:
     - name: modelo
-      value: |-
+      value: >-
         {
-        |
+        	"dateRegister": "2022-04-01 00:00:00",
+        	"userData": "{\"user\": \"raul.franco@telefonica.com\",\"fullname\":\"Raul Franco\",\"email\":\"ralfrancos@hotmail.com\",\"phone\":\"987654321\",\"area\":\"development\"}",
         	"reportedSource": "Telefono",
         	"cancelado": 1,
         	"statusReason":"PRUEBA",
-        	
+        	"pinCausaId":1,
         	"ticketId": 21299,
         	"closeIncident": "2022-03-31 01:00:00",
-        	
-        	
-        	
-        	
-        	
-        	
-        	
+        	"resolve":0,
+        	"resolveIncident": "2022-03-31 00:00:00",
+        	"pin_imputable_id":1,
         	"pinCausa": "Resolution Categorization Tier 2",
         	"pinCausaDetail": "Resolution Categorization Tier 3",
-        	
+
         	"tecnology": "Resolution Product Categorization Tier 1",
         	"platform": "Resolution Product Categorization Tier 2",
         	"gateway": "Resolution Product Categorization Tier 3",
@@ -54,12 +51,12 @@ body:
       value: ""
       description: ""
       type: file
-      fileName: C:\Users\ashly\Downloads\test.csv.txt
+      fileName: C:\Users\julio\OneDrive\Email attachments\Documentos\test.csv
 parameters: []
 headers:
   - id: pair_47484d7565ca4e698c460a3359c3115d
     name: token
-    value: "{% response 'body', 'req_c8dafea35b98422f836ed03773c831ec',
+    value: "{% response 'body', 'req_11f61d413f46476cb2dd29361d4b5e4b',
       'b64::JC5kYXRhLnNlc3Npb24udG9rZW4=::46b', 'never', 60 %}"
     description: ""
   - name: Content-Type
