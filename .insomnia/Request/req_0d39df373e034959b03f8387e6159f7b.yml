@@ -1,9 +1,9 @@
 _id: req_0d39df373e034959b03f8387e6159f7b
 type: Request
 parentId: fld_21d91af9f1dc427aae1267ecd117c76b
-modified: 1653586967390
+modified: 1653598275139
 created: 1653400484308
-url: "{{ bifrost_url }}/api/IncidentApp/advanceTicketBifrost"
+url: "{{ _.newbackend }}/api/incidentRemedy/advanceticketbifrost"
 name: Registro Avancex
 description: ""
 method: POST
@@ -40,6 +40,7 @@ body:
       description: ""
       type: file
       fileName: C:\Users\Computadora\Downloads\pruebaAisa.csv
+      disabled: true
 parameters: []
 headers:
   - id: pair_b1922e6e8c5740bab6e86e337b8dd18c

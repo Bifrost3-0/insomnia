@@ -1,9 +1,9 @@
 _id: req_9150606b58284c8cb54d9e6d689819b9
 type: Request
 parentId: fld_21d91af9f1dc427aae1267ecd117c76b
-modified: 1653587301685
+modified: 1653598277323
 created: 1652720989214
-url: "{{ bifrost_url }}/api/incidentRemedy/createticketbifrost"
+url: "{{ _.newbackend }}/api/incidentRemedy/createticketbifrost"
 name: Crear Incidenciax
 description: >-
   "{\"contactIncidence\":\"Raul
@@ -43,6 +43,7 @@ description: >-
 
 
 
+
   	
   }
 method: POST
@@ -60,7 +61,7 @@ body:
         	"ciId": 214510,
         	"nivelNoc": "N1",
         	"description": "Sumary: Ticket Prueba Api. Notes: Ticket Prueba Api. statusReason: Detalle del cambio",
-        	"masivo": 1,
+        	"masivo": 0,
         	"ticketType": "USER SERVICES RESTORATION",
         	
         	"initIncident": "2022-04-01 00:00:00",
