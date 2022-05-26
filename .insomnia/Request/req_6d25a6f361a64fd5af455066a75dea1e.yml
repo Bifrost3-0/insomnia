@@ -1,7 +1,7 @@
 _id: req_6d25a6f361a64fd5af455066a75dea1e
 type: Request
 parentId: fld_21d91af9f1dc427aae1267ecd117c76b
-modified: 1653511217978
+modified: 1653560711774
 created: 1653279587128
 url: "{{ _.newbackend }}/api/incidentRemedy/listTicket"
 name: Listar Incidencias Bifrostx
@@ -20,7 +20,8 @@ parameters:
       }
     description: ""
     type: text
-    multiline: text/plain
+    multiline: application/json
+    disabled: false
   - id: pair_1b65f941eb2440aba288875da04053d8
     name: ""
     value: ""
