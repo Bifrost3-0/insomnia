@@ -1,7 +1,7 @@
 _id: req_9bfd41a594d24655ac692dd7113a19cf
 type: Request
 parentId: fld_21d91af9f1dc427aae1267ecd117c76b
-modified: 1652820272919
+modified: 1653587326933
 created: 1652820092456
 url: "{{ bifrost_url }}/api/IncidentApp/editTicketBifrost"
 name: editTicketBifrost
@@ -54,30 +54,35 @@ body:
       description: ""
       type: file
       multiline: null
+      disabled: true
     - id: pair_f41376c0fd48403daba8e27e77b2ad9e
       name: file2
       value: ""
       description: ""
       type: file
       multiline: null
+      disabled: true
     - id: pair_29236902ee6d4c79ba474ad1330eec22
       name: file3
       value: ""
       description: ""
       type: file
       multiline: null
+      disabled: true
     - id: pair_368e6a24c5fe4ccc9719b9b86b60241a
       name: file4
       value: ""
       description: ""
       type: file
       multiline: null
+      disabled: true
     - id: pair_13938a98fbc74dceb89766589880770a
       name: file5
       value: ""
       description: ""
       type: file
       multiline: null
+      disabled: true
 parameters: []
 headers:
   - id: pair_12db21173606400c8a1c23a229708306
