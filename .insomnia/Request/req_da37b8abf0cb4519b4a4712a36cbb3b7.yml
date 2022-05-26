@@ -1,7 +1,7 @@
 _id: req_da37b8abf0cb4519b4a4712a36cbb3b7
 type: Request
 parentId: fld_21d91af9f1dc427aae1267ecd117c76b
-modified: 1653582747093
+modified: 1653587359397
 created: 1652712552466
 url: "{{ _.newbackend }}/api/incidentRemedy/resolveTicket"
 name: resolveTicketBifrostx
@@ -76,8 +76,7 @@ body:
         	"terminalsAffected": "100;101;102;103",
         	"servicios_afectados": "Otro",
         	"elementos_afectados": "Otro",
-        	"subsistema": "Otros",
-        	"isn2"
+        	"subsistema": "Otros"
         }
       description: ""
       type: text
