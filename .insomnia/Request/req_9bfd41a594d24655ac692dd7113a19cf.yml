@@ -1,10 +1,10 @@
 _id: req_9bfd41a594d24655ac692dd7113a19cf
 type: Request
 parentId: fld_21d91af9f1dc427aae1267ecd117c76b
-modified: 1653598276654
+modified: 1653857152273
 created: 1652820092456
 url: "{{ _.newbackend }}/api/incidentRemedy/editticketbifrost"
-name: editTicketBifrost
+name: editTicketBifrostx
 description: ""
 method: POST
 body:
@@ -18,7 +18,6 @@ body:
         	"reportedSource": "Llamada",
         	
         	"ticketId": 22130,
-        	"ciId": 214510,
         	"nivelNoc": "N1 NOC TIWS",
         	"description": "Sumary: Ticket Prueba Api. Notes: Ticket Prueba Api. statusReason: Detalle del cambio",
         	"masivo": 0,
@@ -30,10 +29,11 @@ body:
         	"problemRealDate": "2022-04-01 02:00:00",
         	"reportedDate": "2022-04-01 04:00:00",
         	"targetDate": "2022-04-02 06:00:00",
+        	"resolveIncident": "2022-04-05 00:00:00",
         	
-        	"resolutionProductCategorizationTier1": "technology",
-        	"resolutionProductCategorizationTier2": "platform",
-        	"resolutionProductCategorizationTier3": "gateway",
+        	"productCategorizationTier1": "technology",
+        	"productCategorizationTier2": "platform",
+        	"productCategorizationTier3": "gateway",
         	
         	"operationalCategoryTier1": "Servicio",
         	"operationalCategoryTier2": "Problema",
