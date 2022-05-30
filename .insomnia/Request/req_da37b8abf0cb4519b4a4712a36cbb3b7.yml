@@ -1,7 +1,7 @@
 _id: req_da37b8abf0cb4519b4a4712a36cbb3b7
 type: Request
 parentId: fld_21d91af9f1dc427aae1267ecd117c76b
-modified: 1653916694884
+modified: 1653933254635
 created: 1652712552466
 url: "{{ _.newbackend }}/api/incidentRemedy/resolveTicket"
 name: resolveTicketBifrostx
@@ -53,31 +53,40 @@ body:
         {
         	"dateRegister":1653811728,
         	"userData": "{\"user\": \"raul.franco@telefonica.com\",\"fullname\":\"Raul Franco\",\"email\":\"ralfrancos@hotmail.com\",\"phone\":\"987654321\",\"area\":\"development\"}",
-        	"pinPriorityId":23,
-        	"ticketId": 1000,
-        	"description": "Prueba Api ",
-        	"resolveIncident": "2022-03-31 00:00:00",
-        	"durationIncident": 60,
-        	"includeFailureMassive":0,
-        	"pinImputable": "Resolution Categorization Tier 1",
-        	"pinCausa": "Resolution Categorization Tier 2",
-        	"pinCausaDetail": "Resolution Categorization Tier 3",
-        	
-        	"tecnology": "Resolution Product Categorization Tier 1",
-        	"platform": "Resolution Product Categorization Tier 2",
-        	"gateway": "Resolution Product Categorization Tier 3",
-        	
-        	"timeWithoutStops(hhmm)": "123:01",
-        	"timeWithStops(hhmm)": "123:01",
-        	"reasonForOutage": "Detalle Tecnico de la Incidencia",
-        	"incidentResolvedDateBulletin": "2022-03-31 00:00:00",
-        	"problemRealDate": "2022-03-31 00:00:00",
-        	"firstCallResolution" : 0,
-        	
-        	"terminalsAffected": "100;101;102;103",
-        	"servicios_afectados": "Otro",
-        	"elementos_afectados": "Otro",
-        	"subsistema": "Otros"
+        "ticketId": 1000,
+
+        "description": "Prueba Api ", 
+
+        "resolveIncident": "2022-03-31 00:00:00", 
+
+        "durationIncident": 60,  
+
+
+        "ResolutionCategorizationTier1": "Imputable",
+
+        "ResolutionCategorizationTier2": "Causa",
+
+        "ResolutionCategorizationTier3": "Detalle Causa",
+
+        "resolutionProductCategorizationTier1": "technology",
+
+        "resolutionProductCategorizationTier2": "platform",
+
+        "resolutionProductCategorizationTier3": "gateway",
+
+        "initIncident" : "2022-04-01 00:00:00", 
+         "problemRealDate": "2022-04-01 02:00:00",
+         "reportedDate": "2022-04-01 04:00:00",
+        "firstCallResolution" : 0,
+
+        "terminalsAffected": "100;101;102;103",
+
+        "servicios_afectadosid": 23,
+
+        "elementos_afectadosid": "45",
+
+        "subsistemaid": 4,
+         "pinPriorityId": 23
         }
       description: ""
       type: text
