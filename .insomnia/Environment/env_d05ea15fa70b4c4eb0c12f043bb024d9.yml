@@ -1,7 +1,7 @@
 _id: env_d05ea15fa70b4c4eb0c12f043bb024d9
 type: Environment
 parentId: env_467191896fbc186b33676805d502008f55dc9848
-modified: 1653923240175
+modified: 1653924563722
 created: 1635956460434
 name: Production Bifrost .39
 data:
@@ -18,6 +18,8 @@ data:
   newtect_user: integracion-tiws@orbith.com
   newtect_password: GLRt3RV3sUNWMnN
   token_hispasat: eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJvcmRlcmluZ21uLnBlQHRlbGVmb25pY2EuY29tIiwiaWF0IjoxNjMyODU0MjA3LCJleHAiOjE2MzI4NjUwMDd9.hgf0TmNSuhTz6sgJRmV3mLG715C2IX8xk5NzuKIe5ThaviYxgikDnZSaX2lPgEzJwhgeS3SBR-Ni9fDVwPUm6w
+  clientid: fa13ee54-49ca-4986-b75f-abd7a070b554
+  clientsecret: ViR8Q~ENdSuhHjM2FIcbWaDHZ2.o1PlEBiRK.aiD
 dataPropertyOrder:
   "&":
     - base_url
@@ -33,6 +35,8 @@ dataPropertyOrder:
     - newtect_user
     - newtect_password
     - token_hispasat
+    - clientid
+    - clientsecret
 color: "#50fb56"
 isPrivate: false
 metaSortKey: 814266271251.5

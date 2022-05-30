@@ -1,14 +1,18 @@
 _id: env_804c2305942a4270bb54256c1befe0eb
 type: Environment
 parentId: env_467191896fbc186b33676805d502008f55dc9848
-modified: 1653923257037
+modified: 1653924569536
 created: 1628604907262
 name: Production Bifrost 39 Dev
 data:
-  base_us_prod: http://192.168.36.50:80
+  base_us_prod: http://192.168.36.50:8100
+  clientid: ddd43619-6824-4ad5-b46f-ceb8254902d6
+  clientsecret: LmL8Q~eAn.QKeh8oXijWnZRMrWFuVLjdaiQyobi.
 dataPropertyOrder:
   "&":
     - base_us_prod
+    - clientid
+    - clientsecret
 color: null
 isPrivate: false
 metaSortKey: 1628604907262
