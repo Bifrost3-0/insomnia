@@ -1,7 +1,7 @@
 _id: req_c20f5f6b0f024fce9b9f45e91baee047
 type: Request
 parentId: fld_21d91af9f1dc427aae1267ecd117c76b
-modified: 1653582750425
+modified: 1653915626832
 created: 1652713331062
 url: "{{ _.newbackend }}/api/incidentRemedy/stopClockTicketBifrost"
 name: Quitar Paradax
@@ -28,7 +28,7 @@ body:
     - name: modelo
       value: >-
         {
-        	"dateRegister": "2022-04-01 00:00:00",
+        	"dateRegister": 1653811728,
         	"userData": "{\"user\": \"raul.franco@telefonica.com\",\"fullname\":\"Raul Franco\",\"email\":\"ralfrancos@hotmail.com\",\"phone\":\"987654321\",\"area\":\"development\"}",
         	"ticketId": 1000,
         	"description": "Status Reason: Detalle del Pendiente"

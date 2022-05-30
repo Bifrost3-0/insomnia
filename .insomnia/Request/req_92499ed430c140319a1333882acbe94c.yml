@@ -1,7 +1,7 @@
 _id: req_92499ed430c140319a1333882acbe94c
 type: Request
 parentId: fld_21d91af9f1dc427aae1267ecd117c76b
-modified: 1653587394607
+modified: 1653915618793
 created: 1652712309197
 url: "{{ _.newbackend }}/api/incidentRemedy/closeTicket"
 name: Cerrar Incidenciax
@@ -13,35 +13,10 @@ body:
     - name: modelo
       value: >-
         {
-        	"dateRegister": "2022-04-01 00:00:00",
+        	"dateRegister": 1653811728,
         	"userData": "{\"user\": \"raul.franco@telefonica.com\",\"fullname\":\"Raul Franco\",\"email\":\"ralfrancos@hotmail.com\",\"phone\":\"987654321\",\"area\":\"development\"}",
-        	"reportedSource": "Telefono",
-        	"cancelado": 1,
         	"statusReason":"PRUEBA",
-        	"pinCausaId":1,
-        	"ticketId": 21299,
-        	"closeIncident": "2022-03-31 01:00:00",
-        	"resolve":0,
-        	"resolveIncident": "2022-03-31 00:00:00",
-        	"pin_imputable_id":1,
-        	"pinCausa": "Resolution Categorization Tier 2",
-        	"pinCausaDetail": "Resolution Categorization Tier 3",
-
-        	"tecnology": "Resolution Product Categorization Tier 1",
-        	"platform": "Resolution Product Categorization Tier 2",
-        	"gateway": "Resolution Product Categorization Tier 3",
-        	
-        	"timeWithoutStops(hhmm)": "123:01",
-        	"timeWithStops(hhmm)": "123:01",
-        	"reasonForOutage": "Detalle Tecnico de la Incidencia",
-        	"incidentResolvedDateBulletin": "2022-03-31 00:00:00",
-        	"problemRealDate": "2022-03-31 00:00:00",
-        	"firstCallResolution" : 0,
-        	
-        	"terminalsAffected": "100;101;102;103",
-        	"servicios_afectados": "Otro",
-        	"elementos_afectados": "Otro",
-        	"subsistema": "Otros"
+        	"ticketId": 21299
         }
       id: pair_5dc3d10cd9334de2b00caf9d324c8c98
       type: text
@@ -51,7 +26,7 @@ body:
       value: ""
       description: ""
       type: file
-      fileName: C:\Users\WUIJHE04\Documents\x\test.csv.txt
+      fileName: C:\Users\julio\OneDrive\Email attachments\Documentos\test.csv
 parameters: []
 headers:
   - id: pair_47484d7565ca4e698c460a3359c3115d
