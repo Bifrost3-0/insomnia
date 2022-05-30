@@ -1,7 +1,7 @@
 _id: req_a2865d24f47b4ef4b3fd4fcf35529d04
 type: Request
 parentId: fld_f30e1bd49d514d67a7524fa9dffc617e
-modified: 1653188144037
+modified: 1653923157010
 created: 1651802350628
 url: "{{ _.base_us_prod }}/ext/api/v1/whs/partners"
 name: List Partners

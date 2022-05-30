@@ -32,6 +32,7 @@ description: >-
       + When a customer terminates the contract, but the subscription has been previously activated, the subscription 
       expires. This status can be generated from an active, or a suspended status.
 
+
       
   ### Change Status
 

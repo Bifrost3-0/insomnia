@@ -1,9 +1,9 @@
 _id: req_d39c8af2f0e045e58ccf2ecb73023307
 type: Request
 parentId: fld_5bed3d59ad3145589454d2d6c1894c71
-modified: 1652812786960
+modified: 1653923311886
 created: 1651802350617
-url: http://192.168.36.50:8100/ext/api/v1/whs/services
+url: "{{ _.base_us_prod }}/ext/api/v1/whs/services"
 name: http://192.168.36.50:8100/ext/api/v1/whs/services
 description: ""
 method: GET
