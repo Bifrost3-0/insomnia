@@ -1,0 +1,43 @@
+_id: req_d7fac5f358c64dd8b409448c2807c566
+type: Request
+parentId: fld_11c76630b5ef4f3b86a17e577cd9aa66
+modified: 1652812482479
+created: 1651802350632
+url: "{{ _.base_us_prod }}/ext/api/v1/whs/partners/:partnerId"
+name: Return Partner Details
+description: >-
+  Returns the details of a specific partner. In this case, the partner
+  identifies a distributor account.
+
+  ___
+
+  ## *Partner*
+
+  A partner is a legal entity that acts towards Eutelsat as a distributor or a reseller, in particular, a partner 
+
+  represents the distributor or reseller, which can perform actions on customers or subscriptions.
+
+  ### Partner ID
+
+  The partner ID is the unique identifier assigned to a partner, and it is required for multiple requests, e.g. to create subscriptions, 
+
+  show wallet balance and list locked terminals.
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: Accept
+    value: application/json
+    id: pair_92634d23e59747c58e7e2bf355182edc
+authentication:
+  type: bearer
+  token: "{% response 'body', 'req_dc6823ebdc114b36a055a8c10f092e07',
+    'b64::JC5hY2Nlc3NfdG9rZW4=::46b', 'when-expired', 60 %}"
+metaSortKey: -1651802350632
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

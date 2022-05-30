@@ -1,11 +1,12 @@
 _id: env_d05ea15fa70b4c4eb0c12f043bb024d9
 type: Environment
 parentId: env_467191896fbc186b33676805d502008f55dc9848
-modified: 1652312260172
+modified: 1652735505833
 created: 1635956460434
 name: Production Bifrost .39
 data:
   base_url: 192.168.36.39
+  base_us_prod: http://192.168.36.50:8101
   hughes_platform: 80
   newtect_platform: 8081
   gilat_ka_platform: 8888
@@ -20,6 +21,7 @@ data:
 dataPropertyOrder:
   "&":
     - base_url
+    - base_us_prod
     - hughes_platform
     - newtect_platform
     - gilat_ka_platform
@@ -33,4 +35,4 @@ dataPropertyOrder:
     - token_hispasat
 color: "#50fb56"
 isPrivate: false
-metaSortKey: 4
+metaSortKey: 814266271251.5

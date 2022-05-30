@@ -1,0 +1,79 @@
+_id: req_273d856695434a7abd163ccca8803e1a
+type: Request
+parentId: fld_6689063ce75d4daa9179be1d802eb59d
+modified: 1652849412746
+created: 1651802350684
+url: "{{ _.base_us_prod
+  }}/ext/api/v1/whs/services/:serviceId/subscriptions/:subscriptionId/actions/a\
+  ssign_addon"
+name: Assign Add-On
+description: >-
+  Assigns an add-on to a subscription.
+
+  ___
+
+  ## *Add-On*
+
+  An add-on is an additional volume package, that a customer may request in order to avoid navigation restraints. 
+
+  It is possible to assign an add-on type to a subscription through a specific API request. The internal platform 
+
+  links through this assignment the add-on instance to the subscription.
+
+  After assignment completion, it is possible to get the list of the assigned add-ons containing the add-on instance.
+
+  ### Add-On Type
+
+  For each subscription, there are several add-on types available for services, which allow the API client to request 
+
+  the best additional data allowance for a subscription.
+
+  ___
+
+  ## *Subscription*
+
+  A subscription is the compound of selected product - intended as set of plan and options -, customer, and terminal.
+
+  ### Products
+
+  A subscription includes all products purchased by a single customer, for example:
+   + plans,
+   + add-ons, and
+   + options.
+  ### Technical Details
+
+  A __first subscription__ is a new subscription for a not existing customer, and, when creating a first subscription, 
+
+  the API requests all the __customer details__, but not the __customer ID__, which is unknown.
+
+  A __new subscription__ is a subscription creation request for an existing customer, and, during the subscription 
+
+  creation flow, the API requests only the __customer ID__.
+method: POST
+body:
+  mimeType: ""
+  text: |-
+    {
+      "addon_type_id": "tempor adipisicing irure",
+      "quantity": -31672723
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_73058f3897f64c8a97664617964c0ae6
+  - name: Accept
+    value: application/json
+    id: pair_90c913d857e647d08030574c862b4edc
+authentication:
+  type: bearer
+  token: "{% response 'body', 'req_dc6823ebdc114b36a055a8c10f092e07',
+    'b64::JC5hY2Nlc3NfdG9rZW4=::46b', 'never', 60 %}"
+metaSortKey: -1651802350684
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

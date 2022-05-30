@@ -1,0 +1,51 @@
+_id: req_b0251bfc5efa49b4ba88190376bc0617
+type: Request
+parentId: fld_11c76630b5ef4f3b86a17e577cd9aa66
+modified: 1652814613334
+created: 1651802350630
+url: "{{ _.base_us_prod
+  }}/ext/api/v1/whs/partners/:partnerId/wallet?include_movements=false"
+name: Return Partner Wallet
+description: >-
+  Returns information about the wallet related to a specific partner.
+
+  ___
+
+  ## *Wallet*
+
+  Each subscription and service owns a __wallet__, where the customer can charge credit in order to pay, both in 
+
+  pre-paid and post-paid payment model. More in general, the virtual wallet can be used to perform orders on the portal.
+
+  ___
+
+  ## *Partner*
+
+  A partner is a legal entity that acts towards Eutelsat as a distributor or a reseller, in particular, a partner 
+
+  represents the distributor or reseller, which can perform actions on customers or subscriptions.
+
+  ### Partner ID
+
+  The partner ID is the unique identifier assigned to a partner, and it is required for multiple requests, e.g. to create subscriptions, 
+
+  show wallet balance and list locked terminals.
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: Accept
+    value: application/json
+    id: pair_46909e3635f9439cb6b5399d73be537c
+authentication:
+  type: bearer
+  token: "{% response 'body', 'req_dc6823ebdc114b36a055a8c10f092e07',
+    'b64::JC5hY2Nlc3NfdG9rZW4=::46b', 'when-expired', 60 %}"
+metaSortKey: -1651802350630
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

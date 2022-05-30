@@ -1,0 +1,37 @@
+_id: req_e7e716457de84a7d989dc11e35f2f867
+type: Request
+parentId: fld_475f366b269848fda54749b2ad035d16
+modified: 1652812630533
+created: 1651802350639
+url: "{{ _.base_us_prod
+  }}/ext/api/v1/whs/partners/:partnerId/cases/:caseNumber/workinfo"
+name: Add Work Info
+description: Allows to add a work info to a given case.
+method: POST
+body:
+  mimeType: ""
+  text: |-
+    {
+      "notes": "Notes Example",
+      "summary": "Summary Example"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_857740efe6774290a928abb82861ab86
+  - name: Accept
+    value: application/json
+    id: pair_fe573e30e4f84386ba382ac8fe5b2c04
+authentication:
+  type: bearer
+  token: "{% response 'body', 'req_dc6823ebdc114b36a055a8c10f092e07',
+    'b64::JC5hY2Nlc3NfdG9rZW4=::46b', 'when-expired', 60 %}"
+metaSortKey: -1651802350639
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

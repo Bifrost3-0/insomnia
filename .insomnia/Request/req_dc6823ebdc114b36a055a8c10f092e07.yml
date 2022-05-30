@@ -1,0 +1,67 @@
+_id: req_dc6823ebdc114b36a055a8c10f092e07
+type: Request
+parentId: fld_49729d2612bf47e3a2273829b863184f
+modified: 1653922436458
+created: 1651802350619
+url: "{{ _.base_us_prod }}/ext/api/v1/whs/oauth2/token"
+name: Releases JWT
+description: >-
+  Returns an OAuth 2.0 JWT through client credentials grant flow.
+
+  ___
+
+  ## *OAuth 2.0 JWT*
+
+  An __OAuth 2.0 JSON Web Token__ (__JWT__) is valid for 60 minutes through standard OAuth 2.0 client credentials grant flow. 
+
+  For more information visit the following [website](https://www.oauth.com/oauth2-servers/access-tokens/client-credentials/).
+
+  This response returns the **access_token** as a JSON property.
+
+  For any following API call, set the **Authorization** header as "Bearer <access-token>". 
+
+  Here follows an example:
+
+  ```
+
+  curl --location --request GET 'https://knt-demo.skylogic.com/ext/api/v1/whs/services' \
+
+  --header 'Authorization: Bearer <access-token>' \
+
+  --header 'Accept: application/json'
+
+  ```
+
+  ### Available Partners and Services
+
+  The internal platform privately sends the **client_id** and the **client_secret** to each partner.
+
+  The internal platform assigns to the **client_id** an authorization list containing the partners and services 
+
+  to which the **client_id** can access and operate, and specific API requests return this list.
+method: POST
+body:
+  mimeType: ""
+  text: |
+    {
+    	"client_id": "fa13ee54-49ca-4986-b75f-abd7a070b554",
+    	"client_secret": "ViR8Q~ENdSuhHjM2FIcbWaDHZ2.o1PlEBiRK.aiD",
+    	"grant_type": "client_credentials"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_af538995a17f461bb592c9327f3137b8
+  - name: Accept
+    value: application/json
+    id: pair_776144e6be4941abb8534886841cb1ba
+authentication: {}
+metaSortKey: -1651802350619
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

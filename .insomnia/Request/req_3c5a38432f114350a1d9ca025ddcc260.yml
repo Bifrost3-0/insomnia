@@ -1,0 +1,70 @@
+_id: req_3c5a38432f114350a1d9ca025ddcc260
+type: Request
+parentId: fld_52c437aecc93491ba6fa192947a43746
+modified: 1653005698651
+created: 1651802350670
+url: "{{ _.base_us_prod
+  }}/ext/api/v1/whs/services/200274/subscriptions/226353/addons"
+name: Return Assigned Add-Ons
+description: >-
+  Returns a list of the add-ons currently assigned to a selected subscription,
+  and the data consumption information for each add-on.
+
+  ___
+
+  ## *Add-On*
+
+  An add-on is an additional volume package, that a customer may request in order to avoid navigation restraints. 
+
+  It is possible to assign an add-on type to a subscription through a specific API request. The internal platform 
+
+  links through this assignment the add-on instance to the subscription.
+
+  After assignment completion, it is possible to get the list of the assigned add-ons containing the add-on instance.
+
+  ### Add-On Type
+
+  For each subscription, there are several add-on types available for services, which allow the API client to request 
+
+  the best additional data allowance for a subscription.
+
+  ___
+
+  ## *Subscription*
+
+  A subscription is the compound of selected product - intended as set of plan and options -, customer, and terminal.
+
+  ### Products
+
+  A subscription includes all products purchased by a single customer, for example:
+   + plans,
+   + add-ons, and
+   + options.
+  ### Technical Details
+
+  A __first subscription__ is a new subscription for a not existing customer, and, when creating a first subscription, 
+
+  the API requests all the __customer details__, but not the __customer ID__, which is unknown.
+
+  A __new subscription__ is a subscription creation request for an existing customer, and, during the subscription 
+
+  creation flow, the API requests only the __customer ID__.
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: Accept
+    value: application/json
+    id: pair_045b022b9da24fc6a1933d5a041f65dc
+authentication:
+  type: bearer
+  token: "{% response 'body', 'req_dc6823ebdc114b36a055a8c10f092e07',
+    'b64::JC5hY2Nlc3NfdG9rZW4=::46b', 'when-expired', 60 %}"
+metaSortKey: -1651802350670
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

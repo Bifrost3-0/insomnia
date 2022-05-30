@@ -1,0 +1,69 @@
+_id: req_57c51c602a0a4bf9bc5afb868e4a6e41
+type: Request
+parentId: fld_40eca4423023480bba5181b120e41411
+modified: 1652849436080
+created: 1651802350659
+url: "{{ _.base_us_prod
+  }}/ext/api/v1/whs/services/200274/products/addon_types?plan_id=64dce3e6"
+name: List Available Add-Ons
+description: >-
+  Returns a list of the add-on types available for the requested plan.
+
+  ___
+
+  ## *Add-On*
+
+  An add-on is an additional volume package, that a customer may request in order to avoid navigation restraints. 
+
+  It is possible to assign an add-on type to a subscription through a specific API request. The internal platform 
+
+  links through this assignment the add-on instance to the subscription.
+
+  After assignment completion, it is possible to get the list of the assigned add-ons containing the add-on instance.
+
+  ### Add-On Type
+
+  For each subscription, there are several add-on types available for services, which allow the API client to request 
+
+  the best additional data allowance for a subscription.
+
+  ___
+
+  ## *Product*
+
+  A product is the actual product that a partner can buy and benefit from.
+
+  Examples of products are plans, add-ons, and options.
+
+  ___
+
+  ## *Service*
+
+  The service is the type of contract between the service provider and the partner, and it contains multiple created 
+
+  subscriptions.
+
+  ### Service ID
+
+  The service ID is the primary identifier for a service, this information is mandatory for some APIs, and it is 
+
+  necessary to authorize requests that manage customers and subscriptions.
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: Accept
+    value: application/json
+    id: pair_b40deebe976b42ca818e041e7b5a1d23
+authentication:
+  type: bearer
+  token: "{% response 'body', 'req_dc6823ebdc114b36a055a8c10f092e07',
+    'b64::JC5hY2Nlc3NfdG9rZW4=::46b', 'when-expired', 60 %}"
+metaSortKey: -1651802350659
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

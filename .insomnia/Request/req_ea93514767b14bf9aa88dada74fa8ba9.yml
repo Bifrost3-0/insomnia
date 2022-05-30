@@ -1,0 +1,81 @@
+_id: req_ea93514767b14bf9aa88dada74fa8ba9
+type: Request
+parentId: fld_947aaccf85524db8af3d2f0951c5935c
+modified: 1653318883530
+created: 1651802350694
+url: "{{ _.base_us_prod
+  }}/ext/api/v1/whs/services/:serviceId/subscriptions/:subscriptionId/actions/c\
+  hange_location"
+name: Change Location
+description: >-
+  Activates the change location process for a subscription. It is an
+  asynchronous process.
+
+  ___
+
+  ## *Location*
+
+  The location is the geographical position of the terminal, which is identified through latitude, longitude, and country
+
+  expressed in ISO alpha code. 
+
+  It is possible to perform a **change location** action to provide a physical transfer of the terminal to a different 
+
+  address. The change location action produces a relocation order request, that the installer can execute through the 
+
+  information contained in the relocation type work order.
+
+  ___
+
+  ## *Product*
+
+  A product is the actual product that a partner can buy and benefit from.
+
+  Examples of products are plans, add-ons, and options.
+
+  ___
+
+  ## *Service*
+
+  The service is the type of contract between the service provider and the partner, and it contains multiple created 
+
+  subscriptions.
+
+  ### Service ID
+
+  The service ID is the primary identifier for a service, this information is mandatory for some APIs, and it is 
+
+  necessary to authorize requests that manage customers and subscriptions.
+method: POST
+body:
+  mimeType: ""
+  text: |-
+    {
+      "installation_country": "FRA",
+      "installation_latitude": 45.0781,
+      "installation_longitude": 7.6761,
+      "installation_state": "cillum",
+      "installation_city": "voluptate magna dolore cillum",
+      "installation_street": "culpa adipisicing magna",
+      "installation_postal_code": "deserunt in"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_3f18077b41fe4a2a88ff04a28bbee632
+  - name: Accept
+    value: application/json
+    id: pair_042936d04c4d4854ba657d9a02084225
+authentication:
+  type: bearer
+  token: "{% response 'body', 'req_dc6823ebdc114b36a055a8c10f092e07',
+    'b64::JC5hY2Nlc3NfdG9rZW4=::46b', 'never', 60 %}"
+metaSortKey: -1651802350694
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

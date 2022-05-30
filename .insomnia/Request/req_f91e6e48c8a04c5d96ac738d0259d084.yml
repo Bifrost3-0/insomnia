@@ -1,0 +1,51 @@
+_id: req_f91e6e48c8a04c5d96ac738d0259d084
+type: Request
+parentId: fld_21949a7e6ab54b6a800416941c7f8323
+modified: 1652812266776
+created: 1651802350655
+url: "{{ _.base_us_prod
+  }}/ext/api/v1/whs/services/200274/wallet?include_movements=false"
+name: Return Service Wallet
+description: >-
+  Returns information about the wallet related to a specific service.
+
+  ___
+
+  ## *Wallet*
+
+  Each subscription and service owns a __wallet__, where the customer can charge credit in order to pay, both in 
+
+  pre-paid and post-paid payment model. More in general, the virtual wallet can be used to perform orders on the portal.
+
+  ___
+
+  ## *Service*
+
+  The service is the type of contract between the service provider and the partner, and it contains multiple created 
+
+  subscriptions.
+
+  ### Service ID
+
+  The service ID is the primary identifier for a service, this information is mandatory for some APIs, and it is 
+
+  necessary to authorize requests that manage customers and subscriptions.
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: Accept
+    value: application/json
+    id: pair_5d59ff34d13a4bf5a8bd50b5fe915d8b
+authentication:
+  type: bearer
+  token: "{% response 'body', 'req_dc6823ebdc114b36a055a8c10f092e07',
+    'b64::JC5hY2Nlc3NfdG9rZW4=::46b', 'when-expired', 60 %}"
+metaSortKey: -1651802350655
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

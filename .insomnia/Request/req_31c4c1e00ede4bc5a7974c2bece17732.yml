@@ -1,0 +1,29 @@
+_id: req_31c4c1e00ede4bc5a7974c2bece17732
+type: Request
+parentId: fld_52c437aecc93491ba6fa192947a43746
+modified: 1652849342636
+created: 1651802350671
+url: "{{ _.base_us_prod
+  }}/ext/api/v1/whs/services/200274/subscriptions/223597/consumption_info"
+name: Return Consumption Information
+description: Returns detailed information about traffic consumption in the
+  current cycle, aggregated by 5 minutes, for a single subscription.
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: Accept
+    value: application/json
+    id: pair_963b5709eeba4f83ad8c60a8bf04f70c
+authentication:
+  type: bearer
+  token: "{% response 'body', 'req_dc6823ebdc114b36a055a8c10f092e07',
+    'b64::JC5hY2Nlc3NfdG9rZW4=::46b', 'never', 60 %}"
+metaSortKey: -1651802350671
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

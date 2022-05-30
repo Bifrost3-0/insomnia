@@ -1,0 +1,30 @@
+_id: req_4693375194fc445fafdfcf2ae6d36686
+type: Request
+parentId: fld_411c4387afd54b0f875a2c87bb64bb6b
+modified: 1652814529103
+created: 1651802350622
+url: "{{ _.base_us_prod
+  }}/ext/api/v1/whs/history/ip-address?ipAddress=100.100.0.4&date=2020-04-22T06\
+  :35:00Z"
+name: Returns IP history by IP address
+description: Returns the records of a list of IPs and their assigned
+  subscriptions on a given date and time, selected by IP address.
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: Accept
+    value: application/json
+    id: pair_d4432cb0682a4e83926827ff268f735d
+authentication:
+  type: bearer
+  token: "{% response 'body', 'req_dc6823ebdc114b36a055a8c10f092e07',
+    'b64::JC5hY2Nlc3NfdG9rZW4=::46b', 'when-expired', 60 %}"
+metaSortKey: -1651802350622
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

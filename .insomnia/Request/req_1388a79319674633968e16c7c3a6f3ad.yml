@@ -1,0 +1,29 @@
+_id: req_1388a79319674633968e16c7c3a6f3ad
+type: Request
+parentId: fld_13e8e7a3ff24491bbc524a86a0dc31cc
+modified: 1652812558489
+created: 1651802350634
+url: "{{ _.base_us_prod
+  }}/ext/api/v1/whs/services/:serviceId/data/traffic?time_span_key=12Hours&beam\
+  _id=nisi non esse tempor"
+name: List Subcategories
+description: Returns the subcategories by case type and macrocategory.
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: Accept
+    value: application/json
+    id: pair_dfe3a6eca25c44f69f9115d61fb2ec37
+authentication:
+  type: bearer
+  token: "{% response 'body', 'req_dc6823ebdc114b36a055a8c10f092e07',
+    'b64::JC5hY2Nlc3NfdG9rZW4=::46b', 'when-expired', 60 %}"
+metaSortKey: -1651802350634
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

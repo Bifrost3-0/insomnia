@@ -1,0 +1,40 @@
+_id: req_116b89f5f87d469798a72a0600698448
+type: Request
+parentId: fld_6689063ce75d4daa9179be1d802eb59d
+modified: 1652840139676
+created: 1651802350686
+url: "{{ _.base_us_prod
+  }}/ext/api/v1/whs/services/:serviceId/subscriptions/:subscriptionId/actions/c\
+  hange_options"
+name: Assign Options
+description: Allows to add options to the subscription options list.
+method: POST
+body:
+  mimeType: ""
+  text: |-
+    {
+      "option_ids": [
+        "culpa sint sed et",
+        "mollit exercita"
+      ]
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_70bc411750c64f2fb20da288563b0fe0
+  - name: Accept
+    value: application/json
+    id: pair_c543900e1a474611af2ee2ba79183939
+authentication:
+  type: bearer
+  token: "{% response 'body', 'req_dc6823ebdc114b36a055a8c10f092e07',
+    'b64::JC5hY2Nlc3NfdG9rZW4=::46b', 'never', 60 %}"
+metaSortKey: -1651802350686
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

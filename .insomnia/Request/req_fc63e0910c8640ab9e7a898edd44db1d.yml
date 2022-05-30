@@ -1,0 +1,60 @@
+_id: req_fc63e0910c8640ab9e7a898edd44db1d
+type: Request
+parentId: fld_21949a7e6ab54b6a800416941c7f8323
+modified: 1653318933729
+created: 1651802350652
+url: "{{ _.base_us_prod
+  }}/ext/api/v1/whs/services/200274/coverage?progress_coverage=true&latitude=-9\
+  .56505&longitude=-77.0113&country=PER"
+name: Check Service Coverage
+description: >-
+  Allows to check if a given service is available for a specific geographical
+  location, expressed through the following parameters: latitude, longitude, and
+  ISO-Alpha-3 country code.
+
+  ___
+
+  ## *Location*
+
+  The location is the geographical position of the terminal, which is identified through latitude, longitude, and country
+
+  expressed in ISO alpha code. 
+
+  It is possible to perform a **change location** action to provide a physical transfer of the terminal to a different 
+
+  address. The change location action produces a relocation order request, that the installer can execute through the 
+
+  information contained in the relocation type work order.
+
+  ___
+
+  ## *Service*
+
+  The service is the type of contract between the service provider and the partner, and it contains multiple created 
+
+  subscriptions.
+
+  ### Service ID
+
+  The service ID is the primary identifier for a service, this information is mandatory for some APIs, and it is 
+
+  necessary to authorize requests that manage customers and subscriptions.
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: Accept
+    value: application/json
+    id: pair_1def17737f0448b9a88aabaa87286b29
+authentication:
+  type: bearer
+  token: "{% response 'body', 'req_dc6823ebdc114b36a055a8c10f092e07',
+    'b64::JC5hY2Nlc3NfdG9rZW4=::46b', 'never', 60 %}"
+metaSortKey: -1651802350652
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

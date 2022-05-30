@@ -1,0 +1,29 @@
+_id: req_0f05db17e99a4b419d295f4834315413
+type: Request
+parentId: fld_13e8e7a3ff24491bbc524a86a0dc31cc
+modified: 1652812499391
+created: 1651802350633
+url: "{{ _.base_us_prod
+  }}/ext/api/v1/whs/partners/:partnerId/cases/macrocategory?case_type=Technical\
+  _Issue"
+name: List Macrocategories
+description: Returns the available macrocategories by case type.
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: Accept
+    value: application/json
+    id: pair_8219ad8a71554b27ad4b9dc7cdc2baab
+authentication:
+  type: bearer
+  token: "{% response 'body', 'req_dc6823ebdc114b36a055a8c10f092e07',
+    'b64::JC5hY2Nlc3NfdG9rZW4=::46b', 'when-expired', 60 %}"
+metaSortKey: -1651802350633
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

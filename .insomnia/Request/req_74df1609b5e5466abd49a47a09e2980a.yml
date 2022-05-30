@@ -1,0 +1,29 @@
+_id: req_74df1609b5e5466abd49a47a09e2980a
+type: Request
+parentId: fld_0c5793754dcd4551821776e7131ca90c
+modified: 1653320734787
+created: 1651802350696
+url: "{{ _.base_us_prod
+  }}/ext/api/v1/whs/services/:serviceId/subscriptions/:subscriptionId/actions/s\
+  wap_terminal/abort"
+name: Cancel Swap Terminal Process
+description: Allows to cancel the change swappable status process.
+method: POST
+body: {}
+parameters: []
+headers:
+  - name: Accept
+    value: application/json
+    id: pair_df10d5bd5c834914bdbfa0723a40207a
+authentication:
+  type: bearer
+  token: "{% response 'body', 'req_dc6823ebdc114b36a055a8c10f092e07',
+    'b64::JC5hY2Nlc3NfdG9rZW4=::46b', 'never', 60 %}"
+metaSortKey: -1651802350696
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

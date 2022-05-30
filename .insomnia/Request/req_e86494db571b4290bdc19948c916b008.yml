@@ -1,0 +1,95 @@
+_id: req_e86494db571b4290bdc19948c916b008
+type: Request
+parentId: fld_ea87d57a19414a51807d52ccb4f8e7f1
+modified: 1653432650695
+created: 1651802350678
+url: "{{ _.base_us_prod
+  }}/ext/api/v1/whs/services/200274/subscriptions/226353/data/rf?time_span_key=\
+  12Hours"
+name: Return SNR Data at Subscription Level
+description: >
+  Returns data regarding the SNR for a specific subscription and for a specific
+  range of time. The time granularity of the data depends on the selected range.
+
+  ___
+
+  ## *Subscription*
+
+  A subscription is the compound of selected product - intended as set of plan and options -, customer, and terminal.
+
+  ### Products
+
+  A subscription includes all products purchased by a single customer, for example:
+   + plans,
+   + add-ons, and
+   + options.
+  ### Technical Details
+
+  A __first subscription__ is a new subscription for a not existing customer, and, when creating a first subscription, 
+
+  the API requests all the __customer details__, but not the __customer ID__, which is unknown.
+
+  A __new subscription__ is a subscription creation request for an existing customer, and, during the subscription 
+
+  creation flow, the API requests only the __customer ID__.
+
+  ___
+
+  ## *Service*
+
+  The service is the type of contract between the service provider and the partner, and it contains multiple created 
+
+  subscriptions.
+
+  ### Service ID
+
+  The service ID is the primary identifier for a service, this information is mandatory for some APIs, and it is 
+
+  necessary to authorize requests that manage customers and subscriptions.
+
+  ___
+
+  ## *Performance Data*
+
+  Returns data regarding data performance for a specific subscription and for a specific range of time. The data
+
+  granularity depends on the selected range.
+
+  ### Traffic Time Span
+
+  The available time spans for this field are:
+
+  + 10 minutes,
+
+  + 30 minutes,
+
+  + 12 hours,
+
+  + 2 days,
+
+  + 1 week,
+
+  + 1 month,
+
+  + 6 months,
+
+  + 2 years.
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: Accept
+    value: application/json
+    id: pair_fd4973f26ed64fb98a5ecf26e9c5a0f1
+authentication:
+  type: bearer
+  token: "{% response 'body', 'req_dc6823ebdc114b36a055a8c10f092e07',
+    'b64::JC5hY2Nlc3NfdG9rZW4=::46b', 'never', 60 %}"
+metaSortKey: -1651802350678
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

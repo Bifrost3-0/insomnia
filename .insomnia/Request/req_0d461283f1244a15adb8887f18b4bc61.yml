@@ -1,0 +1,39 @@
+_id: req_0d461283f1244a15adb8887f18b4bc61
+type: Request
+parentId: fld_475f366b269848fda54749b2ad035d16
+modified: 1652812641997
+created: 1651802350640
+url: "{{ _.base_us_prod }}/ext/api/v1/whs/partners/:partnerId/cases/:caseNumber"
+name: Update Case
+description: Allows to update a given case.
+method: PATCH
+body:
+  mimeType: ""
+  text: |-
+    {
+      "status": "Closed",
+      "work_info": {
+        "notes": "Notes Example",
+        "summary": "Summary Example"
+      }
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_f6ab6fc39fa04a3d92f94e6c4d4f5d50
+  - name: Accept
+    value: application/json
+    id: pair_f00ba7964c2a4b06a50b5a9ffdbb1f02
+authentication:
+  type: bearer
+  token: "{% response 'body', 'req_dc6823ebdc114b36a055a8c10f092e07',
+    'b64::JC5hY2Nlc3NfdG9rZW4=::46b', 'when-expired', 60 %}"
+metaSortKey: -1651802350640
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

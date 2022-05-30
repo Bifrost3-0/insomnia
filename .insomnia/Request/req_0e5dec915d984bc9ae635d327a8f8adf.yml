@@ -1,0 +1,45 @@
+_id: req_0e5dec915d984bc9ae635d327a8f8adf
+type: Request
+parentId: fld_ce8b174ba49645ddbdf68bd67321ef50
+modified: 1653432787158
+created: 1651802350658
+url: "{{ _.base_us_prod
+  }}/ext/api/v1/whs/services/200274/data/traffic?time_span_key=12Hours"
+name: Return Traffic Data at Service Level
+description: >-
+  Returns aggregated data regarding the traffic for a specific service and for a
+  specific range of time. The time granularity of the data depends on the
+  selected range.
+
+  ___
+
+  ## *Service*
+
+  The service is the type of contract between the service provider and the partner, and it contains multiple created 
+
+  subscriptions.
+
+  ### Service ID
+
+  The service ID is the primary identifier for a service, this information is mandatory for some APIs, and it is 
+
+  necessary to authorize requests that manage customers and subscriptions.
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: Accept
+    value: application/json
+    id: pair_99e2733f683d4e0c9b3caf2d194b9175
+authentication:
+  type: bearer
+  token: "{% response 'body', 'req_dc6823ebdc114b36a055a8c10f092e07',
+    'b64::JC5hY2Nlc3NfdG9rZW4=::46b', 'never', 60 %}"
+metaSortKey: -1651802350658
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

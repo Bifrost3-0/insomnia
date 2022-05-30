@@ -1,0 +1,89 @@
+_id: req_bd2f881e57294c56a30dccfac87d1441
+type: Request
+parentId: fld_2a527c2dfd3940ad968b664761e7f790
+modified: 1653424735261
+created: 1651802350668
+url: "{{ _.base_us_prod }}/ext/api/v1/whs/services/200274/subscriptions"
+name: Create Subscription
+description: >-
+  Creates a first subscription or a new subscription for an existing customer.
+
+  ___
+
+  ## *Subscription*
+
+  A subscription is the compound of selected product - intended as set of plan and options -, customer, and terminal.
+
+  ### Products
+
+  A subscription includes all products purchased by a single customer, for example:
+   + plans,
+   + add-ons, and
+   + options.
+  ### Technical Details
+
+  A __first subscription__ is a new subscription for a not existing customer, and, when creating a first subscription, 
+
+  the API requests all the __customer details__, but not the __customer ID__, which is unknown.
+
+  A __new subscription__ is a subscription creation request for an existing customer, and, during the subscription 
+
+  creation flow, the API requests only the __customer ID__.
+method: POST
+body:
+  mimeType: ""
+  text: |-
+    {
+      "option_ids": [
+        "nostrud deserunt",
+        "voluptate pariatur velit adipisicing incididunt"
+      ],
+      "partner_id": "23455",
+      "plan_id": "ut aliqua veniam laboris",
+      "work_order": {
+        "installation_country": "FRA",
+        "installation_latitude": 45.0781,
+        "installation_longitude": 7.6761,
+        "installation_state": "ut incididunt",
+        "installation_city": "est dolore fugiat consectetur dolor",
+        "installation_street": "nulla officia irure incididunt tempo",
+        "installation_postal_code": "Ut est incididunt et"
+      },
+      "customer_id": "23455",
+      "customer": {
+        "account_name": "John",
+        "account_type": "Residential_Customer",
+        "billing_country": "FRA",
+        "email": "email@provider.com",
+        "folder_code": "000005",
+        "billing_street": "70, Rue Balard",
+        "billing_city": "Paris",
+        "billing_postal_code": "10121",
+        "billing_state": "est consequat dolor laborum",
+        "create_user_on_iam": false,
+        "phone": "+41 0011223344"
+      },
+      "service_region_id": -32836060,
+      "terminal_class": "s",
+      "subscription_code": "nulla consectetur ea"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_3d184b06824046f0882c572902435b0b
+  - name: Accept
+    value: application/json
+    id: pair_eef8b29669ef4ed4a8c8104cf6902a80
+authentication:
+  type: bearer
+  token: "{% response 'body', 'req_dc6823ebdc114b36a055a8c10f092e07',
+    'b64::JC5hY2Nlc3NfdG9rZW4=::46b', 'never', 60 %}"
+metaSortKey: -1651802350668
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

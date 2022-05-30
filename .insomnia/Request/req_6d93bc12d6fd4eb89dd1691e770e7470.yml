@@ -1,0 +1,40 @@
+_id: req_6d93bc12d6fd4eb89dd1691e770e7470
+type: Request
+parentId: fld_11c76630b5ef4f3b86a17e577cd9aa66
+modified: 1652849295829
+created: 1651802350631
+url: "{{ _.base_us_prod
+  }}/ext/api/v1/whs/partners/:partnerId/workinfo/:workInfoNumber/attachment?des\
+  cription=attachment 1"
+name: Send Attachment
+description: "Sends an attachment up to 1 MB, with one of the following allowed
+  extensions: .jpeg, .png, .zip."
+method: POST
+body:
+  params:
+    - type: file
+      name: attachment
+      disabled: false
+      fileName: []
+      id: pair_7e16325b4dcd4139bae8b3d75b97b14e
+  mimeType: multipart/form-data
+parameters: []
+headers:
+  - name: Content-Type
+    value: multipart/form-data
+    id: pair_100f8d5a1aa44a289a7df383dfde2905
+  - name: Accept
+    value: application/json
+    id: pair_9908aefbb9304ceabbae523dc8f4cd12
+authentication:
+  type: bearer
+  token: "{% response 'body', 'req_dc6823ebdc114b36a055a8c10f092e07',
+    'b64::JC5hY2Nlc3NfdG9rZW4=::46b', 'when-expired', 60 %}"
+metaSortKey: -1651802350631
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

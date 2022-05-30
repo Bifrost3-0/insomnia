@@ -1,0 +1,42 @@
+_id: req_6f8ddc0e8edc4a3988664b913896160d
+type: Request
+parentId: fld_58e72184c31740899b1ed4abe70442d5
+modified: 1653187427128
+created: 1651802350650
+url: "{{ _.base_us_prod }}/ext/api/v1/whs/services"
+name: List Available Services
+description: >-
+  Returns a list of the services accessible with the provided credentials
+
+  ___
+
+  ## *Service*
+
+  The service is the type of contract between the service provider and the partner, and it contains multiple created 
+
+  subscriptions.
+
+  ### Service ID
+
+  The service ID is the primary identifier for a service, this information is mandatory for some APIs, and it is 
+
+  necessary to authorize requests that manage customers and subscriptions.
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: Accept
+    value: application/json
+    id: pair_97195933f1fa472fadd880f43af8b182
+authentication:
+  type: bearer
+  token: "{% response 'body', 'req_dc6823ebdc114b36a055a8c10f092e07',
+    'b64::JC5hY2Nlc3NfdG9rZW4=::46b', 'when-expired', 60 %}"
+metaSortKey: -1651802350650
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

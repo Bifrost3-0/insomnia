@@ -1,0 +1,50 @@
+_id: req_3fd4f49d38714127b5953d964cfea875
+type: Request
+parentId: fld_52c437aecc93491ba6fa192947a43746
+modified: 1652814127880
+created: 1651802350675
+url: "{{ _.base_us_prod
+  }}/ext/api/v1/whs/services/:serviceId/subscriptions/:subscriptionId/terminal-\
+  reboot"
+name: Reboot terminal
+description: >-
+  Triggers the reboot for a provisioned terminal.
+
+  ___
+
+  ## *Terminal*
+
+  The terminal is the physical modem that handles the connectivity for each end-user.
+
+  ___
+
+  ## *Service*
+
+  The service is the type of contract between the service provider and the partner, and it contains multiple created 
+
+  subscriptions.
+
+  ### Service ID
+
+  The service ID is the primary identifier for a service, this information is mandatory for some APIs, and it is 
+
+  necessary to authorize requests that manage customers and subscriptions.
+method: POST
+body: {}
+parameters: []
+headers:
+  - name: Accept
+    value: application/json
+    id: pair_c7a6a23d8bd14d73be80c5190664b76f
+authentication:
+  type: bearer
+  token: "{% response 'body', 'req_dc6823ebdc114b36a055a8c10f092e07',
+    'b64::JC5hY2Nlc3NfdG9rZW4=::46b', 'never', 60 %}"
+metaSortKey: -1651802350675
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

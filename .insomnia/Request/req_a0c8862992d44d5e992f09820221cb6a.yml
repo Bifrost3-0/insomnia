@@ -1,0 +1,29 @@
+_id: req_a0c8862992d44d5e992f09820221cb6a
+type: Request
+parentId: fld_411c4387afd54b0f875a2c87bb64bb6b
+modified: 1652814395422
+created: 1651802350623
+url: "{{ _.base_us_prod
+  }}/ext/api/v1/whs/history/services/:serviceId/subscriptions/:subscriptionId/p\
+  lan_history?hours_ago=24"
+name: Return Plan and Option Info
+description: Returns detailed information about plan and option for a single subscription.
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: Accept
+    value: application/json
+    id: pair_b520d0a13c434f4e888a795e930485b8
+authentication:
+  type: bearer
+  token: "{% response 'body', 'req_dc6823ebdc114b36a055a8c10f092e07',
+    'b64::JC5hY2Nlc3NfdG9rZW4=::46b', 'when-expired', 60 %}"
+metaSortKey: -1651802350623
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

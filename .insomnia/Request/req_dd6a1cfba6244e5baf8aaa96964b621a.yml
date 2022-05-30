@@ -1,0 +1,37 @@
+_id: req_dd6a1cfba6244e5baf8aaa96964b621a
+type: Request
+parentId: fld_6940c3bbabe54fe495e5c965a78e293f
+modified: 1652835032921
+created: 1651802350626
+url: "{{ _.base_us_prod
+  }}/ext/api/v1/whs/subscriptions/:subscriptionId/terminals/:terminalId/diagnos\
+  tics"
+name: Return Terminal Diagnostics
+description: >-
+  Returns terminal diagnostics, which collect information about the terminal and
+  its configuration.
+
+  ___
+
+  ## *Terminal*
+
+  The terminal is the physical modem that handles the connectivity for each end-user.
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: Accept
+    value: application/json
+    id: pair_17434f89b65a471ab424301970c4b830
+authentication:
+  type: bearer
+  token: "{% response 'body', 'req_dc6823ebdc114b36a055a8c10f092e07',
+    'b64::JC5hY2Nlc3NfdG9rZW4=::46b', 'when-expired', 60 %}"
+metaSortKey: -1651802350626
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

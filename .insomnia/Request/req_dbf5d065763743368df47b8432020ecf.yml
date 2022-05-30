@@ -1,0 +1,29 @@
+_id: req_dbf5d065763743368df47b8432020ecf
+type: Request
+parentId: fld_13e8e7a3ff24491bbc524a86a0dc31cc
+modified: 1652812612973
+created: 1651802350637
+url: "{{ _.base_us_prod
+  }}/ext/api/v1/whs/partners/:partnerId/cases?status=Assigned&status=Pending&pa\
+  ge=0&size=20&sort=sunt sed ipsum occaecat&sort=sint anim id deserunt"
+name: Return Cases by Partner
+description: Returns cases by partner, sorted by creation date.
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: Accept
+    value: application/json
+    id: pair_67b7f33f6bf043949c244b657b3e002e
+authentication:
+  type: bearer
+  token: "{% response 'body', 'req_dc6823ebdc114b36a055a8c10f092e07',
+    'b64::JC5hY2Nlc3NfdG9rZW4=::46b', 'when-expired', 60 %}"
+metaSortKey: -1651802350637
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

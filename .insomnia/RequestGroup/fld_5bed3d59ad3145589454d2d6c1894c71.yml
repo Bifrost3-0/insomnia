@@ -1,0 +1,18 @@
+_id: fld_5bed3d59ad3145589454d2d6c1894c71
+type: RequestGroup
+parentId: wrk_7c28e35996214fcabe68cfd78f898499
+modified: 1651804189033
+created: 1651802350705
+name: API for Partners
+description: |-
+  API for Distributors
+
+  Contact Support:
+   Name: Eutelsat
+   Email: api.support@skylogic.it
+environment:
+  baseUrl: http://192.168.36.50:8100
+environmentPropertyOrder:
+  "&":
+    - baseUrl
+metaSortKey: -1651802350705

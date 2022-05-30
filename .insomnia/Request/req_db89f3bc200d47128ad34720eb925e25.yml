@@ -1,0 +1,24 @@
+_id: req_db89f3bc200d47128ad34720eb925e25
+type: Request
+parentId: fld_282e3887fcba4baf80ce49a7086ec2e9
+modified: 1652812191828
+created: 1651802350664
+url: "{{baseUrl}}/ext/api/v1/whs/services/:serviceId/customers/:customerId/folders"
+name: Return Customer Folder
+description: Returns the folder the customer belongs to.
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: Accept
+    value: application/json
+    id: pair_8e15a92ca7ed4b0190b93a239bef5c10
+authentication: {}
+metaSortKey: -1651802350664
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

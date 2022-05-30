@@ -1,0 +1,83 @@
+_id: req_3d75e1ce7e6348ef8e0c3f8a56480b1e
+type: Request
+parentId: fld_6689063ce75d4daa9179be1d802eb59d
+modified: 1652840138496
+created: 1651802350687
+url: "{{ _.base_us_prod
+  }}/ext/api/v1/whs/services/:serviceId/subscriptions/:subscriptionId/actions/c\
+  hange_plan"
+name: Change Plan
+description: >-
+  Allows to change the plan and the options for an existing subscription.
+
+  ___
+
+  ## *Subscription*
+
+  A subscription is the compound of selected product - intended as set of plan and options -, customer, and terminal.
+
+  ### Products
+
+  A subscription includes all products purchased by a single customer, for example:
+   + plans,
+   + add-ons, and
+   + options.
+  ### Technical Details
+
+  A __first subscription__ is a new subscription for a not existing customer, and, when creating a first subscription, 
+
+  the API requests all the __customer details__, but not the __customer ID__, which is unknown.
+
+  A __new subscription__ is a subscription creation request for an existing customer, and, during the subscription 
+
+  creation flow, the API requests only the __customer ID__.
+
+  ___
+
+  ## *Plan*
+
+  A plan is the main product, and it provides an amount of data allowance, including a defined speed and a validity 
+
+  period, and it is available in a selected number of countries. When the available data allowance finishes, the 
+
+  internal platform applies restraints and policies.
+
+  ### Plan ID
+
+  The internal platform assigns a primary and unique identifier to each plan, which is an 8 lowercase characters 
+
+  alphanumeric string. When performing the __change plan__ for a subscription or creating a __new subscription__, 
+
+  the system requires this ID.
+method: POST
+body:
+  mimeType: ""
+  text: |-
+    {
+      "immediately": true,
+      "option_ids": [
+        "tempor exercitation eu",
+        "minim et aute elit mollit"
+      ],
+      "plan_id": "Ut dolor"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_a63f775f6d0e4bcaa143d478a4c3705d
+  - name: Accept
+    value: application/json
+    id: pair_119f2bb2247540faaea849b37c7124e4
+authentication:
+  type: bearer
+  token: "{% response 'body', 'req_dc6823ebdc114b36a055a8c10f092e07',
+    'b64::JC5hY2Nlc3NfdG9rZW4=::46b', 'never', 60 %}"
+metaSortKey: -1651802350687
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

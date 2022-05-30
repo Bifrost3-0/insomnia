@@ -1,0 +1,68 @@
+_id: req_6d93978d853e461bbf7c0d54bd77db29
+type: Request
+parentId: fld_40eca4423023480bba5181b120e41411
+modified: 1653189035348
+created: 1651802350661
+url: "{{ _.base_us_prod }}/ext/api/v1/whs/services/200274/products/plans"
+name: List Available Plans
+description: >-
+  Returns a list of plans available for a specific service.
+
+  ___
+
+  ## *Plan*
+
+  A plan is the main product, and it provides an amount of data allowance, including a defined speed and a validity 
+
+  period, and it is available in a selected number of countries. When the available data allowance finishes, the 
+
+  internal platform applies restraints and policies.
+
+  ### Plan ID
+
+  The internal platform assigns a primary and unique identifier to each plan, which is an 8 lowercase characters 
+
+  alphanumeric string. When performing the __change plan__ for a subscription or creating a __new subscription__, 
+
+  the system requires this ID.
+
+  ___
+
+  ## *Product*
+
+  A product is the actual product that a partner can buy and benefit from.
+
+  Examples of products are plans, add-ons, and options.
+
+  ___
+
+  ## *Service*
+
+  The service is the type of contract between the service provider and the partner, and it contains multiple created 
+
+  subscriptions.
+
+  ### Service ID
+
+  The service ID is the primary identifier for a service, this information is mandatory for some APIs, and it is 
+
+  necessary to authorize requests that manage customers and subscriptions.
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: Accept
+    value: application/json
+    id: pair_2b40f61d04ea4054abd2637cf4bdde12
+authentication:
+  type: bearer
+  token: "{% response 'body', 'req_dc6823ebdc114b36a055a8c10f092e07',
+    'b64::JC5hY2Nlc3NfdG9rZW4=::46b', 'never', 60 %}"
+metaSortKey: -1651802350661
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

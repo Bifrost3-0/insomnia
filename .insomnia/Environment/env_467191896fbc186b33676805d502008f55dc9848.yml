@@ -1,11 +1,15 @@
 _id: env_467191896fbc186b33676805d502008f55dc9848
 type: Environment
 parentId: wrk_7c28e35996214fcabe68cfd78f898499
-modified: 1646420623308
+modified: 1651842334930
 created: 1628561274262
 name: Base Environment
-data: {}
-dataPropertyOrder: {}
+data:
+  token: "{% response 'body', 'req_dc6823ebdc114b36a055a8c10f092e07',
+    'b64::JC5hY2Nlc3NfdG9rZW4=::46b', 'never', 60 %}"
+dataPropertyOrder:
+  "&":
+    - token
 color: null
 isPrivate: false
 metaSortKey: 1628561274262

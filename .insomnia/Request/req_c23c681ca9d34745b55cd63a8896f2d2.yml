@@ -1,0 +1,27 @@
+_id: req_c23c681ca9d34745b55cd63a8896f2d2
+type: Request
+parentId: fld_475f366b269848fda54749b2ad035d16
+modified: 1652812653147
+created: 1651802350641
+url: "{{ _.base_us_prod }}/ext/api/v1/whs/partners/:partnerId/cases/:caseNumber"
+name: Return Single Case
+description: Returns the desired case by case number.
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: Accept
+    value: application/json
+    id: pair_4e8f6a56b7bc4d8fafa43bb42e26c799
+authentication:
+  type: bearer
+  token: "{% response 'body', 'req_dc6823ebdc114b36a055a8c10f092e07',
+    'b64::JC5hY2Nlc3NfdG9rZW4=::46b', 'when-expired', 60 %}"
+metaSortKey: -1651802350641
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

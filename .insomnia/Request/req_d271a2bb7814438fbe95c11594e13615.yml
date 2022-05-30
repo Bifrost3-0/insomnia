@@ -1,0 +1,73 @@
+_id: req_d271a2bb7814438fbe95c11594e13615
+type: Request
+parentId: fld_40eca4423023480bba5181b120e41411
+modified: 1652835378818
+created: 1651802350660
+url: "{{ _.base_us_prod
+  }}/ext/api/v1/whs/services/:serviceId/products/options?plan_id=3df45ddf&termi\
+  nal_class=Class 1"
+name: List Available Options
+description: >-
+  Returns a list of available options for a given service, this request is
+  required to pick the desired options to add to a plan.
+
+  ___
+
+  ## *Option*
+
+  An option is an extra feature that can be added to a subscription. Examples of option are the free zone, the night option, and the public IP.
+
+  ### Free Zone
+
+  Each plan provides a certain amount of data allowance, to which the partner may add a free zone option, in order to 
+
+  provide a time range during which not to account traffic. The data allowance rules regarding the free zone may be 
+
+  different from the nominal ones.
+
+  ### Night Option
+
+  The partner may require to activate a night option, which modifies the billing accounting cycles of specific 
+
+  subscriptions.
+
+  ___
+
+  ## *Product*
+
+  A product is the actual product that a partner can buy and benefit from.
+
+  Examples of products are plans, add-ons, and options.
+
+  ___
+
+  ## *Service*
+
+  The service is the type of contract between the service provider and the partner, and it contains multiple created 
+
+  subscriptions.
+
+  ### Service ID
+
+  The service ID is the primary identifier for a service, this information is mandatory for some APIs, and it is 
+
+  necessary to authorize requests that manage customers and subscriptions.
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: Accept
+    value: application/json
+    id: pair_dbe8dda82bc44eddb18528187c5f7f3a
+authentication:
+  type: bearer
+  token: "{% response 'body', 'req_dc6823ebdc114b36a055a8c10f092e07',
+    'b64::JC5hY2Nlc3NfdG9rZW4=::46b', 'never', 60 %}"
+metaSortKey: -1651802350660
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

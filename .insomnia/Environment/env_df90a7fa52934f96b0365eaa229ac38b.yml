@@ -1,13 +1,12 @@
 _id: env_df90a7fa52934f96b0365eaa229ac38b
 type: Environment
 parentId: env_467191896fbc186b33676805d502008f55dc9848
-modified: 1652312258951
+modified: 1652735517757
 created: 1628562870178
 name: Production Proxy Bifrost
 data:
-  bifrost_url: https://onpremise.bifrost.pe
-  bifrost_url_dev: https://onpremisedev.bifrost.pe
   base_url: 192.168.36.50
+  baseUrl: 192.168.36.50:8101
   hughes_platform: 80
   newtect_platform: 8081
   gilat_ka_platform: 8888
@@ -15,17 +14,17 @@ data:
   hub5_idirect_platform: 85
   idirectarg_platform: 81
   hispasat_ka: 8094
-  url_hispasat_ka: https://api-nms.hispasat.es/v1/broadband/backend
+  gilat_ku_colombia: 8080
   general_api: https://apiaws.bifrost.pe/api
   newtect_user: integracion-tiws@orbith.com
   newtect_password: GLRt3RV3sUNWMnN
-  token_hispasat: eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJvcmRlcmluZ21uLnBlQHRlbGVmb25pY2EuY29tIiwiaWF0IjoxNjQ4NTU3ODIxLCJleHAiOjE2NDg1Njg2MjF9.Hyz9eiCFFSTkFzmXr-PCJCJ8zdsEkKRo7gyT2GSOLsqs2EtGJyhq3CR1Gy5Yj1mfPAhEyh6WFkYyh29IJ3-9Ow
-  token_login: ""
+  api_produccion_us: https://api-knt.skylogic.com
+  api_dev_us: https://knt-demo.skylogic.com
+  token_hispasat: eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJvcmRlcmluZ21uLnBlQHRlbGVmb25pY2EuY29tIiwiaWF0IjoxNjM3MDE0NzIxLCJleHAiOjE2MzcwMjU1MjF9.IGpS4prGg_KWNsF-RuLSiDPkmBanR4NH-HgxNjKr9pHGHsliYamv0bFRD2ERZn1Z-MfsBLXbrDmhAp2HAxFQxg
 dataPropertyOrder:
   "&":
-    - bifrost_url
-    - bifrost_url_dev
     - base_url
+    - baseUrl
     - hughes_platform
     - newtect_platform
     - gilat_ka_platform
@@ -33,12 +32,13 @@ dataPropertyOrder:
     - hub5_idirect_platform
     - idirectarg_platform
     - hispasat_ka
-    - url_hispasat_ka
+    - gilat_ku_colombia
     - general_api
     - newtect_user
     - newtect_password
+    - api_produccion_us
+    - api_dev_us
     - token_hispasat
-    - token_login
 color: "#50fb56"
 isPrivate: false
-metaSortKey: 3
+metaSortKey: 1

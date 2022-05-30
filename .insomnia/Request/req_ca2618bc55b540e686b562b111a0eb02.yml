@@ -1,0 +1,25 @@
+_id: req_ca2618bc55b540e686b562b111a0eb02
+type: Request
+parentId: fld_5bed3d59ad3145589454d2d6c1894c71
+modified: 1652812785505
+created: 1651802350618
+url: "{{ _.base_us_prod }}/ext/api/v1/whs/services"
+name: http://192.168.36.50:8100/ext/api/v1/whs/services
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  token: "{% response 'body', 'req_dc6823ebdc114b36a055a8c10f092e07',
+    'b64::JC5hY2Nlc3NfdG9rZW4=::46b', 'never', 60 %}"
+  prefix: ""
+metaSortKey: -1651802350618
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

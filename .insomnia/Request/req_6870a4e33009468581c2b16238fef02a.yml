@@ -1,0 +1,62 @@
+_id: req_6870a4e33009468581c2b16238fef02a
+type: Request
+parentId: fld_e9fd42f4d0ba4ab18c1f7589ea8d010e
+modified: 1652815285219
+created: 1651802350663
+url: "{{ _.base_us_prod }}/ext/api/v1/whs/services/200274/customers"
+name: List Customers
+description: >-
+  Returns a list of customers for a specific service.
+
+  ___
+
+  ## *Customer*
+
+  A customer is an end-user of the service, which means a person or a legal entity that acquires satellite services 
+
+  from a service provider. Customers can be residential of professional.
+
+  ### Customer ID
+
+  The internal platform assigns a primary and unique identifier to each customer. The creation of a new subscription 
+
+  for an existing customer requires the customer ID, and it is also necessary to manage customer details.
+
+  ### Customer Device
+
+  A customer device is a device to which an IP address can be associated, which can be a PC or a notebook, and that 
+
+  the customer uses to connect to the terminal.
+
+  ___
+
+  ## *Service*
+
+  The service is the type of contract between the service provider and the partner, and it contains multiple created 
+
+  subscriptions.
+
+  ### Service ID
+
+  The service ID is the primary identifier for a service, this information is mandatory for some APIs, and it is 
+
+  necessary to authorize requests that manage customers and subscriptions.
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: Accept
+    value: application/json
+    id: pair_ec6c2c432ccc40a79f842a28a80914fa
+authentication:
+  type: bearer
+  token: "{% response 'body', 'req_dc6823ebdc114b36a055a8c10f092e07',
+    'b64::JC5hY2Nlc3NfdG9rZW4=::46b', 'never', 60 %}"
+metaSortKey: -1651802350663
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

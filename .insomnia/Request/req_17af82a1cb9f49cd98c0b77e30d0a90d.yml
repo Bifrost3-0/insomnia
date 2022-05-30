@@ -1,0 +1,40 @@
+_id: req_17af82a1cb9f49cd98c0b77e30d0a90d
+type: Request
+parentId: fld_13e8e7a3ff24491bbc524a86a0dc31cc
+modified: 1652812591314
+created: 1651802350636
+url: "{{ _.base_us_prod }}/ext/api/v1/whs/partners/:partnerId/cases"
+name: Create Single Case
+description: Allows to creates a single case.
+method: POST
+body:
+  mimeType: ""
+  text: |-
+    {
+      "case_type": "Logistical",
+      "macro_category": "User service restoration",
+      "notes": "text",
+      "service_id": "900001",
+      "sub_category": "Swap",
+      "summary": "New Folder"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_6fed98c629214949a179efb39ae212cc
+  - name: Accept
+    value: application/json
+    id: pair_0dbbacd518134c288f9036754cf7212f
+authentication:
+  type: bearer
+  token: "{% response 'body', 'req_dc6823ebdc114b36a055a8c10f092e07',
+    'b64::JC5hY2Nlc3NfdG9rZW4=::46b', 'when-expired', 60 %}"
+metaSortKey: -1651802350636
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

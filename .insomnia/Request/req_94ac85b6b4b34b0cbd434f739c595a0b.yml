@@ -1,0 +1,51 @@
+_id: req_94ac85b6b4b34b0cbd434f739c595a0b
+type: Request
+parentId: fld_1ce9c383b8f94041be22efebae39faff
+modified: 1652814668510
+created: 1651802350645
+url: "{{ _.base_us_prod
+  }}/ext/api/v1/whs/partners/:partnerId/locked_terminals/:terminalId/actions/un\
+  lock"
+name: Unlock a Locked Terminal
+description: >-
+  Sets a locked terminal in an unlocked status, so that it results available for
+  multiple partners.
+
+  ___
+
+  ## *Terminal*
+
+  The terminal is the physical modem that handles the connectivity for each end-user.
+
+  ___
+
+  ## *Partner*
+
+  A partner is a legal entity that acts towards Eutelsat as a distributor or a reseller, in particular, a partner 
+
+  represents the distributor or reseller, which can perform actions on customers or subscriptions.
+
+  ### Partner ID
+
+  The partner ID is the unique identifier assigned to a partner, and it is required for multiple requests, e.g. to create subscriptions, 
+
+  show wallet balance and list locked terminals.
+method: POST
+body: {}
+parameters: []
+headers:
+  - name: Accept
+    value: application/json
+    id: pair_5b135eb6b859406d9e13832db3bb0894
+authentication:
+  type: bearer
+  token: "{% response 'body', 'req_dc6823ebdc114b36a055a8c10f092e07',
+    'b64::JC5hY2Nlc3NfdG9rZW4=::46b', 'when-expired', 60 %}"
+metaSortKey: -1651802350645
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

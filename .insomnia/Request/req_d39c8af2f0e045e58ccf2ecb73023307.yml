@@ -1,0 +1,24 @@
+_id: req_d39c8af2f0e045e58ccf2ecb73023307
+type: Request
+parentId: fld_5bed3d59ad3145589454d2d6c1894c71
+modified: 1652812786960
+created: 1651802350617
+url: http://192.168.36.50:8100/ext/api/v1/whs/services
+name: http://192.168.36.50:8100/ext/api/v1/whs/services
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  token: "{% response 'body', 'req_dc6823ebdc114b36a055a8c10f092e07',
+    'b64::JC5hY2Nlc3NfdG9rZW4=::46b', 'when-expired', 60 %}"
+metaSortKey: -1651802350617
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

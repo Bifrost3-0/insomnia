@@ -1,0 +1,29 @@
+_id: req_0adaca98bfb94fb3a483890b31abb4c4
+type: Request
+parentId: fld_0c5793754dcd4551821776e7131ca90c
+modified: 1653320741749
+created: 1651802350697
+url: "{{ _.base_us_prod
+  }}/ext/api/v1/whs/services/:serviceId/subscriptions/:subscriptionId/actions/s\
+  wap_terminal"
+name: Change Swappable Status
+description: Allows to change the swappable status on an active terminal for a subscription.
+method: POST
+body: {}
+parameters: []
+headers:
+  - name: Accept
+    value: application/json
+    id: pair_273727d7c3794dd9a1d3d9e0879f3815
+authentication:
+  type: bearer
+  token: "{% response 'body', 'req_dc6823ebdc114b36a055a8c10f092e07',
+    'b64::JC5hY2Nlc3NfdG9rZW4=::46b', 'never', 60 %}"
+metaSortKey: -1651802350697
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

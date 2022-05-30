@@ -1,0 +1,27 @@
+_id: req_43b0851b1f264da8ae3d7d59fa5febd6
+type: Request
+parentId: fld_21949a7e6ab54b6a800416941c7f8323
+modified: 1652815214113
+created: 1651802350651
+url: "{{ _.base_us_prod }}/ext/api/v1/whs/services/200274/beams"
+name: Return Beams List
+description: Returns the list of eligible beams for the given service.
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: Accept
+    value: application/json
+    id: pair_c220321d91da4e819b0979787f590859
+authentication:
+  type: bearer
+  token: "{% response 'body', 'req_dc6823ebdc114b36a055a8c10f092e07',
+    'b64::JC5hY2Nlc3NfdG9rZW4=::46b', 'when-expired', 60 %}"
+metaSortKey: -1651802350651
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

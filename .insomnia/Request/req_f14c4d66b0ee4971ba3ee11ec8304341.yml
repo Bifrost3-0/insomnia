@@ -1,0 +1,28 @@
+_id: req_f14c4d66b0ee4971ba3ee11ec8304341
+type: Request
+parentId: fld_52c437aecc93491ba6fa192947a43746
+modified: 1653005623204
+created: 1651802350672
+url: "{{ _.base_us_prod
+  }}/ext/api/v1/whs/services/200274/subscriptions/226353/events"
+name: Return Event List
+description: Provides a list of details about the events for a given subscription.
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: Accept
+    value: application/json
+    id: pair_30905f57cb5141898c9afe3643d42875
+authentication:
+  type: bearer
+  token: "{% response 'body', 'req_dc6823ebdc114b36a055a8c10f092e07',
+    'b64::JC5hY2Nlc3NfdG9rZW4=::46b', 'never', 60 %}"
+metaSortKey: -1651802350672
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

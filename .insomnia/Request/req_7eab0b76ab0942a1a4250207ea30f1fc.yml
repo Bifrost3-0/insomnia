@@ -1,0 +1,70 @@
+_id: req_7eab0b76ab0942a1a4250207ea30f1fc
+type: Request
+parentId: fld_6689063ce75d4daa9179be1d802eb59d
+modified: 1652840006444
+created: 1651802350690
+url: "{{ _.base_us_prod
+  }}/ext/api/v1/whs/services/:serviceId/subscriptions/:subscriptionId/actions/r\
+  egenerate_activation_key"
+name: Regenerate Activation Key
+description: >-
+  Creates a new activation key for a subscription.
+
+  ___
+
+  ## *Activation Key*
+
+  During the subscription creation process, the internal platform creates an alphanumeric code, the activation key, 
+
+  in order to allow the installer to perform a self-activation procedure to recognize the subscription.
+
+  ### Self-Activation
+
+  The self-activation is a web-based procedure that allows binding a subscription 
+
+  to a terminal, and requires to insert the activation key in order to allow the activation procedure.
+
+  If the self-activation procedure is performed for the first time on a subscription, the status switches to active.
+
+  The self-activation procedure is required also after a change location and a swap terminal actions.
+
+  ___
+
+  ## *Product*
+
+  A product is the actual product that a partner can buy and benefit from.
+
+  Examples of products are plans, add-ons, and options.
+
+  ___
+
+  ## *Service*
+
+  The service is the type of contract between the service provider and the partner, and it contains multiple created 
+
+  subscriptions.
+
+  ### Service ID
+
+  The service ID is the primary identifier for a service, this information is mandatory for some APIs, and it is 
+
+  necessary to authorize requests that manage customers and subscriptions.
+method: POST
+body: {}
+parameters: []
+headers:
+  - name: Accept
+    value: application/json
+    id: pair_812bb9a0edc44838af393f454834e6a2
+authentication:
+  type: bearer
+  token: "{% response 'body', 'req_dc6823ebdc114b36a055a8c10f092e07',
+    'b64::JC5hY2Nlc3NfdG9rZW4=::46b', 'never', 60 %}"
+metaSortKey: -1651802350690
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

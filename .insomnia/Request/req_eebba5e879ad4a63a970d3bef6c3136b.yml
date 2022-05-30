@@ -1,0 +1,27 @@
+_id: req_eebba5e879ad4a63a970d3bef6c3136b
+type: Request
+parentId: fld_21949a7e6ab54b6a800416941c7f8323
+modified: 1652812267731
+created: 1651802350653
+url: "{{ _.base_us_prod }}/ext/api/v1/whs/services/200274/folders"
+name: List Folders
+description: Returns the list of the folders assigned to a service.
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: Accept
+    value: application/json
+    id: pair_a76ded0458294183a7f5219abd053bca
+authentication:
+  type: bearer
+  token: "{% response 'body', 'req_dc6823ebdc114b36a055a8c10f092e07',
+    'b64::JC5hY2Nlc3NfdG9rZW4=::46b', 'when-expired', 60 %}"
+metaSortKey: -1651802350653
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

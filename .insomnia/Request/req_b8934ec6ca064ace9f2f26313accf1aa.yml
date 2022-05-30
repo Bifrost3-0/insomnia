@@ -1,0 +1,49 @@
+_id: req_b8934ec6ca064ace9f2f26313accf1aa
+type: Request
+parentId: fld_dc306a36e899481196bfd2bd2911ba08
+modified: 1652814684868
+created: 1651802350644
+url: "{{ _.base_us_prod }}/ext/api/v1/whs/partners/:partnerId/locked_terminals"
+name: List Locked Terminals
+description: >-
+  Returns a list of all terminals reserved for a specific partner, the use of
+  which is forbidden to other partners.
+
+  ___
+
+  ## *Terminal*
+
+  The terminal is the physical modem that handles the connectivity for each end-user.
+
+  ___
+
+  ## *Partner*
+
+  A partner is a legal entity that acts towards Eutelsat as a distributor or a reseller, in particular, a partner 
+
+  represents the distributor or reseller, which can perform actions on customers or subscriptions.
+
+  ### Partner ID
+
+  The partner ID is the unique identifier assigned to a partner, and it is required for multiple requests, e.g. to create subscriptions, 
+
+  show wallet balance and list locked terminals.
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: Accept
+    value: application/json
+    id: pair_97d4742b3b544aa1be2c407686f39483
+authentication:
+  type: bearer
+  token: "{% response 'body', 'req_dc6823ebdc114b36a055a8c10f092e07',
+    'b64::JC5hY2Nlc3NfdG9rZW4=::46b', 'when-expired', 60 %}"
+metaSortKey: -1651802350644
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

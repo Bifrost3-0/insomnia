@@ -1,0 +1,85 @@
+_id: req_8120a698c8384e73a46d1f553be72e1a
+type: Request
+parentId: fld_41e96ac048fd41c8befa24d40940435b
+modified: 1652845926832
+created: 1651802350681
+url: "{{ _.base_us_prod
+  }}/ext/api/v1/whs/services/200274/subscriptions/223597/orders/a7c5abf7"
+name: Return Order Information
+description: >-
+  Provides a list of details about an order placed for a given subscription.
+
+  ___
+
+  ## Order
+
+  An order is the real contract between the service provider and the partner.
+
+  ## Operation Order
+
+  An operation order is an order that triggers an action on a subscription. The operation order types are:
+
+
+  + __relocation__, triggered by the change location action;
+
+  + __swap__, triggered by the swap terminal action.
+
+
+  After requesting one of these orders, the internal platform sends a work order, triggered by the self-activation 
+
+  procedure, which is still an operation order.
+
+  ___
+
+  ## *Subscription*
+
+  A subscription is the compound of selected product - intended as set of plan and options -, customer, and terminal.
+
+  ### Products
+
+  A subscription includes all products purchased by a single customer, for example:
+   + plans,
+   + add-ons, and
+   + options.
+  ### Technical Details
+
+  A __first subscription__ is a new subscription for a not existing customer, and, when creating a first subscription, 
+
+  the API requests all the __customer details__, but not the __customer ID__, which is unknown.
+
+  A __new subscription__ is a subscription creation request for an existing customer, and, during the subscription 
+
+  creation flow, the API requests only the __customer ID__.
+
+  ___
+
+  ## *Service*
+
+  The service is the type of contract between the service provider and the partner, and it contains multiple created 
+
+  subscriptions.
+
+  ### Service ID
+
+  The service ID is the primary identifier for a service, this information is mandatory for some APIs, and it is 
+
+  necessary to authorize requests that manage customers and subscriptions.
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: Accept
+    value: application/json
+    id: pair_b7597c307d744cb481daa37182521428
+authentication:
+  type: bearer
+  token: "{% response 'body', 'req_dc6823ebdc114b36a055a8c10f092e07',
+    'b64::JC5hY2Nlc3NfdG9rZW4=::46b', 'never', 60 %}"
+metaSortKey: -1651802350681
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

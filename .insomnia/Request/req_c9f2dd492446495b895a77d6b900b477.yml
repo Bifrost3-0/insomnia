@@ -1,0 +1,36 @@
+_id: req_c9f2dd492446495b895a77d6b900b477
+type: Request
+parentId: fld_6940c3bbabe54fe495e5c965a78e293f
+modified: 1652814530309
+created: 1651802350625
+url: "{{ _.base_us_prod
+  }}/ext/api/v1/whs/subscriptions/:subscriptionId/line-quality-tests"
+name: Return Terminal Speed Test
+description: >-
+  Returns the results of the speed tests, resulting from dedicated line quality
+  tests, for a terminal linked to a given subscription.
+
+  ___
+
+  ## *Terminal*
+
+  The terminal is the physical modem that handles the connectivity for each end-user.
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: Accept
+    value: application/json
+    id: pair_04c898662a5e462da1de40f07b6de8bd
+authentication:
+  type: bearer
+  token: "{% response 'body', 'req_dc6823ebdc114b36a055a8c10f092e07',
+    'b64::JC5hY2Nlc3NfdG9rZW4=::46b', 'when-expired', 60 %}"
+metaSortKey: -1651802350625
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

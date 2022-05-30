@@ -1,0 +1,28 @@
+_id: req_b62ccd3df79b4266bff9f4a042bef7a1
+type: Request
+parentId: fld_11c76630b5ef4f3b86a17e577cd9aa66
+modified: 1653319243367
+created: 1651802350629
+url: "{{ _.base_us_prod
+  }}/ext/api/v1/whs/partners/:partnerId/check_job_status?jobId=9483"
+name: Check Job Status
+description: Searches for a job ID in order to retrieve the current status.
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: Accept
+    value: application/json
+    id: pair_e9992b340e1040cfbd1f33eb3d4a9c04
+authentication:
+  type: bearer
+  token: "{% response 'body', 'req_dc6823ebdc114b36a055a8c10f092e07',
+    'b64::JC5hY2Nlc3NfdG9rZW4=::46b', 'when-expired', 60 %}"
+metaSortKey: -1651802350629
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

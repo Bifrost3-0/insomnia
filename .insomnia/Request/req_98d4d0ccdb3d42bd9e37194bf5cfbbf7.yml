@@ -1,0 +1,40 @@
+_id: req_98d4d0ccdb3d42bd9e37194bf5cfbbf7
+type: Request
+parentId: fld_6689063ce75d4daa9179be1d802eb59d
+modified: 1652840145906
+created: 1651802350691
+url: "{{ _.base_us_prod
+  }}/ext/api/v1/whs/services/:serviceId/subscriptions/:subscriptionId/actions/r\
+  emove_options"
+name: Remove Options
+description: Allows to remove options from the subscription options list.
+method: POST
+body:
+  mimeType: ""
+  text: |-
+    {
+      "option_ids": [
+        "esse proident deserunt culpa",
+        "proident ea sed eu"
+      ]
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_c590f6b7b40f46edb7413ce8fab9706e
+  - name: Accept
+    value: application/json
+    id: pair_fe1d004eeb3849c193cad43bb133d14b
+authentication:
+  type: bearer
+  token: "{% response 'body', 'req_dc6823ebdc114b36a055a8c10f092e07',
+    'b64::JC5hY2Nlc3NfdG9rZW4=::46b', 'never', 60 %}"
+metaSortKey: -1651802350691
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

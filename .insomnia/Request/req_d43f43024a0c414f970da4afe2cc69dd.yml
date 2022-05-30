@@ -1,0 +1,27 @@
+_id: req_d43f43024a0c414f970da4afe2cc69dd
+type: Request
+parentId: fld_13e8e7a3ff24491bbc524a86a0dc31cc
+modified: 1652812576239
+created: 1651802350635
+url: "{{ _.base_us_prod }}/ext/api/v1/whs/partners/:partnerId/cases/types"
+name: List Case Types
+description: Returns the list of the available case types.
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: Accept
+    value: application/json
+    id: pair_1fb1d64362b44f70a57213fe8abced39
+authentication:
+  type: bearer
+  token: "{% response 'body', 'req_dc6823ebdc114b36a055a8c10f092e07',
+    'b64::JC5hY2Nlc3NfdG9rZW4=::46b', 'when-expired', 60 %}"
+metaSortKey: -1651802350635
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,73 @@
+_id: req_61004679fb814c2cb6993b1b684661d4
+type: Request
+parentId: fld_6689063ce75d4daa9179be1d802eb59d
+modified: 1652840145005
+created: 1651802350692
+url: "{{ _.base_us_prod
+  }}/ext/api/v1/whs/services/:serviceId/subscriptions/:subscriptionId/actions/s\
+  cheduled_expiration"
+name: Change Expiration Date
+description: >-
+  Allows to set a new expiration date for the subscription or cancel it by
+  passing a null value to the expirationDate request body property.
+
+  ___
+
+  ## *Expiration Date*
+
+  If it is necessary to terminate contract it is possible to set an expiration date for the subscription. It is 
+
+  not possible to insert a past date, and an expiration can occur only after an activation, from an active or a suspended 
+
+  subscription.
+
+  It is possible to set, modify, and abort an expiration through specific API requests.
+
+  ___
+
+  ## *Product*
+
+  A product is the actual product that a partner can buy and benefit from.
+
+  Examples of products are plans, add-ons, and options.
+
+  ___
+
+  ## *Service*
+
+  The service is the type of contract between the service provider and the partner, and it contains multiple created 
+
+  subscriptions.
+
+  ### Service ID
+
+  The service ID is the primary identifier for a service, this information is mandatory for some APIs, and it is 
+
+  necessary to authorize requests that manage customers and subscriptions.
+method: POST
+body:
+  mimeType: ""
+  text: |-
+    {
+      "expiration_date": "2020-12-12"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_934c6be8dcbe4e7690fb1ab1a29700c9
+  - name: Accept
+    value: application/json
+    id: pair_cec10a5c1d1848398a2cd50f8c833c52
+authentication:
+  type: bearer
+  token: "{% response 'body', 'req_dc6823ebdc114b36a055a8c10f092e07',
+    'b64::JC5hY2Nlc3NfdG9rZW4=::46b', 'never', 60 %}"
+metaSortKey: -1651802350692
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

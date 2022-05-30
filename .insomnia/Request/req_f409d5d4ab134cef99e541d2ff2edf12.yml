@@ -1,0 +1,111 @@
+_id: req_f409d5d4ab134cef99e541d2ff2edf12
+type: Request
+parentId: fld_282e3887fcba4baf80ce49a7086ec2e9
+modified: 1653425416065
+created: 1651802350665
+url: "{{ _.base_us_prod }}/ext/api/v1/whs/services/:serviceId/customers/:customerId"
+name: Update a Customer
+description: >-
+  Updates information of an existing customer belonging to a service.
+
+  ___
+
+  ## *Customer*
+
+  A customer is an end-user of the service, which means a person or a legal entity that acquires satellite services 
+
+  from a service provider. Customers can be residential of professional.
+
+  ### Customer ID
+
+  The internal platform assigns a primary and unique identifier to each customer. The creation of a new subscription 
+
+  for an existing customer requires the customer ID, and it is also necessary to manage customer details.
+
+  ### Customer Device
+
+  A customer device is a device to which an IP address can be associated, which can be a PC or a notebook, and that 
+
+  the customer uses to connect to the terminal.
+
+  ___
+
+  ## *Service*
+
+  The service is the type of contract between the service provider and the partner, and it contains multiple created 
+
+  subscriptions.
+
+  ### Service ID
+
+  The service ID is the primary identifier for a service, this information is mandatory for some APIs, and it is 
+
+  necessary to authorize requests that manage customers and subscriptions.
+method: PATCH
+body:
+  mimeType: ""
+  text: |-
+    {
+      "billing_street": "70, Rue Balard",
+      "billing_city": "Paris",
+      "billing_postal_code": "10121",
+      "billing_country": "France",
+      "language": "English",
+      "account_name": "ea cupidatat ex",
+      "contacts": [
+        {
+          "contact_id": "nulla laborum ipsum",
+          "marketing_opt_in_email": false,
+          "marketing_opt_in_sms": false,
+          "notifications_email": false,
+          "notifications_sms": true,
+          "first_name": "John",
+          "last_name": "Doe",
+          "birthdate": "1968-03-11T12:01:15.606Z",
+          "gender": "Male",
+          "mobile_phone": "+39 97656777",
+          "email": "john.doe@provider.com",
+          "additional_phone": "+39 97656777"
+        },
+        {
+          "contact_id": "voluptate nostrud labore ipsum veniam",
+          "marketing_opt_in_email": true,
+          "marketing_opt_in_sms": false,
+          "notifications_email": false,
+          "notifications_sms": false,
+          "first_name": "John",
+          "last_name": "Doe",
+          "birthdate": "2003-07-21T06:56:21.706Z",
+          "gender": "Male",
+          "mobile_phone": "+39 97656777",
+          "email": "john.doe@provider.com",
+          "additional_phone": "+39 97656777"
+        }
+      ],
+      "preferred_payment_method": "incididunt Lorem labore laborum",
+      "website": "et",
+      "industry": "nisi",
+      "company_registration_number": "consectetur velit Excepteur",
+      "vat_number": "cillum nulla ex",
+      "folder_code": "exercitation eu esse aliqua sit"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_40c7987c75464e95b7e37ee7b9675023
+  - name: Accept
+    value: application/json
+    id: pair_338c1e76cb1f446a817fd582481b4cb5
+authentication:
+  type: bearer
+  token: "{% response 'body', 'req_dc6823ebdc114b36a055a8c10f092e07',
+    'b64::JC5hY2Nlc3NfdG9rZW4=::46b', 'never', 60 %}"
+metaSortKey: -1651802350665
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

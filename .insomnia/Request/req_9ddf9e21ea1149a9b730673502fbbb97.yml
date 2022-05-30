@@ -1,0 +1,101 @@
+_id: req_9ddf9e21ea1149a9b730673502fbbb97
+type: Request
+parentId: fld_6689063ce75d4daa9179be1d802eb59d
+modified: 1652840586462
+created: 1651802350689
+url: "{{ _.base_us_prod
+  }}/ext/api/v1/whs/services/:serviceId/subscriptions/:subscriptionId/actions/c\
+  hange_status"
+name: Change Status
+description: >-
+  Allows to change the status of the given subscription.
+
+  ## *Status Flow*
+
+  The status of a subscription indicates the current step of the subscription lifecycle. A subscription can switch through 
+
+  multiple statuses which are detailed below:
+
+  + __Pending Activation__
+      + Upon signing the contract, the system creates a subscription that is not effective until the activation. At this 
+      stage, the internal platform allows to perform some actions, but not navigation.
+  + __Cancelled__
+      + A subscription can be cancelled only if it has never been activated. In this case the customer terminates the 
+      contract before activating the subscription.
+  + __Active__
+      + At this stage of the subscription lifecycle, the customer activates the terminal through the given activation key, 
+      during the self-activation procedure. After activating the subscription, the customer can benefit from the 
+      selected product.
+  + __Suspended__
+      + The distributor can suspend a subscription, and block the navigation.
+  + __Expired__
+      + When a customer terminates the contract, but the subscription has been previously activated, the subscription 
+      expires. This status can be generated from an active, or a suspended status.
+
+      
+  ### Change Status
+
+  In order to set a new status of the subscription lifecycle, it is necessary to call the change status action. 
+
+  It is possible to set a date to book the status change, in case the change date field is empty, it is valued with 
+
+  the current date. It is possible to set, modify, or abort a change status through specific API requests.
+
+  It is only possible to perform the following changes of status:
+
+  * from __pending activation__ to __cancelled__;
+
+  * from __active__ to __suspended__;
+
+  * from __suspended__ to __active__;
+
+  * from __active__ or __suspended__ to __expired__.
+
+  ___
+
+  ## *Product*
+
+  A product is the actual product that a partner can buy and benefit from.
+
+  Examples of products are plans, add-ons, and options.
+
+  ___
+
+  ## *Service*
+
+  The service is the type of contract between the service provider and the partner, and it contains multiple created 
+
+  subscriptions.
+
+  ### Service ID
+
+  The service ID is the primary identifier for a service, this information is mandatory for some APIs, and it is 
+
+  necessary to authorize requests that manage customers and subscriptions.
+method: POST
+body:
+  mimeType: ""
+  text: |-
+    {
+      "status": "suspended"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_48d5794cd2bb4b8aa264621fe9ac0799
+  - name: Accept
+    value: application/json
+    id: pair_a85dfb346fb64b6db297c7d49d5b83da
+authentication:
+  type: bearer
+  token: "{% response 'body', 'req_dc6823ebdc114b36a055a8c10f092e07',
+    'b64::JC5hY2Nlc3NfdG9rZW4=::46b', 'never', 60 %}"
+metaSortKey: -1651802350689
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
