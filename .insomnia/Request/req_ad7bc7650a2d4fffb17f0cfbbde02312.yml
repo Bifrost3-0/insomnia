@@ -1,7 +1,7 @@
 _id: req_ad7bc7650a2d4fffb17f0cfbbde02312
 type: Request
 parentId: fld_21d91af9f1dc427aae1267ecd117c76b
-modified: 1653935583670
+modified: 1654118666299
 created: 1653272515169
 url: "{{ _.newbackend }}/api/incidentRemedy/deriveTicket"
 name: derivarTicketBifrostx
@@ -31,7 +31,8 @@ body:
         "dateRegister":1653811728,
         	"userData": "{\"user\": \"raul.franco@telefonica.com\",\"fullname\":\"Raul Franco\",\"email\":\"ralfrancos@hotmail.com\",\"phone\":\"987654321\",\"area\":\"development\"}",
         	"userCurrentData":  "{\"user\": \"raul.franco@telefonica.com\",\"fullname\":\"Raul Franco\",\"email\":\"ralfrancos@hotmail.com\",\"phone\":\"987654321\",\"area\":\"development\"}",
-        	"ticketId": 1000,
+        	
+        	"ticketId": 22157,
         	"nivelNoc": "N2 Ingeniería",
         	"vendorGroup": "Lista de Proveedores (N3)"
         }
@@ -45,6 +46,7 @@ headers:
     value: "{% response 'body', 'req_11f61d413f46476cb2dd29361d4b5e4b',
       'b64::JC5kYXRhLnNlc3Npb24udG9rZW4=::46b', 'never', 60 %}"
     description: ""
+    disabled: false
   - name: Content-Type
     value: multipart/form-data
     id: pair_5569fc6fa248415a8324b8c82cbddae7

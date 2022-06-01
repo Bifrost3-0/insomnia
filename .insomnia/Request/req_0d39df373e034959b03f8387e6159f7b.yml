@@ -1,9 +1,9 @@
 _id: req_0d39df373e034959b03f8387e6159f7b
 type: Request
 parentId: fld_21d91af9f1dc427aae1267ecd117c76b
-modified: 1653953205327
+modified: 1654118694908
 created: 1653400484308
-url: "{{ _.newbackendlocal }}/api/incidentRemedy/advanceticketbifrost"
+url: "{{ _.newbackend }}/api/incidentRemedy/advanceticketbifrost"
 name: Registro Avancex
 description: ""
 method: POST
@@ -13,16 +13,16 @@ body:
     - name: modelo
       value: >-
         {
-        	"dateRegister": "1652921728",
+        	"dateRegister": 1652921728,
         	"userData": "{\"user\": \"raul.franco@telefonica.com\",\"fullname\":\"Raul Franco\",\"email\":\"ralfrancos@hotmail.com\",\"phone\":\"987654321\",\"area\":\"development\"}",
         	
-        	"ticketId": 22156,
-        	"description": "Prueba Api Progreso",
+        	"ticketId": 22157,
         	
-        	"type": "",
-        	"summary": "",
-        	"notes": "",
-        	"submitDate": "",
+        	"type": "type",
+        	"summary": "summary",
+        	"notes": "notes",
+        	
+        	"submitDate": 1652921728,
         	"viewAccess": "",
         	"submitter": "",
         	"assignedGroup": "",
@@ -34,11 +34,27 @@ body:
       multiline: application/json
       disabled: false
     - id: pair_0aeb8df4e0524b6eba116694d7fba8d2
-      name: file
+      name: file1
       value: ""
       description: ""
       type: file
-      fileName: C:\Users\Computadora\Downloads\pruebaAisa.csv
+      fileName: C:\Users\Computadora\Downloads\PreventaVSATv2.drawio
+      disabled: true
+    - id: pair_726e4958c2e2490a98abc02c0e324b39
+      name: file2
+      value: ""
+      description: ""
+      type: file
+      multiline: null
+      fileName: C:\Users\Computadora\Downloads\diagramaRemedy.drawio.png
+      disabled: true
+    - id: pair_4c22be04be21409e8ac57197a6401803
+      name: file3
+      value: ""
+      description: ""
+      type: file
+      multiline: null
+      fileName: C:\Users\Computadora\Downloads\diagramaRemedy.drawio.png
       disabled: true
 parameters: []
 headers:
@@ -47,7 +63,7 @@ headers:
     value: "{% response 'body', 'req_11f61d413f46476cb2dd29361d4b5e4b',
       'b64::JC5kYXRhLnNlc3Npb24udG9rZW4=::46b', 'never', 60 %}"
     description: ""
-    disabled: true
+    disabled: false
   - name: Content-Type
     value: multipart/form-data
     id: pair_4c4712f8f254420f876469bcd859c6f9

@@ -1,7 +1,7 @@
 _id: req_da37b8abf0cb4519b4a4712a36cbb3b7
 type: Request
 parentId: fld_21d91af9f1dc427aae1267ecd117c76b
-modified: 1653935632790
+modified: 1654118653296
 created: 1652712552466
 url: "{{ _.newbackend }}/api/incidentRemedy/resolveTicket"
 name: resolveTicketBifrostx
@@ -41,6 +41,7 @@ description: >
 
 
 
+
   	
   }
 method: POST
@@ -53,38 +54,27 @@ body:
         {
         	"dateRegister":1653811728,
         	"userData": "{\"user\": \"raul.franco@telefonica.com\",\"fullname\":\"Raul Franco\",\"email\":\"ralfrancos@hotmail.com\",\"phone\":\"987654321\",\"area\":\"development\"}",
-        "ticketId": 1000,
+        	"ticketId": 22157,
+        	"description": "Prueba Api ", 
+        	"initIncident": 1653811728,
+        	"resolveIncident": 1653811728, 
+        	"durationIncident": 60,  
 
-        "description": "Prueba Api ", 
-
-        "resolveIncident": "2022-03-31 00:00:00", 
-
-        "durationIncident": 60,  
-
-
-        "ResolutionCategorizationTier1": "Imputable",
-
-        "ResolutionCategorizationTier2": "Causa",
-
-        "ResolutionCategorizationTier3": "Detalle Causa",
-
-        "resolutionProductCategorizationTier1": "technology",
-
-        "resolutionProductCategorizationTier2": "platform",
-
-        "resolutionProductCategorizationTier3": "gateway",
-         "problemRealDate": "2022-04-01 02:00:00",
-         "reportedDate": "2022-04-01 04:00:00",
-        "firstCallResolution" : 0,
-
-        "terminalsAffected": "100;101;102;103",
-
-        "servicios_afectadosid": 23,
-
-        "elementos_afectadosid": "45",
-
-        "subsistemaid": 4,
-         "pinPriorityId": 23
+        	"ResolutionCategorizationTier1": "Imputable",
+        	"ResolutionCategorizationTier2": "Causa",
+        	"ResolutionCategorizationTier3": "Detalle Causa",
+        	"resolutionProductCategorizationTier1": "technology",
+        	"resolutionProductCategorizationTier2": "platform",
+        	"resolutionProductCategorizationTier3": "gateway",
+        	
+        	"problemRealDate": 1653811728,
+        	"reportedDate": 1653811728,
+        	"firstCallResolution" : 0,
+        	"terminalsAffected": "100;101;102;103",
+        	"servicios_afectadosid": 23,
+        	"elementos_afectadosid": 45,
+        	"subsistemaid": 4,
+        	"pinPriorityId": 23
         }
       description: ""
       type: text
@@ -94,7 +84,8 @@ body:
       value: ""
       description: ""
       type: file
-      fileName: C:\Users\julio\OneDrive\Email attachments\Documentos\test.csv
+      fileName: C:\Users\Computadora\Downloads\campos del formulario.xlsx
+      disabled: true
     - id: pair_1acb1552f2244fdba7bf1a86a74842cf
       name: ""
       value: ""
@@ -106,6 +97,7 @@ headers:
     value: "{% response 'body', 'req_11f61d413f46476cb2dd29361d4b5e4b',
       'b64::JC5kYXRhLnNlc3Npb24udG9rZW4=::46b', 'never', 60 %}"
     description: ""
+    disabled: false
   - name: Content-Type
     value: multipart/form-data
     id: pair_96c7b70b34fc4141b39ba3c4ba8eb523

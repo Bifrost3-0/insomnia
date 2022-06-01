@@ -1,7 +1,7 @@
 _id: req_92499ed430c140319a1333882acbe94c
 type: Request
 parentId: fld_21d91af9f1dc427aae1267ecd117c76b
-modified: 1653935627797
+modified: 1654118654874
 created: 1652712309197
 url: "{{ _.newbackend }}/api/incidentRemedy/closeTicket"
 name: Cerrar Incidenciax
@@ -16,7 +16,7 @@ body:
         	"dateRegister": 1653811728,
         	"userData": "{\"user\": \"raul.franco@telefonica.com\",\"fullname\":\"Raul Franco\",\"email\":\"ralfrancos@hotmail.com\",\"phone\":\"987654321\",\"area\":\"development\"}",
         	"statusReason":"PRUEBA",
-        	"ticketId": 1000
+        	"ticketId": 22157
         }
       id: pair_5dc3d10cd9334de2b00caf9d324c8c98
       type: text
@@ -27,6 +27,7 @@ body:
       description: ""
       type: file
       fileName: C:\Users\julio\OneDrive\Email attachments\Documentos\test.csv
+      disabled: true
 parameters: []
 headers:
   - id: pair_47484d7565ca4e698c460a3359c3115d
@@ -34,6 +35,7 @@ headers:
     value: "{% response 'body', 'req_11f61d413f46476cb2dd29361d4b5e4b',
       'b64::JC5kYXRhLnNlc3Npb24udG9rZW4=::46b', 'never', 60 %}"
     description: ""
+    disabled: false
   - name: Content-Type
     value: multipart/form-data
     id: pair_dd4278e3f8464ed8a5ea7a61dade340d
