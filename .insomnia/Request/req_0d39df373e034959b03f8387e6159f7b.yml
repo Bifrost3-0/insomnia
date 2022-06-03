@@ -1,7 +1,7 @@
 _id: req_0d39df373e034959b03f8387e6159f7b
 type: Request
 parentId: fld_21d91af9f1dc427aae1267ecd117c76b
-modified: 1654118694908
+modified: 1654202920166
 created: 1653400484308
 url: "{{ _.newbackend }}/api/incidentRemedy/advanceticketbifrost"
 name: Registro Avancex
@@ -45,17 +45,15 @@ body:
       value: ""
       description: ""
       type: file
-      multiline: null
       fileName: C:\Users\Computadora\Downloads\diagramaRemedy.drawio.png
-      disabled: true
+      disabled: false
     - id: pair_4c22be04be21409e8ac57197a6401803
       name: file3
       value: ""
       description: ""
       type: file
-      multiline: null
-      fileName: C:\Users\Computadora\Downloads\diagramaRemedy.drawio.png
-      disabled: true
+      fileName: C:\Users\Computadora\Downloads\PreventaVSATv3.drawio.png
+      disabled: false
 parameters: []
 headers:
   - id: pair_b1922e6e8c5740bab6e86e337b8dd18c
