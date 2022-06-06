@@ -1,9 +1,9 @@
 _id: req_da37b8abf0cb4519b4a4712a36cbb3b7
 type: Request
 parentId: fld_21d91af9f1dc427aae1267ecd117c76b
-modified: 1654206053735
+modified: 1654528438531
 created: 1652712552466
-url: "{{ _.newbackend }}/api/incidentRemedy/resolveTicket"
+url: "{{ _.newbackendlocal }}/api/incidentRemedy/resolveTicket"
 name: resolveTicketBifrostx
 description: >
   Campo Adicional
@@ -60,9 +60,9 @@ body:
         	"resolveIncident": 1653811728, 
         	"durationIncident": 60,  
 
-        	"ResolutionCategorizationTier1": "Imputable",
-        	"ResolutionCategorizationTier2": "Causa",
-        	"ResolutionCategorizationTier3": "Detalle Causa",
+        	"resolutionCategorizationTier1": "Telefonica",
+        	"resolutionCategorizationTier2": "Causa",
+        	"resolutionCategorizationTier3": "Detalle Causa",
         	"resolutionProductCategorizationTier1": "technology",
         	"resolutionProductCategorizationTier2": "platform",
         	"resolutionProductCategorizationTier3": "gateway",

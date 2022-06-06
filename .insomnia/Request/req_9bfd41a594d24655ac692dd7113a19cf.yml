@@ -1,9 +1,9 @@
 _id: req_9bfd41a594d24655ac692dd7113a19cf
 type: Request
 parentId: fld_21d91af9f1dc427aae1267ecd117c76b
-modified: 1654126185052
+modified: 1654528917405
 created: 1652820092456
-url: "{{ _.newbackend }}/api/incidentRemedy/editticketbifrost"
+url: "{{ _.newbackendlocal }}/api/incidentRemedy/editticketbifrost"
 name: editTicketBifrostx
 description: ""
 method: POST
@@ -17,7 +17,7 @@ body:
         	"userData": "{\"user\": \"raul.franco@telefonica.com\",\"fullname\":\"Raul Franco\",\"email\":\"ralfrancos@hotmail.com\",\"phone\":\"987654321\",\"area\":\"development\"}",
         	"reportedSource": "Llamada",
         	
-        	"ticketId": 22157,
+        	"ticketId": 22169,
         	"nivelNoc": "N1 NOC TIWS",
         	"description": "Sumary: Ticket Prueba Api. Notes: Ticket Prueba Api. statusReason: Detalle del cambio",
         	"masivo": 0,
@@ -39,7 +39,7 @@ body:
         	"operationalCategoryTier2": "Problema",
         	"operationalCategoryTier3": "Detalle Problema",
         	
-        	"status": "2",
+        	"status": "IN PROGRESS",
         	"statusReason": "Detalle del cambio",
         	"vendorGroup": "Proveedor",
         	

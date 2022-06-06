@@ -1,7 +1,7 @@
 _id: req_c20f5f6b0f024fce9b9f45e91baee047
 type: Request
 parentId: fld_21d91af9f1dc427aae1267ecd117c76b
-modified: 1654273974918
+modified: 1654527452311
 created: 1652713331062
 url: "{{ _.newbackend }}/api/incidentRemedy/stopClockTicketBifrost"
 name: Quitar Paradax
@@ -30,7 +30,7 @@ body:
         {
         	"dateRegister": 1653811728,
         	"userData": "{\"user\": \"raul.franco@telefonica.com\",\"fullname\":\"Raul Franco\",\"email\":\"ralfrancos@hotmail.com\",\"phone\":\"987654321\",\"area\":\"development\"}",
-        	"ticketId": 22157,
+        	"ticketId": 22166,
         	"statusReason": "Detalle del cambio"
         }
       id: pair_c3a5444fd5cf450f88ce5705e30bce4e
