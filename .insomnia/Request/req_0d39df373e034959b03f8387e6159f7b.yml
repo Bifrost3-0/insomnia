@@ -1,7 +1,7 @@
 _id: req_0d39df373e034959b03f8387e6159f7b
 type: Request
 parentId: fld_21d91af9f1dc427aae1267ecd117c76b
-modified: 1654527427690
+modified: 1654535683977
 created: 1653400484308
 url: "{{ _.newbackend }}/api/incidentRemedy/advanceticketbifrost"
 name: Registro Avancex
@@ -27,7 +27,10 @@ body:
         	"submitter": "",
         	"assignedGroup": "",
         	
-        	"requestInformation": 0
+        	"requestInformation": 0,
+        	
+        	"emailReceiver": "ralfrancos@hotmail.com",
+        	"emailCopy": "ralfrancos@hotmail.com"
         }
       id: pair_8c47d1b7848543b6b31a8b62b6e79edf
       type: text
