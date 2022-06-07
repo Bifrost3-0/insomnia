@@ -1,7 +1,7 @@
 _id: req_9150606b58284c8cb54d9e6d689819b9
 type: Request
 parentId: fld_21d91af9f1dc427aae1267ecd117c76b
-modified: 1654616847506
+modified: 1654622066837
 created: 1652720989214
 url: "{{ _.newbackend }}/api/incidentRemedy/createticketbifrost"
 name: Crear Incidenciax
@@ -59,7 +59,7 @@ body:
         	"dateRegister": 1652811728,
         	"userData": "{\"user\": \"raul.franco@telefonica.com\",\"fullname\":\"Raul Franco\",\"email\":\"ralfrancos@hotmail.com\",\"phone\":\"987654321\",\"area\":\"development\"}",
         	"reportedSource": "Llamada",
-        	"incidentNumber": "INC1234567",
+        	"incidentNumber": "INC12345678",
         	
         	"ciId": 214510,
         	"nivelNoc": "N1",
@@ -91,9 +91,12 @@ body:
       type: text
       multiline: application/json
     - id: pair_aa6d2cc1d1a4437fa1c8b7e92d569826
-      name: ""
+      name: file1
       value: ""
       description: ""
+      type: file
+      multiline: null
+      fileName: C:\Users\Computadora\Downloads\pruebaAisaTicketTelepuerto.csv
 parameters: []
 headers:
   - id: pair_40ce56db364e476c94b54e4664561748

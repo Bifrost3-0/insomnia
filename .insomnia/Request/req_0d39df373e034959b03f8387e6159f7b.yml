@@ -1,7 +1,7 @@
 _id: req_0d39df373e034959b03f8387e6159f7b
 type: Request
 parentId: fld_21d91af9f1dc427aae1267ecd117c76b
-modified: 1654617025924
+modified: 1654621008588
 created: 1653400484308
 url: "{{ _.newbackend }}/api/incidentRemedy/advanceticketbifrost"
 name: Registro Avancex
@@ -16,7 +16,7 @@ body:
         	"dateRegister": 1652921728,
         	"userData": "{\"user\": \"raul.franco@telefonica.com\",\"fullname\":\"Raul Franco\",\"email\":\"ralfrancos@hotmail.com\",\"phone\":\"987654321\",\"area\":\"development\"}",
         	
-        	"ticketId": 22157,
+        	"ticketId": 22184,
         	
         	"type": "type",
         	"summary": "summary",
@@ -38,21 +38,21 @@ body:
       value: ""
       description: ""
       type: file
-      fileName: C:\Users\Computadora\Downloads\PreventaVSATv2.drawio
-      disabled: true
+      fileName: C:\Users\Computadora\Downloads\pruebaAisaTicketTelepuerto.csv
+      disabled: false
     - id: pair_726e4958c2e2490a98abc02c0e324b39
       name: file2
       value: ""
       description: ""
       type: file
-      fileName: C:\Users\Computadora\Downloads\diagramaRemedy.drawio.png
+      fileName: C:\Users\Computadora\Downloads\pruebaAisaTicketTelepuerto.csv
       disabled: false
     - id: pair_4c22be04be21409e8ac57197a6401803
       name: file3
       value: ""
       description: ""
       type: file
-      fileName: C:\Users\Computadora\Downloads\PreventaVSATv3.drawio.png
+      fileName: C:\Users\Computadora\Downloads\pruebaAisaTicketTelepuerto.csv
       disabled: false
 parameters: []
 headers:

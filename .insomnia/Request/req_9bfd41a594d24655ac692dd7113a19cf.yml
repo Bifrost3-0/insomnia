@@ -1,7 +1,7 @@
 _id: req_9bfd41a594d24655ac692dd7113a19cf
 type: Request
 parentId: fld_21d91af9f1dc427aae1267ecd117c76b
-modified: 1654616854123
+modified: 1654619343193
 created: 1652820092456
 url: "{{ _.newbackend }}/api/incidentRemedy/editticketbifrost"
 name: editTicketBifrostx
@@ -17,9 +17,9 @@ body:
         	"userData": "{\"user\": \"raul.franco@telefonica.com\",\"fullname\":\"Raul Franco\",\"email\":\"ralfrancos@hotmail.com\",\"phone\":\"987654321\",\"area\":\"development\"}",
         	"reportedSource": "Llamada",
         	
-        	"ticketId": 22175,
+        	"ticketId": 22184,
         	"description": "Sumary: Ticket Prueba Api. Notes: Ticket Prueba Api. statusReason: Detalle del cambio",
-        	"masivo": 1,
+        	"masivo": 0,
         	"ticketType": "USER SERVICES RESTORATION",
         	
         	"initIncident": 1652911728,

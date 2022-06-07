@@ -1,7 +1,7 @@
 _id: req_d6965caaed244776bb44642174f9618a
 type: Request
 parentId: fld_21d91af9f1dc427aae1267ecd117c76b
-modified: 1654617039842
+modified: 1654619323837
 created: 1653272810451
 url: "{{ _.newbackend }}/api/incidentRemedy/assignTicket"
 name: assingTicketBifrostx
@@ -31,7 +31,7 @@ body:
         	"userData": "{\"user\": \"raul.franco@telefonica.com\",\"fullname\":\"Raul Franco\",\"email\":\"ralfrancos@hotmail.com\",\"phone\":\"987654321\",\"area\":\"development\"}",
         	"userCurrentData":  "{\"user\": \"raul.franco@telefonica.com\",\"fullname\":\"Raul Franco\",\"email\":\"ralfrancos@hotmail.com\",\"phone\":\"987654321\",\"area\":\"development\"}",
 
-        	"ticketId": 22157,
+        	"ticketId": 22184,
         	"description":"test",
         	"nivelNoc": "N2 Ingeniería",
         	"vendorGroup": "Lista de Proveedores (N3)"

@@ -1,7 +1,7 @@
 _id: req_da37b8abf0cb4519b4a4712a36cbb3b7
 type: Request
 parentId: fld_21d91af9f1dc427aae1267ecd117c76b
-modified: 1654617044263
+modified: 1654621664336
 created: 1652712552466
 url: "{{ _.newbackend }}/api/incidentRemedy/resolveTicket"
 name: resolveTicketBifrostx
@@ -54,7 +54,7 @@ body:
         {
         	"dateRegister":1653811728,
         	"userData": "{\"user\": \"raul.franco@telefonica.com\",\"fullname\":\"Raul Franco\",\"email\":\"ralfrancos@hotmail.com\",\"phone\":\"987654321\",\"area\":\"development\"}",
-        	"ticketId": 22170,
+        	"ticketId": 22184,
         	"description": "Prueba Api ",
         	"initIncident": 1653811728,
         	"resolveIncident": 1653811728, 
@@ -80,16 +80,12 @@ body:
       type: text
       multiline: application/json
     - id: pair_6af2eefe41e448cc8a8f6013e2fe1529
-      name: file
+      name: file1
       value: ""
       description: ""
       type: file
-      fileName: C:\Users\Computadora\Downloads\campos del formulario.xlsx
-      disabled: true
-    - id: pair_1acb1552f2244fdba7bf1a86a74842cf
-      name: ""
-      value: ""
-      description: ""
+      fileName: C:\Users\Computadora\Downloads\pruebaAisaTicketTelepuerto.csv
+      disabled: false
 parameters: []
 headers:
   - id: pair_78245cc00eba42ca86f5de1ad4ff5d73
