@@ -1,9 +1,9 @@
 _id: req_0d39df373e034959b03f8387e6159f7b
 type: Request
 parentId: fld_21d91af9f1dc427aae1267ecd117c76b
-modified: 1654545459061
+modified: 1654617025924
 created: 1653400484308
-url: "{{ _.newbackendlocal }}/api/incidentRemedy/advanceticketbifrost"
+url: "{{ _.newbackend }}/api/incidentRemedy/advanceticketbifrost"
 name: Registro Avancex
 description: ""
 method: POST
@@ -25,9 +25,6 @@ body:
         	"submitDate": 1652921728,
         	"viewAccess": "",
         	"submitter": "",
-        	"assignedGroup": "",
-        	
-        	"requestInformation": 0,
         	
         	"emailReceiver": "ralfrancos@hotmail.com;ralfrancos@gmail.com",
         	"emailCopy": "atasaycop@valtx.pe"

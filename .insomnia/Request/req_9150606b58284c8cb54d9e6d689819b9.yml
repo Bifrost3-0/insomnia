@@ -1,9 +1,9 @@
 _id: req_9150606b58284c8cb54d9e6d689819b9
 type: Request
 parentId: fld_21d91af9f1dc427aae1267ecd117c76b
-modified: 1654526513828
+modified: 1654616847506
 created: 1652720989214
-url: "{{ _.newbackendlocal }}/api/incidentRemedy/createticketbifrost"
+url: "{{ _.newbackend }}/api/incidentRemedy/createticketbifrost"
 name: Crear Incidenciax
 description: >-
   "{\"contactIncidence\":\"Raul
@@ -59,7 +59,7 @@ body:
         	"dateRegister": 1652811728,
         	"userData": "{\"user\": \"raul.franco@telefonica.com\",\"fullname\":\"Raul Franco\",\"email\":\"ralfrancos@hotmail.com\",\"phone\":\"987654321\",\"area\":\"development\"}",
         	"reportedSource": "Llamada",
-        	"incidentNumber": "INC12345",
+        	"incidentNumber": "INC1234567",
         	
         	"ciId": 214510,
         	"nivelNoc": "N1",
@@ -77,7 +77,7 @@ body:
         	"productCategorizationTier3": "Hub Arica",
         	
         	"operationalCategoryTier1": "Servicio",
-        	"operationalCategoryTier2": "Problema",
+        	"operationalCategoryTier2": "ProblemaNoc",
         	"operationalCategoryTier3": "Detalle Problema",
         	
         	"status": "ASSIGNED",
@@ -85,12 +85,15 @@ body:
         	"vendorGroup": "Proveedor",
         	
         	"pinPriorityId": 23,
-        	"pinProblemId": 1,
         	"dataComunication": "{\"contactIncidence\":\"Raul Franco\",\"dataComunication\":\"987654321\",\"typeContact\":\"Cliente\"}"
         }
       id: pair_6372fce67feb4383813fb8df4559c462
       type: text
       multiline: application/json
+    - id: pair_aa6d2cc1d1a4437fa1c8b7e92d569826
+      name: ""
+      value: ""
+      description: ""
 parameters: []
 headers:
   - id: pair_40ce56db364e476c94b54e4664561748

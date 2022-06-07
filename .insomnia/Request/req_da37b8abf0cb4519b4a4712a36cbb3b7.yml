@@ -1,9 +1,9 @@
 _id: req_da37b8abf0cb4519b4a4712a36cbb3b7
 type: Request
 parentId: fld_21d91af9f1dc427aae1267ecd117c76b
-modified: 1654528438531
+modified: 1654617044263
 created: 1652712552466
-url: "{{ _.newbackendlocal }}/api/incidentRemedy/resolveTicket"
+url: "{{ _.newbackend }}/api/incidentRemedy/resolveTicket"
 name: resolveTicketBifrostx
 description: >
   Campo Adicional
@@ -54,8 +54,8 @@ body:
         {
         	"dateRegister":1653811728,
         	"userData": "{\"user\": \"raul.franco@telefonica.com\",\"fullname\":\"Raul Franco\",\"email\":\"ralfrancos@hotmail.com\",\"phone\":\"987654321\",\"area\":\"development\"}",
-        	"ticketId": 22157,
-        	"description": "Prueba Api ", 
+        	"ticketId": 22170,
+        	"description": "Prueba Api ",
         	"initIncident": 1653811728,
         	"resolveIncident": 1653811728, 
         	"durationIncident": 60,  
@@ -70,7 +70,7 @@ body:
         	"problemRealDate": 1653811728,
         	"reportedDate": 1653811728,
         	"firstCallResolution" : 0,
-        	"terminalsAffected": "100;101;102;103",
+        	"terminalsAffected": "yyy_100_yyy;101;102;103",
         	"servicios_afectadosid": 23,
         	"elementos_afectadosid": 45,
         	"subsistemaid": 4,
