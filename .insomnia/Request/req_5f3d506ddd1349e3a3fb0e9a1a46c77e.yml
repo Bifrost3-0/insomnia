@@ -1,7 +1,7 @@
 _id: req_5f3d506ddd1349e3a3fb0e9a1a46c77e
 type: Request
 parentId: fld_c7360f7efe1e4775b80047d5e7b37eb5
-modified: 1649887047304
+modified: 1654037537890
 created: 1629846669500
 url: "{{ _.base_url }}:{{ _.idirectarg_platform }}/api/v1/evo/config/obj/remote"
 name: CREATE TERMINAL ARG
