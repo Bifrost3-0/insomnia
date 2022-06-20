@@ -1,7 +1,7 @@
 _id: req_c1f0c5f68e7e45cdb53e2e866076d5ee
 type: Request
 parentId: fld_7c4a08fcb9a24b27bd0a0df89ce1cdb1
-modified: 1628795773487
+modified: 1655746302424
 created: 1628608358790
 url: "{{ _.base_url }}:{{ _.gilat_ku_balcarce }}/ws/cpeService"
 name: Del Static Route
@@ -9,48 +9,28 @@ description: ""
 method: POST
 body:
   mimeType: ""
-  text: "<Envelope xmlns=\"http://schemas.xmlsoap.org/soap/envelope/\">\r
-
-    \    <Body>\r
-
-    \        <cpeDeleteStaticRouteIPv4
-    xmlns=\"com.gilat.ngnms.server.services.ws.cfg.face\">\r
-
-    \            <!-- Optional -->\r
-
-    \            <cpeId xmlns=\"\">\r
-
-    \                <managedGroupId>2</managedGroupId>\r
-
-    \                <subscriberId>601</subscriberId>\r
-
-    \            </cpeId>\r
-
-    \            <vlanId xmlns=\"\">24</vlanId>\r
-
-    \            <!-- Optional -->\r
-
-    \            <IPv4StaticRoute xmlns=\"\">\r
-
-    \                <network>192.168.36.40</network>\r
-
-    \                <subnetMask>255.255.255.252</subnetMask>\r
-
-    \                <nextHop>10.20.30.6</nextHop>\r
-
-    \                <ipV4Interface>LAN</ipV4Interface>\r
-
-    \                <redistribute>RIPv2</redistribute>\r
-
-    \                <distributedMetric>1</distributedMetric>\r
-
-    \            </IPv4StaticRoute>\r
-
-    \        </cpeDeleteStaticRouteIPv4>\r
-
-    \    </Body>\r
-
-    </Envelope>\r\n"
+  text: >
+    <Envelope xmlns="http://schemas.xmlsoap.org/soap/envelope/">
+        <Body>
+            <cpeDeleteStaticRouteIPv4 xmlns="com.gilat.ngnms.server.services.ws.cfg.face">
+                <!-- Optional -->
+                <cpeId xmlns="">
+                    <managedGroupId>2</managedGroupId>
+                    <subscriberId>601</subscriberId>
+                </cpeId>
+                <vlanId xmlns="">24</vlanId>
+                <!-- Optional -->
+                <IPv4StaticRoute xmlns="">
+                    <network>192.168.36.40</network>
+                    <subnetMask>255.255.255.252</subnetMask>
+                    <nextHop>10.20.30.6</nextHop>
+                    <ipV4Interface>LAN</ipV4Interface>
+                    <redistribute>RIPv2</redistribute>
+                    <distributedMetric>1</distributedMetric>
+                </IPv4StaticRoute>
+            </cpeDeleteStaticRouteIPv4>
+        </Body>
+    </Envelope>
 parameters: []
 headers:
   - name: Content-Type

@@ -1,7 +1,7 @@
 _id: req_f6c429362e6f4913a6867aa601d67152
 type: Request
 parentId: fld_3caac6b05ac24a3f8f8296f9cd426374
-modified: 1648658261588
+modified: 1655749204510
 created: 1647557408163
 url: https://191.241.195.16/ws/cpeService
 name: Edit Terminal KA
@@ -17,8 +17,8 @@ body:
                 <com:modifyCPE>
                     <cpe>
                         <cpeId>
-                            <managedGroupId>7</managedGroupId>
-                            <subscriberId>1379617</subscriberId>
+                            <managedGroupId>18</managedGroupId>
+                            <subscriberId>1026</subscriberId>
                         </cpeId>
                         <subscriberPublicIpAddress>10.20.30.5</subscriberPublicIpAddress> 
                     </cpe>
