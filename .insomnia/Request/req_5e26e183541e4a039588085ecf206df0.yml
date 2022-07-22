@@ -1,7 +1,7 @@
 _id: req_5e26e183541e4a039588085ecf206df0
 type: Request
 parentId: fld_6d924ffd5f9d44e1ad4c0c88ede529a1
-modified: 1658433982141
+modified: 1658508374410
 created: 1658433969111
 url: "{{ _.newbackendlocal }}/api/BifrostRemedy/remedyClockStop"
 name: remedyClockStop
@@ -9,8 +9,12 @@ description: ""
 method: POST
 body:
   mimeType: application/json
-  text: '{"userId":2713,"area":20,"ticketId":22223,"pinPriorityId":21,"initIncident":"2022-07-07
-    12:05:23","timeCamp":20}'
+  text: |-
+    {
+    	"id": 22241,
+    	"estado": "EN CURSO/PARADA",
+    	"nivel": "N1"
+    }
 parameters: []
 headers:
   - name: Content-Type

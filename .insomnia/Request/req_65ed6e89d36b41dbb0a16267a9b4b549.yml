@@ -1,20 +1,42 @@
 _id: req_65ed6e89d36b41dbb0a16267a9b4b549
 type: Request
 parentId: fld_6d924ffd5f9d44e1ad4c0c88ede529a1
-modified: 1658434011615
+modified: 1658508380701
 created: 1658434009623
 url: "{{ _.newbackendlocal }}/api/BifrostRemedy/remedyClose"
 name: remedyClose
 description: ""
 method: POST
 body:
-  mimeType: application/json
-  text: '{"userId":2713,"area":20,"ticketId":22223,"pinPriorityId":21,"initIncident":"2022-07-07
-    12:05:23","timeCamp":20}'
+  mimeType: multipart/form-data
+  params:
+    - name: modelo
+      value: |-
+        {
+        	"idticket": 22241,
+        	"causa": 1,
+        	"resolveIncident": "2022-07-22 00:00:00",
+        	"terminales": 1,
+        	"imputable": 1,
+        	"desc": "Prueba",
+        	"serviciosafectados": "Internet",
+        	"elementosafectados": "Modem SCPC",
+        	"subsistema": "RF",
+        	"resolve": 0
+        }
+      id: pair_90ac434c1ba44f308bc09f5e70142172
+      type: text
+      multiline: application/json
+    - id: pair_4410249edc71458eb04185a0d7e62495
+      name: file
+      value: ""
+      description: ""
+      disabled: true
+      type: file
 parameters: []
 headers:
   - name: Content-Type
-    value: application/json
+    value: multipart/form-data
     id: pair_c76028c4165d4e20aee9e5b36e0f017b
   - id: pair_68202f6ae15040f9b2748369717b5f1b
     name: token
