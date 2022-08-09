@@ -1,7 +1,7 @@
 _id: req_65ed6e89d36b41dbb0a16267a9b4b549
 type: Request
 parentId: fld_6d924ffd5f9d44e1ad4c0c88ede529a1
-modified: 1658508380701
+modified: 1660067824569
 created: 1658434009623
 url: "{{ _.newbackendlocal }}/api/BifrostRemedy/remedyClose"
 name: remedyClose
@@ -13,9 +13,9 @@ body:
     - name: modelo
       value: |-
         {
-        	"idticket": 22241,
+        	"idticket": 22269,
         	"causa": 1,
-        	"resolveIncident": "2022-07-22 00:00:00",
+        	"resolveIncident": "2022-08-02 00:00:00",
         	"terminales": 1,
         	"imputable": 1,
         	"desc": "Prueba",

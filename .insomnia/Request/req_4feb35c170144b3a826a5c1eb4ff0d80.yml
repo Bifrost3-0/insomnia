@@ -1,7 +1,7 @@
 _id: req_4feb35c170144b3a826a5c1eb4ff0d80
 type: Request
 parentId: fld_6d924ffd5f9d44e1ad4c0c88ede529a1
-modified: 1658508367178
+modified: 1660067835448
 created: 1658433675806
 url: "{{ _.newbackendlocal }}/api/BifrostRemedy/remedyEdit"
 name: remedyEdit
@@ -13,9 +13,9 @@ body:
     {
     	"userId": 2713,
     	"area": 20,
-    	"ticketId": 22241,
-    	"pinPriorityId": 21,
-    	"initIncident": "2022-07-20 12:05:23",
+    	"ticketId": 22269,
+    	"pinPriorityId": 20,
+    	"initIncident": "2022-08-01 12:00:00",
     	"timeCamp": 20
     }
 parameters: []

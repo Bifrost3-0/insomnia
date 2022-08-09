@@ -1,9 +1,9 @@
-_id: req_986fd8a3cf1f4f429913361e216f69cb
+_id: req_7d72898ac92a42f7ba4b321e59c002bf
 type: Request
-parentId: fld_6d924ffd5f9d44e1ad4c0c88ede529a1
-modified: 1660067828404
-created: 1658433994626
-url: "{{ _.newbackendlocal }}/api/BifrostRemedy/remedyResolve"
+parentId: fld_97a5228193ba47d7bdca9e141f3540ad
+modified: 1660067952806
+created: 1660067891914
+url: "{{ _.newbackendlocal }}/api/RequerimentsRemedy/remedyResolve"
 name: remedyResolve
 description: ""
 method: POST
