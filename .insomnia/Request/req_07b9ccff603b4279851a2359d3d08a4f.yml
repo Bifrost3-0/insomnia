@@ -1,7 +1,7 @@
 _id: req_07b9ccff603b4279851a2359d3d08a4f
 type: Request
 parentId: fld_7c4a08fcb9a24b27bd0a0df89ce1cdb1
-modified: 1628793414729
+modified: 1656003351456
 created: 1628608358829
 url: "{{ _.base_url }}:{{ _.gilat_ku_balcarce }}/ws/cpeService"
 name: Add Static Route
@@ -9,49 +9,29 @@ description: ""
 method: POST
 body:
   mimeType: ""
-  text: "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\r
+  text: >-
+    <?xml version="1.0" encoding="UTF-8"?>
 
-    <soapenv:Envelope
-    xmlns:soapenv=\"http://schemas.xmlsoap.org/soap/envelope/\"
-    xmlns:com=\"com.gilat.ngnms.server.services.ws.cfg.face\">\r
-
-    \    <soapenv:Header/>\r
-
-    \    <soapenv:Body>\r
-
-    \        <com:cpeAddStaticRouteIPv4>\r
-
-    \            <cpeId>\r
-
-    \                <managedGroupId>2</managedGroupId>\r
-
-    \                <subscriberId>1111</subscriberId>\r
-
-    \            </cpeId>\r
-
-    \            <vlanId>1539</vlanId>\r
-
-    \            <IPv4StaticRoute>\r
-
-    \                <network>192.168.8.10</network>\r
-
-    \                <subnetMask>255.255.255.252</subnetMask>\r
-
-    \                <nextHop>99.92.83.57</nextHop>\r
-
-    \                <ipV4Interface>LAN</ipV4Interface>\r
-
-    \                <redistribute>RIPv2</redistribute>\r
-
-    \                <distributedMetric>1</distributedMetric>\r
-
-    \            </IPv4StaticRoute>\r
-
-    \        </com:cpeAddStaticRouteIPv4>\r
-
-    \    </soapenv:Body>\r
-
-    </soapenv:Envelope>"
+    <soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:com="com.gilat.ngnms.server.services.ws.cfg.face">
+        <soapenv:Header/>
+        <soapenv:Body>
+            <com:cpeAddStaticRouteIPv4>
+                <cpeId>
+                    <managedGroupId>2</managedGroupId>
+                    <subscriberId>1111</subscriberId>
+                </cpeId>
+                <vlanId>1539</vlanId>
+                <IPv4StaticRoute>
+                    <network>192.168.8.10</network>
+                    <subnetMask>255.255.255.252</subnetMask>
+                    <nextHop>99.92.83.57</nextHop>
+                    <ipV4Interface>LAN</ipV4Interface>
+                    <redistribute>RIPv2</redistribute>
+                    <distributedMetric>1</distributedMetric>
+                </IPv4StaticRoute>
+            </com:cpeAddStaticRouteIPv4>
+        </soapenv:Body>
+    </soapenv:Envelope>
 parameters: []
 headers:
   - name: Content-Type

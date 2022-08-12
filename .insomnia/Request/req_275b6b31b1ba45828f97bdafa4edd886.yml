@@ -1,7 +1,7 @@
 _id: req_275b6b31b1ba45828f97bdafa4edd886
 type: Request
 parentId: fld_2f3ab373b62d4940a7624abd9ab55752
-modified: 1648491504271
+modified: 1656004088910
 created: 1629833827719
 url: http://{{ _.base_url }}:{{ _.gilat_ku_balcarce }}/ws/cpeService
 name: Get Static Route
@@ -18,9 +18,9 @@ body:
         <com:getCPEStaticRouteIPv4>          
             <cpeId>             
                 <managedGroupId>2</managedGroupId>             
-                <subscriberId>88154</subscriberId>          
+                <subscriberId>1009870</subscriberId>         
             </cpeId>          
-            <vlanId>1550</vlanId>       
+            <vlanId>309</vlanId>       
         </com:getCPEStaticRouteIPv4>    
     </soapenv:Body> 
 

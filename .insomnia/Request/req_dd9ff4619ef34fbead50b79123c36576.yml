@@ -1,7 +1,7 @@
 _id: req_dd9ff4619ef34fbead50b79123c36576
 type: Request
 parentId: fld_7c4a08fcb9a24b27bd0a0df89ce1cdb1
-modified: 1648492165611
+modified: 1656003307049
 created: 1628608358795
 url: "{{ _.base_url }}:{{ _.gilat_ku_balcarce }}/ws/cpeService"
 name: Suspend Terminal

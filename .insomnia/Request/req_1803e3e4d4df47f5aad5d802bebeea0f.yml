@@ -1,7 +1,7 @@
 _id: req_1803e3e4d4df47f5aad5d802bebeea0f
 type: Request
 parentId: fld_7c4a08fcb9a24b27bd0a0df89ce1cdb1
-modified: 1648491565838
+modified: 1656003277430
 created: 1628608358791
 url: "{{ _.base_url }}:{{ _.gilat_ku_balcarce }}/ws/cpeService"
 name: CreateCPE Bifrost

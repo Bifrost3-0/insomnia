@@ -1,7 +1,7 @@
 _id: req_4a4f43164c174f15adc4cd0645b1176d
 type: Request
 parentId: fld_7c4a08fcb9a24b27bd0a0df89ce1cdb1
-modified: 1628608358808
+modified: 1656003318417
 created: 1628608358808
 url: https://192.168.188.8/ws/elementsInformationService
 name: GetElementPerformance
@@ -9,55 +9,43 @@ description: ""
 method: POST
 body:
   mimeType: ""
-  text: "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\r
+  text: >-
+    <?xml version="1.0" encoding="UTF-8"?>
 
-    <soapenv:Envelope
-    xmlns:soapenv=\"http://schemas.xmlsoap.org/soap/envelope/\"
-    xmlns:com=\"com.gilat.ngnms.server.services.ws.cfg.face\">   \r
+    <soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:com="com.gilat.ngnms.server.services.ws.cfg.face">   
 
-    <soapenv:Header/>    \r
+    <soapenv:Header/>    
 
-    <soapenv:Body>       \r
+    <soapenv:Body>       
 
-    <com:getElementPerformance>         \r
+    <com:getElementPerformance>         
 
-    <reportElement>             \r
+    <reportElement>             
+        <element>                
+            <eType>CPE</eType>                
+            <cpeId>                   
+                <managedGroupId>2</managedGroupId>                   
+                <subscriberId>88154</subscriberId>                
+            </cpeId>             
+        </element>             
+        <reportType>LAST_FWD_RX_ESN0</reportType>             
+        <resolution>H</resolution>             
+        <startDate>1595549154000</startDate>             
+        <endDate>1595635554000</endDate>          
+    </reportElement>          
 
-    \    <element>                \r
+    <lastIndex>0</lastIndex>       
 
-    \        <eType>CPE</eType>                \r
+    </com:getElementPerformance>    
 
-    \        <cpeId>                   \r
+    </soapenv:Body> 
 
-    \            <managedGroupId>2</managedGroupId>                   \r
-
-    \            <subscriberId>88154</subscriberId>                \r
-
-    \        </cpeId>             \r
-
-    \    </element>             \r
-
-    \    <reportType>LAST_FWD_RX_ESN0</reportType>             \r
-
-    \    <resolution>H</resolution>             \r
-
-    \    <startDate>1595549154000</startDate>             \r
-
-    \    <endDate>1595635554000</endDate>          \r
-
-    </reportElement>          \r
-
-    <lastIndex>0</lastIndex>       \r
-
-    </com:getElementPerformance>    \r
-
-    </soapenv:Body> \r
-
-    </soapenv:Envelope> "
+    </soapenv:Envelope> 
 parameters: []
 headers:
   - name: Content-Type
     value: text/xml
+    id: pair_46a717723a8543d98ccae4c200de1965
 authentication:
   type: basic
   disabled: false
