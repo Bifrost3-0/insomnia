@@ -1,7 +1,7 @@
 _id: req_b4f9eb592b514cca955c5069401a6340
 type: Request
 parentId: fld_7c4a08fcb9a24b27bd0a0df89ce1cdb1
-modified: 1655747401908
+modified: 1656445078674
 created: 1628608358826
 url: "{{ _.base_url }}:{{ _.gilat_ku_balcarce }}/ws/cpeService"
 name: Get Terminal
@@ -18,7 +18,7 @@ body:
      <com:getCPEbyID>          
         <id>             
             <managedGroupId>2</managedGroupId>             
-            <subscriberId>5460</subscriberId>          
+            <subscriberId>1009870</subscriberId>          
         </id>       
     </com:getCPEbyID>    
 

@@ -1,7 +1,7 @@
 _id: req_18ebe81fe23349f8ab7586837b686caa
 type: Request
 parentId: fld_7c4a08fcb9a24b27bd0a0df89ce1cdb1
-modified: 1628608358812
+modified: 1656003320067
 created: 1628608358812
 url: https://192.168.188.8/ws/cpeService
 name: GetCPESelfTestResults
@@ -9,32 +9,23 @@ description: ""
 method: POST
 body:
   mimeType: ""
-  text: "<Envelope xmlns=\"http://schemas.xmlsoap.org/soap/envelope/\">\r
-
-    \    <Body>\r
-
-    \        <getCPESelfTestResults
-    xmlns=\"com.gilat.ngnms.server.services.ws.cfg.face\">\r
-
-    \            <!-- Optional -->\r
-
-    \            <id xmlns=\"\">\r
-
-    \                <managedGroupId>2</managedGroupId>\r
-
-    \                <subscriberId>88154</subscriberId>\r
-
-    \            </id>\r
-
-    \        </getCPESelfTestResults>\r
-
-    \    </Body>\r
-
-    </Envelope>"
+  text: >-
+    <Envelope xmlns="http://schemas.xmlsoap.org/soap/envelope/">
+        <Body>
+            <getCPESelfTestResults xmlns="com.gilat.ngnms.server.services.ws.cfg.face">
+                <!-- Optional -->
+                <id xmlns="">
+                    <managedGroupId>2</managedGroupId>
+                    <subscriberId>88154</subscriberId>
+                </id>
+            </getCPESelfTestResults>
+        </Body>
+    </Envelope>
 parameters: []
 headers:
   - name: Content-Type
     value: text/xml
+    id: pair_675b15fe288c464c8832ce340644a4a3
 authentication:
   type: basic
   disabled: false

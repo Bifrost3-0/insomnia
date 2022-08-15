@@ -1,7 +1,7 @@
 _id: req_d964e996472443b2b43e617d199f16f0
 type: Request
 parentId: fld_7c4a08fcb9a24b27bd0a0df89ce1cdb1
-modified: 1628795372410
+modified: 1656003317438
 created: 1628608358805
 url: "{{ _.base_url }}:{{ _.gilat_ku_balcarce }}/ws/cpeService"
 name: GetCPEsByManagedGroup - Pulleo
@@ -9,27 +9,17 @@ description: ""
 method: POST
 body:
   mimeType: ""
-  text: "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\r
-
-    \    <soapenv:Envelope
-    xmlns:soapenv=\"http://schemas.xmlsoap.org/soap/envelope/\"
-    xmlns:com=\"com.gilat.ngnms.server.services.ws.cfg.face\">   \r
-
-    \    <soapenv:Header/>    \r
-
-    \    <soapenv:Body>       \r
-
-    \    <com:getCPEsByManagedGroup>          \r
-
-    \        <managedGroupId>2</managedGroupId>          \r
-
-    \        <lastIndex>100</lastIndex>       \r
-
-    \    </com:getCPEsByManagedGroup>    \r
-
-    \    </soapenv:Body> \r
-
-    \    </soapenv:Envelope> "
+  text: >-
+    <?xml version="1.0" encoding="UTF-8"?>
+        <soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:com="com.gilat.ngnms.server.services.ws.cfg.face">   
+        <soapenv:Header/>    
+        <soapenv:Body>       
+        <com:getCPEsByManagedGroup>          
+            <managedGroupId>2</managedGroupId>          
+            <lastIndex>100</lastIndex>       
+        </com:getCPEsByManagedGroup>    
+        </soapenv:Body> 
+        </soapenv:Envelope> 
 parameters: []
 headers:
   - name: Content-Type

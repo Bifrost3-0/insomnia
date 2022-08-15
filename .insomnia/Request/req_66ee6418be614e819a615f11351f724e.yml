@@ -1,7 +1,7 @@
 _id: req_66ee6418be614e819a615f11351f724e
 type: Request
 parentId: fld_7c4a08fcb9a24b27bd0a0df89ce1cdb1
-modified: 1648488446644
+modified: 1656003310501
 created: 1628608358797
 url: "{{ _.base_url }}:{{ _.gilat_ku_balcarce }}/reports/reportsWebService12"
 name: GetReports RTN and FWD BB Retrans

@@ -1,7 +1,7 @@
 _id: req_e1406737d7a54f29a9423df436ff53a8
 type: Request
 parentId: fld_7c4a08fcb9a24b27bd0a0df89ce1cdb1
-modified: 1628795599566
+modified: 1656003313798
 created: 1628608358800
 url: "{{ _.base_url }}:{{ _.gilat_ku_balcarce }}/reports/reportsWebService12"
 name: GetReports RTN Tx Capability ES/N0
@@ -9,39 +9,37 @@ description: ""
 method: POST
 body:
   mimeType: ""
-  text: "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\r
+  text: "<?xml version=\"1.0\" encoding=\"UTF-8\"?>
 
     <soap:Envelope xmlns:soap=\"http://www.w3.org/2003/05/soap-envelope\"
-    xmlns:com=\"com.gilat.ngnms.reports.ws.face\">\r
+    xmlns:com=\"com.gilat.ngnms.reports.ws.face\">
 
-    \   <soap:Header/>\r
+    \   <soap:Header/>
 
-    \   <soap:Body>\r
+    \   <soap:Body>
 
-    \      <com:getReports>\r
+    \      <com:getReports>
 
-    \            <elementType xmlns=\"\">CPE</elementType>\r
+    \            <elementType xmlns=\"\">CPE</elementType>
 
-    \            <elementIds xmlns=\"\">117584</elementIds>\r
+    \            <elementIds xmlns=\"\">117584</elementIds>
 
-    \            <mgId xmlns=\"\">2</mgId>\r
+    \            <mgId xmlns=\"\">2</mgId>
 
-    \            <reportName xmlns=\"\">RTN Tx Capability
-    Es/N0</reportName>\r
+    \            <reportName xmlns=\"\">RTN Tx Capability Es/N0</reportName>
 
-    \            <startDate xmlns=\"\">1597245239000</startDate>\r
+    \            <startDate xmlns=\"\">1597245239000</startDate>
 
-    \            <endDate xmlns=\"\">1597331639000</endDate>\r
+    \            <endDate xmlns=\"\">1597331639000</endDate>
 
-    \            <resolution xmlns=\"\">FM</resolution>\r
+    \            <resolution xmlns=\"\">FM</resolution>
 
-    \        </com:getReports>\r
+    \        </com:getReports>
 
-    \   </soap:Body>\r
+    \   </soap:Body>
 
-    </soap:Envelope>\r
+    </soap:Envelope>
 
-    \r
 
     \ "
 parameters: []

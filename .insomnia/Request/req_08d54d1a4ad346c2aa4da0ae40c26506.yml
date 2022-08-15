@@ -1,7 +1,7 @@
 _id: req_08d54d1a4ad346c2aa4da0ae40c26506
 type: Request
 parentId: fld_7c4a08fcb9a24b27bd0a0df89ce1cdb1
-modified: 1628793392493
+modified: 1656003361741
 created: 1628608358831
 url: "{{ _.base_url }}:{{ _.gilat_ku_balcarce }}/ws/cpeService"
 name: Del Static Route
@@ -9,51 +9,30 @@ description: ""
 method: POST
 body:
   mimeType: ""
-  text: "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\r
-
-    <soapenv:Envelope \r
-
-    xmlns:soapenv=\"http://schemas.xmlsoap.org/soap/envelope/\" \r
-
-    xmlns:com=\"com.gilat.ngnms.server.services.ws.cfg.face\">    \r
-
-    <soapenv:Header/>    \r
-
-    <soapenv:Body>       \r
-
-    \    <com:cpeDeleteStaticRouteIPv4>         \r
-
-    \    <cpeId>             \r
-
-    \        <managedGroupId>2</managedGroupId>             \r
-
-    \        <subscriberId>1001537</subscriberId>          \r
-
-    \    </cpeId>          \r
-
-    \    <vlanId>155</vlanId>          \r
-
-    \    <IPv4StaticRoute>             \r
-
-    \        <network>192.168.129.200</network>             \r
-
-    \        <subnetMask>255.255.255.255</subnetMask>             \r
-
-    \        <nextHop>200.1.1.1</nextHop>             \r
-
-    \        <ipV4Interface>LAN</ipV4Interface>             \r
-
-    \        <redistribute>RIPv2</redistribute>             \r
-
-    \        <distributedMetric>1</distributedMetric>          \r
-
-    \    </IPv4StaticRoute>       \r
-
-    \    </com:cpeDeleteStaticRouteIPv4> \r
-
-    </soapenv:Body> \r
-
-    </soapenv:Envelope> "
+  text: |-
+    <?xml version="1.0" encoding="UTF-8"?>
+    <soapenv:Envelope 
+    xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" 
+    xmlns:com="com.gilat.ngnms.server.services.ws.cfg.face">    
+    <soapenv:Header/>    
+    <soapenv:Body>       
+        <com:cpeDeleteStaticRouteIPv4>         
+        <cpeId>             
+            <managedGroupId>2</managedGroupId>             
+            <subscriberId>1001537</subscriberId>          
+        </cpeId>          
+        <vlanId>155</vlanId>          
+        <IPv4StaticRoute>             
+            <network>192.168.129.200</network>             
+            <subnetMask>255.255.255.255</subnetMask>             
+            <nextHop>200.1.1.1</nextHop>             
+            <ipV4Interface>LAN</ipV4Interface>             
+            <redistribute>RIPv2</redistribute>             
+            <distributedMetric>1</distributedMetric>          
+        </IPv4StaticRoute>       
+        </com:cpeDeleteStaticRouteIPv4> 
+    </soapenv:Body> 
+    </soapenv:Envelope> 
 parameters: []
 headers:
   - name: Content-Type

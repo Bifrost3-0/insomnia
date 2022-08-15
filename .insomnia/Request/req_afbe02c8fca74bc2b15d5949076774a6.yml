@@ -1,7 +1,7 @@
 _id: req_afbe02c8fca74bc2b15d5949076774a6
 type: Request
 parentId: fld_4dcde7e8836d44048eb999ae7ddae2ae
-modified: 1655746079764
+modified: 1660228635472
 created: 1632950548154
 url: https://191.241.195.16/ws/cpeService
 name: Alta de Terminal
@@ -18,14 +18,14 @@ body:
                     <cpe>
                         <cpeId>
                             <managedGroupId>7</managedGroupId>
-                           <subscriberId>100620228</subscriberId>
+                           <subscriberId>157506028</subscriberId>
                         </cpeId>
                         <getMacFromCPE>ENABLE</getMacFromCPE>
-                        <clusterCode>021A</clusterCode>
+                        <clusterCode>092A</clusterCode>
                         <platform>Gemini-i S2X</platform>
                         <ipStack>IPV4_ONLY</ipStack>
                         <slaName>SLA 20/3 Mbps 35 GB</slaName>
-                        <description>Prue10062022</description>
+                        <description>Prue1575060</description>
                         <authorization>FULL_ACCESS</authorization>
                         <dataAuthorization>AUTHORIZED</dataAuthorization>
                         <ipAddressing>ROUTER</ipAddressing>
@@ -35,7 +35,7 @@ body:
                             <urn:VR>
                                 <vlanId>200</vlanId>
                                 <ipv4>
-                                    <ipv4Prefix>29</ipv4Prefix>
+                                 <ipv4Prefix>29</ipv4Prefix>
                                 </ipv4>
                             </urn:VR>
                         </vrs>
