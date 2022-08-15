@@ -1,0 +1,77 @@
+_id: req_6931d6b7008c411289aef69ad6a256c3
+type: Request
+parentId: fld_e3cf468229924462b30bbd34e3e0e9d4
+modified: 1660586048165
+created: 1660585717556
+url: "{{ _.newbackend }}/api/requirements/listRequestTree"
+name: api arbol test
+description: >-
+  "{\"contactIncidence\":\"Raul
+  Franco\",\"dataComunication\":\"987654321\",\"typeContact\":\"Cliente/Técnico/Tercero\",\"mediaComunication\":\"e-Mail/Llamada/Presencial/Proactivo/Skype\"}"
+
+
+  {
+
+  	"dateRegister": "2022-04-01 00:00:00",
+  	"userData": "{\"user\": \"raul.franco@telefonica.com\",\"fullname\":\"Raul Franco\",\"email\":\"ralfrancos@hotmail.com\",\"phone\":\"987654321\",\"area\":\"development\"}",
+  	
+  	"ciId": 214510,
+  	"nivelNocId": 506,
+  	"description": "Sumary:Ticket Prueba Api. Descripcion: Ticket Prueba Api.",
+  	"masivo": 0,
+  	
+  	"initIncident": "2022-04-01 00:00:00",
+  	"problemRealDate": "2022-04-01 00:00:00",
+  	"reportedDate": "2022-04-01 00:00:00",
+  	
+  	"tecnology": "Resolution Product Categorization Tier 1 (Tecnología/Producto)",
+  	"platform": "Resolution Product Categorization Tier 2",
+  	"gateway": "Resolution Product Categorization Tier 3",
+  	
+  	"operationalCategoryTier1": "Servicio",
+  	"operationalCategoryTier2": "Problema",
+  	"operationalCategoryTier3": "Detalle Problema",
+  	
+  	"Vendor Group": "Proveedor",
+  	
+  	"pinPriorityId": 23,
+  	"pinProblemId": 1,
+  	"dataComunication": "{\"contactIncidence\":\"Raul Franco\",\"dataComunication\":\"987654321\",\"typeContact\":\"Cliente\",\"mediaComunication\":\"Llamada\"}"
+
+
+
+
+
+
+
+
+
+
+
+
+  	
+  }
+method: GET
+body:
+  mimeType: application/json
+  text: ""
+parameters: []
+headers:
+  - id: pair_40ce56db364e476c94b54e4664561748
+    name: token
+    value: "{% response 'body', 'req_11f61d413f46476cb2dd29361d4b5e4b',
+      'b64::JC5kYXRhLnNlc3Npb24udG9rZW4=::46b', 'never', 60 %}"
+    description: ""
+    disabled: false
+  - name: Content-Type
+    value: application/json
+    id: pair_89b1c6722c75414ea209423e70c69a2d
+authentication: {}
+metaSortKey: -1648354976492.75
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
