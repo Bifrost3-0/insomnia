@@ -1,7 +1,7 @@
 _id: req_2ebbe733c6fa4524abb371c2df7c279b
 type: Request
 parentId: fld_7e0640ca8fe545f4bc524fc7f83cc3ea
-modified: 1660323231901
+modified: 1660586936531
 created: 1630446397555
 url: http://192.168.36.50:97/ws/cpeService?wsdl
 name: Get Terminal KU
