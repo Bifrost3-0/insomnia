@@ -1,9 +1,9 @@
 _id: req_243412048758491cb951fa51775dfce3
 type: Request
 parentId: fld_3caac6b05ac24a3f8f8296f9cd426374
-modified: 1660771946291
+modified: 1661274192438
 created: 1647557408181
-url: https://191.241.195.16/ws/cpeService
+url: https://192.168.18.8/ws/cpeService
 name: Get Terminal
 description: ""
 method: POST
@@ -17,7 +17,7 @@ body:
                 <!-- Optional -->
                 <id xmlns="">
                     <managedGroupId>18</managedGroupId>
-                    <subscriberId>1018</subscriberId>
+                    <subscriberId>1</subscriberId>
                 </id>
             </getCPEbyID>
         </Body>

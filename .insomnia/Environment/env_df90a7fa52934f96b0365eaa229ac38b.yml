@@ -1,7 +1,7 @@
 _id: env_df90a7fa52934f96b0365eaa229ac38b
 type: Environment
 parentId: env_467191896fbc186b33676805d502008f55dc9848
-modified: 1660587334931
+modified: 1661187811685
 created: 1628562870178
 name: Production Proxy Bifrost
 data:
@@ -20,7 +20,7 @@ data:
   newtect_password: GLRt3RV3sUNWMnN
   api_produccion_us: https://api-knt.skylogic.com
   api_dev_us: https://knt-demo.skylogic.com
-  token_hispasat: eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJvcmRlcmluZ21uLnBlQHRlbGVmb25pY2EuY29tIiwiaWF0IjoxNjYwNTg3MzE0LCJleHAiOjE2NjA1OTgxMTR9.40QKqwZnTJq6iGEo87zmi-o_WOkeaKUOjfsg6rMQaVZJ4agdBz6A6nfyjS__HjYo3DYlE-TF728cxfb3rQqJlw
+  token_hispasat: eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJvcmRlcmluZ21uLnBlQHRlbGVmb25pY2EuY29tIiwiaWF0IjoxNjYxMTg3Nzg5LCJleHAiOjE2NjExOTg1ODl9.ygidwrRE0gd69iPCcuPJubA594tnH__tH-RJSarl_6FUS-MtEo-13137MHf-8uJNt2OQ1k5jCjRE6STa2C0qzA
 dataPropertyOrder:
   "&":
     - base_url
