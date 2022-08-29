@@ -1,7 +1,7 @@
 _id: req_609e759523ac42cda4a727199fa9f2f8
 type: Request
 parentId: fld_4dcde7e8836d44048eb999ae7ddae2ae
-modified: 1632950548150
+modified: 1661783604231
 created: 1632950548150
 url: https://191.241.195.16/reports/reportsWebService12
 name: GetReports RTN Tx Capability ES/N0
@@ -9,45 +9,44 @@ description: ""
 method: POST
 body:
   mimeType: ""
-  text: "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\r
+  text: "<?xml version=\"1.0\" encoding=\"UTF-8\"?>
 
     <soap:Envelope xmlns:soap=\"http://www.w3.org/2003/05/soap-envelope\"
-    xmlns:com=\"com.gilat.ngnms.reports.ws.face\">\r
+    xmlns:com=\"com.gilat.ngnms.reports.ws.face\">
 
-    \   <soap:Header/>\r
+    \   <soap:Header/>
 
-    \   <soap:Body>\r
+    \   <soap:Body>
 
-    \      <com:getReports>\r
+    \      <com:getReports>
 
-    \            <elementType xmlns=\"\">CPE</elementType>\r
+    \            <elementType xmlns=\"\">CPE</elementType>
 
-    \            <elementIds xmlns=\"\">1455626</elementIds>\r
+    \            <elementIds xmlns=\"\">1455626</elementIds>
 
-    \            <mgId xmlns=\"\">7</mgId>\r
+    \            <mgId xmlns=\"\">7</mgId>
 
-    \            <reportName xmlns=\"\">RTN Tx Capability
-    Es/N0</reportName>\r
+    \            <reportName xmlns=\"\">RTN Tx Capability Es/N0</reportName>
 
-    \            <startDate xmlns=\"\">1628451405000</startDate>\r
+    \            <startDate xmlns=\"\">1628451405000</startDate>
 
-    \            <endDate xmlns=\"\">1628624205000</endDate>\r
+    \            <endDate xmlns=\"\">1628624205000</endDate>
 
-    \            <resolution xmlns=\"\">FM</resolution>\r
+    \            <resolution xmlns=\"\">FM</resolution>
 
-    \        </com:getReports>\r
+    \        </com:getReports>
 
-    \   </soap:Body>\r
+    \   </soap:Body>
 
-    </soap:Envelope>\r
+    </soap:Envelope>
 
-    \r
 
     \ "
 parameters: []
 headers:
   - name: Content-Type
     value: text/xml
+    id: pair_bfd54b2dae9e44c3a96bdea8d6efa3ad
 authentication:
   type: basic
   disabled: false

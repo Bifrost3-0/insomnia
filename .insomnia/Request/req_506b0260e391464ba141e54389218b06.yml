@@ -1,7 +1,7 @@
 _id: req_506b0260e391464ba141e54389218b06
 type: Request
 parentId: fld_4dcde7e8836d44048eb999ae7ddae2ae
-modified: 1632950548148
+modified: 1661783605883
 created: 1632950548148
 url: https://191.241.195.16/ws/elementsInformationService
 name: GetElementPerformance
@@ -9,55 +9,43 @@ description: ""
 method: POST
 body:
   mimeType: ""
-  text: "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\r
+  text: >-
+    <?xml version="1.0" encoding="UTF-8"?>
 
-    <soapenv:Envelope
-    xmlns:soapenv=\"http://schemas.xmlsoap.org/soap/envelope/\"
-    xmlns:com=\"com.gilat.ngnms.server.services.ws.cfg.face\">   \r
+    <soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:com="com.gilat.ngnms.server.services.ws.cfg.face">   
 
-    <soapenv:Header/>    \r
+    <soapenv:Header/>    
 
-    <soapenv:Body>       \r
+    <soapenv:Body>       
 
-    <com:getElementPerformance>         \r
+    <com:getElementPerformance>         
 
-    <reportElement>             \r
+    <reportElement>             
+        <element>                
+            <eType>CPE</eType>                
+            <cpeId>                   
+                <managedGroupId>7</managedGroupId>                   
+                <subscriberId>1360470</subscriberId>                
+            </cpeId>             
+        </element>             
+        <reportType>TX_CAPABILITY</reportType>             
+        <resolution>H</resolution>             
+        <startDate>1595549154000</startDate>             
+        <endDate>1595635554000</endDate>          
+    </reportElement>          
 
-    \    <element>                \r
+    <lastIndex>0</lastIndex>       
 
-    \        <eType>CPE</eType>                \r
+    </com:getElementPerformance>    
 
-    \        <cpeId>                   \r
+    </soapenv:Body> 
 
-    \            <managedGroupId>7</managedGroupId>                   \r
-
-    \            <subscriberId>1360470</subscriberId>                \r
-
-    \        </cpeId>             \r
-
-    \    </element>             \r
-
-    \    <reportType>TX_CAPABILITY</reportType>             \r
-
-    \    <resolution>H</resolution>             \r
-
-    \    <startDate>1595549154000</startDate>             \r
-
-    \    <endDate>1595635554000</endDate>          \r
-
-    </reportElement>          \r
-
-    <lastIndex>0</lastIndex>       \r
-
-    </com:getElementPerformance>    \r
-
-    </soapenv:Body> \r
-
-    </soapenv:Envelope> "
+    </soapenv:Envelope> 
 parameters: []
 headers:
   - name: Content-Type
     value: text/xml
+    id: pair_0df14ec2f7144357a6c0b9dfdcfb8921
 authentication:
   type: basic
   disabled: false

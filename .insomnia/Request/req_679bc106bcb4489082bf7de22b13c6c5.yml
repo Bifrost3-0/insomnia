@@ -1,7 +1,7 @@
 _id: req_679bc106bcb4489082bf7de22b13c6c5
 type: Request
 parentId: fld_4fb2b5b7eceb437aa0c7ac76015db876
-modified: 1660229003229
+modified: 1661786574122
 created: 1629840532429
 url: https://api-nms.hispasat.es/v1/broadband/backend/terminals/5960
 name: Get Terminal

@@ -1,7 +1,7 @@
 _id: req_267ba60013584beca47966a3ef4d88c8
 type: Request
 parentId: fld_4fb2b5b7eceb437aa0c7ac76015db876
-modified: 1654626198861
+modified: 1661786571203
 created: 1629840532435
 url: https://api-nms.hispasat.es/v1/broadband/backend/terminals
 name: Alta Terminal

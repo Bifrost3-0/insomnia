@@ -1,7 +1,7 @@
 _id: env_df90a7fa52934f96b0365eaa229ac38b
 type: Environment
 parentId: env_467191896fbc186b33676805d502008f55dc9848
-modified: 1661187811685
+modified: 1661786662271
 created: 1628562870178
 name: Production Proxy Bifrost
 data:
@@ -15,12 +15,13 @@ data:
   idirectarg_platform: 81
   hispasat_ka: 8094
   gilat_ku_colombia: 8080
+  gilat_CFE: 8199
   general_api: https://apiaws.bifrost.pe/api
   newtect_user: integracion-tiws@orbith.com
   newtect_password: GLRt3RV3sUNWMnN
   api_produccion_us: https://api-knt.skylogic.com
   api_dev_us: https://knt-demo.skylogic.com
-  token_hispasat: eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJvcmRlcmluZ21uLnBlQHRlbGVmb25pY2EuY29tIiwiaWF0IjoxNjYxMTg3Nzg5LCJleHAiOjE2NjExOTg1ODl9.ygidwrRE0gd69iPCcuPJubA594tnH__tH-RJSarl_6FUS-MtEo-13137MHf-8uJNt2OQ1k5jCjRE6STa2C0qzA
+  token_hispasat: eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJvcmRlcmluZ21uLnBlQHRlbGVmb25pY2EuY29tIiwiaWF0IjoxNjYxNzc4NzYzLCJleHAiOjE2NjE3ODk1NjN9.CkJ04477DZVIhxNH-ieeQUMljMPrN2vpAWFBd3tXleKWElFW8rmt0_qpW-7SFbkC-Rl3u6gpa2Mbnn0KF0rjJg
 dataPropertyOrder:
   "&":
     - base_url
@@ -33,6 +34,7 @@ dataPropertyOrder:
     - idirectarg_platform
     - hispasat_ka
     - gilat_ku_colombia
+    - gilat_CFE
     - general_api
     - newtect_user
     - newtect_password
